@@ -62,9 +62,13 @@ function createShipNode(ship : XWing.Ship, title: string) {
 const loadData = async () => {
 	var cards = await fetch("data/cards.json").then(r => r.json())
 	var metadata = await fetch("data/app-metadata.json").then(r => r.json())
-	var quickBuilds = await fetch("data/quick-build-scum.json").then(r => r.json())
+	var quickBuilds = [
+		await fetch("data/quick-build-rebel.json").then(r => r.json()),
+		await fetch("data/quick-build-empire.json").then(r => r.json()),
+		await fetch("data/quick-build-scum.json").then(r => r.json())
+	]
 	var variablePointCosts = await fetch("data/variable-point-cost.json").then(r => r.json())
-	var xwing = new XWing.Data(cards.cards, quickBuilds.builds, metadata, variablePointCosts)
+	var xwing = new XWing.Data(cards.cards, quickBuilds, metadata, variablePointCosts)
 	var buildsNode = document.getElementById("builds")
 	for (var b = 0; b < xwing.quickBuilds.length; b++) {
 		var build: XWing.QuickBuild = xwing.quickBuilds[b]

@@ -193,6 +193,10 @@ namespace XWing {
 		ships: ShipJson[]
 	}
 
+	interface QuickBuildsJson {
+		builds: QuickBuildJson[]
+	}
+
 	export class Card {
 		readonly name: string
 		readonly imageUrl: string
@@ -368,7 +372,7 @@ namespace XWing {
 		readonly metadata: MetadataJson
 		readonly variablePointCosts: VariablePointCostJson[]
 
-		constructor(cards: Array<PilotCardJson|UpgradeCardJson>, quickbuilds: QuickBuildJson[], metadata: MetadataJson, variablePointCosts: VariablePointCostJson[]) {
+		constructor(cards: Array<PilotCardJson|UpgradeCardJson>, quickbuilds: QuickBuildsJson[], metadata: MetadataJson, variablePointCosts: VariablePointCostJson[]) {
 			this.metadata = metadata
 			this.variablePointCosts = variablePointCosts
 			var newPilots: Pilot[] = new Array()
@@ -384,7 +388,9 @@ namespace XWing {
 			this.upgrades = newUpgrades
 			var newQuickBuilds: QuickBuild[] = new Array()
 			for (var i = 0; i < quickbuilds.length; i++) {
-				newQuickBuilds.push(new QuickBuild(this, quickbuilds[i]))
+				for (var j = 0; j < quickbuilds[i].builds.length; j++) {
+					newQuickBuilds.push(new QuickBuild(this, quickbuilds[i].builds[j]))
+				}
 			}
 			//newQuickBuilds.sort((a: QuickBuild, b:QuickBuild) => a.ships.length == b.ships.length ? a.ships[0].upgrades.length - b.ships[0].upgrades.length : a.ships.length - b.ships.length)
 			this.quickBuilds = newQuickBuilds
