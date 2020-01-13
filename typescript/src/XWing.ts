@@ -339,13 +339,19 @@ namespace XWing {
 			this.faction = build.faction_id
 			this.threatLevel = build.threat_level
 			var newShips: Ship[] = new Array()
-			for (var i = 0; i < build.ships.length; i++) {
-				var newShip = new Ship(data, this.faction, build.ships[i])
-				if (newShip.pilot) {
-					newShips.push(newShip)
-				} else {
-					console.log("Could not convert ship for " + build.ships[i].pilot + " " + build.ships[i].ship) 
+			if (build.ships) {
+				for (var i = 0; i < build.ships.length; i++) {
+					var newShip = new Ship(data, this.faction, build.ships[i])
+					if (newShip.pilot) {
+						newShips.push(newShip)
+						console.log("Converted ship for " + build.ships[i].pilot + " " + build.ships[i].ship) 
+					} else {
+						console.log("Could not convert ship for " + build.ships[i].pilot + " " + build.ships[i].ship) 
+					}
 				}
+			} else {
+				console.log("Could not convert ship")
+				console.log(build)
 			}
 			this.ships = newShips
 		}
@@ -376,7 +382,7 @@ namespace XWing {
 			for (var i = 0; i < quickbuilds.length; i++) {
 				newQuickBuilds.push(new QuickBuild(this, quickbuilds[i]))
 			}
-			newQuickBuilds.sort((a: QuickBuild, b:QuickBuild) => a.ships.length == b.ships.length ? a.ships[0].upgrades.length - b.ships[0].upgrades.length : a.ships.length - b.ships.length)
+			//newQuickBuilds.sort((a: QuickBuild, b:QuickBuild) => a.ships.length == b.ships.length ? a.ships[0].upgrades.length - b.ships[0].upgrades.length : a.ships.length - b.ships.length)
 			this.quickBuilds = newQuickBuilds
 		}
 
@@ -393,21 +399,21 @@ namespace XWing {
 				if (matches.length == 1) {
 					// This doesn't verify any restrictions. Some quick builds ignore restrictions.
 					if (!hasExactMatches) {
-						console.log("s@'" + name + "'@'" + matches[0].name +"'@")
+						console.log("s@\"" + name + "\"@\"" + matches[0].name +"\"@")
 					}
 					return matches[0]
 				}
 				matches = matches.filter(filterCallback)
 				if (matches.length == 1) {
 					if (!hasExactMatches) {
-						console.log("s@'" + name + "'@'" + matches[0].name +"'@")
+						console.log("s@\"" + name + "\"@\"" + matches[0].name +"\"@")
 					}
 					return matches[0]
 				}
 				if (matches.length > 1) {
 					if (!hasExactMatches) {
 						for (var i = 0; i < matches.length; i++) {
-							console.log("s@'" + name + "'@'" + matches[i].name +"'@")
+							console.log("s@\"" + name + "\"@\"" + matches[i].name +"\"@")
 						}
 					}
 					return matches[0]

@@ -1,0 +1,1970 @@
+{
+    "builds": [
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ01",
+                    "pilot": "•Valen Rudor",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ01",
+                    "pilot": "Black Squadron Ace",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ01",
+                    "pilot": "Academy Pilot"
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ01",
+                    "pilot": "•Iden Versio",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ01",
+                    "pilot": "•“Night Beast”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Predator"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ01",
+                    "pilot": "Obsidian Squadron Pilot"
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ14",
+                    "pilot": "•“Scourge” Skutu",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Predator"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ14",
+                    "pilot": "•“Wampa”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Crack Shot"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Stealth Device"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ14",
+                    "pilot": "Black Squadron Ace",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Crack Shot"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ14",
+                    "pilot": "•Gideon Hask",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Crack Shot"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ14",
+                    "pilot": "•Del Meeko",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Juke"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Stealth Device"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ14",
+                    "pilot": "Obsidian Squadron Pilot"
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ14",
+                    "pilot": "•“Howlrunner”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Juke"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ14",
+                    "pilot": "•Seyn Marana",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Marksmanship"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ14",
+                    "pilot": "Black Squadron Ace",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Juke"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Stealth Device"
+                        }
+                    ]
+                },
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ14",
+                    "pilot": "Black Squadron Ace",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Juke"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Stealth Device"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ14",
+                    "pilot": "Obsidian Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                },
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ14",
+                    "pilot": "Obsidian Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ14",
+                    "pilot": "Academy Pilot"
+                },
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ14",
+                    "pilot": "Academy Pilot"
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ14",
+                    "pilot": "Academy Pilot"
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE Advanced x1",
+                    "wave": "SWZ15",
+                    "pilot": "•Darth Vader",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Supernatural Reflexes"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Fire-Control System"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Cluster Missiles"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE Advanced x1",
+                    "wave": "SWZ15",
+                    "pilot": "•Maarek Stele",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Ruthless"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Fire-Control System"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Cluster Missiles"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE Advanced x1",
+                    "wave": "SWZ15",
+                    "pilot": "Storm Squadron Ace",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 2,
+                            "name": "Fire-Control System"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE Advanced x1",
+                    "wave": "SWZ15",
+                    "pilot": "•Ved Foslo",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Fire-Control System"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Cluster Missiles"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE Advanced x1",
+                    "wave": "SWZ15",
+                    "pilot": "•Zertik Strom",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "•Squad Leader"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Fire-Control System"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Cluster Missiles"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE Advanced x1",
+                    "wave": "SWZ15",
+                    "pilot": "Tempest Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Cluster Missiles"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+					"ship": "<italic>Lambda</italic>-class T-4a Shuttle",
+                    "wave": "SWZ07",
+                    "pilot": "•Colonel Jendon",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 2,
+                            "name": "Collision Detector"
+                        },
+                        {
+                            "upgrade_type": 3,
+                            "name": "Ion Cannon"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Darth Vader"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Freelance Slicer"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>ST-321</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+					"ship": "<italic>Lambda</italic>-class T-4a Shuttle",
+                    "wave": "SWZ07",
+                    "pilot": "•Captain Kagi",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 2,
+                            "name": "Collision Detector"
+                        },
+                        {
+                            "upgrade_type": 3,
+                            "name": "Tractor Beam"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Emperor Palpatine"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Static Discharge Vanes"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+					"ship": "<italic>Lambda</italic>-class T-4a Shuttle",
+                    "wave": "SWZ07",
+                    "pilot": "•Lieutenant Sai",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Ciena Ree"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "GNK “Gonk” Droid"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Advanced Sensors"
+                        },
+                        {
+                            "upgrade_type": 3,
+                            "name": "Jamming Beam"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+					"ship": "<italic>Lambda</italic>-class T-4a Shuttle",
+                    "wave": "SWZ07",
+                    "pilot": "Omicron Group Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Admiral Sloane"
+                        },
+                        {
+                            "upgrade_type": 3,
+                            "name": "Jamming Beam"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ag Aggressor",
+                    "wave": "SWZ07",
+                    "pilot": "•Lieutenant Kestal",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Barrage Rockets"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ag Aggressor",
+                    "wave": "SWZ07",
+                    "pilot": "Onyx Squadron Scout",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 4,
+                            "name": "Dorsal Turret"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Proton Rockets"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ag Aggressor",
+                    "wave": "SWZ07",
+                    "pilot": "•“Double Edge”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 4,
+                            "name": "Ion Cannon Turret"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Concussion Missiles"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Hotshot Gunner"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ag Aggressor",
+                    "wave": "SWZ07",
+                    "pilot": "Sienar Specialist",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 4,
+                            "name": "Ion Cannon Turret"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Homing Missiles"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Veteran Turret Gunner"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ph Phantom",
+                    "wave": "SWZ07",
+                    "pilot": "•“Whisper”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Juke"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Advanced Sensors"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Agent Kallus"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Stealth Device"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ph Phantom",
+                    "wave": "SWZ07",
+                    "pilot": "Sigma Squadron Ace",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Predator"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Advanced Sensors"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Grand Inquisitor"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ph Phantom",
+                    "wave": "SWZ07",
+                    "pilot": "•“Echo”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "•Lone Wolf"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Collision Detector"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Perceptive Copilot"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Stealth Device"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ph Phantom",
+                    "wave": "SWZ07",
+                    "pilot": "Imdaar Test Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Moff Jerjerrod"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sk Striker",
+                    "wave": "SWZ07",
+                    "pilot": "•“Duchess”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Trick Shot"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sk Striker",
+                    "wave": "SWZ07",
+                    "pilot": "Black Squadron Scout",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 16,
+                            "name": "Skilled Bombardier"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Proximity Mines"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sk Striker",
+                    "wave": "SWZ07",
+                    "pilot": "•“Countdown”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sk Striker",
+                    "wave": "SWZ07",
+                    "pilot": "Planetary Sentinel",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 12,
+                            "name": "Conner Nets"
+                        }
+                    ]
+                },
+                {
+                    "ship": "TIE/sk Striker",
+                    "wave": "SWZ07",
+                    "pilot": "Planetary Sentinel",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 12,
+                            "name": "Conner Nets"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sk Striker",
+                    "wave": "SWZ07",
+                    "pilot": "•“Pure Sabacc”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 14,
+                            "name": "Stealth Device"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sk Striker",
+                    "wave": "SWZ07",
+                    "pilot": "Black Squadron Scout",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Skilled Bombardier"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Proximity Mines"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sk Striker",
+                    "wave": "SWZ38",
+                    "pilot": "•“Duchess”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Conner Nets"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sk Striker",
+                    "wave": "SWZ38",
+                    "pilot": "•“Countdown”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "•Electro-Proton Bomb"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Skilled Bombardier"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sk Striker",
+                    "wave": "SWZ38",
+                    "pilot": "•“Pure Sabacc”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Trick Shot"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sk Striker",
+                    "wave": "SWZ38",
+                    "pilot": "Black Squadron Scout",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Predator"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Conner Nets"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sk Striker",
+                    "wave": "SWZ38",
+                    "pilot": "Planetary Sentinel",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 12,
+                            "name": "Proton Bombs"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Skilled Bombardier"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/D Defender",
+                    "wave": "SWZ07",
+                    "pilot": "•Countess Ryad",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/D Defender",
+                    "wave": "SWZ07",
+                    "pilot": "Onyx Squadron Ace"
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/D Defender",
+                    "wave": "SWZ07",
+                    "pilot": "•Rexler Brath",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Juke"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Collision Detector"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Cluster Missiles"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/D Defender",
+                    "wave": "SWZ07",
+                    "pilot": "Delta Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 3,
+                            "name": "Ion Cannon"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/D Defender",
+                    "wave": "SWZ07",
+                    "pilot": "•Colonel Vessery",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Juke"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Fire-Control System"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Cluster Missiles"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/D Defender",
+                    "wave": "SWZ07",
+                    "pilot": "Onyx Squadron Ace",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Advanced Sensors"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Proton Rockets"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sa Bomber",
+                    "wave": "SWZ07",
+                    "pilot": "•Tomax Bren",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Crack Shot"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Proton Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Proton Bombs"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sa Bomber",
+                    "wave": "SWZ07",
+                    "pilot": "•“Deathfire”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Cluster Missiles"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Skilled Bombardier"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Seismic Charges"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Proximity Mines"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Electronic Baffle"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sa Bomber",
+                    "wave": "SWZ07",
+                    "pilot": "•Major Rhymer",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Intimidation"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Adv. Proton Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Cluster Missiles"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sa Bomber",
+                    "wave": "SWZ07",
+                    "pilot": "Scimitar Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Ion Missiles"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Proton Bombs"
+                        }
+                    ]
+                },
+                {
+                    "ship": "TIE/sa Bomber",
+                    "wave": "SWZ07",
+                    "pilot": "Scimitar Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Ion Missiles"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Proton Bombs"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sa Bomber",
+                    "wave": "SWZ07",
+                    "pilot": "•Captain Jonus",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 5,
+                            "name": "Proton Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/sa Bomber",
+                    "wave": "SWZ07",
+                    "pilot": "Gamma Squadron Ace",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Concussion Missiles"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Skilled Bombardier"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Bomblet Generator"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE Advanced v1",
+                    "wave": "SWZ07",
+                    "pilot": "•Grand Inquisitor",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Supernatural Reflexes"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Concussion Missiles"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE Advanced v1",
+                    "wave": "SWZ07",
+                    "pilot": "Inquisitor",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Instinctive Aim"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Cluster Missiles"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Munitions Failsafe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE Advanced v1",
+                    "wave": "SWZ07",
+                    "pilot": "•Seventh Sister",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Homing Missiles"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE Advanced v1",
+                    "wave": "SWZ07",
+                    "pilot": "Baron of the Empire",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Crack Shot"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Proton Rockets"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Stealth Device"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/in Interceptor",
+                    "wave": "SWZ07",
+                    "pilot": "•Soontir Fel",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Stealth Device"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/in Interceptor",
+                    "wave": "SWZ07",
+                    "pilot": "Alpha Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 14,
+                            "name": "Ablative Plating"
+                        }
+                    ]
+                },
+                {
+                    "ship": "TIE/in Interceptor",
+                    "wave": "SWZ07",
+                    "pilot": "Alpha Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 14,
+                            "name": "Ablative Plating"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/in Interceptor",
+                    "wave": "SWZ07",
+                    "pilot": "•Turr Phennir",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Daredevil"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Electronic Baffle"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/in Interceptor",
+                    "wave": "SWZ07",
+                    "pilot": "Saber Squadron Ace",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Predator"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Stealth Device"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+					"ship": "<italic>Alpha</italic>-class Star Wing",
+                    "wave": "SWZ07",
+                    "pilot": "•Lieutenant Kasarbi",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 3,
+                            "name": "Heavy Laser Cannon"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Advanced SLAM"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Xg-1 Assault Configuration"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+					"ship": "<italic>Alpha</italic>-class Star Wing",
+                    "wave": "SWZ07",
+                    "pilot": "Nu Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 2,
+                            "name": "Fire-Control System"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Proton Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Advanced SLAM"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Os-1 Arsenal Loadout"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+					"ship": "<italic>Alpha</italic>-class Star Wing",
+                    "wave": "SWZ07",
+                    "pilot": "•Major Vynder",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Saturation Salvo"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Barrage Rockets"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Advanced SLAM"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Os-1 Arsenal Loadout"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+					"ship": "<italic>Alpha</italic>-class Star Wing",
+                    "wave": "SWZ07",
+                    "pilot": "Rho Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 2,
+                            "name": "Fire-Control System"
+                        },
+                        {
+                            "upgrade_type": 3,
+                            "name": "Ion Cannon"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Homing Missiles"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Advanced SLAM"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Xg-1 Assault Configuration"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ca Punisher",
+                    "wave": "SWZ07",
+                    "pilot": "•“Deathrain”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 2,
+                            "name": "Trajectory Simulator"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Homing Missiles"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Bomblet Generator"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Ablative Plating"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ca Punisher",
+                    "wave": "SWZ07",
+                    "pilot": "Cutlass Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 2,
+                            "name": "Trajectory Simulator"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Ion Missiles"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Skilled Bombardier"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Proton Bombs"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ca Punisher",
+                    "wave": "SWZ07",
+                    "pilot": "•“Redline”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Debris Gambit"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Cluster Missiles"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE/ca Punisher",
+                    "wave": "SWZ07",
+                    "pilot": "Cutlass Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 2,
+                            "name": "Advanced Sensors"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Proton Rockets"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Conner Nets"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "VT-49 Decimator",
+                    "wave": "SWZ07",
+                    "pilot": "•Captain Oicunn",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Intimidation"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Grand Moff Tarkin"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Dauntless</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "VT-49 Decimator",
+                    "wave": "SWZ07",
+                    "pilot": "•Rear Admiral Chiraneau",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Swarm Tactics"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Minister Tua"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Tactical Officer"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "VT-49 Decimator",
+                    "wave": "SWZ07",
+                    "pilot": "Patrol Leader",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Informant"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Seventh Sister"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "•Fifth Brother"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE Reaper",
+                    "wave": "SWZ03",
+                    "pilot": "•“Vizier”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Director Krennic"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE Reaper",
+                    "wave": "SWZ03",
+                    "pilot": "Scarif Base Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Death Troopers"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE Reaper",
+                    "wave": "SWZ03",
+                    "pilot": "•Major Vermeil",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Swarm Tactics"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Tactical Officer"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 2,
+            "ships": [
+                {
+                    "ship": "TIE Reaper",
+                    "wave": "SWZ03",
+                    "pilot": "•Captain Feroph",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Swarm Tactics"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "ISB Slicer"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
