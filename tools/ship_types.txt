@@ -1,0 +1,393 @@
+    "ship_types": [
+        {
+            "id": 5,
+            "name": "YT-2400 Light Freighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_YT-2400.png"
+        },
+        {
+            "id": 6,
+            "name": "Auzituck Gunship",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Auzituck.png"
+        },
+        {
+            "id": 7,
+            "name": "Kihraxz Fighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Kihraxz.png"
+        },
+        {
+            "id": 10,
+            "name": "<italic>Firespray</italic>-class Patrol Craft",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_FIrespray.png"
+        },
+        {
+            "id": 11,
+            "name": "TIE/ln Fighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEFighter.png"
+        },
+        {
+            "id": 49,
+            "name": "TIE/fo Fighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEfo.png"
+        },
+        {
+            "id": 56,
+            "name": "Modified TIE/ln Fighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_MiningGuild_TIE.png"
+        },
+        {
+            "id": 57,
+            "name": "Scavenged YT-1300 Light Freighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Falcon_Resistance.png"
+        },
+        {
+            "id": 47,
+            "name": "Customized YT-1300 Light Freighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_CustomizedYT-1300.png"
+        },
+        {
+            "id": 4,
+            "name": "Scurrg H-6 bomber",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Scurrg.png"
+        },
+        {
+            "id": 1,
+            "name": "Modified YT-1300 Light Freighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Falcon.png"
+        },
+        {
+            "id": 8,
+            "name": "<italic>Sheathipede</italic>-class Shuttle",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Sheathipede.png"
+        },
+        {
+            "id": 9,
+            "name": "Quadrijet Transfer Spacetug",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Quadjumper.png"
+        },
+        {
+            "id": 50,
+            "name": "TIE/sf Fighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEsf.png"
+        },
+        {
+            "id": 51,
+            "name": "<italic>Upsilon</italic>-class Shuttle",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_UpsilonShuttle.png"
+        },
+        {
+            "id": 52,
+            "name": "TIE/vn Silencer",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIESilencer.png"
+        },
+        {
+            "id": 53,
+            "name": "T-70 X-wing",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_X-wing-T70.png"
+        },
+        {
+            "id": 54,
+            "name": "RZ-2 A-wing",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_RZ-2_A-wing.png"
+        },
+        {
+            "id": 55,
+            "name": "MG-100 StarFortress",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_StarFortress.png"
+        },
+        {
+            "id": 64,
+            "name": "Resistance Transport",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Resistance_Transport.png"
+        },
+        {
+            "id": 68,
+            "name": "BTL-B Y-wing",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_BTL-B_Ywing.png"
+        },
+        {
+            "id": 31,
+            "name": "ARC-170 Starfighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Arc-170.png"
+        },
+        {
+            "id": 33,
+            "name": "T-65 X-wing",
+            "description": "Test",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_X-wing-T65.png"
+        },
+        {
+            "id": 34,
+            "name": "HWK-290 Light Freighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_HWK-290.png"
+        },
+        {
+            "id": 35,
+            "name": "RZ-1 A-wing",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_A-wing.png"
+        },
+        {
+            "id": 36,
+            "name": "Fang Fighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_FangFighter.png"
+        },
+        {
+            "id": 40,
+            "name": "E-wing",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_E-wing.png"
+        },
+        {
+            "id": 43,
+            "name": "TIE Reaper",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEReaper.png"
+        },
+        {
+            "id": 44,
+            "name": "M3-A Interceptor",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Scyk.png"
+        },
+        {
+            "id": 45,
+            "name": "JumpMaster 5000",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Jumpmaster.png"
+        },
+        {
+            "id": 48,
+            "name": "Escape Craft",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_EscapeShuttle.png"
+        },
+        {
+            "id": 65,
+            "name": "Resistance Transport Pod",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Resistance_Transport_Cockpit_Pod.png"
+        },
+        {
+            "id": 12,
+            "name": "BTL-A4 Y-wing",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Y-wing.png"
+        },
+        {
+            "id": 22,
+            "name": "G-1A Starfighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_MistHunter.png"
+        },
+        {
+            "id": 23,
+            "name": "VCX-100 Light Freighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Ghost.png"
+        },
+        {
+            "id": 24,
+            "name": "YV-666 Light Freighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_YV-666.png"
+        },
+        {
+            "id": 26,
+            "name": "<italic>Lambda</italic>-class T-4a Shuttle",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Lambda.png"
+        },
+        {
+            "id": 27,
+            "name": "TIE/ph Phantom",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEPhantom.png"
+        },
+        {
+            "id": 28,
+            "name": "VT-49 Decimator",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Decimator.png"
+        },
+        {
+            "id": 29,
+            "name": "TIE/ag Aggressor",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEAggressor.png"
+        },
+        {
+            "id": 30,
+            "name": "BTL-S8 K-wing",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_K-wing.png"
+        },
+        {
+            "id": 32,
+            "name": "Attack Shuttle",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_AttackShuttle.png"
+        },
+        {
+            "id": 66,
+            "name": "<italic>Hyena</italic>-class Droid Bomber",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Hyena.png"
+        },
+        {
+            "id": 67,
+            "name": "<italic>Nantex</italic>-class Starfighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Nantex_Class_Starfighter.png"
+        },
+        {
+            "id": 38,
+            "name": "Z-95-AF4 Headhunter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Z-95.png"
+        },
+        {
+            "id": 39,
+            "name": "M12-L Kimogila Fighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Kimogila.png"
+        },
+        {
+            "id": 41,
+            "name": "TIE/in Interceptor",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEInterceptor.png"
+        },
+        {
+            "id": 42,
+            "name": "<italic>Lancer</italic>-class Pursuit Craft",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_ShadowCaster.png"
+        },
+        {
+            "id": 58,
+            "name": "Belbullab-22 Starfighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Belbullab-22.png"
+        },
+        {
+            "id": 63,
+            "name": "Naboo Royal N-1 Starfighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Royal_Naboo_N-1_Starfighter.png"
+        },
+        {
+            "id": 3,
+            "name": "<italic>StarViper</italic>-class Attack Platform",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_StarViper.png"
+        },
+        {
+            "id": 13,
+            "name": "TIE Advanced x1",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEAdvanced.png"
+        },
+        {
+            "id": 14,
+            "name": "<italic>Alpha</italic>-class Star Wing",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_AlphaStarwing.png"
+        },
+        {
+            "id": 15,
+            "name": "UT-60D U-wing",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_U-wing.png"
+        },
+        {
+            "id": 16,
+            "name": "TIE/sk Striker",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEStriker.png"
+        },
+        {
+            "id": 17,
+            "name": "A/SF-01 B-wing",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_B-wing.png"
+        },
+        {
+            "id": 18,
+            "name": "TIE/D Defender",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEDefender.png"
+        },
+        {
+            "id": 19,
+            "name": "TIE/sa Bomber",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEBomber.png"
+        },
+        {
+            "id": 20,
+            "name": "TIE/ca Punisher",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEPunisher.png"
+        },
+        {
+            "id": 21,
+            "name": "Aggressor Assault Fighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_IG-2000.png"
+        },
+        {
+            "id": 25,
+            "name": "TIE Advanced v1",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEAdvancedPrototype.png"
+        },
+        {
+            "id": 59,
+            "name": "<italic>Vulture</italic>-class Droid Fighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_VultureDroid.png"
+        },
+        {
+            "id": 60,
+            "name": "Sith Infiltrator",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_SithInfiltrator.png"
+        },
+        {
+            "id": 61,
+            "name": "Delta-7 <italic>Aethersprite</italic>",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Delta-7.png"
+        },
+        {
+            "id": 62,
+            "name": "V-19 Torrent Starfighter",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_V-19Torrent.png"
+        }
+    ]
+

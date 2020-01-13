@@ -1,0 +1,439 @@
+Quick Build Reference
+Galactic Empire
+ship pilot upgrades threat
+This reference contains the X-Wing Second Edition Quick Build options for the Galactic Empire faction.
+These predefined selections of pilots and upgrades help you quickly assemble squadrons and get
+flying. Each option consists of a ship card, a number of upgrade cards, and a threat level. To play
+a match using the Quick Build options, you just need to agree to a particular threat level with your
+opponent, choose a combination of options that add up to that threat level, and launch your fighters!
+TIE/ln Fighter
+SWZ01 •Valen Rudor
+󲁋 Elusive
+󲁙 Shield Upgrade
+TIE/ln Fighter
+SWZ01
+Black Squadron Ace
+󲁋 Outmaneuver
+󲁙 Afterburners
+󲁙 Shield Upgrade
+TIE/ln Fighter
+SWZ01
+Academy Pilot
+TIE/ln Fighter
+SWZ01 •Iden Versio
+󲁋 Outmaneuver
+󲁙 Shield Upgrade
+TIE/ln Fighter
+SWZ01 •“Night Beast”
+󲁋 Predator
+󲁙 Hull Upgrade
+󲁙 Shield Upgrade
+TIE/ln Fighter
+SWZ01
+Obsidian Squadron
+Pilot
+TIE/ln Fighter
+SWZ14 •“Scourge” Skutu
+󲁋 Predator
+󲁙 Shield Upgrade
+TIE/ln Fighter
+SWZ14 •“Wampa”
+󲁋 Crack Shot
+󲁙 Hull Upgrade
+󲁙 Stealth Device
+TIE/ln Fighter
+SWZ14
+Black Squadron Ace
+󲁋 Crack Shot
+󲁙 Afterburners
+󲁙 Shield Upgrade
+TIE/ln Fighter
+SWZ14 •Gideon Hask
+󲁋 Crack Shot
+󲁙 Shield Upgrade
+Quick Build Reference
+ship pilot upgrades threat
+TIE/ln Fighter
+SWZ14 •Del Meeko
+󲁋 Juke
+󲁙 Stealth Device
+TIE/ln Fighter
+SWZ14
+Obsidian Squadron
+Pilot
+TIE/ln Fighter
+SWZ14 •“Howlrunner”
+󲁋 Juke
+󲁙 Shield Upgrade
+TIE/ln Fighter
+SWZ14 •Seyn Marana
+󲁋 Marksmanship
+󲁙 Afterburners
+TIE/ln Fighter
+SWZ14
+Black Squadron
+Ace (x2)
+󲁋 Juke
+󲁙 Stealth Device
+TIE/ln Fighter
+SWZ14
+Obsidian Squadron
+Pilot (x2)
+󲁋 Outmaneuver
+󲁙 Shield Upgrade
+TIE/ln Fighter
+SWZ14
+Academy Pilot (x2)
+TIE/ln Fighter
+SWZ14
+Academy Pilot
+TIE Advanced x1
+SWZ15 •Darth Vader
+󲈢 Supernatural Reflexes
+󲁌 Fire-Control System
+󲁐 Cluster Missiles
+󲁙 Afterburners
+󲁙 Shield Upgrade
+TIE Advanced x1
+SWZ15 •Maarek Stele
+󲁋 Ruthless
+󲁌 Fire-Control System
+󲁐 Cluster Missiles
+󲁙 Shield Upgrade
+TIE Advanced x1
+SWZ15
+Storm Squadron Ace 󲁌 Fire-Control System
+TIE Advanced x1
+SWZ15 •Ved Foslo
+󲁋 Outmaneuver
+󲁌 Fire-Control System
+󲁐 Cluster Missiles
+󲁙 Shield Upgrade
+TIE Advanced x1
+SWZ15 •Zertik Strom
+󲁋 Squad Leader
+󲁌 Fire-Control System
+󲁐 Cluster Missiles
+󲁙 Shield Upgrade
+Quick Build Reference
+TIE Advanced x1
+SWZ15
+Tempest Squadron Pilot 󲁐 Cluster Missiles
+Lambda-class
+Shuttle
+SWZ07
+•Colonel Jendon
+󲁌 Collision Detector
+󲁍 Ion Cannon
+󲁒 Darth Vader
+󲁒 Freelance Slicer
+󲁚 ST-321
+Lambda-class
+Shuttle
+SWZ07
+•Captain Kagi
+󲁌 Collision Detector
+󲁍 Tractor Beam
+󲁒󲁒 Emperor Palpatine
+󲁙 Shield Upgrade
+󲁙 Static Discharge Vanes
+Lambda-class
+Shuttle
+SWZ07
+•Lieutenant Sai
+󲁒 Ciena Ree
+󲁒 GNK “Gonk” Droid
+󲁌 Advanced Sensors
+󲁍 Jamming Beam
+Lambda-class
+Shuttle
+SWZ07
+Omicron Group Pilot
+󲁒 Admiral Sloane
+󲁍 Jamming Beam
+TIE/ag Aggressor
+SWZ07 •Lieutenant Kestal
+󲁋 Elusive
+󲁐󲁐 Barrage Rockets
+󲁙 Shield Upgrade
+TIE/ag Aggressor
+SWZ07
+Onyx Squadron Scout
+󲁋 Outmaneuver
+󲁎 Dorsal Turret
+󲁐 Proton Rockets
+TIE/ag Aggressor
+SWZ07 •“Double Edge”
+󲁎 Ion Cannon Turret
+󲁐 Concussion Missiles
+󲈦 Hotshot Gunner
+TIE/ag Aggressor
+SWZ07 Sienar Specialist
+󲁎 Ion Cannon Turret
+󲁐 Homing Missiles
+󲈦 Veteran Turret Gunner
+󲁙 Hull Upgrade
+TIE/ph Phantom
+SWZ07 •“Whisper”
+󲁋 Juke
+󲁌 Advanced Sensors
+󲁒 Agent Kallus
+󲁙 Stealth Device
+TIE/ph Phantom
+SWZ07 Sigma Squadron Ace
+󲁋 Predator
+󲁌 Advanced Sensors
+󲁒 Grand Inquisitor
+ship pilot upgrades threat
+Quick Build Reference
+TIE/ph Phantom
+SWZ07 •“Echo”
+󲁋 Lone Wolf
+󲁌 Collision Detector
+󲁒 Perceptive Copilot
+󲁙 Stealth Device
+TIE/ph Phantom
+SWZ07 Imdaar Test Pilot 󲁒 Moff Jerjerrod
+TIE/sk Striker
+SWZ07 •“Duchess”
+󲁋 Trick Shot
+󲁙 Shield Upgrade
+TIE/sk Striker
+SWZ07
+Black Squadron
+Scout
+󲈦 Skilled Bombardier
+󲁖 Proximity Mines
+󲁙 Hull Upgrade
+TIE/sk Striker
+SWZ07 •“Countdown” 󲁙 Shield Upgrade
+TIE/sk Striker
+SWZ07
+Planetary
+Sentinel x2
+󲁖 Conner Nets
+TIE/sk Striker
+SWZ07 •“Pure Sabacc” 󲁙 Stealth Device
+TIE/sk Striker
+SWZ07
+Black Squadron
+Scout
+󲁋 Skilled Bombardier
+󲁖 Proximity Mines
+󲁙 Hull Upgrade
+TIE/sk Striker
+SWZ38 •“Duchess”
+󲁋 Outmaneuver
+󲁖 Conner Nets
+󲁙 Afterburners
+󲁙 Hull Upgrade
+TIE/sk Striker
+SWZ38 •“Countdown”
+󲁋 Elusive
+󲁖 Proton Bomb
+󲁒 Skilled Bombardier
+󲁙 Shield Upgrade
+TIE/sk Striker
+SWZ38 •“Pure Sabacc”
+󲁋 Trick Shot
+󲁙 Shield Upgrade
+TIE/sk Striker
+SWZ38
+Black Squadron
+Scout
+󲁋 Predator
+󲁖 Conner Nets
+TIE/sk Striker
+SWZ38 Planetary Sentinel
+󲁖 Proton Bombs
+󲁒 Skilled Bombardier
+󲁙 Hull Upgrade
+TIE/D Defender
+SWZ07 •Countess Ryad
+󲁋 Outmaneuver
+󲁙 Afterburners
+ship pilot upgrades threat
+Quick Build Reference
+TIE/D Defender
+SWZ07 Onyx Squadron Ace
+TIE/D Defender
+SWZ07 •Rexler Brath
+󲁋 Juke
+󲁌 Collision Detector
+󲁐 Cluster Missiles
+TIE/D Defender
+SWZ07 Delta Squadron Pilot 󲁍 Ion Cannon
+TIE/D Defender
+SWZ07 •Colonel Vessery
+󲁋 Juke
+󲁌 Fire Control System
+󲁐 Cluster Missiles
+TIE/D Defender
+SWZ07 Onyx Squadron Ace
+󲁋 Elusive
+󲁌 Advanced Sensors
+󲁐 Proton Rockets
+TIE/sa Bomber
+SWZ07 •Tomax Bren
+󲁋 Crack Shot
+󲁏 Proton Torpedoes
+󲁖 Proton Bombs
+TIE/sa Bomber
+SWZ07 •“Deathfire”
+󲁐 Cluster Missiles
+󲈦 Skilled Bombardier
+󲁖 Seismic Charges
+󲁖 Proximity Mines
+󲁙 Electronic Baffle
+TIE/sa Bomber
+SWZ07 •Major Rhymer
+󲁋 Intimidation
+󲁏 Adv. Proton Torpedoes
+󲁐 Cluster Missiles
+TIE/sa Bomber
+SWZ07
+Scimitar Squadron
+Pilot x2
+󲁐 Ion Missiles
+󲁖 Proton Bombs
+TIE/sa Bomber
+SWZ07 •Captain Jonus
+󲁏 Proton Torpedoes
+󲁙 Shield Upgrade
+TIE/sa Bomber
+SWZ07 Gamma Squadron Ace
+󲁐 Concussion Missiles
+󲈦 Skilled Bombardier
+󲁖󲁖 Bomblet Generator
+󲁙 Shield Upgrade
+TIE Advanced v1
+SWZ07 •Grand Inquisitor
+󲈢 Supernatural Reflexes
+󲁐 Concussion Missiles
+TIE Advanced v1
+SWZ07 Inquisitor
+󲈢 Instinctive Aim
+󲁐 Cluster Missiles
+󲁙 Munitions Failsafe
+ship pilot upgrades threat
+Quick Build Reference
+TIE Advanced v1
+SWZ07 •Seventh Sister 󲁐 Homing Missiles
+TIE Advanced v1
+SWZ07 Baron of the Empire
+󲁋 Crack Shot
+󲁐 Proton Rockets
+󲁙 Stealth Device
+TIE Interceptor
+SWZ07 •Soontir Fel
+󲁋 Outmaneuver
+󲁙 Afterburners
+󲁙 Stealth Device
+TIE Interceptor
+SWZ07
+Alpha Squadron
+Pilot x2
+󲁙 Ablative Plating
+TIE Interceptor
+SWZ07 •Turr Phennir
+󲁋 Daredevil
+󲁙 Electronic Baffle
+TIE Interceptor
+SWZ07 Saber Squadron Ace
+󲁋 Predator
+󲁙 Stealth Device
+Alpha-class
+Star Wing
+SWZ07
+•Lieutenant Kasarbi
+󲁋 Outmaneuver
+󲁍 Heavy Laser Cannon
+󲁙 Advanced SLAM
+󲈡 Xg-1 Assault
+Configuration
+Alpha-class
+Star Wing
+SWZ07
+Nu Squadron Pilot
+󲁌 Fire-Control System
+󲁏 Proton Torpedoes
+󲁙 Advanced SLAM
+󲈡 Os-1 Arsenal Loadout
+Alpha-class
+Star Wing
+SWZ07
+•Major Vynder
+󲁋 Saturation Salvo
+󲁐 Barrage Rockets
+󲁙 Advanced SLAM
+󲈡 Os-1 Arsenal Loadout
+Alpha-class
+Star Wing
+SWZ07
+Rho Squadron Pilot
+󲁌 Fire-Control System
+󲁍 Ion Cannon
+󲁐 Homing Missiles
+󲁙 Advanced SLAM
+󲈡 Xg-1 Assault
+Configuration
+TIE/ca Punisher
+SWZ07 •“Deathrain”
+󲁌 Trajectory Simulator
+󲁐 Homing Missiles
+󲁖󲁖 Bomblet Generator
+󲁙 Ablative Plating
+TIE/ca Punisher
+SWZ07
+Cutlass Squadron
+Pilot
+󲁌 Trajectory Simulator
+󲁐 Ion Missiles
+󲈦 Skilled Bombardier
+󲁖 Proton Bombs
+ship pilot upgrades threat
+Quick Build Reference
+TIE/ca Punisher
+SWZ07 •“Redline”
+󲁋 Debris Gambit
+󲁐 Cluster Missiles
+TIE/ca Punisher
+SWZ07
+Cutlass Squadron
+Pilot
+󲁌 Advanced Sensors
+󲁐 Proton Rockets
+󲁖 Conner Nets
+VT-49 Decimator
+SWZ07 •Captain Oicunn
+󲁋 Intimidation
+󲁒 Grand Moff Tarkin
+󲁚 Dauntless
+VT-49 Decimator
+SWZ07
+•Rear Admiral
+Chiraneau
+󲁋 Swarm Tactics
+󲁒 Minister Tua
+󲁒 Tactical Officer
+VT-49 Decimator
+SWZ07 Patrol Leader
+󲁒 Informant
+󲁒 Seventh Sister
+󲈦 Fifth Brother
+TIE Reaper
+SWZ03 •“Vizier” 󲁒 Director Krennic
+TIE Reaper
+SWZ03 Scarif Base Pilot
+󲁒 Death Troopers
+󲁙 Shield Upgrade
+TIE Reaper
+SWZ03 •Major Vermeil
+󲁋 Swarm Tactics
+󲁒 Tactical Officer
+TIE Reaper
+SWZ03 •Captain Feroph
+󲁋 Swarm Tactics
+󲁒 ISB Slicer
+ship pilot upgrades threat
+© & ™ Lucasfilm Ltd. The FFG logo is a ® of Fantasy Flight Games. Permission granted to print and photocopy for personal use.
