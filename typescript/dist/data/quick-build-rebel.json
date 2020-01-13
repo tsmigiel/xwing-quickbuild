@@ -1,0 +1,2105 @@
+{
+    "builds": [
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "T-65 X-wing",
+                    "wave": "SWZ01",
+                    "pilot": "•Luke Skywalker",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Instinctive Aim"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Proton Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "•R2-D2"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "T-65 X-wing",
+                    "wave": "SWZ01",
+                    "pilot": "Red Squadron Veteran",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Predator"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R5 Astromech"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "T-65 X-wing",
+                    "wave": "SWZ01",
+                    "pilot": "•Jek Porkins",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "•R5-D8"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "T-65 X-wing",
+                    "wave": "SWZ01",
+                    "pilot": "Blue Squadron Escort",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 5,
+                            "name": "Proton Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R3 Astromech"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "T-65 X-wing",
+                    "wave": "SWZ12",
+                    "pilot": "•Wedge Antilles",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Proton Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R4 Astromech"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "T-65 X-wing",
+                    "wave": "SWZ12",
+                    "pilot": "•Biggs Darklighter",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Selfless"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "T-65 X-wing",
+                    "wave": "SWZ12",
+                    "pilot": "•Thane Kyrell",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Ion Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R2 Astromech"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "T-65 X-wing",
+                    "wave": "SWZ12",
+                    "pilot": "•Garven Dreis",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "BTL-A4 Y-wing",
+                    "wave": "SWZ13",
+                    "pilot": "•Norra Wexley",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Expert Handling"
+                        },
+                        {
+                            "upgrade_type": 4,
+                            "name": "Ion Cannon Turret"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Veteran Turret Gunner"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R3 Astromech"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "BTL-A4 Y-wing",
+                    "wave": "SWZ13",
+                    "pilot": "•Evaan Verlaine",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Expert Handling"
+                        },
+                        {
+                            "upgrade_type": 4,
+                            "name": "Ion Cannon Turret"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "BTL-A4 Y-wing",
+                    "wave": "SWZ13",
+                    "pilot": "Gold Squadron Veteran",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Expert Handling"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Proton Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R3 Astromech"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "BTL-A4 Y-wing",
+                    "wave": "SWZ13",
+                    "pilot": "•Horton Salm",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 4,
+                            "name": "Ion Cannon Turret"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Veteran Turret Gunner"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R5 Astromech"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "BTL-A4 Y-wing",
+                    "wave": "SWZ13",
+                    "pilot": "•“Dutch” Vander",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 5,
+                            "name": "Proton Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R3 Astromech"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "BTL-A4 Y-wing",
+                    "wave": "SWZ13",
+                    "pilot": "Gray Squadron Bomber",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 4,
+                            "name": "Ion Cannon Turret"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Proton Bombs"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R5 Astromech"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "BTL-S8 K-wing",
+                    "wave": "SWZ06",
+                    "pilot": "•Esege Tuketu",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 2,
+                            "name": "Trajectory Simulator"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Ion Missiles"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Perceptive Copilot"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Conner Nets"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Proton Bombs"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Advanced SLAM"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "BTL-S8 K-wing",
+                    "wave": "SWZ06",
+                    "pilot": "•Miranda Doni",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 12,
+                            "name": "Proton Bombs"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Advanced SLAM"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "BTL-S8 K-wing",
+                    "wave": "SWZ06",
+                    "pilot": "Warden Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Barrage Rockets"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Bomblet Generator"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "A/SF-01 B-wing",
+                    "wave": "SWZ06",
+                    "pilot": "•Braylen Stramm",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Trick Shot"
+                        },
+                        {
+                            "upgrade_type": 3,
+                            "name": "Jamming Beam"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "A/SF-01 B-wing",
+                    "wave": "SWZ06",
+                    "pilot": "Blade Squadron Veteran",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        },
+                        {
+                            "upgrade_type": 3,
+                            "name": "Tractor Beam"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "A/SF-01 B-wing",
+                    "wave": "SWZ06",
+                    "pilot": "•Ten Numb",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "•Squad Leader"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Advanced Sensors"
+                        },
+                        {
+                            "upgrade_type": 3,
+                            "name": "Heavy Laser Cannon"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "A/SF-01 B-wing",
+                    "wave": "SWZ06",
+                    "pilot": "Dagger Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 2,
+                            "name": "Advanced Sensors"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "ARC-170 Starfighter",
+                    "wave": "SWZ06",
+                    "pilot": "•Norra Wexley",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Expert Handling"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Seasoned Navigator"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Veteran Tail Gunner"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R3 Astromech"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Ablative Plating"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "ARC-170 Starfighter",
+                    "wave": "SWZ06",
+                    "pilot": "•Garven Dreis",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Expert Handling"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Proton Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Perceptive Copilot"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Veteran Tail Gunner"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "ARC-170 Starfighter",
+                    "wave": "SWZ06",
+                    "pilot": "•Shara Bey",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Expert Handling"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Proton Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Perceptive Copilot"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R3 Astromech"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "ARC-170 Starfighter",
+                    "wave": "SWZ06",
+                    "pilot": "•Ibtisam",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "Auzituck Gunship",
+                    "wave": "SWZ06",
+                    "pilot": "•Wullffwarro",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Selfless"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "GNK “Gonk” Droid"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Novice Technician"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "Auzituck Gunship",
+                    "wave": "SWZ06",
+                    "pilot": "•Lowhhrick"
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "Auzituck Gunship",
+                    "wave": "SWZ06",
+                    "pilot": "Kashyyyk Defender",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 8,
+                            "name": "Novice Technician"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "E-wing",
+                    "wave": "SWZ06",
+                    "pilot": "•Corran Horn",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Fire-Control System"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Proton Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R2 Astromech"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "E-wing",
+                    "wave": "SWZ06",
+                    "pilot": "Rogue Squadron Escort",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Predator"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Collision Detector"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Proton Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R3 Astromech"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "E-wing",
+                    "wave": "SWZ06",
+                    "pilot": "•Gavin Darklighter",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Crack Shot"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Fire-Control System"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Ion Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R4 Astromech"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "E-wing",
+                    "wave": "SWZ06",
+                    "pilot": "Knave Squadron Escort",
+                    "upgrades": [
+
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "HWK-290 Light Freighter",
+                    "wave": "SWZ06",
+                    "pilot": "•Jan Ors",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Trick Shot"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Perceptive Copilot"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Seismic Charges"
+                        },
+                        {
+                            "upgrade_type": 13,
+                            "name": "•Cloaking Device"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Engine Upgrade"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Moldy Crow</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "HWK-290 Light Freighter",
+                    "wave": "SWZ06",
+                    "pilot": "•Roark Garnet",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Seismic Charges"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "HWK-290 Light Freighter",
+                    "wave": "SWZ06",
+                    "pilot": "•Kyle Katarn",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Moldy Crow</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "HWK-290 Light Freighter",
+                    "wave": "SWZ06",
+                    "pilot": "Rebel Scout",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 12,
+                            "name": "Proton Bombs"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Seismic Charges"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Sabine Wren"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Engine Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "RZ-1 A-wing",
+                    "wave": "SWZ06",
+                    "pilot": "•Arvel Crynyd",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Intimidation"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Proton Rockets"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "RZ-1 A-wing",
+                    "wave": "SWZ06",
+                    "pilot": "Green Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Daredevil"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Concussion Missiles"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "RZ-1 A-wing",
+                    "wave": "SWZ06",
+                    "pilot": "•Jake Farrell",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Cluster Missiles"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "RZ-1 A-wing",
+                    "wave": "SWZ06",
+                    "pilot": "Phoenix Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Proton Rockets"
+                        }
+                    ]
+                },
+                {
+                    "ship": "RZ-1 A-wing",
+                    "wave": "SWZ06",
+                    "pilot": "Phoenix Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Proton Rockets"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "<italic>Sheathipede</italic>-class Shuttle",
+                    "wave": "SWZ06",
+                    "pilot": "•Fenn Rau",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Seasoned Navigator"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R4 Astromech"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Stealth Device"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Phantom</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "<italic>Sheathipede</italic>-class Shuttle",
+                    "wave": "SWZ06",
+                    "pilot": "•Ezra Bridger",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Heightened Perception"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "•“Chopper”"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Phantom</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ06",
+                    "pilot": "•Captain Rex",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        },
+                        {
+                            "upgrade_type": 1,
+                            "name": "Juke"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Stealth Device"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ06",
+                    "pilot": "•Sabine Wren",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "Conner Nets"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ06",
+                    "pilot": "•Ezra Bridger",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Supernatural Reflexes"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•“Zeb” Orrelios"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "TIE/ln Fighter",
+                    "wave": "SWZ06",
+                    "pilot": "•“Zeb” Orrelios"
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "UT-60D U-wing",
+                    "wave": "SWZ06",
+                    "pilot": "•Cassian Andor",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 2,
+                            "name": "Fire-Control System"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Jyn Erso"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Baze Malbus"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Pivot Wing (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Pivot Wing (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "UT-60D U-wing",
+                    "wave": "SWZ06",
+                    "pilot": "•Bodhi Rook",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Cassian Andor"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Pivot Wing (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Pivot Wing (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "UT-60D U-wing",
+                    "wave": "SWZ06",
+                    "pilot": "•Heff Tobber",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 2,
+                            "name": "Fire-Control System"
+                        },
+                        {
+                            "upgrade_type": 4,
+                            "name": "Ion Cannon Turret"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "•Bistan"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Perceptive Copilot"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Pivot Wing (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Pivot Wing (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "UT-60D U-wing",
+                    "wave": "SWZ06",
+                    "pilot": "Blue Squadron Scout",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 2,
+                            "name": "Advanced Sensors"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Tactical Officer"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Pivot Wing (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Pivot Wing (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "Modified YT-1300 Light Freighter",
+                    "wave": "SWZ06",
+                    "pilot": "•Han Solo",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "•Lone Wolf"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Chewbacca"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Millennium Falcon</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 6,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "Modified YT-1300 Light Freighter",
+                    "wave": "SWZ06",
+                    "pilot": "•Chewbacca",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Predator"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•C-3PO"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Leia Organa"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•R2-D2"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "•Han Solo"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "•Luke Skywalker"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Engine Upgrade"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Millennium Falcon</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 5,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "Modified YT-1300 Light Freighter",
+                    "wave": "SWZ06",
+                    "pilot": "•Lando Calrissian",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Swarm Tactics"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Concussion Missiles"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Nien Nunb"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Engine Upgrade"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Millennium Falcon</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "Modified YT-1300 Light Freighter",
+                    "wave": "SWZ06",
+                    "pilot": "Outer Rim Smuggler",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Homing Missiles"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Novice Technician"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Veteran Turret Gunner"
+                        },
+                        {
+                            "upgrade_type": 13,
+                            "name": "Feedback Array"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Static Discharge Vanes"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "Z-95-AF4 Headhunter",
+                    "wave": "SWZ06",
+                    "pilot": "•Airen Cracken",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Swarm Tactics"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Cluster Missiles"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "Z-95-AF4 Headhunter",
+                    "wave": "SWZ06",
+                    "pilot": "Bandit Squadron Pilot"
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "Z-95-AF4 Headhunter",
+                    "wave": "SWZ06",
+                    "pilot": "•Lieutenant Blount",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Proton Rockets"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "Z-95-AF4 Headhunter",
+                    "wave": "SWZ06",
+                    "pilot": "Tala Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Selfless"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "Attack Shuttle",
+                    "wave": "SWZ06",
+                    "pilot": "•Hera Syndulla",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        },
+                        {
+                            "upgrade_type": 4,
+                            "name": "Ion Cannon Turret"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Phantom</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "Attack Shuttle",
+                    "wave": "SWZ06",
+                    "pilot": "•Sabine Wren",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 4,
+                            "name": "Dorsal Turret"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Phantom</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 5,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "YT-2400 Light Freighter",
+                    "wave": "SWZ06",
+                    "pilot": "•Dash Rendar",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Expert Handling"
+                        },
+                        {
+                            "upgrade_type": 1,
+                            "name": "Trick Shot"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Perceptive Copilot"
+                        },
+                        {
+                            "upgrade_type": 13,
+                            "name": "Rigged Cargo Chute"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Outrider</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "YT-2400 Light Freighter",
+                    "wave": "SWZ06",
+                    "pilot": "•“Leebo”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Outrider</italic>"
+                        },
+                        {
+                            "upgrade_type": 13,
+                            "name": "Inertial Dampeners"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "YT-2400 Light Freighter",
+                    "wave": "SWZ06",
+                    "pilot": "Wild Space Fringer",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Concussion Missiles"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Veteran Turret Gunner"
+                        },
+                        {
+                            "upgrade_type": 13,
+                            "name": "Contraband Cybernetics"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "UT-60D U-wing",
+                    "wave": "SWZ02",
+                    "pilot": "•Magva Yarro",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Saw Gerrera"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Advanced Sensors"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Pivot Wing (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Pivot Wing (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "UT-60D U-wing",
+                    "wave": "SWZ02",
+                    "pilot": "•Saw Gerrera",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Magva Yarro"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Pivot Wing (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Pivot Wing (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "UT-60D U-wing",
+                    "wave": "SWZ02",
+                    "pilot": "•Benthic Two Tubes",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 2,
+                            "name": "Advanced Sensors"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Pivot Wing (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Pivot Wing (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "UT-60D U-wing",
+                    "wave": "SWZ02",
+                    "pilot": "Partisan Renegade",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 2,
+                            "name": "Advanced Sensors"
+                        },
+                        {
+                            "upgrade_type": 13,
+                            "name": "Deadman’s Switch"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Pivot Wing (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Pivot Wing (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "T-65 X-wing",
+                    "wave": "SWZ02",
+                    "pilot": "•Kullbee Sperado",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R2 Astromech"
+                        },
+                        {
+                            "upgrade_type": 13,
+                            "name": "Deadman’s Switch"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "T-65 X-wing",
+                    "wave": "SWZ02",
+                    "pilot": "•Edrio Two Tubes",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Trick Shot"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R4 Astromech"
+                        },
+                        {
+                            "upgrade_type": 13,
+                            "name": "Deadman’s Switch"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "T-65 X-wing",
+                    "wave": "SWZ02",
+                    "pilot": "•Leevan Tenza",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R2 Astromech"
+                        },
+                        {
+                            "upgrade_type": 13,
+                            "name": "Deadman’s Switch"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "T-65 X-wing",
+                    "wave": "SWZ02",
+                    "pilot": "Cavern Angels Zealot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 10,
+                            "name": "R2 Astromech"
+                        },
+                        {
+                            "upgrade_type": 13,
+                            "name": "Deadman’s Switch"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Open)"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Servomotor S-foils (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 6,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "VCX-100 Light Freighter",
+                    "wave": "SWZ06",
+                    "pilot": "•Kanan Jarrus",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 4,
+                            "name": "Ion Cannon Turret"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Hera Syndulla"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•“Chopper”"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "•Ezra Bridger"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Ghost</italic>"
+                        }
+                    ]
+                },
+                {
+                    "ship": "Attack Shuttle",
+                    "wave": "SWZ06",
+                    "pilot": "•“Zeb” Orrelios",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Phantom</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 6,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "VCX-100 Light Freighter",
+                    "wave": "SWZ06",
+                    "pilot": "•Hera Syndulla",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        },
+                        {
+                            "upgrade_type": 4,
+                            "name": "Dorsal Turret"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Kanan Jarrus"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Ghost</italic>"
+                        }
+                    ]
+                },
+                {
+                    "ship": "Attack Shuttle",
+                    "wave": "SWZ06",
+                    "pilot": "•Ezra Bridger",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Supernatural Reflexes"
+                        },
+                        {
+                            "upgrade_type": 4,
+                            "name": "Dorsal Turret"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Phantom</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 6,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "VCX-100 Light Freighter",
+                    "wave": "SWZ06",
+                    "pilot": "•“Chopper”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 4,
+                            "name": "Ion Cannon Turret"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•“Zeb” Orrelios"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Ghost</italic>"
+                        }
+                    ]
+                },
+                {
+                    "ship": "<italic>Sheathipede</italic>-class Shuttle",
+                    "wave": "SWZ06",
+                    "pilot": "•AP-5",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 10,
+                            "name": "R4 Astromech"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Phantom</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 1,
+            "ships": [
+                {
+                    "ship": "VCX-100 Light Freighter",
+                    "wave": "SWZ06",
+                    "pilot": "Lothal Rebel",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 4,
+                            "name": "Dorsal Turret"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Lando Calrissian"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Ghost</italic>"
+                        }
+                    ]
+                },
+                {
+                    "ship": "<italic>Sheathipede</italic>-class Shuttle",
+                    "wave": "SWZ06",
+                    "pilot": "•“Zeb” Orrelios",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 10,
+                            "name": "R5 Astromech"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Phantom</italic>"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

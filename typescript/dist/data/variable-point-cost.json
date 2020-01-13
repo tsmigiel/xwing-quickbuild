@@ -1,0 +1,206 @@
+[
+    {
+        "name": "Angled Deflectors",
+        "type": "AGILITY",
+        "costs": [
+            9,
+            6,
+            3,
+            3
+        ],
+        "upgradeType": "Modification"
+    },
+    {
+        "name": "Hull Upgrade",
+        "type": "AGILITY",
+        "costs": [
+            2,
+            3,
+            5,
+            7
+        ],
+        "upgradeType": "Modification"
+    },
+    {
+        "name": "Shield Upgrade",
+        "type": "AGILITY",
+        "costs": [
+            3,
+            4,
+            6,
+            8
+        ],
+        "upgradeType": "Modification"
+    },
+    {
+        "name": "Stealth Device",
+        "type": "AGILITY",
+        "costs": [
+            3,
+            4,
+            6,
+            8
+        ],
+        "upgradeType": "Modification"
+    },
+    {
+        "name": "R2 Astromech",
+        "type": "AGILITY",
+        "costs": [
+            3,
+            3,
+            4,
+            6
+        ],
+        "upgradeType": "Astromech"
+    },
+    {
+        "name": "•R2-D2",
+        "type": "AGILITY",
+        "costs": [
+            3,
+            3,
+            4,
+            6
+        ],
+        "upgradeType": "Astromech"
+    },
+    {
+        "name": "Engine Upgrade",
+        "type": "SHIP_SIZE",
+        "costs": [
+            2,
+            4,
+            7
+        ],
+        "upgradeType": "Modification"
+    },
+    {
+        "name": "Expert Handling",
+        "type": "SHIP_SIZE",
+        "costs": [
+            2,
+            4,
+            6
+        ],
+        "upgradeType": "Talent"
+    },
+    {
+        "name": "Hate",
+        "type": "SHIP_SIZE",
+        "costs": [
+            3,
+            6,
+            9
+        ],
+        "upgradeType": "Force Power"
+    },
+    {
+        "name": "Snap Shot",
+        "type": "SHIP_SIZE",
+        "costs": [
+            7,
+            8,
+            9
+        ],
+        "upgradeType": "Talent"
+    },
+    {
+        "name": "Inertial Dampeners",
+        "type": "INITIATIVE",
+        "costs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "upgradeType": "Illicit"
+    },
+    {
+        "name": "Precognitive Reflexes",
+        "type": "INITIATIVE",
+        "costs": [
+            3,
+            3,
+            3,
+            4,
+            7,
+            10,
+            13
+        ],
+        "upgradeType": "Force Power"
+    },
+    {
+        "name": "Primed Thrusters",
+        "type": "INITIATIVE",
+        "costs": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+        ],
+        "upgradeType": "Tech"
+    },
+    {
+        "name": "Seasoned Navigator",
+        "type": "INITIATIVE",
+        "costs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "upgradeType": "Crew"
+    },
+    {
+        "name": "•Squad Leader",
+        "type": "INITIATIVE",
+        "costs": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+        ],
+        "upgradeType": "Talent"
+    },
+    {
+        "name": "Swarm Tactics",
+        "type": "INITIATIVE",
+        "costs": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            4,
+            5
+        ],
+        "upgradeType": "Talent"
+    },
+    {
+        "name": "Supernatural Reflexes",
+        "type": "INITIATIVE",
+        "costs": [
+            4,
+            4,
+            4,
+            8,
+            16,
+            24,
+            32
+        ],
+        "upgradeType": "Force Power"
+    }
+]

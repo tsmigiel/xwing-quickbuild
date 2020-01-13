@@ -1,0 +1,85 @@
+/* Uncomment this to get more builds per landscape page. */
+/*
+@page {
+    margin-top: 5mm;
+    margin-bottom: 5mm;
+    margin-left: 10mm;
+    margin-right: 10mm;
+}
+*/
+
+#builds {
+	/* Setting display here breaks printing. */ 
+}
+
+.layout_ship {
+  display: grid;
+  grid-auto-columns: min-content;
+  grid-template-columns: auto auto auto auto 100%;
+  margin: 1mm 1mm 1mm 1mm;
+  /* With smaller margins, min-height for better page layout. Fixed to 2
+   * overlapped, horizontal cards. With normal margins it is 1 build per
+   * page, which is nice for sorting uncut printed pages. */
+  min-height: 101.5mm;
+  page-break-inside: avoid;
+}
+
+.layout_title {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.layout_title > p {
+	text-align: right;
+	margin: 0 0 0 0;
+	height: 86mm;
+}
+
+.layout_pilot {
+  z-index: 1;
+}
+
+.layout_configuration {
+  display: inline-grid;
+  grid-auto-flow: row;
+  direction: rtl;
+  margin-bottom: auto;
+  margin-top: 25.5mm;
+}
+
+.layout_upgrade {
+  display: inline-grid;
+  grid-auto-flow: row;
+  margin-bottom: auto;
+  margin-top: 25.5mm;
+}
+
+.card_pilot {
+	width: 63.5mm;
+	height: 88mm;
+}
+
+.card_upgrade {
+	width: 88mm;
+	height: 63.5mm;
+}
+
+/* A box around the title and description text of the card.*/
+.card_upgrade_box {
+	height: 38mm;
+	width: 55mm;
+}
+.card_upgrade_box > img {
+	position: relative;
+	left: -33mm;
+	top: -25.5mm;
+}
+.card_configuration_box {
+	height: 38mm;
+	width: 55mm;
+}
+.card_configuration_box > img {
+	position: relative;
+	left: 33mm;
+	top: -25.5mm;
+}
