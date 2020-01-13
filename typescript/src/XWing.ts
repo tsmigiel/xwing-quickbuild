@@ -301,6 +301,10 @@ namespace XWing {
 		}
 
 		computeUpgradeCost(data: Data, upgrade: Upgrade): number {
+			if (!upgrade) {
+				// This issue has already been logged, return a crazy number
+				return 1000
+			}
 			if (upgrade.cost == -1) {
 				var variablePointCost: VariablePointCostJson = data.lookupVariablePointCost(upgrade.name)
 				if (variablePointCost) {
@@ -444,6 +448,7 @@ namespace XWing {
 			var result: MetaShipTypeJson = this.metadata.ship_types.find((ship: MetaShipTypeJson) => ship.name == name)
 			if (!result) {
 				console.log("No matching ship type for: " + name)
+				return null
 			}
 			return result.id
 
