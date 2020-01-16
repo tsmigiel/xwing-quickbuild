@@ -4,6 +4,21 @@
     margin: 0mm;
 }
 
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+/*
+.filter {
+	display: grid;
+	grid-auto-flow: row;
+}
+*/
+
 #builds {
 	/* Setting display here breaks printing. */
 }
