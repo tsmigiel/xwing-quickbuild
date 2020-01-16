@@ -1,15 +1,11 @@
 /* Uncomment this to get more builds per landscape page. */
-/*
 @page {
-    margin-top: 5mm;
-    margin-bottom: 5mm;
-    margin-left: 10mm;
-    margin-right: 10mm;
+	/* Use padding in ship_layout to get page margins. */
+    margin: 0mm;
 }
-*/
 
 #builds {
-	/* Setting display here breaks printing. */ 
+	/* Setting display here breaks printing. */
 }
 
 .layout_ship {
@@ -17,10 +13,11 @@
   grid-auto-columns: min-content;
   grid-template-columns: auto auto auto auto 100%;
   margin: 1mm 1mm 1mm 1mm;
-  /* With smaller margins, min-height for better page layout. Fixed to 2
-   * overlapped, horizontal cards. With normal margins it is 1 build per
-   * page, which is nice for sorting uncut printed pages. */
-  min-height: 101.5mm;
+  /* Hand-tuned spacing so most builds are equally spaced on an 11"x17" page
+   * such that the page can be cut in thirds. Use padding instead of margin
+   * to ensure correct spacing at start of each page. */
+  min-height: 97mm;
+  padding: 20mm;
   page-break-inside: avoid;
 }
 
