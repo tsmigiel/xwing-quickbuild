@@ -335,7 +335,7 @@ namespace XWing {
 		constructor(data: Data, build: QuickBuildJson) {
 			this.faction = build.faction_id
 			this.threatLevel = build.threat_level
-			var newShips: Ship[] = new Array()
+			var newShips: Ship[] = new Array<Ship>()
 			if (build.ships) {
 				for (var i = 0; i < build.ships.length; i++) {
 					var newShip = new Ship(data, this.faction, build.ships[i])
@@ -391,7 +391,6 @@ namespace XWing {
 					newQuickBuilds.push(new QuickBuild(this, quickbuilds[i].builds[j]))
 				}
 			}
-			//newQuickBuilds.sort((a: QuickBuild, b:QuickBuild) => a.ships.length == b.ships.length ? a.ships[0].upgrades.length - b.ships[0].upgrades.length : a.ships.length - b.ships.length)
 			this.quickBuilds = newQuickBuilds
 		}
 

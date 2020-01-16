@@ -59,6 +59,12 @@ function createShipNode(ship : XWing.Ship) {
 	return shipNode
 }
 
+function layoutHeight(ship: XWing.Ship) {
+	var numConfig = ship.getConfigurationUpgrades().length
+	var numNonConfig = ship.getNonConfigurationUpgrades().length
+	return numConfig + numNonConfig < 4 ? 1 : numConfig > 0 ? Math.max(numConfig, numNonConfig / 2) : numNonConfig / 3
+}
+
 const loadData = async () => {
 	var cards = await fetch("data/cards.json").then(r => r.json())
 	var metadata = await fetch("data/app-metadata.json").then(r => r.json())
@@ -69,17 +75,24 @@ const loadData = async () => {
 	]
 	var variablePointCosts = await fetch("data/variable-point-cost.json").then(r => r.json())
 	var xwing = new XWing.Data(cards.cards, quickBuilds, metadata, variablePointCosts)
-	var buildsNode = document.getElementById("builds")
+	var ships: XWing.Ship[] = []
 	for (var b = 0; b < xwing.quickBuilds.length; b++) {
 		var build: XWing.QuickBuild = xwing.quickBuilds[b]
 		if (build.ships.length > 0 && build.ships[0].pilot) {
 			for (var s = 0; s < build.ships.length; s++) {
-				buildsNode.appendChild(createShipNode(build.ships[s], title))
+				ships.push(build.ships[s])
 			}
 		} else {
 			console.log("Bad build skipped.")
 			console.log(build)
 		}
+	}
+	console.log("sorting...")
+	ships.sort((a: XWing.Ship, b:XWing.Ship) => layoutHeight(b) - layoutHeight(a))
+	console.log("done")
+	let buildsNode = document.getElementById("builds")
+	for (var s = 0; s < ships.length; s++) {
+		buildsNode.appendChild(createShipNode(ships[s]))
 	}
 }
 
