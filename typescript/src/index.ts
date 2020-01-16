@@ -1,14 +1,23 @@
 /// <reference path="XWing.ts" />
 
 class MainViewModel {
-	selectedFactions: Set<string> = new Set<string>()
+	checkedCheckboxes: Map<string,Set<string>> = new Map()
 
-	selectFaction(id: string) {
-		this.selectedFactions.add(id)
+	isChecked(name: string, value: string) {
+		return this.checkedCheckboxes.has(name) && this.checkedCheckboxes.get(name).has(value)
 	}
 
-	deselectFaction(id: string) {
-		this.selectedFactions.delete(id)
+	select(name: string, value: string) {
+		if (!this.checkedCheckboxes.has(name)) {
+			this.checkedCheckboxes.set(name, new Set())
+		}
+		this.checkedCheckboxes.get(name).add(value)
+	}
+
+	deselect(name: string, value: string) {
+		if (this.checkedCheckboxes.has(name)) {
+			this.checkedCheckboxes.get(name).delete(value)
+		}
 	}
 }
 
@@ -84,7 +93,7 @@ function displayShips() {
 	var ships: XWing.Ship[] = []
 	for (var b = 0; b < xwing.quickBuilds.length; b++) {
 		var build: XWing.QuickBuild = xwing.quickBuilds[b]
-		if (mainViewModel.selectedFactions.has(build.factionId.toString())) {
+		if (mainViewModel.isChecked("faction", build.factionId.toString())) {
 			if (build.ships.length > 0 && build.ships[0].pilot) {
 				for (var s = 0; s < build.ships.length; s++) {
 					ships.push(build.ships[s])
@@ -100,9 +109,45 @@ function displayShips() {
 	console.log("done")
 	let buildsNode = document.getElementById("builds")
 	buildsNode.innerHTML = ''
-	for (var s = 0; s < Math.min(30, ships.length); s++) {
+	for (var s = 0; s < ships.length; s++) {
 		buildsNode.appendChild(createShipNode(ships[s]))
 	}
+}
+
+function handleCheckboxChange(checkboxNode: any) {
+	console.log(checkboxNode)
+	if (checkboxNode.checked) {
+		mainViewModel.select(checkboxNode.name, checkboxNode.value)
+	} else {
+		mainViewModel.deselect(checkboxNode.name, checkboxNode.value)
+	}
+}
+
+function createFilter(key: string, value: string, label: string) {
+	var labelNode = document.createElement('label')
+	let inputNode = document.createElement('input')
+	inputNode.type = "checkbox"
+	inputNode.name = key
+	inputNode.value = value
+	inputNode.onchange = () => handleCheckboxChange(inputNode)
+	labelNode.appendChild(inputNode)
+	labelNode.append(label)
+	return labelNode
+}
+
+function addFiltersToDom() {
+	var filtersNode = document.getElementById("filters")
+	var factionFilter = document.createElement('div')
+	factionFilter.classList.add("filter_layout")
+	factionFilter.appendChild(createFilter("faction", "1", "Rebel Alliance"))
+	factionFilter.appendChild(createFilter("faction", "2", "Galactic Empire"))
+	factionFilter.appendChild(createFilter("faction", "3", "Scum and Villainy"))
+    filtersNode.appendChild(factionFilter)
+	var inputNode = document.createElement('input')
+	inputNode.type = "submit"
+	inputNode.value = "Update"
+	inputNode.onclick = displayShips
+	filtersNode.appendChild(inputNode)
 }
 
 const loadData = async () => {
@@ -115,6 +160,7 @@ const loadData = async () => {
 	]
 	var variablePointCosts = await fetch("data/variable-point-cost.json").then(r => r.json())
 	xwing = new XWing.Data(cards.cards, quickBuilds, metadata, variablePointCosts)
+	addFiltersToDom()
 	displayShips()
 }
 
