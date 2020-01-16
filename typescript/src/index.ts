@@ -94,13 +94,10 @@ function displayShips() {
 	for (var b = 0; b < xwing.quickBuilds.length; b++) {
 		var build: XWing.QuickBuild = xwing.quickBuilds[b]
 		if (mainViewModel.isChecked("faction", build.factionId.toString())) {
-			if (build.ships.length > 0 && build.ships[0].pilot) {
-				for (var s = 0; s < build.ships.length; s++) {
+			for (var s = 0; s < build.ships.length; s++) {
+				if (mainViewModel.isChecked("ship_type", build.ships[s].pilot.shipType.toString())) {
 					ships.push(build.ships[s])
 				}
-			} else {
-				console.log("Bad build skipped.")
-				console.log(build)
 			}
 		}
 	}
