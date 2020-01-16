@@ -265,6 +265,7 @@ namespace XWing {
 		readonly pilot: Pilot
 		readonly upgrades: Upgrade[]
 		readonly totalCost: number
+		buildTitle: string
 
 		constructor(data: Data, faction: FactionId, ship: ShipJson) {
 			this.pilot = data.lookupPilot(ship.pilot, faction, ship.ship)
@@ -276,6 +277,11 @@ namespace XWing {
 			}
 			this.upgrades = newUpgrades
 			this.totalCost = this.pilot ? this.computeTotalCost(data) : 0
+			this.buildTitle = ""
+		}
+
+		setBuildTitle(title: string) {
+			this.buildTitle = title
 		}
 
 		title(): string {
@@ -324,6 +330,7 @@ namespace XWing {
 		readonly faction: FactionId
 		readonly threatLevel: number
 		readonly ships: Ship[]
+		readonly title: string
 
 		constructor(data: Data, build: QuickBuildJson) {
 			this.faction = build.faction_id
@@ -338,6 +345,16 @@ namespace XWing {
 					} else {
 						console.log("Could not convert ship for " + build.ships[i].pilot + " " + build.ships[i].ship) 
 					}
+				}
+				if (newShips.length > 0) {
+					var buildTitle: string = build.threat_level.toString() + ": " + newShips[0].title()
+					for (var s = 1; s < newShips.length; s++) {
+						buildTitle += " + " + newShips[s].title()
+					}
+					this.title = buildTitle
+				}
+				for (var s = 0; s < newShips.length; s++) {
+					newShips[s].setBuildTitle(buildTitle)
 				}
 			} else {
 				console.log("Could not convert ship")

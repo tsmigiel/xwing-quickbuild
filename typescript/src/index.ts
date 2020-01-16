@@ -47,12 +47,12 @@ function addTitle(shipNode: Node, title: string) {
 	shipNode.appendChild(titleNode)
 }
 
-function createShipNode(ship : XWing.Ship, title: string) {
+function createShipNode(ship : XWing.Ship) {
 	var configs = ship.getConfigurationUpgrades()
 	var upgrades = ship.getNonConfigurationUpgrades()
 	var shipNode = document.createElement('div')
 	shipNode.classList.add("layout_ship")
-	addTitle(shipNode, title)
+	addTitle(shipNode, ship.buildTitle)
 	addUpgrades(shipNode, "configuration", configs, upgrades.length < 2 ? 2 : 1)
 	addPilot(shipNode, ship.pilot)
 	addUpgrades(shipNode, "upgrade", upgrades, configs.length > 0 ? 2 : 3)
@@ -73,10 +73,6 @@ const loadData = async () => {
 	for (var b = 0; b < xwing.quickBuilds.length; b++) {
 		var build: XWing.QuickBuild = xwing.quickBuilds[b]
 		if (build.ships.length > 0 && build.ships[0].pilot) {
-			var title: string = build.threatLevel.toString() + ": " + build.ships[0].title()
-			for (var s = 1; s < build.ships.length; s++) {
-				title += " + " + build.ships[s].title()
-			}
 			for (var s = 0; s < build.ships.length; s++) {
 				buildsNode.appendChild(createShipNode(build.ships[s], title))
 			}
