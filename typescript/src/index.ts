@@ -1,5 +1,20 @@
 /// <reference path="XWing.ts" />
 
+class MainViewModel {
+	selectedFactions: Set<string> = new Set<string>()
+
+	selectFaction(id: string) {
+		this.selectedFactions.add(id)
+	}
+
+	deselectFaction(id: string) {
+		this.selectedFactions.delete(id)
+	}
+}
+
+var xwing: XWing.Data
+var mainViewModel: MainViewModel = new MainViewModel()
+
 function createPilotNode(pilot: XWing.Pilot) {
 	var img = document.createElement('img')
 	img.src = pilot.localImageUrl()
@@ -65,6 +80,31 @@ function layoutHeight(ship: XWing.Ship) {
 	return numConfig + numNonConfig < 4 ? 1 : numConfig > 0 ? Math.max(numConfig, numNonConfig / 2) : numNonConfig / 3
 }
 
+function displayShips() {
+	var ships: XWing.Ship[] = []
+	for (var b = 0; b < xwing.quickBuilds.length; b++) {
+		var build: XWing.QuickBuild = xwing.quickBuilds[b]
+		if (mainViewModel.selectedFactions.has(build.factionId.toString())) {
+			if (build.ships.length > 0 && build.ships[0].pilot) {
+				for (var s = 0; s < build.ships.length; s++) {
+					ships.push(build.ships[s])
+				}
+			} else {
+				console.log("Bad build skipped.")
+				console.log(build)
+			}
+		}
+	}
+	console.log("sorting...")
+	ships.sort((a: XWing.Ship, b:XWing.Ship) => layoutHeight(b) - layoutHeight(a))
+	console.log("done")
+	let buildsNode = document.getElementById("builds")
+	buildsNode.innerHTML = ''
+	for (var s = 0; s < Math.min(30, ships.length); s++) {
+		buildsNode.appendChild(createShipNode(ships[s]))
+	}
+}
+
 const loadData = async () => {
 	var cards = await fetch("data/cards.json").then(r => r.json())
 	var metadata = await fetch("data/app-metadata.json").then(r => r.json())
@@ -74,26 +114,8 @@ const loadData = async () => {
 		await fetch("data/quick-build-scum.json").then(r => r.json())
 	]
 	var variablePointCosts = await fetch("data/variable-point-cost.json").then(r => r.json())
-	var xwing = new XWing.Data(cards.cards, quickBuilds, metadata, variablePointCosts)
-	var ships: XWing.Ship[] = []
-	for (var b = 0; b < xwing.quickBuilds.length; b++) {
-		var build: XWing.QuickBuild = xwing.quickBuilds[b]
-		if (build.ships.length > 0 && build.ships[0].pilot) {
-			for (var s = 0; s < build.ships.length; s++) {
-				ships.push(build.ships[s])
-			}
-		} else {
-			console.log("Bad build skipped.")
-			console.log(build)
-		}
-	}
-	console.log("sorting...")
-	ships.sort((a: XWing.Ship, b:XWing.Ship) => layoutHeight(b) - layoutHeight(a))
-	console.log("done")
-	let buildsNode = document.getElementById("builds")
-	for (var s = 0; s < ships.length; s++) {
-		buildsNode.appendChild(createShipNode(ships[s]))
-	}
+	xwing = new XWing.Data(cards.cards, quickBuilds, metadata, variablePointCosts)
+	displayShips()
 }
 
 loadData()
