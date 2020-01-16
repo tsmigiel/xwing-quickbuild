@@ -11,7 +11,7 @@ namespace XWing {
 		Large = 3,
 	}
 
-	enum Faction {
+	enum FactionId {
 		RebelAlliance = 1,
 		GalacticEmpire = 2,
         ScumAndVillainy = 3,
@@ -175,7 +175,7 @@ namespace XWing {
 		card_type_id: CardType
 		statistics: CardStatJson[]
 		cost: string
-		faction_id: Faction
+		faction_id: FactionId
 		ship_type: ShipType
 		ship_size: ShipSize
 		initiative: number
@@ -189,7 +189,7 @@ namespace XWing {
 
 	interface QuickBuildJson {
 		threat_level: number
-		faction_id: Faction
+		faction_id: FactionId
 		ships: ShipJson[]
 	}
 
@@ -249,7 +249,7 @@ namespace XWing {
 			return false
 		}
 
-		isFactionOk(faction: Faction): boolean {
+		isFactionOk(faction: FactionId): boolean {
 			return this.isRestrictionOk("FACTION", (restriction: any) => restriction.kwargs.pk == faction)
 		}
 
@@ -259,7 +259,7 @@ namespace XWing {
 	}
 
 	export class Pilot extends Card {
-		readonly faction: Faction;
+		readonly faction: FactionId;
 		readonly shipType: ShipType;
 		readonly shipSize: ShipSize;
 		readonly initiative: number;
@@ -274,7 +274,7 @@ namespace XWing {
 			this.agility = parseInt(pilot.statistics.find((stat: CardStatJson) => stat.statistic_id == CardStat.Agility).value)
 		}
 
-		isFaction(faction: Faction): boolean {
+		isFaction(faction: FactionId): boolean {
 			return this.faction == faction
 		}
 	}
@@ -284,7 +284,7 @@ namespace XWing {
 		readonly upgrades: Upgrade[]
 		readonly totalCost: number
 
-		constructor(data: Data, faction: Faction, ship: ShipJson) {
+		constructor(data: Data, faction: FactionId, ship: ShipJson) {
 			this.pilot = data.lookupPilot(ship.pilot, faction, ship.ship)
 			var newUpgrades: Upgrade[] = new Array()
 			if (this.pilot && ship.upgrades) {
@@ -339,7 +339,7 @@ namespace XWing {
 	}
 
 	export class QuickBuild {
-		readonly faction: Faction
+		readonly faction: FactionId
 		readonly threatLevel: number
 		readonly ships: Ship[]
 
@@ -433,20 +433,20 @@ namespace XWing {
 			return null
 		}
 
-		checkPilot(pilot: Pilot, faction: Faction, shipType: ShipType): boolean {
+		checkPilot(pilot: Pilot, faction: FactionId, shipType: ShipType): boolean {
 			return pilot.isFaction(faction) && pilot.shipType == shipType
 		}
 
-		lookupPilot(name: string, faction: Faction, shipTypeName: string): Pilot {
+		lookupPilot(name: string, faction: FactionId, shipTypeName: string): Pilot {
 			let shipType = this.lookupShipTypeId(shipTypeName)
 			return this.lookup(name, (pilot: Pilot) => this.checkPilot(pilot, faction, shipType), this.pilots, "pilot")
 		}
 
-		checkUpgrade(upgrade: Upgrade, upgradeType: UpgradeType, faction: Faction, shipType: ShipType): boolean {
+		checkUpgrade(upgrade: Upgrade, upgradeType: UpgradeType, faction: FactionId, shipType: ShipType): boolean {
 			return upgrade.isUpgradeType(upgradeType) && upgrade.isFactionOk(faction) && upgrade.isShipTypeOk(shipType)
 		}
 
-		lookupUpgrade(query: UpgradeAndTypeJson, faction: Faction, shipType: ShipType): Upgrade {
+		lookupUpgrade(query: UpgradeAndTypeJson, faction: FactionId, shipType: ShipType): Upgrade {
 			return this.lookup(query.name, (upgrade: Upgrade) => this.checkUpgrade(upgrade, query.upgrade_type, faction, shipType), this.upgrades, "upgrade")
 		}
 
