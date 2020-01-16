@@ -1,3 +1,8 @@
+/// <referenc path="xwing/cards.js"></script>
+/// <referenc path="xwing/cards_extensions.js"></script>
+/// <referenc path="xwing/metadata.js"></script>
+/// <referenc path="xwing/quick-build.js"></script>
+/// <referenc path="xwing/variable-point-cost.js"></script>
 namespace XWing {
 
 	enum CardType {
@@ -123,29 +128,6 @@ namespace XWing {
 		Hyena_class_Droid_Bomber = 66,
 		Nantex_class_Starfighter = 67,
 		BTL_B_Y_wing = 68,
-	}
-
-	interface VariablePointCostJson {
-		name: string
-		type: string
-		costs: number[]
-		upgradeType: UpgradeType
-	}
-
-	interface MetaCardStatJson {
-		readonly id: CardStat
-		readonly name: string
-	}
-
-	interface MetaShipTypeJson {
-		readonly id: ShipType
-		readonly name: string
-		readonly icon: string
-	}
-
-	interface MetadataJson {
-		ship_types: MetaShipTypeJson[]
-		card_stats: MetaCardStatJson[]
 	}
 
 	interface UpgradeAndTypeJson {
@@ -310,7 +292,7 @@ namespace XWing {
 				return 1000
 			}
 			if (upgrade.cost == -1) {
-				var variablePointCost: VariablePointCostJson = data.lookupVariablePointCost(upgrade.name)
+				var variablePointCost: Json.VariablePointCost = data.lookupVariablePointCost(upgrade.name)
 				if (variablePointCost) {
 					switch (variablePointCost.type) {
 						case "SHIP_SIZE":
@@ -369,10 +351,10 @@ namespace XWing {
 		readonly pilots: Pilot[]
 		readonly upgrades: Upgrade[]
 		readonly quickBuilds: QuickBuild[]
-		readonly metadata: MetadataJson
-		readonly variablePointCosts: VariablePointCostJson[]
+		readonly metadata: Json.Metadata
+		readonly variablePointCosts: Json.VariablePointCost[]
 
-		constructor(cards: Array<PilotCardJson|UpgradeCardJson>, quickbuilds: QuickBuildsJson[], metadata: MetadataJson, variablePointCosts: VariablePointCostJson[]) {
+		constructor(cards: Array<PilotCardJson|UpgradeCardJson>, quickbuilds: QuickBuildsJson[], metadata: Json.Metadata, variablePointCosts: Json.VariablePointCost[]) {
 			this.metadata = metadata
 			this.variablePointCosts = variablePointCosts
 			var newPilots: Pilot[] = new Array()
@@ -451,7 +433,7 @@ namespace XWing {
 		}
 
 		lookupShipTypeId(name: string): ShipType {
-			var result: MetaShipTypeJson = this.metadata.ship_types.find((ship: MetaShipTypeJson) => ship.name == name)
+			var result: Json.ShipType = this.metadata.ship_types.find((ship: Json.ShipType) => ship.name == name)
 			if (!result) {
 				console.log("No matching ship type for: " + name)
 				return null
@@ -461,7 +443,7 @@ namespace XWing {
 		}
 
 		lookupVariablePointCost(upgradeName: string) {
-			return this.variablePointCosts.find((variablePointCost: VariablePointCostJson) => variablePointCost.name == upgradeName)
+			return this.variablePointCosts.find((variablePointCost: Json.VariablePointCost) => variablePointCost.name == upgradeName)
 		}
 	}
 }
