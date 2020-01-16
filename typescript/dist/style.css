@@ -12,12 +12,10 @@
     }
 }
 
-/*
-.filter {
+.filter_layout {
 	display: grid;
-	grid-auto-flow: row;
+	grid-template-columns: auto auto auto auto
 }
-*/
 
 #builds {
 	/* Setting display here breaks printing. */

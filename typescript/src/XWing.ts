@@ -342,8 +342,6 @@ namespace XWing {
 					if (newShip.pilot) {
 						newShips.push(newShip)
 						console.log("Converted ship for " + build.ships[i].pilot + " " + build.ships[i].ship) 
-					} else {
-						console.log("Could not convert ship for " + build.ships[i].pilot + " " + build.ships[i].ship) 
 					}
 				}
 				if (newShips.length > 0) {
@@ -356,11 +354,12 @@ namespace XWing {
 				for (var s = 0; s < newShips.length; s++) {
 					newShips[s].setBuildTitle(buildTitle)
 				}
-			} else {
-				console.log("Could not convert ship")
-				console.log(build)
 			}
 			this.ships = newShips
+		}
+
+		isValid(): boolean {
+			return this.ships.length > 0 && this.ships.reduce<boolean>((acc: boolean, ship: Ship) => (ship.pilot ? acc : false), true)
 		}
 	}
 
@@ -388,7 +387,13 @@ namespace XWing {
 			var newQuickBuilds: QuickBuild[] = new Array()
 			for (var i = 0; i < quickbuilds.length; i++) {
 				for (var j = 0; j < quickbuilds[i].builds.length; j++) {
-					newQuickBuilds.push(new QuickBuild(this, quickbuilds[i].builds[j]))
+					var newBuild = new QuickBuild(this, quickbuilds[i].builds[j])
+					if (newBuild.isValid()) {
+						newQuickBuilds.push(newBuild)
+					} else {
+						console.log("Failed to create QuickBuild.")
+						console.log(quickbuilds[i].builds[j])
+					}
 				}
 			}
 			this.quickBuilds = newQuickBuilds
@@ -460,6 +465,28 @@ namespace XWing {
 
 		lookupVariablePointCost(upgradeName: string) {
 			return this.variablePointCosts.find((variablePointCost: Json.VariablePointCost) => variablePointCost.name == upgradeName)
+		}
+
+		availableFactions(): FactionId[] {
+			var factionIds: Set<FactionId> = this.quickBuilds.reduce((acc, build) => acc.add(build.factionId), new Set<FactionId>())
+			return [...factionIds].sort()
+		}
+
+		lookupFactionMetadata(factionId: FactionId): Json.Faction {
+			return this.metadata.factions.find((faction: Json.Faction) => faction.id == factionId)
+		}
+
+		availableShipTypes(): ShipType[] {
+			let shipTypes: Set<ShipType> = new Set()
+			this.quickBuilds.forEach(function(item: QuickBuild) {
+				item.ships.reduce((acc, ship) => acc.add(ship.pilot.shipType), shipTypes)
+			})
+			console.log(shipTypes)
+			return [...shipTypes]
+		}
+
+		lookupShipTypeMetadata(shipTypeId: ShipType): Json.ShipType {
+			return this.metadata.ship_types.find((shipType: Json.ShipType) => shipType.id == shipTypeId)
 		}
 	}
 }

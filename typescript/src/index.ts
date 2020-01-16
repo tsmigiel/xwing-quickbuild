@@ -131,18 +131,29 @@ function createFilter(key: string, value: string, label: string) {
 	inputNode.value = value
 	inputNode.onchange = () => handleCheckboxChange(inputNode)
 	labelNode.appendChild(inputNode)
-	labelNode.append(label)
+	let spanNode = document.createElement('span')
+	spanNode.innerHTML = label.replace(/\bitalic\b/g, "i")
+	labelNode.appendChild(spanNode)
 	return labelNode
 }
 
 function addFiltersToDom() {
 	var filtersNode = document.getElementById("filters")
-	var factionFilter = document.createElement('div')
+	let factionFilter = document.createElement('div')
 	factionFilter.classList.add("filter_layout")
-	factionFilter.appendChild(createFilter("faction", "1", "Rebel Alliance"))
-	factionFilter.appendChild(createFilter("faction", "2", "Galactic Empire"))
-	factionFilter.appendChild(createFilter("faction", "3", "Scum and Villainy"))
+	xwing.availableFactions().forEach(function (item, index, array) {
+		factionFilter.appendChild(createFilter("faction", item.toString(), xwing.lookupFactionMetadata(item).name))
+	})
     filtersNode.appendChild(factionFilter)
+	let shipTypeFilter = document.createElement('div')
+	shipTypeFilter.classList.add("filter_layout")
+	xwing.availableShipTypes()
+		.map((item: number) => xwing.lookupShipTypeMetadata(item))
+		.sort((a: XWing.Json.ShipType, b: XWing.Json.ShipType) => a.name.replace(/<italic>/g, "").localeCompare(b.name.replace(/<italic>/g, "")))
+		.forEach(function (item, index, array) {
+			shipTypeFilter.appendChild(createFilter("ship_type", item.id.toString(), item.name))
+		})
+    filtersNode.appendChild(shipTypeFilter)
 	var inputNode = document.createElement('input')
 	inputNode.type = "submit"
 	inputNode.value = "Update"
