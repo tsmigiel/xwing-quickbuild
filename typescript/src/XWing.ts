@@ -231,8 +231,8 @@ namespace XWing {
 			return false
 		}
 
-		isFactionOk(faction: FactionId): boolean {
-			return this.isRestrictionOk("FACTION", (restriction: any) => restriction.kwargs.pk == faction)
+		isFactionOk(factionId: FactionId): boolean {
+			return this.isRestrictionOk("FACTION", (restriction: any) => restriction.kwargs.pk == factionId)
 		}
 
 		isShipTypeOk(shipType: ShipType): boolean {
@@ -241,7 +241,7 @@ namespace XWing {
 	}
 
 	export class Pilot extends Card {
-		readonly faction: FactionId;
+		readonly factionId: FactionId;
 		readonly shipType: ShipType;
 		readonly shipSize: ShipSize;
 		readonly initiative: number;
@@ -249,15 +249,15 @@ namespace XWing {
 
 		constructor(pilot: PilotCardJson) {
 			super(pilot)
-			this.faction = pilot.faction_id;
+			this.factionId = pilot.faction_id;
 			this.shipType = pilot.ship_type;
 			this.shipSize = pilot.ship_size;
 			this.initiative = pilot.initiative;
 			this.agility = parseInt(pilot.statistics.find((stat: CardStatJson) => stat.statistic_id == CardStat.Agility).value)
 		}
 
-		isFaction(faction: FactionId): boolean {
-			return this.faction == faction
+		isFaction(factionId: FactionId): boolean {
+			return this.factionId == factionId
 		}
 	}
 
@@ -267,12 +267,12 @@ namespace XWing {
 		readonly totalCost: number
 		buildTitle: string
 
-		constructor(data: Data, faction: FactionId, ship: ShipJson) {
-			this.pilot = data.lookupPilot(ship.pilot, faction, ship.ship)
+		constructor(data: Data, factionId: FactionId, ship: ShipJson) {
+			this.pilot = data.lookupPilot(ship.pilot, factionId, ship.ship)
 			var newUpgrades: Upgrade[] = new Array()
 			if (this.pilot && ship.upgrades) {
 				for (var i = 0; i < ship.upgrades.length; i++) { 
-					newUpgrades.push(data.lookupUpgrade(ship.upgrades[i], faction, this.pilot.shipType))
+					newUpgrades.push(data.lookupUpgrade(ship.upgrades[i], factionId, this.pilot.shipType))
 				}
 			}
 			this.upgrades = newUpgrades
@@ -327,18 +327,18 @@ namespace XWing {
 	}
 
 	export class QuickBuild {
-		readonly faction: FactionId
+		readonly factionId: FactionId
 		readonly threatLevel: number
 		readonly ships: Ship[]
 		readonly title: string
 
 		constructor(data: Data, build: QuickBuildJson) {
-			this.faction = build.faction_id
+			this.factionId = build.faction_id
 			this.threatLevel = build.threat_level
 			var newShips: Ship[] = new Array<Ship>()
 			if (build.ships) {
 				for (var i = 0; i < build.ships.length; i++) {
-					var newShip = new Ship(data, this.faction, build.ships[i])
+					var newShip = new Ship(data, this.factionId, build.ships[i])
 					if (newShip.pilot) {
 						newShips.push(newShip)
 						console.log("Converted ship for " + build.ships[i].pilot + " " + build.ships[i].ship) 
@@ -431,21 +431,21 @@ namespace XWing {
 			return null
 		}
 
-		checkPilot(pilot: Pilot, faction: FactionId, shipType: ShipType): boolean {
-			return pilot.isFaction(faction) && pilot.shipType == shipType
+		checkPilot(pilot: Pilot, factionId: FactionId, shipType: ShipType): boolean {
+			return pilot.isFaction(factionId) && pilot.shipType == shipType
 		}
 
-		lookupPilot(name: string, faction: FactionId, shipTypeName: string): Pilot {
+		lookupPilot(name: string, factionId: FactionId, shipTypeName: string): Pilot {
 			let shipType = this.lookupShipTypeId(shipTypeName)
-			return this.lookup(name, (pilot: Pilot) => this.checkPilot(pilot, faction, shipType), this.pilots, "pilot")
+			return this.lookup(name, (pilot: Pilot) => this.checkPilot(pilot, factionId, shipType), this.pilots, "pilot")
 		}
 
-		checkUpgrade(upgrade: Upgrade, upgradeType: UpgradeType, faction: FactionId, shipType: ShipType): boolean {
-			return upgrade.isUpgradeType(upgradeType) && upgrade.isFactionOk(faction) && upgrade.isShipTypeOk(shipType)
+		checkUpgrade(upgrade: Upgrade, upgradeType: UpgradeType, factionId: FactionId, shipType: ShipType): boolean {
+			return upgrade.isUpgradeType(upgradeType) && upgrade.isFactionOk(factionId) && upgrade.isShipTypeOk(shipType)
 		}
 
-		lookupUpgrade(query: UpgradeAndTypeJson, faction: FactionId, shipType: ShipType): Upgrade {
-			return this.lookup(query.name, (upgrade: Upgrade) => this.checkUpgrade(upgrade, query.upgrade_type, faction, shipType), this.upgrades, "upgrade")
+		lookupUpgrade(query: UpgradeAndTypeJson, factionId: FactionId, shipType: ShipType): Upgrade {
+			return this.lookup(query.name, (upgrade: Upgrade) => this.checkUpgrade(upgrade, query.upgrade_type, factionId, shipType), this.upgrades, "upgrade")
 		}
 
 		lookupShipTypeId(name: string): ShipType {
