@@ -1,9 +1,21 @@
 /// <reference path="XWing.ts" />
 
+interface LayoutSize {
+	width: number
+	height: number
+	configWidth: number
+	configHeight: number
+	nonConfigWidth: number
+	nonConfigHeight: number
+}
+
 class MainViewModel {
 	checkedCheckboxes: Map<string,Set<string>> = new Map()
 
-	isChecked(name: string, value: string) {
+	isChecked(name: string, value: string, resultForEmpty: boolean) {
+		if (!this.checkedCheckboxes.has(name) || this.checkedCheckboxes.get(name).size == 0) {
+			return resultForEmpty
+		}
 		return this.checkedCheckboxes.has(name) && this.checkedCheckboxes.get(name).has(value)
 	}
 
@@ -93,9 +105,9 @@ function displayShips() {
 	var ships: XWing.Ship[] = []
 	for (var b = 0; b < xwing.quickBuilds.length; b++) {
 		var build: XWing.QuickBuild = xwing.quickBuilds[b]
-		if (mainViewModel.isChecked("faction", build.factionId.toString())) {
+		if (mainViewModel.isChecked("faction", build.factionId.toString(), false)) {
 			for (var s = 0; s < build.ships.length; s++) {
-				if (mainViewModel.isChecked("ship_type", build.ships[s].pilot.shipType.toString())) {
+				if (mainViewModel.isChecked("ship_type", build.ships[s].pilot.shipType.toString(), true)) {
 					ships.push(build.ships[s])
 				}
 			}
