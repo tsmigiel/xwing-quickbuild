@@ -254,15 +254,27 @@ function getFilterItemsByExtension(factionId: XWing.FactionId): FilterItem[] {
 		.map((extensionId: number) => xwing.lookupExtension(extensionId))
 }
 
+function toggleVisibility(title: string, titleNode: any, element: any) {
+	if (element.style.display == "none") {
+		element.style.display = "grid"
+		titleNode.innerHTML = "[-] " + title
+	} else {
+		element.style.display = "none"
+		titleNode.innerHTML = "[+] " + title
+	}
+}
+
 function addFiltersByFaction(filtersNode: Element, factions: XWing.Json.Faction[], title: string, section: string, getFilterItems: any) {
 	var filterNode = document.createElement('div')
 	var titleNode = document.createElement('div')
 	filterNode.classList.add("filter_layout")
 	titleNode.classList.add("filter_section_title")
-	titleNode.innerHTML = title
+	titleNode.innerHTML = "[+] "+ title
 	filtersNode.appendChild(titleNode)
-	var sectionNode = document.createElement('div')
+	let sectionNode = document.createElement('div')
 	sectionNode.classList.add("filter_subsection")
+	sectionNode.style.display = "none"
+	titleNode.onclick = () => toggleVisibility(title, titleNode, sectionNode)
 	for (var f = 0; f < factions.length; f++) {
 		sectionNode.appendChild(createFilterTitle(factions[f].name))
 		sectionNode.appendChild(createFilterCheckboxes(section, getFilterItems(factions[f].id)))
