@@ -242,36 +242,40 @@ function createFilter(title: string, section: string, items: FilterItem[]): Node
 	return filterNode
 }
 
-function factionIdToFilterItem(factionId: XWing.FactionId): FilterItem {
-    return { "id": factionId, "name": xwing.lookupFactionMetadata(factionId).name }
+function getFilterItemsByShipType(factionId: XWing.FactionId): FilterItem[] {
+	return xwing.availableShipTypes(factionId)
+		.map((item: number) => xwing.lookupShipTypeMetadata(item))
+		.sort((a: XWing.Json.ShipType, b: XWing.Json.ShipType) => a.name.replace(/<italic>/g, "").localeCompare(b.name.replace(/<italic>/g, "")))
 }
 
-function addFiltersToDom() {
-	var filtersNode = document.getElementById("filters")
-	var factionIds: XWing.FactionId[] = xwing.availableFactions().sort()
-	filtersNode.appendChild(createFilter("Factions", "faction", factionIds.map(factionIdToFilterItem)))
-	for (var f = 0; f < factionIds.length; f++) {
-		var faction: XWing.Json.Faction = xwing.lookupFactionMetadata(factionIds[f])
-		var shipTypeItems: FilterItem[] =
-			xwing.availableShipTypes(factionIds[f])
-				.map((item: number) => xwing.lookupShipTypeMetadata(item))
-				.sort((a: XWing.Json.ShipType, b: XWing.Json.ShipType) => a.name.replace(/<italic>/g, "").localeCompare(b.name.replace(/<italic>/g, "")))
-		filtersNode.appendChild(createFilter(faction.name + " ship types", "ship_type", shipTypeItems))
+function getFilterItemsByExtension(factionId: XWing.FactionId): FilterItem[] {
+	return xwing.availableExtensions(factionId)
+		.sort()
+		.map((extensionId: number) => xwing.lookupExtension(extensionId))
+}
+
+function addFiltersByFaction(filtersNode: Node, factions: XWing.Json.Faction[], title: string, section: string, getFilterItems: any) {
+	for (var f = 0; f < factions.length; f++) {
+		filtersNode.appendChild(createFilter(factions[f].name + " " + title, section, getFilterItems(factions[f].id)))
 	}
-	for (var f = 0; f < factionIds.length; f++) {
-		var faction: XWing.Json.Faction = xwing.lookupFactionMetadata(factionIds[f])
-		var extensionItems: FilterItem[] =
-			xwing.availableExtensions(factionIds[f])
-		        .sort()
-				.map((extensionId: number) => xwing.lookupExtension(extensionId))
-		filtersNode.appendChild(createFilter(faction.name + " extensions (2nd ed. only)", "extension", extensionItems))
-	}
+}
+
+function createUpdateButton() {
 	var inputNode = document.createElement('input')
 	inputNode.classList.add("filter_update")
 	inputNode.type = "submit"
 	inputNode.value = "Update"
 	inputNode.onclick = displayShips
-	filtersNode.appendChild(inputNode)
+	return inputNode
+}
+
+function addFiltersToDom() {
+	var filtersNode = document.getElementById("filters")
+	var factions: XWing.Json.Faction[] = xwing.availableFactions().sort().map((id: XWing.FactionId) => xwing.lookupFactionMetadata(id))
+	filtersNode.appendChild(createFilter("Factions", "faction", factions))
+	addFiltersByFaction(filtersNode, factions, "Ship Types", "ship_type", getFilterItemsByShipType)
+	addFiltersByFaction(filtersNode, factions, "Extensions (2nd ed. only)", "extension", getFilterItemsByExtension)
+	filtersNode.appendChild(createUpdateButton())
 }
 
 const loadData = async () => {
