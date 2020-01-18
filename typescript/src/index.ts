@@ -22,7 +22,7 @@ class MainViewModel {
 	    var shouldDisplayShipTypes: boolean = build.ships.reduce((acc: boolean, ship: XWing.Ship) => acc || this.shouldDisplayShipByShipType(ship), false)
 	    var shouldDisplayExtensions: boolean = build.ships.reduce((acc: boolean, ship: XWing.Ship) => acc || this.shouldDisplayShipByExtension(ship), false)
 		return shouldDisplayFaction && shouldDisplayShipTypes && shouldDisplayExtensions
-	} 
+	}
 
 	shouldDisplayShipByShipType(ship: XWing.Ship){
 		return this.isChecked("ship_type", ship.pilot.shipType.toString(), true)
@@ -252,7 +252,7 @@ function addFiltersToDom() {
 	filtersNode.appendChild(createFilter("Factions", "faction", factionIds.map(factionIdToFilterItem)))
 	for (var f = 0; f < factionIds.length; f++) {
 		var faction: XWing.Json.Faction = xwing.lookupFactionMetadata(factionIds[f])
-		var shipTypeItems: FilterItem[] = 
+		var shipTypeItems: FilterItem[] =
 			xwing.availableShipTypes(factionIds[f])
 				.map((item: number) => xwing.lookupShipTypeMetadata(item))
 				.sort((a: XWing.Json.ShipType, b: XWing.Json.ShipType) => a.name.replace(/<italic>/g, "").localeCompare(b.name.replace(/<italic>/g, "")))
@@ -260,7 +260,7 @@ function addFiltersToDom() {
 	}
 	for (var f = 0; f < factionIds.length; f++) {
 		var faction: XWing.Json.Faction = xwing.lookupFactionMetadata(factionIds[f])
-		var extensionItems: FilterItem[] = 
+		var extensionItems: FilterItem[] =
 			xwing.availableExtensions(factionIds[f])
 		        .sort()
 				.map((extensionId: number) => xwing.lookupExtension(extensionId))

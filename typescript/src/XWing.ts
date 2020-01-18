@@ -251,7 +251,7 @@ namespace XWing {
 			this.pilot = data.lookupPilot(ship.pilot, factionId, ship.ship)
 			var newUpgrades: Upgrade[] = new Array()
 			if (this.pilot && ship.upgrades) {
-				for (var i = 0; i < ship.upgrades.length; i++) { 
+				for (var i = 0; i < ship.upgrades.length; i++) {
 					newUpgrades.push(data.lookupUpgrade(ship.upgrades[i], factionId, this.pilot.shipType))
 				}
 			}
