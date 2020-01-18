@@ -1,155 +1,174 @@
-Quick Build Reference
 © & ™ Lucasfilm Ltd.
-First Order
+Quick Build Reference
+Resistance
 ship pilot upgrades threat
-This reference contains the X-Wing Second Edition Quick Build options for the First Order faction.
+This reference contains the X-Wing Second Edition Quick Build options for the Rebel Alliance faction.
 These predefined selections of pilots and upgrades help you quickly assemble squadrons and get
 flying. Each option consists of a ship card, a number of upgrade cards, and a threat level. To play
 a match using the Quick Build options, you just need to agree to a particular threat level with your
 opponent, choose a combination of options that add up to that threat level, and launch your fighters!
-TIE/fo Fighter
-SWZ26 •“Midnight” 󲁙 Afterburners
-TIE/fo Fighter
-SWZ26 •“Static” 󲁋 Outmaneuver
-TIE/fo Fighter
-SWZ26
-Omega Squadron Ace
+RZ-2 A-wing
+SWZ22 •L’ulo L’ampar
+󲁛 Primed Thrusters
+󲁐 Homing Missiles
+RZ-2 A-wing
+SWZ22 •Greer Sonnel
 󲁋 Elusive
-󲁋 Fanatical
+󲁙 Afterburners
+RZ-2 A-wing
+SWZ22
+Green Squadron Expert
+󲁋 Heroic
+󲁛 Primed Thrusters
 󲁙 Hull Upgrade
-TIE/fo Fighter
-SWZ26 •“Scorch”
-󲁋 Fanatical
-󲁙 Hull Upgrade
-TIE/fo Fighter
-SWZ26 •“Longshot”
-󲁋 Elusive
+RZ-2 A-wing
+SWZ22 •Tallissan Lintra
 󲁋 Predator
-TIE/fo Fighter
-SWZ26
-Zeta Squadron Pilot
-󲁛 Advanced Optics
+󲁛 Ferrosphere Paint
+RZ-2 A-wing
+SWZ22 •Zari Bangel
+󲁋 Outmaneuver
+󲁐 Proton Rockets
+RZ-2 A-wing
+SWZ22
+Blue Squadron Recruit
+󲁋 Primed Thrusters
+󲁐 Homing Missiles
 󲁙 Shield Upgrade
-TIE/fo Fighter
-SWZ26 •“Muse”
-󲁋 Squad Leader
-󲁛 Advanced Optics
-TIE/fo Fighter
-SWZ26 •“Null”
-󲁋 Swarm Tactics
+T-70 X-wing
+SWZ25 •Poe Dameron
+󲁏 Proton Torpedoes
+󲁔 BB-8
+󲁚 Black One
+󲈡 Integrated S-foils
 󲁙 Afterburners
-󲁙 Shield Upgrade
-TIE/fo Fighter
-SWZ26
-Epsilon Squadron
-Cadet
-󲁛 Targeting Synchronizer
-󲁙 Afterburners
-TIE/fo Fighter
-SWZ26 •Commander Malarus 󲁛 Advanced Optics
-TIE/fo Fighter
-SWZ26 •TN-3465
-󲁛 Targeting Synchronizer
-󲁙 Shield Upgrade
+T-70 X-wing
+SWZ25 •Jessika Pava
+󲁔 R5 Astromech
+󲈡 Integrated S-foils
+󲁙 Hull Upgrade
+T-70 X-wing
+SWZ25
+Black Squadron Ace
+󲁏 Proton Torpedoes
+󲁔 M9-G8
+󲈡 Integrated S-foils
 Quick Build Reference
 ship pilot upgrades threat
-TIE/fo Fighter
-SWZ26 •Lieutenant Rivas
-TIE/sf Fighter
-SWZ18 •“Quickdraw”
-󲁋 Juke
-󲁌 Collision Detector
-󲈦 Hotshot Gunner
-󲁙 Afterburners
-󲁙 Shield Upgrade
-TIE/sf Fighter
-SWZ18
-Zeta Squadron Survivor
-󲁛 Pattern Analyzer
-󲁐 Ion Missiles
-󲈦 Special Forces Gunner
-TIE/sf Fighter
-SWZ18 •“Backdraft”
-󲁛 Pattern Analyzer
-󲁌 Collision Detector
-󲁐 Ion Missiles
-󲈦 Special Forces Gunner
-󲁙 Shield Upgrade
-TIE/sf Fighter
-SWZ18
-Omega Squadron Expert
-󲁋 Juke
-󲈦 Special Forces Gunner
-TIE/vn Silencer
-SWZ18 •Kylo Ren
-󲈢 Hate
-󲈢 Predictive Shot
-󲁛 Primed Thrusters
-󲁏 Adv. Proton Torpedoes
-TIE/vn Silencer
-SWZ18 •“Recoil”
-󲁋 Predator
-󲁏 Proton Torpedoes
-TIE/vn Silencer
-SWZ18
-First Order Test Pilot
-󲁋 Outmaneuver
-󲁙 Hull Upgrade
-TIE/vn Silencer
-SWZ18 •“Blackout”
+T-70 X-wing
+SWZ25 •Ello Asty
 󲁋 Elusive
+󲈡 Integrated S-foils
 󲁙 Afterburners
-TIE/vn Silencer
-SWZ18 •“Avenger”
-󲁛 Primed Thrusters
-󲁏 Adv. Proton Torpedoes
-TIE/vn Silencer
-SWZ18
-Sienar-Jaemus Engineer
-Upsilon-class
-Shuttle
-SWZ18
-•Lieutenant Tavson
-󲁌 Advanced Sensors
-󲁍 Ion Cannon
-󲁒 Kylo Ren
-󲁒󲁒 Supreme Leader
-Snoke
+T-70 X-wing
+SWZ25 •Joph Seastriker
+󲁔 R2 Astromech
+󲈡 Integrated S-foils
 󲁙 Shield Upgrade
+T-70 X-wing
+SWZ25 •Jaycris Tubbs
+T-70 X-wing
+SWZ25 •Nien Nunb
+󲁋 Elusive
+󲈡 Integrated S-foils
+󲁙 Afterburners
+T-70 X-wing
+SWZ25 •Lieutenant Bastian
+󲁛 Targeting Synchronizer
+󲁏 Proton Torpedoes
+󲁔 R3 Astromech
+󲈡 Integrated S-foils
+T-70 X-wing
+SWZ25
+Red Squadron Expert
+T-70 X-wing
+SWZ25 •Temmin Wexley
+󲁋 Outmaneuver
+󲁏 Proton Torpedoes
+󲈡 Integrated S-foils
+T-70 X-wing
+SWZ25 •Karé Kun
+󲁋 Predator
+󲈡 Integrated S-foils
+󲁙 Afterburners
+T-70 X-wing
+SWZ25
+Blue Squadron Rookie 󲁔 BB Astromech
+MG-100
+StarFortress
+SWZ19
+•Finch Dallow
+󲁛 Advanced Optics
+󲈦 Paige Tico
+󲁖 Proton Bombs
+󲁙 Ablative Plating
+󲁙 Hull Upgrade
+MG-100
+StarFortress
+SWZ19
+•Cat
+󲈦 Skilled Bombardier
+󲁖 Conner Nets
+󲁙 Electronic Baffle
+MG-100
+StarFortress
+SWZ19
+Cobalt Squadron
+Bomber
+󲁌 Trajectory Simulator
+󲁖 Proton Bombs
+󲁙 Ablative Plating
 Quick Build Reference
 ship pilot upgrades threat
 © & ™ Lucasfilm Ltd. The FFG logo is a ® of Fantasy Flight Games. Permission granted to print and photocopy for personal use.
-Upsilon-class
-Shuttle
-SWZ18
-•Lieutenant Dormitz
-󲁛 Biohexacrypt Codes
-󲁛 Hyperspace Tracking
-Data
-󲁍 Tractor Beam
-Upsilon-class
-Shuttle
-SWZ18
-Starkiller Base Pilot
-Upsilon-class
-Shuttle
-SWZ18
-•Major Stridan
-󲁛 Biohexacrypt Codes
+MG-100
+StarFortress
+SWZ19
+•Edon Kappehl
 󲁛 Pattern Analyzer
-󲁍 Tractor Beam
-󲁒 Captain Phasma
-󲁒 General Hux
-Upsilon-class
-Shuttle
-SWZ18
-•Captain Cardinal
-󲁍 Ion Cannon
-󲁒 Petty Officer Thanisson
-Upsilon-class
-Shuttle
-SWZ18
-•Petty Officer
-Thanisson
-󲁒 Captain Phasma
-󲁙 Tactical Scrambler
+󲁒 Seasoned Navigator
+󲈦 Skilled Bombardier
+󲁖 Conner Nets
+󲁖 Proton Bombs
+MG-100
+StarFortress
+SWZ19
+•Vennie
+󲁛 Advanced Optics
+󲁒 Rose Tico
+󲈦 Finn
+󲁙 Shield Upgrade
+MG-100
+StarFortress
+SWZ19
+•Ben Teene
+󲁖 Conner Nets
+󲁖 Proton Bombs
+Scavenged
+YT-1300
+SWZ19
+•Han Solo 󲁒 Chewbacca
+Scavenged
+YT-1300
+SWZ19
+•Rey
+󲈦 Finn
+󲁔 BB-8
+󲁘 Inertial Dampeners
+󲁙 Engine Upgrade
+󲁚 Rey’s Millennium Falcon
+Scavenged
+YT-1300
+SWZ19
+•Chewbacca
+󲈦 Rey
+󲁙 Engine Upgrade
+󲁚 Rey’s Millennium Falcon
+Scavenged
+YT-1300
+SWZ19
+Resistance Sympathizer
+󲁋 Debris Gambit
+󲁒 C-3PO
+󲁒 Chewbacca
+󲁒 Han Solo

@@ -202,5 +202,33 @@
             32
         ],
         "upgradeType": "Force Power"
+    },
+    {
+        "name": "BB Astromech",
+        "type": "INITIATIVE",
+        "costs": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "upgradeType": "Astromech"
+    },
+    {
+        "name": "•BB-8",
+        "type": "INITIATIVE",
+        "costs": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "upgradeType": "Astromech"
     }
 ]

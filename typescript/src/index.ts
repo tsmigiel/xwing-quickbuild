@@ -268,6 +268,7 @@ const loadData = async () => {
 		await fetch("data/quick-build-rebel.json").then(r => r.json()),
 		await fetch("data/quick-build-empire.json").then(r => r.json()),
 		await fetch("data/quick-build-scum.json").then(r => r.json()),
+		await fetch("data/quick-build-resistance.json").then(r => r.json()),
 		await fetch("data/quick-build-first-order.json").then(r => r.json())
 	]
 	var variablePointCosts = await fetch("data/variable-point-cost.json").then(r => r.json())

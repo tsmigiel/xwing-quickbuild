@@ -408,7 +408,7 @@ namespace XWing {
 		}
 
 		private lookup(name: string, filterCallback: (card: any) => boolean, cards: Card[], cardType: string): any {
-			var matches = cards.filter((card: Card) => card.name == name)
+			var matches: Card[] = cards.filter((card: Card) => card.name == name)
 			var hasExactMatches: boolean = matches.length > 0
 			if (!matches || matches.length == 0) {
 				matches = cards.filter((card: Card) => card.name.endsWith(name))
@@ -439,6 +439,15 @@ namespace XWing {
 					}
 					return matches[0]
 				}
+			}
+			var regex:RegExp = new RegExp(name.replace(/[^A-Za-z0-9]+/g, ".*"), "i")
+			matches = cards.filter((card: Card) => card.name.match(regex) != null)
+			if (matches.length > 0) {
+				if (matches.length == 1) {
+					console.log("s@\"" + name + "\"@\"" + matches[0].name +"\"@")
+					return matches[0]
+				}
+				console.log(matches)
 			}
 			console.log("No matches for " + cardType + "! " + name)
 			return null
