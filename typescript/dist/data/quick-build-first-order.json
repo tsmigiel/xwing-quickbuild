@@ -1,0 +1,622 @@
+{
+    "builds": [
+        {
+            "threat_level": 2,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/fo Fighter",
+                    "wave": "SWZ26",
+                    "pilot": "•“Midnight”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/fo Fighter",
+                    "wave": "SWZ26",
+                    "pilot": "•“Static”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/fo Fighter",
+                    "wave": "SWZ26",
+                    "pilot": "Omega Squadron Ace",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        },
+                        {
+                            "upgrade_type": 1,
+                            "name": "Fanatical"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/fo Fighter",
+                    "wave": "SWZ26",
+                    "pilot": "•“Scorch”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Fanatical"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/fo Fighter",
+                    "wave": "SWZ26",
+                    "pilot": "•“Longshot”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        },
+                        {
+                            "upgrade_type": 1,
+                            "name": "Predator"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/fo Fighter",
+                    "wave": "SWZ26",
+                    "pilot": "Zeta Squadron Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 19,
+                            "name": "Advanced Optics"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/fo Fighter",
+                    "wave": "SWZ26",
+                    "pilot": "•“Muse”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "•Squad Leader"
+                        },
+                        {
+                            "upgrade_type": 19,
+                            "name": "Advanced Optics"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/fo Fighter",
+                    "wave": "SWZ26",
+                    "pilot": "•“Null”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Swarm Tactics"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/fo Fighter",
+                    "wave": "SWZ26",
+                    "pilot": "Epsilon Squadron Cadet",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 19,
+                            "name": "Targeting Synchronizer"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/fo Fighter",
+                    "wave": "SWZ26",
+                    "pilot": "•Commander Malarus",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 19,
+                            "name": "Advanced Optics"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/fo Fighter",
+                    "wave": "SWZ26",
+                    "pilot": "•TN-3465",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 19,
+                            "name": "Targeting Synchronizer"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/fo Fighter",
+                    "wave": "SWZ26",
+                    "pilot": "•Lieutenant Rivas"
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/sf Fighter",
+                    "wave": "SWZ18",
+                    "pilot": "•“Quickdraw”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Juke"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Collision Detector"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Hotshot Gunner"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/sf Fighter",
+                    "wave": "SWZ18",
+                    "pilot": "Zeta Squadron Survivor",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 19,
+                            "name": "Pattern Analyzer"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Ion Missiles"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Special Forces Gunner"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/sf Fighter",
+                    "wave": "SWZ18",
+                    "pilot": "•“Backdraft”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 19,
+                            "name": "Pattern Analyzer"
+                        },
+                        {
+                            "upgrade_type": 2,
+                            "name": "Collision Detector"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Ion Missiles"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Special Forces Gunner"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/sf Fighter",
+                    "wave": "SWZ18",
+                    "pilot": "Omega Squadron Expert",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Juke"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Special Forces Gunner"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/vn Silencer",
+                    "wave": "SWZ18",
+                    "pilot": "•Kylo Ren",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Hate"
+                        },
+                        {
+                            "upgrade_type": 17,
+                            "name": "Predictive Shot"
+                        },
+                        {
+                            "upgrade_type": 19,
+                            "name": "Primed Thrusters"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Adv. Proton Torpedoes"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/vn Silencer",
+                    "wave": "SWZ18",
+                    "pilot": "•“Recoil”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Predator"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Proton Torpedoes"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/vn Silencer",
+                    "wave": "SWZ18",
+                    "pilot": "First Order Test Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/vn Silencer",
+                    "wave": "SWZ18",
+                    "pilot": "•“Blackout”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/vn Silencer",
+                    "wave": "SWZ18",
+                    "pilot": "•“Avenger”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 19,
+                            "name": "Primed Thrusters"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Adv. Proton Torpedoes"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "TIE/vn Silencer",
+                    "wave": "SWZ18",
+                    "pilot": "Sienar-Jaemus Engineer"
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "<italic>Upsilon</italic>-class Shuttle",
+                    "wave": "SWZ18",
+                    "pilot": "•Lieutenant Tavson",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 2,
+                            "name": "Advanced Sensors"
+                        },
+                        {
+                            "upgrade_type": 3,
+                            "name": "Ion Cannon"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Kylo Ren"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Supreme Leader Snoke"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "<italic>Upsilon</italic>-class Shuttle",
+                    "wave": "SWZ18",
+                    "pilot": "•Lieutenant Dormitz",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 19,
+                            "name": "Biohexacrypt Codes"
+                        },
+                        {
+                            "upgrade_type": 19,
+                            "name": "Hyperspace Tracking Data"
+                        },
+                        {
+                            "upgrade_type": 3,
+                            "name": "Tractor Beam"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "<italic>Upsilon</italic>-class Shuttle",
+                    "wave": "SWZ18",
+                    "pilot": "Starkiller Base Pilot"
+                }
+            ]
+        },
+        {
+            "threat_level": 4,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "<italic>Upsilon</italic>-class Shuttle",
+                    "wave": "SWZ18",
+                    "pilot": "•Major Stridan",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 19,
+                            "name": "Biohexacrypt Codes"
+                        },
+                        {
+                            "upgrade_type": 19,
+                            "name": "Pattern Analyzer"
+                        },
+                        {
+                            "upgrade_type": 3,
+                            "name": "Tractor Beam"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Captain Phasma"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•General Hux"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "<italic>Upsilon</italic>-class Shuttle",
+                    "wave": "SWZ18",
+                    "pilot": "•Captain Cardinal",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 3,
+                            "name": "Ion Cannon"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Petty Officer Thanisson"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 5,
+            "ships": [
+                {
+                    "ship": "<italic>Upsilon</italic>-class Shuttle",
+                    "wave": "SWZ18",
+                    "pilot": "•Petty Officer Thanisson",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Captain Phasma"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Tactical Scrambler"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
