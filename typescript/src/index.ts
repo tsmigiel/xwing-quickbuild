@@ -12,6 +12,16 @@ interface LayoutSize {
 class MainViewModel {
 	checkedCheckboxes: Map<string,Set<string>> = new Map()
 
+	shouldDisplayQuickBuild(build: XWing.QuickBuild) {
+	    var shouldDisplayFaction: boolean = this.isChecked("faction", build.factionId.toString(), false)
+	    var shouldDisplayShips: boolean = build.ships.reduce((acc: boolean, ship: XWing.Ship) => acc || this.shouldDisplayShip(ship), false)
+		return shouldDisplayFaction && shouldDisplayShips
+	} 
+
+	shouldDisplayShip(ship: XWing.Ship){
+		return this.isChecked("ship_type", ship.pilot.shipType.toString(), true)
+	}
+
 	isChecked(name: string, value: string, resultForEmpty: boolean) {
 		if (!this.checkedCheckboxes.has(name) || this.checkedCheckboxes.get(name).size == 0) {
 			return resultForEmpty
@@ -83,48 +93,108 @@ function addTitle(shipNode: Node, title: string) {
 	shipNode.appendChild(titleNode)
 }
 
-function createShipNode(ship : XWing.Ship) {
-	var configs = ship.getConfigurationUpgrades()
-	var upgrades = ship.getNonConfigurationUpgrades()
+function createShipNode(ships : XWing.Ship[], repeatTitle: boolean) {
+	var gridTemplateColumns: string = ""
 	var shipNode = document.createElement('div')
 	shipNode.classList.add("layout_ship")
-	addTitle(shipNode, ship.buildTitle)
-	addUpgrades(shipNode, "configuration", configs, upgrades.length < 2 ? 2 : 1)
-	addPilot(shipNode, ship.pilot)
-	addUpgrades(shipNode, "upgrade", upgrades, configs.length > 0 ? 2 : 3)
+	for (var s = 0; s < ships.length; s++) {
+		var configs = ships[s].getConfigurationUpgrades()
+		var upgrades = ships[s].getNonConfigurationUpgrades()
+		var size: LayoutSize = layoutSize(ships[s])
+		if (s == 0 || repeatTitle) {
+			addTitle(shipNode, ships[s].buildTitle)
+			gridTemplateColumns += " auto"
+		}
+		if (configs.length > 0) {
+			addUpgrades(shipNode, "configuration", configs, size.configWidth)
+			gridTemplateColumns += " auto"
+		}
+		addPilot(shipNode, ships[s].pilot)
+		gridTemplateColumns += " auto"
+		if (upgrades.length > 0) {
+			addUpgrades(shipNode, "upgrade", upgrades, size.nonConfigWidth)
+			gridTemplateColumns += " auto"
+		}
+		shipNode.appendChild(document.createElement('div'))
+		if (s == 0 || s < ships.length - 1) {
+			gridTemplateColumns += " 1fr"
+		}
+	}
+	shipNode.style.gridTemplateColumns = gridTemplateColumns
 	return shipNode
 }
 
-function layoutHeight(ship: XWing.Ship) {
+function layoutSize(ship: XWing.Ship): LayoutSize {
 	var numConfig = ship.getConfigurationUpgrades().length
 	var numNonConfig = ship.getNonConfigurationUpgrades().length
-	return numConfig + numNonConfig < 4 ? 1 : numConfig > 0 ? Math.max(numConfig, numNonConfig / 2) : numNonConfig / 3
+	var configHeight = numConfig
+	var configWidth = numConfig > 0 ? 1 : 0
+	var nonConfigWidth = Math.min(3 - configWidth, Math.floor((numNonConfig + 1) / 2))
+	var nonConfigHeight = Math.ceil(numNonConfig / nonConfigWidth)
+	return {
+		"width": configWidth + nonConfigWidth, "height": Math.max(configHeight, nonConfigHeight),
+		"configWidth": configWidth, "configHeight": configHeight,
+		"nonConfigWidth": nonConfigWidth, "nonConfigHeight": nonConfigHeight,
+	}
 }
 
 function displayShips() {
-	var ships: XWing.Ship[] = []
+	var builds: XWing.QuickBuild[] = []
 	for (var b = 0; b < xwing.quickBuilds.length; b++) {
 		var build: XWing.QuickBuild = xwing.quickBuilds[b]
-		if (mainViewModel.isChecked("faction", build.factionId.toString(), false)) {
-			for (var s = 0; s < build.ships.length; s++) {
-				if (mainViewModel.isChecked("ship_type", build.ships[s].pilot.shipType.toString(), true)) {
-					ships.push(build.ships[s])
+		if (mainViewModel.shouldDisplayQuickBuild(build)) {
+			builds.push(build)
+		}
+	}
+	builds.sort((a: XWing.QuickBuild, b:XWing.QuickBuild) => layoutSize(b.ships[0]).height - layoutSize(a.ships[0]).height)
+	var prevHeight = 0
+	let buildsNode = document.getElementById("builds")
+	buildsNode.innerHTML = ''
+	for (var b = 0; b < builds.length; b++) {
+		var size: LayoutSize = layoutSize(builds[b].ships[0])
+		var height: number = size.height
+		if (builds[b].ships.length == 1) {
+			var ship: XWing.Ship = builds[b].ships[0]
+			var shipNode: any
+			if (ship.pilot.uniqueCount() > 0) {
+				shipNode = createShipNode([ship], true)
+			} else if (size.width == 0) {
+				shipNode = createShipNode([ship, ship, ship], true)
+			} else if (size.width == 1) {
+				shipNode = createShipNode([ship, ship], true)
+			} else {
+				shipNode = createShipNode([ship], true)
+			}
+			if (prevHeight >= 3 && height < 3) {
+				shipNode.style.pageBreakBefore = "always"
+			}
+			buildsNode.appendChild(shipNode)
+		} else {
+			var size1: LayoutSize = layoutSize(builds[b].ships[0])
+			if (builds[b].ships.length == 2 && size.width + size1.width < 3) {
+				height = Math.max(height, size1.height)
+				shipNode = createShipNode([builds[b].ships[0], builds[b].ships[1]], false)
+				if (prevHeight >= 3 && height < 3) {
+					shipNode.style.pageBreakBefore = "always"
+				}
+				buildsNode.appendChild(shipNode)
+			} else {
+				for (var s = 0; s < builds[b].ships.length; s++) {
+					shipNode = createShipNode([builds[b].ships[s]], true)
+					height = layoutSize(builds[b].ships[s]).height
+					if (prevHeight >= 3 && height < 3) {
+						shipNode.style.pageBreakBefore = "always"
+					}
+					buildsNode.appendChild(shipNode)
+					prevHeight = height
 				}
 			}
 		}
-	}
-	console.log("sorting...")
-	ships.sort((a: XWing.Ship, b:XWing.Ship) => layoutHeight(b) - layoutHeight(a))
-	console.log("done")
-	let buildsNode = document.getElementById("builds")
-	buildsNode.innerHTML = ''
-	for (var s = 0; s < ships.length; s++) {
-		buildsNode.appendChild(createShipNode(ships[s]))
+		prevHeight = height
 	}
 }
 
 function handleCheckboxChange(checkboxNode: any) {
-	console.log(checkboxNode)
 	if (checkboxNode.checked) {
 		mainViewModel.select(checkboxNode.name, checkboxNode.value)
 	} else {

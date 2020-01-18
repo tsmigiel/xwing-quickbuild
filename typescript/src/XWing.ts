@@ -259,6 +259,11 @@ namespace XWing {
 		isFaction(factionId: FactionId): boolean {
 			return this.factionId == factionId
 		}
+
+		uniqueCount(): number {
+			// FIXME: this always returns 1 or 0. It should return the number of "•"
+			return this.name.indexOf("•") + 1
+		}
 	}
 
 	export class Ship {
@@ -341,13 +346,16 @@ namespace XWing {
 					var newShip = new Ship(data, this.factionId, build.ships[i])
 					if (newShip.pilot) {
 						newShips.push(newShip)
-						console.log("Converted ship for " + build.ships[i].pilot + " " + build.ships[i].ship) 
 					}
 				}
 				if (newShips.length > 0) {
 					var buildTitle: string = build.threat_level.toString() + ": " + newShips[0].title()
-					for (var s = 1; s < newShips.length; s++) {
-						buildTitle += " + " + newShips[s].title()
+					if (newShips.length == 2 && newShips[0].title() == newShips[1].title()) {
+							buildTitle += " (x2)"
+					} else {
+						for (var s = 1; s < newShips.length; s++) {
+							buildTitle += " + " + newShips[s].title()
+						}
 					}
 					this.title = buildTitle
 				}
@@ -481,7 +489,6 @@ namespace XWing {
 			this.quickBuilds.forEach(function(item: QuickBuild) {
 				item.ships.reduce((acc, ship) => acc.add(ship.pilot.shipType), shipTypes)
 			})
-			console.log(shipTypes)
 			return [...shipTypes]
 		}
 
