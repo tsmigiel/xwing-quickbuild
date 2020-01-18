@@ -16,7 +16,7 @@ namespace XWing {
 		Large = 3,
 	}
 
-	enum FactionId {
+	export enum FactionId {
 		RebelAlliance = 1,
 		GalacticEmpire = 2,
         ScumAndVillainy = 3,
@@ -484,11 +484,13 @@ namespace XWing {
 			return this.metadata.factions.find((faction: Json.Faction) => faction.id == factionId)
 		}
 
-		availableShipTypes(): ShipType[] {
+		availableShipTypes(factionId: FactionId): ShipType[] {
 			let shipTypes: Set<ShipType> = new Set()
-			this.quickBuilds.forEach(function(item: QuickBuild) {
-				item.ships.reduce((acc, ship) => acc.add(ship.pilot.shipType), shipTypes)
-			})
+			this.quickBuilds
+				.filter((build: QuickBuild) => build.factionId == factionId)
+				.forEach(function(item: QuickBuild) {
+					item.ships.reduce((acc, ship) => acc.add(ship.pilot.shipType), shipTypes)
+				})
 			return [...shipTypes]
 		}
 

@@ -9,6 +9,11 @@ interface LayoutSize {
 	nonConfigHeight: number
 }
 
+interface FilterItem {
+	id: number
+	name: string
+}
+
 class MainViewModel {
 	checkedCheckboxes: Map<string,Set<string>> = new Map()
 
@@ -202,7 +207,7 @@ function handleCheckboxChange(checkboxNode: any) {
 	}
 }
 
-function createFilter(key: string, value: string, label: string) {
+function createCheckbox(key: string, value: string, label: string): Node {
 	var labelNode = document.createElement('label')
 	let inputNode = document.createElement('input')
 	inputNode.type = "checkbox"
@@ -216,24 +221,40 @@ function createFilter(key: string, value: string, label: string) {
 	return labelNode
 }
 
+function createFilter(title: string, section: string, items: FilterItem[]): Node {
+	var filterNode = document.createElement('div')
+	var titleNode = document.createElement('div')
+	var checkboxesNode = document.createElement('div')
+	filterNode.classList.add("filter_layout")
+	titleNode.classList.add("filter_title")
+	titleNode.innerHTML = title
+	filterNode.appendChild(titleNode)
+	checkboxesNode.classList.add("filter_checkboxes")
+	for (var i = 0; i < items.length; i++) {
+		checkboxesNode.appendChild(createCheckbox(section, items[i].id.toString(), items[i].name))
+	}
+	filterNode.appendChild(checkboxesNode)
+	return filterNode
+}
+
+function factionIdToFilterItem(factionId: XWing.FactionId): FilterItem {
+    return { "id": factionId, "name": xwing.lookupFactionMetadata(factionId).name }
+}
+
 function addFiltersToDom() {
 	var filtersNode = document.getElementById("filters")
-	let factionFilter = document.createElement('div')
-	factionFilter.classList.add("filter_layout")
-	xwing.availableFactions().forEach(function (item, index, array) {
-		factionFilter.appendChild(createFilter("faction", item.toString(), xwing.lookupFactionMetadata(item).name))
-	})
-    filtersNode.appendChild(factionFilter)
-	let shipTypeFilter = document.createElement('div')
-	shipTypeFilter.classList.add("filter_layout")
-	xwing.availableShipTypes()
-		.map((item: number) => xwing.lookupShipTypeMetadata(item))
-		.sort((a: XWing.Json.ShipType, b: XWing.Json.ShipType) => a.name.replace(/<italic>/g, "").localeCompare(b.name.replace(/<italic>/g, "")))
-		.forEach(function (item, index, array) {
-			shipTypeFilter.appendChild(createFilter("ship_type", item.id.toString(), item.name))
-		})
-    filtersNode.appendChild(shipTypeFilter)
+	var factionIds: XWing.FactionId[] = xwing.availableFactions().sort()
+	filtersNode.appendChild(createFilter("Factions", "faction", factionIds.map(factionIdToFilterItem)))
+	for (var f = 0; f < factionIds.length; f++) {
+		var faction: XWing.Json.Faction = xwing.lookupFactionMetadata(factionIds[f])
+		var shipTypeItems: FilterItem[] = 
+			xwing.availableShipTypes(factionIds[f])
+				.map((item: number) => xwing.lookupShipTypeMetadata(item))
+				.sort((a: XWing.Json.ShipType, b: XWing.Json.ShipType) => a.name.replace(/<italic>/g, "").localeCompare(b.name.replace(/<italic>/g, "")))
+		filtersNode.appendChild(createFilter(faction.name + " ship types", "ship_type", shipTypeItems))
+	}
 	var inputNode = document.createElement('input')
+	inputNode.classList.add("filter_update")
 	inputNode.type = "submit"
 	inputNode.value = "Update"
 	inputNode.onclick = displayShips

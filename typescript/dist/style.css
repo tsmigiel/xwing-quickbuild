@@ -14,9 +14,19 @@
     }
 }
 
-.filter_layout {
+.filter_title {
+	font-size: large;
+	font-weight: bold;
+}
+
+.filter_checkboxes {
 	display: grid;
-	grid-template-columns: auto auto auto auto
+	grid-template-columns: auto auto auto auto;
+}
+
+.filter_update {
+	font-size: large;
+	font-weight: bold;
 }
 
 #builds {
