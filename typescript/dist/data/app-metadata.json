@@ -63,6 +63,12 @@
     ],
     "ship_types": [
         {
+            "id": 69,
+            "name": "TIE/ba Interceptor",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Vonregs-First-Order-TIE-Interceptor.png"
+        },
+        {
             "id": 5,
             "name": "YT-2400 Light Freighter",
             "description": "",
@@ -121,6 +127,12 @@
             "name": "Scurrg H-6 bomber",
             "description": "",
             "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Scurrg.png"
+        },
+        {
+            "id": 70,
+            "name": "<italic>Fireball</italic>",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Fireball.png"
         },
         {
             "id": 1,

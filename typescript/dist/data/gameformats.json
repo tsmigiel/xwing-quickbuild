@@ -1,0 +1,118 @@
+{
+    "game_formats": [
+        {
+            "id": "7271f0fb-ec4f-4166-bcea-709cc1ee76cd",
+            "name": "Extended",
+            "description": "",
+            "game_mode": 1,
+            "maximum_squad_cost": 200,
+            "created_by": null,
+            "created_at": "2018-08-31",
+            "factions": [
+                2,
+                4,
+                5,
+                1,
+                6,
+                7,
+                3
+            ]
+        },
+        {
+            "id": "c958c2ff-0e37-422e-a45a-58565ba89fde",
+            "name": "Hyperspace",
+            "description": "",
+            "game_mode": 2,
+            "maximum_squad_cost": 200,
+            "created_by": null,
+            "created_at": "2018-08-31",
+            "factions": [
+                6,
+                4,
+                5,
+                1,
+                2,
+                3,
+                7
+            ]
+        },
+        {
+            "id": "46e67a11-92a0-4b45-9872-5a7cd1742c3e",
+            "name": "Battle of Yavin",
+            "description": "Relive the Rebellion's attack on the Death Star from Star Wars: A New Hope using only the ships that appeared in the movie. (Deluxe Wave 1 Kit Thematic Event)",
+            "game_mode": 3,
+            "maximum_squad_cost": 200,
+            "created_by": null,
+            "created_at": "2018-08-31",
+            "factions": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": "066dad13-1c33-42eb-9179-6b5c53c81aba",
+            "name": "Evacuation of D’qar",
+            "description": "The First Order has discovered the Resistance base on D’qar. Relive the high-stakes battle as the Resistance makes their escape! (Wave 2 Thematic Tournament)",
+            "game_mode": 3,
+            "maximum_squad_cost": 200,
+            "created_by": null,
+            "created_at": "2018-12-12",
+            "factions": [
+                4,
+                5
+            ]
+        },
+        {
+            "id": "74950d4c-4a3a-4ba2-851f-745dde11e8f2",
+            "name": "Season of Giving",
+            "description": "Many pilots and upgrades give benefits to each other. When playing with a squad built using this variant, every player’s ships gain a Red Coordinate action on their action bar. (Seasonal Challenge W2)",
+            "game_mode": 3,
+            "maximum_squad_cost": 200,
+            "created_by": null,
+            "created_at": "2018-12-12",
+            "factions": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "id": "ebb621f5-390f-40c8-8b27-1396b65a2a7e",
+            "name": "No Glory",
+            "description": "These pilots, who shall remain nameless, fly with a steadfast commitment to their faction.",
+            "game_mode": 3,
+            "maximum_squad_cost": 200,
+            "created_by": null,
+            "created_at": "2018-08-31",
+            "factions": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        },
+        {
+            "id": "4a7621b2-140b-4680-b7e4-ce80b3860daa",
+            "name": "Playing Favorites v2",
+            "description": "Just one pilot for each ship is available, with a wide array of upgrades to complement them.",
+            "game_mode": 3,
+            "maximum_squad_cost": 200,
+            "created_by": null,
+            "created_at": "2018-12-12",
+            "factions": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        }
+    ]
+}
