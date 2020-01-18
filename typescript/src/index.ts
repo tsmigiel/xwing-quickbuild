@@ -19,12 +19,17 @@ class MainViewModel {
 
 	shouldDisplayQuickBuild(build: XWing.QuickBuild) {
 	    var shouldDisplayFaction: boolean = this.isChecked("faction", build.factionId.toString(), false)
-	    var shouldDisplayShips: boolean = build.ships.reduce((acc: boolean, ship: XWing.Ship) => acc || this.shouldDisplayShip(ship), false)
-		return shouldDisplayFaction && shouldDisplayShips
+	    var shouldDisplayShipTypes: boolean = build.ships.reduce((acc: boolean, ship: XWing.Ship) => acc || this.shouldDisplayShipByShipType(ship), false)
+	    var shouldDisplayExtensions: boolean = build.ships.reduce((acc: boolean, ship: XWing.Ship) => acc || this.shouldDisplayShipByExtension(ship), false)
+		return shouldDisplayFaction && shouldDisplayShipTypes && shouldDisplayExtensions
 	} 
 
-	shouldDisplayShip(ship: XWing.Ship){
+	shouldDisplayShipByShipType(ship: XWing.Ship){
 		return this.isChecked("ship_type", ship.pilot.shipType.toString(), true)
+	}
+
+	shouldDisplayShipByExtension(ship: XWing.Ship){
+		return ship.pilot.json.card_set_ids.reduce((acc: boolean, id: number) => acc || this.isChecked("extension", id.toString(), true), false)
 	}
 
 	isChecked(name: string, value: string, resultForEmpty: boolean) {
