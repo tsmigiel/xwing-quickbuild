@@ -1,11 +1,5 @@
 namespace XWing.Json {
 
-	export interface Cards {
-		cards: Card[];
-	}
-
-	export type Card = PilotCard | UpgradeCard
-
 	export interface PilotCard {
 		id:                 number;
 		faction_id:         number;

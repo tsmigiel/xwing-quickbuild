@@ -355,7 +355,8 @@ namespace XWing {
 		readonly variablePointCosts: Json.VariablePointCost[]
 
 		constructor(
-				cards: Array<Json.Card>,
+				pilots: Json.PilotCard[],
+				upgrades: Json.UpgradeCard[],
 				quickbuilds: QuickBuildsJson[],
 				metadata: Json.Metadata,
 				extensions: Json.CardsExtensions,
@@ -363,17 +364,8 @@ namespace XWing {
 			this.metadata = metadata
 			this.extensions = extensions.extensions
 			this.variablePointCosts = variablePointCosts
-			var newPilots: Pilot[] = new Array()
-			var newUpgrades: Upgrade[] = new Array()
-			for (var i = 0; i < cards.length; i++) {
-				if (cards[i].card_type_id == CardType.Pilot) {
-					newPilots.push(new Pilot(cards[i] as Json.PilotCard))
-				} else if (cards[i].card_type_id == CardType.Upgrade) {
-					newUpgrades.push(new Upgrade(cards[i] as Json.UpgradeCard))
-				}
-			}
-			this.pilots = newPilots
-			this.upgrades = newUpgrades
+			this.pilots = pilots.map((p: Json.PilotCard) => new Pilot(p))
+			this.upgrades = upgrades.map((u: Json.UpgradeCard) => new Upgrade(u))
 			var newQuickBuilds: QuickBuild[] = new Array()
 			for (var i = 0; i < quickbuilds.length; i++) {
 				for (var j = 0; j < quickbuilds[i].builds.length; j++) {

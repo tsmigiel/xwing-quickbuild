@@ -270,7 +270,8 @@ function addFiltersToDom() {
 }
 
 const loadData = async () => {
-	var cards = await fetch("data/cards.json").then(r => r.json())
+	var pilots = await fetch("data/pilots.json").then(r => r.json())
+	var upgrades = await fetch("data/upgrades.json").then(r => r.json())
 	var metadata = await fetch("data/app-metadata.json").then(r => r.json())
 	var extensions = await fetch("data/cards_extensions.json").then(r => r.json())
 	var quickBuilds = [
@@ -281,7 +282,7 @@ const loadData = async () => {
 		await fetch("data/quick-build-first-order.json").then(r => r.json())
 	]
 	var variablePointCosts = await fetch("data/variable-point-cost.json").then(r => r.json())
-	xwing = new XWing.Data(cards.cards, quickBuilds, metadata, extensions, variablePointCosts)
+	xwing = new XWing.Data(pilots.cards, upgrades.cards, quickBuilds, metadata, extensions, variablePointCosts)
 	addFiltersToDom()
 	displayShips()
 }
