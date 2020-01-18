@@ -351,10 +351,17 @@ namespace XWing {
 		readonly upgrades: Upgrade[]
 		readonly quickBuilds: QuickBuild[]
 		readonly metadata: Json.Metadata
+		readonly extensions: Json.Extension[]
 		readonly variablePointCosts: Json.VariablePointCost[]
 
-		constructor(cards: Array<PilotCardJson|UpgradeCardJson>, quickbuilds: QuickBuildsJson[], metadata: Json.Metadata, variablePointCosts: Json.VariablePointCost[]) {
+		constructor(
+				cards: Array<Json.Card>,
+				quickbuilds: QuickBuildsJson[],
+				metadata: Json.Metadata,
+				extensions: Json.CardsExtensions,
+				variablePointCosts: Json.VariablePointCost[]) {
 			this.metadata = metadata
+			this.extensions = extensions.extensions
 			this.variablePointCosts = variablePointCosts
 			var newPilots: Pilot[] = new Array()
 			var newUpgrades: Upgrade[] = new Array()
@@ -489,6 +496,20 @@ namespace XWing {
 
 		lookupShipTypeMetadata(shipTypeId: ShipType): Json.ShipType {
 			return this.metadata.ship_types.find((shipType: Json.ShipType) => shipType.id == shipTypeId)
+		}
+
+		availableExtensions(factionId: FactionId): number[] {
+			let extensions: Set<number> = new Set()
+			this.quickBuilds
+				.filter((build: QuickBuild) => build.factionId == factionId)
+				.forEach(function(build: QuickBuild) {
+					build.ships.forEach((ship: Ship) => ship.pilot.json.card_set_ids.forEach((ext: number) => extensions.add(ext)))
+				})
+			return [...extensions]
+		}
+
+		lookupExtension(extensionId: number): Json.Extension {
+			return this.extensions.find((extension: Json.Extension) => extension.id == extensionId)
 		}
 	}
 }

@@ -253,6 +253,14 @@ function addFiltersToDom() {
 				.sort((a: XWing.Json.ShipType, b: XWing.Json.ShipType) => a.name.replace(/<italic>/g, "").localeCompare(b.name.replace(/<italic>/g, "")))
 		filtersNode.appendChild(createFilter(faction.name + " ship types", "ship_type", shipTypeItems))
 	}
+	for (var f = 0; f < factionIds.length; f++) {
+		var faction: XWing.Json.Faction = xwing.lookupFactionMetadata(factionIds[f])
+		var extensionItems: FilterItem[] = 
+			xwing.availableExtensions(factionIds[f])
+		        .sort()
+				.map((extensionId: number) => xwing.lookupExtension(extensionId))
+		filtersNode.appendChild(createFilter(faction.name + " extensions (2nd ed. only)", "extension", extensionItems))
+	}
 	var inputNode = document.createElement('input')
 	inputNode.classList.add("filter_update")
 	inputNode.type = "submit"
@@ -264,6 +272,7 @@ function addFiltersToDom() {
 const loadData = async () => {
 	var cards = await fetch("data/cards.json").then(r => r.json())
 	var metadata = await fetch("data/app-metadata.json").then(r => r.json())
+	var extensions = await fetch("data/cards_extensions.json").then(r => r.json())
 	var quickBuilds = [
 		await fetch("data/quick-build-rebel.json").then(r => r.json()),
 		await fetch("data/quick-build-empire.json").then(r => r.json()),
@@ -272,7 +281,7 @@ const loadData = async () => {
 		await fetch("data/quick-build-first-order.json").then(r => r.json())
 	]
 	var variablePointCosts = await fetch("data/variable-point-cost.json").then(r => r.json())
-	xwing = new XWing.Data(cards.cards, quickBuilds, metadata, variablePointCosts)
+	xwing = new XWing.Data(cards.cards, quickBuilds, metadata, extensions, variablePointCosts)
 	addFiltersToDom()
 	displayShips()
 }
