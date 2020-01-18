@@ -135,33 +135,6 @@ namespace XWing {
 		name: string
 	}
 
-	interface CardStatJson {
-		readonly statistic_id: CardStat
-		readonly value: string
-		readonly recurring: boolean
-	}
-
-	interface UpgradeCardJson {
-		name: string
-		card_image: string
-		card_type_id: CardType
-		statistics: CardStatJson[]
-		cost: string
-		upgrade_types: UpgradeType[]
-		restrictions: any
-	}
-
-	interface PilotCardJson {
-		name: string
-		card_image: string
-		card_type_id: CardType
-		statistics: CardStatJson[]
-		cost: string
-		faction_id: FactionId
-		ship_type: ShipType
-		ship_size: ShipSize
-		initiative: number
-	}
 
 	interface ShipJson {
 		pilot: string
@@ -179,34 +152,27 @@ namespace XWing {
 		builds: QuickBuildJson[]
 	}
 
-	export class Card {
+	interface CardLookup {
 		readonly name: string
-		readonly imageUrl: string
-		readonly cost: number
-		readonly statistics: CardStatJson[]
-
-		constructor(card: UpgradeCardJson | PilotCardJson) {
-			this.name = card.name
-			this.imageUrl = card.card_image
-			this.statistics = card.statistics
-			// TODO: implement a better way to check if an upgrade card is 2
-			// sided. We set one side to cost 0 so it is not double counted.
-			this.cost = card.name.endsWith(" (Closed)") ? 0 : card.cost == "*" ? -1 : parseInt(card.cost)
-		}
-
-		localImageUrl(): string {
-			return "png/" + this.imageUrl.substr(this.imageUrl.lastIndexOf("/"))
-		}
 	}
 
-	export class Upgrade extends Card {
+	export class Upgrade {
+		readonly json: Json.UpgradeCard
+		readonly name: string
+		readonly cost: number
 		readonly upgradeType: UpgradeType
 		readonly restrictions: any
 
-		constructor(upgrade: UpgradeCardJson) {
-			super(upgrade)
+		constructor(upgrade: Json.UpgradeCard) {
+			this.json = upgrade
+			this.name = upgrade.name
+			this.cost = this.name.endsWith(" (Closed)") ? 0 : this.json.cost == "*" ? -1 : parseInt(this.json.cost)
 			this.upgradeType = upgrade.upgrade_types[0]
 			this.restrictions = upgrade.restrictions
+		}
+
+		localImageUrl(): string {
+			return "png/" + this.json.card_image.substr(this.json.card_image.lastIndexOf("/"))
 		}
 
 		isConfiguration(): boolean {
@@ -240,20 +206,29 @@ namespace XWing {
 		}
 	}
 
-	export class Pilot extends Card {
+	export class Pilot {
+		readonly json: Json.PilotCard
+		readonly name: string
+		readonly cost: number
 		readonly factionId: FactionId;
 		readonly shipType: ShipType;
 		readonly shipSize: ShipSize;
 		readonly initiative: number;
 		readonly agility: number;
 
-		constructor(pilot: PilotCardJson) {
-			super(pilot)
+		constructor(pilot: Json.PilotCard) {
+			this.json = pilot
+			this.name = pilot.name
+			this.cost = parseInt(pilot.cost)
 			this.factionId = pilot.faction_id;
 			this.shipType = pilot.ship_type;
 			this.shipSize = pilot.ship_size;
 			this.initiative = pilot.initiative;
-			this.agility = parseInt(pilot.statistics.find((stat: CardStatJson) => stat.statistic_id == CardStat.Agility).value)
+			this.agility = parseInt(pilot.statistics.find((stat: Json.Statistic) => stat.statistic_id == CardStat.Agility).value)
+		}
+
+		localImageUrl(): string {
+			return "png/" + this.json.card_image.substr(this.json.card_image.lastIndexOf("/"))
 		}
 
 		isFaction(factionId: FactionId): boolean {
@@ -385,9 +360,9 @@ namespace XWing {
 			var newUpgrades: Upgrade[] = new Array()
 			for (var i = 0; i < cards.length; i++) {
 				if (cards[i].card_type_id == CardType.Pilot) {
-					newPilots.push(new Pilot(cards[i] as PilotCardJson))
+					newPilots.push(new Pilot(cards[i] as Json.PilotCard))
 				} else if (cards[i].card_type_id == CardType.Upgrade) {
-					newUpgrades.push(new Upgrade(cards[i] as UpgradeCardJson))
+					newUpgrades.push(new Upgrade(cards[i] as Json.UpgradeCard))
 				}
 			}
 			this.pilots = newPilots
@@ -407,14 +382,14 @@ namespace XWing {
 			this.quickBuilds = newQuickBuilds
 		}
 
-		private lookup(name: string, filterCallback: (card: any) => boolean, cards: Card[], cardType: string): any {
-			var matches: Card[] = cards.filter((card: Card) => card.name == name)
+		private lookup(name: string, filterCallback: (card: any) => boolean, cards: CardLookup[], cardType: string): any {
+			var matches: CardLookup[] = cards.filter((card: CardLookup) => card.name == name)
 			var hasExactMatches: boolean = matches.length > 0
 			if (!matches || matches.length == 0) {
-				matches = cards.filter((card: Card) => card.name.endsWith(name))
+				matches = cards.filter((card: CardLookup) => card.name.endsWith(name))
 			}
 			if (!matches || matches.length == 0) {
-				matches = cards.filter((card: Card) => card.name.indexOf(name) != -1)
+				matches = cards.filter((card: CardLookup) => card.name.indexOf(name) != -1)
 			}
 			if (matches && matches.length > 0) {
 				if (matches.length == 1) {
@@ -441,7 +416,7 @@ namespace XWing {
 				}
 			}
 			var regex:RegExp = new RegExp(name.replace(/[^A-Za-z0-9]+/g, ".*"), "i")
-			matches = cards.filter((card: Card) => card.name.match(regex) != null)
+			matches = cards.filter((card: CardLookup) => card.name.match(regex) != null)
 			if (matches.length > 0) {
 				if (matches.length == 1) {
 					console.log("s@\"" + name + "\"@\"" + matches[0].name +"\"@")

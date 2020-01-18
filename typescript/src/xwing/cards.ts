@@ -4,7 +4,7 @@ namespace XWing.Json {
 		cards: Card[];
 	}
 
-	type Card = PilotCard | UpgradeCard
+	export type Card = PilotCard | UpgradeCard
 
 	export interface PilotCard {
 		id:                 number;
