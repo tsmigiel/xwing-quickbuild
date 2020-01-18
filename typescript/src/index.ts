@@ -226,20 +226,20 @@ function createCheckbox(key: string, value: string, label: string): Node {
 	return labelNode
 }
 
-function createFilter(title: string, section: string, items: FilterItem[]): Node {
-	var filterNode = document.createElement('div')
+function createFilterTitle(title: string): Node {
 	var titleNode = document.createElement('div')
-	var checkboxesNode = document.createElement('div')
-	filterNode.classList.add("filter_layout")
 	titleNode.classList.add("filter_title")
 	titleNode.innerHTML = title
-	filterNode.appendChild(titleNode)
+	return titleNode
+}
+
+function createFilterCheckboxes(section: string, items: FilterItem[]): Node {
+	var checkboxesNode = document.createElement('div')
 	checkboxesNode.classList.add("filter_checkboxes")
 	for (var i = 0; i < items.length; i++) {
 		checkboxesNode.appendChild(createCheckbox(section, items[i].id.toString(), items[i].name))
 	}
-	filterNode.appendChild(checkboxesNode)
-	return filterNode
+	return checkboxesNode
 }
 
 function getFilterItemsByShipType(factionId: XWing.FactionId): FilterItem[] {
@@ -254,10 +254,29 @@ function getFilterItemsByExtension(factionId: XWing.FactionId): FilterItem[] {
 		.map((extensionId: number) => xwing.lookupExtension(extensionId))
 }
 
-function addFiltersByFaction(filtersNode: Node, factions: XWing.Json.Faction[], title: string, section: string, getFilterItems: any) {
+function addFiltersByFaction(filtersNode: Element, factions: XWing.Json.Faction[], title: string, section: string, getFilterItems: any) {
+	var filterNode = document.createElement('div')
+	var titleNode = document.createElement('div')
+	filterNode.classList.add("filter_layout")
+	titleNode.classList.add("filter_section_title")
+	titleNode.innerHTML = title
+	filtersNode.appendChild(titleNode)
+	var sectionNode = document.createElement('div')
+	sectionNode.classList.add("filter_subsection")
 	for (var f = 0; f < factions.length; f++) {
-		filtersNode.appendChild(createFilter(factions[f].name + " " + title, section, getFilterItems(factions[f].id)))
+		sectionNode.appendChild(createFilterTitle(factions[f].name))
+		sectionNode.appendChild(createFilterCheckboxes(section, getFilterItems(factions[f].id)))
 	}
+	filterNode.appendChild(sectionNode)
+	filtersNode.appendChild(filterNode)
+}
+
+function createFactionFilter(factions: XWing.Json.Faction[]): Node {
+	var filterNode = document.createElement('div')
+	filterNode.classList.add("filter_layout")
+	filterNode.appendChild(createFilterTitle("Factions"))
+	filterNode.appendChild(createFilterCheckboxes("faction", factions))
+	return filterNode
 }
 
 function createUpdateButton() {
@@ -272,7 +291,7 @@ function createUpdateButton() {
 function addFiltersToDom() {
 	var filtersNode = document.getElementById("filters")
 	var factions: XWing.Json.Faction[] = xwing.availableFactions().sort().map((id: XWing.FactionId) => xwing.lookupFactionMetadata(id))
-	filtersNode.appendChild(createFilter("Factions", "faction", factions))
+	filtersNode.appendChild(createFactionFilter(factions))
 	addFiltersByFaction(filtersNode, factions, "Ship Types", "ship_type", getFilterItemsByShipType)
 	addFiltersByFaction(filtersNode, factions, "Extensions (2nd ed. only)", "extension", getFilterItemsByExtension)
 	filtersNode.appendChild(createUpdateButton())

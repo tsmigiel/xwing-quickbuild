@@ -14,14 +14,30 @@
     }
 }
 
+.filter_layout {
+	margin: 3mm;
+}
+
+.filter_section_title {
+	font-size: large;
+	font-weight: bold;
+}
+
 .filter_title {
 	font-size: large;
 	font-weight: bold;
 }
 
+.filter_subsection {
+	display: grid;
+	grid-template-columns: auto 100%;
+	grid-row-gap: 3mm;
+	grid-column-gap: 3mm;
+}
+
 .filter_checkboxes {
 	display: grid;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: auto auto auto;
 }
 
 .filter_update {
