@@ -463,11 +463,20 @@ namespace XWing {
 
 		lookupShipTypeId(name: string): ShipType {
 			var result: Json.ShipType = this.metadata.ship_types.find((ship: Json.ShipType) => ship.name == name)
-			if (!result) {
-				console.log("No matching ship type for: " + name)
-				return null
+			if (result) {
+				return result.id
 			}
-			return result.id
+			var regex:RegExp = new RegExp(name.replace(/[^A-Za-z0-9]+/g, ".*"), "i")
+			var matches: Json.ShipType[] = this.metadata.ship_types.filter((ship: Json.ShipType) => ship.name.match(regex) != null)
+			if (matches.length > 0) {
+				if (matches.length == 1) {
+					console.log("s@\"" + name + "\"@\"" + matches[0].name +"\"@")
+					return matches[0].id
+				}
+				console.log(matches)
+			}
+			console.log("No matching ship type for: " + name)
+			return null
 
 		}
 
