@@ -196,7 +196,6 @@
                             "upgrade_type": 18,
                             "name": "Servomotor S-foils (Closed)"
                         }
-
                     ]
                 }
             ]
@@ -226,7 +225,6 @@
                             "upgrade_type": 18,
                             "name": "Servomotor S-foils (Closed)"
                         }
-
                     ]
                 }
             ]
@@ -256,7 +254,6 @@
                             "upgrade_type": 18,
                             "name": "Servomotor S-foils (Closed)"
                         }
-
                     ]
                 }
             ]
@@ -286,7 +283,6 @@
                             "upgrade_type": 18,
                             "name": "Servomotor S-foils (Closed)"
                         }
-
                     ]
                 }
             ]
@@ -327,7 +323,6 @@
                             "upgrade_type": 18,
                             "name": "Servomotor S-foils (Closed)"
                         }
-
                     ]
                 }
             ]
@@ -361,7 +356,6 @@
                             "upgrade_type": 18,
                             "name": "Servomotor S-foils (Closed)"
                         }
-
                     ]
                 }
             ]
@@ -402,7 +396,6 @@
                             "upgrade_type": 18,
                             "name": "Servomotor S-foils (Closed)"
                         }
-
                     ]
                 }
             ]
@@ -432,7 +425,6 @@
                             "upgrade_type": 18,
                             "name": "Servomotor S-foils (Closed)"
                         }
-
                     ]
                 }
             ]
@@ -719,6 +711,190 @@
                         {
                             "upgrade_type": 8,
                             "name": "•Han Solo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 4,
+            "ships": [
+                {
+                    "ship": "Resistance Transport",
+                    "wave": "SWZ45",
+                    "pilot": "•Nodin Chavdri",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 5,
+                            "name": "Plasma Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Angled Deflectors"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "•R2-HA"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 4,
+            "ships": [
+                {
+                    "ship": "Resistance Transport",
+                    "wave": "SWZ45",
+                    "pilot": "•Pammich Nerro Goode",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 3,
+                            "name": "Autoblasters"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Spare Parts Canisters"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Kaydel Connix"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "•R5-X3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 4,
+            "ships": [
+                {
+                    "ship": "Resistance Transport",
+                    "wave": "SWZ45",
+                    "pilot": "Logistics Division Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 5,
+                            "name": "Proton Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Amilyn Holdo"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Larma D’Acy"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 3,
+            "faction_id": 4,
+            "ships": [
+                {
+                    "ship": "Resistance Transport",
+                    "wave": "SWZ45",
+                    "pilot": "•Cova Nell",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Composure"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Leia Organa"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Korr Sella"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 4,
+            "ships": [
+                {
+                    "ship": "Resistance Transport Pod",
+                    "wave": "SWZ45",
+                    "pilot": "•Finn",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Predator"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Leia Organa"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Korr Sella"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 4,
+            "ships": [
+                {
+                    "ship": "Resistance Transport Pod",
+                    "wave": "SWZ45",
+                    "pilot": "•Rose Tico",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 8,
+                            "name": "•PZ-4CO"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 4,
+            "ships": [
+                {
+                    "ship": "Resistance Transport Pod",
+                    "wave": "SWZ45",
+                    "pilot": "•Vi Moradi",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 8,
+                            "name": "•GA-97"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 2,
+            "faction_id": 4,
+            "ships": [
+                {
+                    "ship": "Resistance Transport Pod",
+                    "wave": "SWZ45",
+                    "pilot": "•BB-8",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 3,
+                            "name": "Autoblasters"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
                         }
                     ]
                 }
