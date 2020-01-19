@@ -1,174 +1,180 @@
-© & ™ Lucasfilm Ltd.
 Quick Build Reference
-Resistance
+© & ™ Lucasfilm Ltd.
+Galactic Republic
 ship pilot upgrades threat
-This reference contains the X-Wing Second Edition Quick Build options for the Rebel Alliance faction.
-These predefined selections of pilots and upgrades help you quickly assemble squadrons and get
-flying. Each option consists of a ship card, a number of upgrade cards, and a threat level. To play
+This reference contains the X-Wing Second Edition Quick Build options for the Galactic Republic
+faction. These predefined selections of pilots and upgrades help you quickly assemble squadrons and
+get flying. Each option consists of a ship card, a number of upgrade cards, and a threat level. To play
 a match using the Quick Build options, you just need to agree to a particular threat level with your
 opponent, choose a combination of options that add up to that threat level, and launch your fighters!
-RZ-2 A-wing
-SWZ22 •L’ulo L’ampar
-󲁛 Primed Thrusters
-󲁐 Homing Missiles
-RZ-2 A-wing
-SWZ22 •Greer Sonnel
-󲁋 Elusive
+V-19 Torrent
+Starfighter
+SWZ32
+•“Odd Ball”
+󲁋 Saturation Salvo
+󲁐 Cluster Missiles
 󲁙 Afterburners
-RZ-2 A-wing
-SWZ22
-Green Squadron Expert
-󲁋 Heroic
-󲁛 Primed Thrusters
-󲁙 Hull Upgrade
-RZ-2 A-wing
-SWZ22 •Tallissan Lintra
-󲁋 Predator
-󲁛 Ferrosphere Paint
-RZ-2 A-wing
-SWZ22 •Zari Bangel
-󲁋 Outmaneuver
+󲁙 Munitions Failsafe
+V-19 Torrent
+Starfighter
+SWZ32
+•“Kickback”
+󲁋 Crack Shot
+󲁙 Synchronized Console
+V-19 Torrent
+Starfighter
+SWZ32
+•“Axe”
+󲁋 Juke
+󲁐 Homing Missiles
+V-19 Torrent
+Starfighter
+SWZ32
+•“Swoop”
+󲁋 Composure
 󲁐 Proton Rockets
-RZ-2 A-wing
-SWZ22
-Blue Squadron Recruit
-󲁋 Primed Thrusters
-󲁐 Homing Missiles
-󲁙 Shield Upgrade
-T-70 X-wing
-SWZ25 •Poe Dameron
-󲁏 Proton Torpedoes
-󲁔 BB-8
-󲁚 Black One
-󲈡 Integrated S-foils
+󲁙 Synchronized Console
+V-19 Torrent
+Starfighter
+SWZ32
+Blue Squadron
+Protector
+󲁋 Dedicated
+󲁙 Synchronized Console
+V-19 Torrent
+Starfighter
+SWZ326
+•“Tucker”
+󲁐 Concussion Missiles
+󲁙 Munitions Failsafe
+V-19 Torrent
+Starfighter
+SWZ32
+Gold Squadron
+Trooper
+󲁐 Cluster Missiles
 󲁙 Afterburners
-T-70 X-wing
-SWZ25 •Jessika Pava
-󲁔 R5 Astromech
-󲈡 Integrated S-foils
-󲁙 Hull Upgrade
-T-70 X-wing
-SWZ25
-Black Squadron Ace
-󲁏 Proton Torpedoes
-󲁔 M9-G8
-󲈡 Integrated S-foils
 Quick Build Reference
 ship pilot upgrades threat
-T-70 X-wing
-SWZ25 •Ello Asty
-󲁋 Elusive
-󲈡 Integrated S-foils
-󲁙 Afterburners
-T-70 X-wing
-SWZ25 •Joph Seastriker
+Delta-7
+Aethersprite
+SWZ32
+•Mace Windu
+󲈢 Supernatural Reflexes
 󲁔 R2 Astromech
-󲈡 Integrated S-foils
+󲈡 Delta-7B
+󲁙 Afterburners
 󲁙 Shield Upgrade
-T-70 X-wing
-SWZ25 •Jaycris Tubbs
-T-70 X-wing
-SWZ25 •Nien Nunb
-󲁋 Elusive
-󲈡 Integrated S-foils
-󲁙 Afterburners
-T-70 X-wing
-SWZ25 •Lieutenant Bastian
-󲁛 Targeting Synchronizer
-󲁏 Proton Torpedoes
-󲁔 R3 Astromech
-󲈡 Integrated S-foils
-T-70 X-wing
-SWZ25
-Red Squadron Expert
-T-70 X-wing
-SWZ25 •Temmin Wexley
-󲁋 Outmaneuver
-󲁏 Proton Torpedoes
-󲈡 Integrated S-foils
-T-70 X-wing
-SWZ25 •Karé Kun
-󲁋 Predator
-󲈡 Integrated S-foils
-󲁙 Afterburners
-T-70 X-wing
-SWZ25
-Blue Squadron Rookie 󲁔 BB Astromech
-MG-100
-StarFortress
-SWZ19
-•Finch Dallow
-󲁛 Advanced Optics
-󲈦 Paige Tico
-󲁖 Proton Bombs
-󲁙 Ablative Plating
-󲁙 Hull Upgrade
-MG-100
-StarFortress
-SWZ19
-•Cat
-󲈦 Skilled Bombardier
-󲁖 Conner Nets
-󲁙 Electronic Baffle
-MG-100
-StarFortress
-SWZ19
-Cobalt Squadron
-Bomber
-󲁌 Trajectory Simulator
-󲁖 Proton Bombs
-󲁙 Ablative Plating
+Delta-7
+Aethersprite
+SWZ32
+•Plo Koon
+󲈢 Battle Meditation
+󲈢 Sense
+󲁔 R4-P Astromech
+󲁙 Shield Upgrade
+Delta-7
+Aethersprite
+SWZ32
+•Commander Malarus 󲁛 Advanced Optics
+Delta-7
+Aethersprite
+SWZ32
+•Jedi Knight 󲈡 Delta-7B
+Delta-7
+Aethersprite
+SWZ32
+•Obi-Wan Kenobi
+󲈢 Predictive Shot
+󲁔 R4-P17
+󲁙 Spare Parts Canisters
+󲈡󲁙 Calibrated Laser
+Targeting
+Delta-7
+Aethersprite
+SWZ32
+•Saesee Tiin
+󲈢 Supernatural Reflexes
+󲁔 R4-P Astromech
+󲈡 Delta-7B
+Delta-7
+Aethersprite
+SWZ34
+•Anakin Skywalker
+󲈢 Supernatural Reflexes
+󲁙󲈡 Calibrated Laser
+Targeting
+Delta-7
+Aethersprite
+SWZ34
+•Ahsoka Tano
+󲈢 Battle Meditation
+󲁔 R4-P Astromech
+Delta-7
+Aethersprite
+SWZ32
+•Luminara Unduli
+󲈢 Brilliant Evasion
+󲁔 R4-P Astromech
+󲁙 Shield Upgrade
+󲈡 Delta-7B
+Delta-7
+Aethersprite
+SWZ32
+•Barriss Offee
+󲈢 Sense
+󲁔 R2 Astromech
+Delta-7
+Aethersprite
+SWZ32
+•Barriss Offee
+󲈢 Sense
+󲁔 R2 Astromech
 Quick Build Reference
 ship pilot upgrades threat
 © & ™ Lucasfilm Ltd. The FFG logo is a ® of Fantasy Flight Games. Permission granted to print and photocopy for personal use.
-MG-100
-StarFortress
-SWZ19
-•Edon Kappehl
-󲁛 Pattern Analyzer
+ARC-170
+Starfighter
+SWZ33
+•“Odd Ball”
+󲁋 Elusive
 󲁒 Seasoned Navigator
-󲈦 Skilled Bombardier
-󲁖 Conner Nets
-󲁖 Proton Bombs
-MG-100
-StarFortress
-SWZ19
-•Vennie
-󲁛 Advanced Optics
-󲁒 Rose Tico
-󲈦 Finn
+󲈦 Clone Commander Cody
+󲁙 Afterburners
+ARC-170
+Starfighter
+SWZ33
+•“Jag”
+󲁋 Predator
+󲁏 Ion Torpedoes
+󲁔 R2 Astromech
+󲈦 Seventh Fleet Gunner
 󲁙 Shield Upgrade
-MG-100
-StarFortress
-SWZ19
-•Ben Teene
-󲁖 Conner Nets
-󲁖 Proton Bombs
-Scavenged
-YT-1300
-SWZ19
-•Han Solo 󲁒 Chewbacca
-Scavenged
-YT-1300
-SWZ19
-•Rey
-󲈦 Finn
-󲁔 BB-8
-󲁘 Inertial Dampeners
-󲁙 Engine Upgrade
-󲁚 Rey’s Millennium Falcon
-Scavenged
-YT-1300
-SWZ19
-•Chewbacca
-󲈦 Rey
-󲁙 Engine Upgrade
-󲁚 Rey’s Millennium Falcon
-Scavenged
-YT-1300
-SWZ19
-Resistance Sympathizer
-󲁋 Debris Gambit
-󲁒 C-3PO
-󲁒 Chewbacca
-󲁒 Han Solo
+ARC-170
+Starfighter
+SWZ33
+Squad Seven Veteran
+󲁋 Expert Handling
+󲁏 Proton Torpedoes
+󲁔 R4-P Astromech
+󲁒 Novice Technician
+󲈦 Seventh Fleet Gunner
+ARC-170
+Starfighter
+SWZ33
+•“Wolffe”
+󲁋 Outmaneuver
+󲁔 R4-P44
+󲈦 Veteran Tail Gunner
+󲁒 Perceptive Copilot
+ARC-170
+Starfighter
+SWZ33
+•“Sinker” 󲁋 Expert Handling
+ARC-170
+Starfighter
+SWZ33
+104th Battalion Pilot
+󲁋 Dedicated
+󲁔 R4-P Astromech
+

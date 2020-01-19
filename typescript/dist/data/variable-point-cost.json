@@ -230,5 +230,47 @@
             8
         ],
         "upgradeType": "Astromech"
+    },
+    {
+        "name": "Battle Meditation",
+        "type": "INITIATIVE",
+        "costs": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12
+        ],
+        "upgradeType": "Force Power"
+    },
+    {
+        "name": "Delta-7B",
+        "type": "INITIATIVE",
+        "costs": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+        ],
+        "upgradeType": "Configuration"
+    },
+    {
+        "name": "Calibrated Laser Targeting",
+        "type": "INITIATIVE",
+        "costs": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "upgradeType": "Configuration"
     }
 ]

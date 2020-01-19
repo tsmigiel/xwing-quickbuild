@@ -1,0 +1,550 @@
+{
+    "builds": [
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "V-19 Torrent Starfighter",
+                    "wave": "SWZ32",
+                    "pilot": "•“Odd Ball”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Saturation Salvo"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Cluster Missiles"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Munitions Failsafe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "V-19 Torrent Starfighter",
+                    "wave": "SWZ32",
+                    "pilot": "•“Kickback”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Crack Shot"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Synchronized Console"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "V-19 Torrent Starfighter",
+                    "wave": "SWZ32",
+                    "pilot": "•“Axe”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Juke"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Homing Missiles"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "V-19 Torrent Starfighter",
+                    "wave": "SWZ32",
+                    "pilot": "•“Swoop”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Composure"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Proton Rockets"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Synchronized Console"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "V-19 Torrent Starfighter",
+                    "wave": "SWZ32",
+                    "pilot": "Blue Squadron Protector",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Dedicated"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Synchronized Console"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "V-19 Torrent Starfighter",
+                    "wave": "SWZ32",
+                    "pilot": "•“Tucker”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Concussion Missiles"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Munitions Failsafe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "V-19 Torrent Starfighter",
+                    "wave": "SWZ32",
+                    "pilot": "Gold Squadron Trooper ",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Cluster Missiles"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "Delta-7 <italic>Aethersprite</italic>",
+                    "wave": "SWZ32",
+                    "pilot": "•Mace Windu",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Supernatural Reflexes"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R2 Astromech"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Delta-7B"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "Delta-7 <italic>Aethersprite</italic>",
+                    "wave": "SWZ32",
+                    "pilot": "•Plo Koon",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Battle Meditation"
+                        },
+                        {
+                            "upgrade_type": 17,
+                            "name": "Sense"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R4-P Astromech"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "Delta-7 <italic>Aethersprite</italic>",
+                    "wave": "SWZ32",
+                    "pilot": "Jedi Knight",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 18,
+                            "name": "Delta-7B"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "Delta-7 <italic>Aethersprite</italic>",
+                    "wave": "SWZ32",
+                    "pilot": "•Obi-Wan Kenobi",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Predictive Shot"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "•R4-P17"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Spare Parts Canisters"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Calibrated Laser Targeting"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "Delta-7 <italic>Aethersprite</italic>",
+                    "wave": "SWZ32",
+                    "pilot": "•Saesee Tiin",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Supernatural Reflexes"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R4-P Astromech"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Delta-7B"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "Delta-7 <italic>Aethersprite</italic>",
+                    "wave": "SWZ34",
+                    "pilot": "•Anakin Skywalker",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Supernatural Reflexes"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Calibrated Laser Targeting"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "Delta-7 <italic>Aethersprite</italic>",
+                    "wave": "SWZ34",
+                    "pilot": "•Ahsoka Tano",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Battle Meditation"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R4-P Astromech"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "Delta-7 <italic>Aethersprite</italic>",
+                    "wave": "SWZ32",
+                    "pilot": "•Luminara Unduli",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Brilliant Evasion"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R4-P Astromech"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Delta-7B"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "Delta-7 <italic>Aethersprite</italic>",
+                    "wave": "SWZ32",
+                    "pilot": "•Barriss Offee",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Sense"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R2 Astromech"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "ARC-170 Starfighter",
+                    "wave": "SWZ33",
+                    "pilot": "•“Odd Ball”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Elusive"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Seasoned Navigator"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "•Clone Commander Cody"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "ARC-170 Starfighter",
+                    "wave": "SWZ33",
+                    "pilot": "•“Jag”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Predator"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Ion Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R2 Astromech"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Seventh Fleet Gunner"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "ARC-170 Starfighter",
+                    "wave": "SWZ33",
+                    "pilot": "Squad Seven Veteran",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Expert Handling"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Proton Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R4-P Astromech"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Novice Technician"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Seventh Fleet Gunner"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "ARC-170 Starfighter",
+                    "wave": "SWZ33",
+                    "pilot": "•“Wolffe”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Outmaneuver"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "•R4-P44"
+                        },
+                        {
+                            "upgrade_type": 16,
+                            "name": "Veteran Tail Gunner"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Perceptive Copilot"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "ARC-170 Starfighter",
+                    "wave": "SWZ33",
+                    "pilot": "•“Sinker”",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Expert Handling"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 6,
+            "ships": [
+                {
+                    "ship": "ARC-170 Starfighter",
+                    "wave": "SWZ33",
+                    "pilot": "104th Battalion Pilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Dedicated"
+                        },
+                        {
+                            "upgrade_type": 10,
+                            "name": "R4-P Astromech"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
