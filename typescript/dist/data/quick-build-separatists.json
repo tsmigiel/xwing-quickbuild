@@ -1,0 +1,441 @@
+{
+    "builds": [
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "Belbullab-22 Starfighter",
+                    "wave": "SWZ29",
+                    "pilot": "•General Grievous",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Treacherous"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Impervium Plating"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Soulless One</italic>"
+                        },
+                        {
+                            "upgrade_type": 1000,
+                            "name": "•TV-94"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "Belbullab-22 Starfighter",
+                    "wave": "SWZ29",
+                    "pilot": "•Wat Tambor",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Intimidation"
+                        },
+                        {
+                            "upgrade_type": 1000,
+                            "name": "•Kraken"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "Belbullab-22 Starfighter",
+                    "wave": "SWZ29",
+                    "pilot": "Skakoan Ace",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Crack Shot"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "Belbullab-22 Starfighter",
+                    "wave": "SWZ29",
+                    "pilot": "•Captain Sear",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1,
+                            "name": "Daredevil"
+                        },
+                        {
+                            "upgrade_type": 1000,
+                            "name": "•Kraken"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Impervium Plating"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Stealth Device"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "Belbullab-22 Starfighter",
+                    "wave": "SWZ29",
+                    "pilot": "Feethan Ottraw Autopilot",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 1000,
+                            "name": "•TV-94"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Impervium Plating"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "<italic>Vulture</italic>-class Droid Fighter",
+                    "wave": "SWZ29",
+                    "pilot": "••Haor Chall Prototype",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Energy-Shell Charges"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Stealth Device"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "<italic>Vulture</italic>-class Droid Fighter",
+                    "wave": "SWZ29",
+                    "pilot": "Trade Federation Drone",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Energy-Shell Charges"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "<italic>Vulture</italic>-class Droid Fighter",
+                    "wave": "SWZ29",
+                    "pilot": "•DFS-081",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Proton Rockets"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Grappling Struts (Closed)"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "<italic>Vulture</italic>-class Droid Fighter",
+                    "wave": "SWZ29",
+                    "pilot": "•••Precise Hunter",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Concussion Missiles"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Afterburners"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "<italic>Vulture</italic>-class Droid Fighter",
+                    "wave": "SWZ29",
+                    "pilot": "Separatist Drone",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "Energy-Shell Charges"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Grappling Struts (Closed)"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "<italic>Vulture</italic>-class Droid Fighter",
+                    "wave": "SWZ31",
+                    "pilot": "•DFS-311",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 18,
+                            "name": "Grappling Struts (Closed)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "<italic>Vulture</italic>-class Droid Fighter",
+                    "wave": "SWZ31",
+                    "pilot": "••Haor Chall Prototype",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 6,
+                            "name": "•••Discord Missiles"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Energy-Shell Charges"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Stealth Device"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "Sith Infiltrator",
+                    "wave": "SWZ30",
+                    "pilot": "•Darth Maul",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Hate"
+                        },
+                        {
+                            "upgrade_type": 3,
+                            "name": "Heavy Laser Cannon"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "Perceptive Copilot"
+                        },
+                        {
+                            "upgrade_type": 12,
+                            "name": "•DRK-1 Probe Droids"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Shield Upgrade"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Scimitar</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "Sith Infiltrator",
+                    "wave": "SWZ30",
+                    "pilot": "•Count Dooku",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 17,
+                            "name": "Brilliant Evasion"
+                        },
+                        {
+                            "upgrade_type": 17,
+                            "name": "Predictive Shot"
+                        },
+                        {
+                            "upgrade_type": 5,
+                            "name": "Ion Torpedoes"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•General Grievous"
+                        },
+                        {
+                            "upgrade_type": 14,
+                            "name": "Hull Upgrade"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Scimitar</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "Sith Infiltrator",
+                    "wave": "SWZ30",
+                    "pilot": "•0-66",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Chancellor Palpatine"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Shield Upgrade"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Scimitar</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "Sith Infiltrator",
+                    "wave": "SWZ30",
+                    "pilot": "•0-66",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Darth Sidious"
+                        },
+                        {
+                            "upgrade_type": 18,
+                            "name": "Shield Upgrade"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Scimitar</italic>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "threat_level": 1,
+            "faction_id": 7,
+            "ships": [
+                {
+                    "ship": "Sith Infiltrator",
+                    "wave": "SWZ30",
+                    "pilot": "Dark Courier",
+                    "upgrades": [
+                        {
+                            "upgrade_type": 8,
+                            "name": "•Count Dooku"
+                        },
+                        {
+                            "upgrade_type": 8,
+                            "name": "•General Grievous"
+                        },
+                        {
+                            "upgrade_type": 1000,
+                            "name": "•K2-B4"
+                        },
+                        {
+                            "upgrade_type": 15,
+                            "name": "•<italic>Scimitar</italic>"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

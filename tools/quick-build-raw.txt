@@ -1,180 +1,123 @@
 Quick Build Reference
 © & ™ Lucasfilm Ltd.
-Galactic Republic
+Separatist Alliance
 ship pilot upgrades threat
-This reference contains the X-Wing Second Edition Quick Build options for the Galactic Republic
+This reference contains the X-Wing Second Edition Quick Build options for the Separatist Alliance
 faction. These predefined selections of pilots and upgrades help you quickly assemble squadrons and
 get flying. Each option consists of a ship card, a number of upgrade cards, and a threat level. To play
 a match using the Quick Build options, you just need to agree to a particular threat level with your
 opponent, choose a combination of options that add up to that threat level, and launch your fighters!
-V-19 Torrent
+Belbullab-22
 Starfighter
-SWZ32
-•“Odd Ball”
-󲁋 Saturation Salvo
-󲁐 Cluster Missiles
-󲁙 Afterburners
-󲁙 Munitions Failsafe
-V-19 Torrent
+SWZ29
+•General Grievous
+󲁋 Treacherous
+󲁙 Impervium Plating
+󲁚 Soulless One
+󲐂 TV-94
+Belbullab-22
 Starfighter
-SWZ32
-•“Kickback”
+SWZ29
+•Wat Tambor
+󲁋 Intimidation
+󲐂 Kraken
+󲁙 Shield Upgrade
+Belbullab-22
+Starfighter
+SWZ29
+Skakoan Ace
 󲁋 Crack Shot
-󲁙 Synchronized Console
-V-19 Torrent
+󲁙 Afterburners
+Belbullab-22
 Starfighter
-SWZ32
-•“Axe”
-󲁋 Juke
-󲁐 Homing Missiles
-V-19 Torrent
+SWZ29
+•Captain Sear
+󲁋 Daredevil
+󲐂 Kraken
+󲁙 Impervium Plating
+󲁙 Stealth Device
+Belbullab-22
 Starfighter
-SWZ32
-•“Swoop”
-󲁋 Composure
+SWZ29
+Feethan Ottraw
+Autopilot
+󲐂 TV-94
+󲁙 Impervium Plating
+Vulture-class
+Droid Fighter
+SWZ29
+••Haor Chall
+Prototype
+󲁐 Energy-Shell Charges
+󲁙 Afterburners
+󲁙 Stealth Device
+Vulture-class
+Droid Fighter
+SWZ29
+Trade Federation
+Drone 󲁐 Energy-Shell Charges
+Vulture-class
+Droid Fighter
+SWZ29
+•DFS-081
 󲁐 Proton Rockets
-󲁙 Synchronized Console
-V-19 Torrent
-Starfighter
-SWZ32
-Blue Squadron
-Protector
-󲁋 Dedicated
-󲁙 Synchronized Console
-V-19 Torrent
-Starfighter
-SWZ326
-•“Tucker”
+󲈡 Grappling Struts
+󲁙 Hull Upgrade
+Vulture-class
+Droid Fighter
+SWZ29
+•••Precise Hunter
 󲁐 Concussion Missiles
-󲁙 Munitions Failsafe
-V-19 Torrent
-Starfighter
-SWZ32
-Gold Squadron
-Trooper
-󲁐 Cluster Missiles
 󲁙 Afterburners
+󲁙 Shield Upgrade
 Quick Build Reference
 ship pilot upgrades threat
-Delta-7
-Aethersprite
-SWZ32
-•Mace Windu
-󲈢 Supernatural Reflexes
-󲁔 R2 Astromech
-󲈡 Delta-7B
-󲁙 Afterburners
+Vulture-class
+Droid Fighter
+SWZ29
+Separatist Drone
+󲁐 Energy-Shell Charges
+󲈡 Grappling Struts
 󲁙 Shield Upgrade
-Delta-7
-Aethersprite
-SWZ32
-•Plo Koon
-󲈢 Battle Meditation
-󲈢 Sense
-󲁔 R4-P Astromech
-󲁙 Shield Upgrade
-Delta-7
-Aethersprite
-SWZ32
-•Commander Malarus 󲁛 Advanced Optics
-Delta-7
-Aethersprite
-SWZ32
-•Jedi Knight 󲈡 Delta-7B
-Delta-7
-Aethersprite
-SWZ32
-•Obi-Wan Kenobi
-󲈢 Predictive Shot
-󲁔 R4-P17
-󲁙 Spare Parts Canisters
-󲈡󲁙 Calibrated Laser
-Targeting
-Delta-7
-Aethersprite
-SWZ32
-•Saesee Tiin
-󲈢 Supernatural Reflexes
-󲁔 R4-P Astromech
-󲈡 Delta-7B
-Delta-7
-Aethersprite
-SWZ34
-•Anakin Skywalker
-󲈢 Supernatural Reflexes
-󲁙󲈡 Calibrated Laser
-Targeting
-Delta-7
-Aethersprite
-SWZ34
-•Ahsoka Tano
-󲈢 Battle Meditation
-󲁔 R4-P Astromech
-Delta-7
-Aethersprite
-SWZ32
-•Luminara Unduli
-󲈢 Brilliant Evasion
-󲁔 R4-P Astromech
-󲁙 Shield Upgrade
-󲈡 Delta-7B
-Delta-7
-Aethersprite
-SWZ32
-•Barriss Offee
-󲈢 Sense
-󲁔 R2 Astromech
-Delta-7
-Aethersprite
-SWZ32
-•Barriss Offee
-󲈢 Sense
-󲁔 R2 Astromech
-Quick Build Reference
-ship pilot upgrades threat
-© & ™ Lucasfilm Ltd. The FFG logo is a ® of Fantasy Flight Games. Permission granted to print and photocopy for personal use.
-ARC-170
-Starfighter
-SWZ33
-•“Odd Ball”
-󲁋 Elusive
-󲁒 Seasoned Navigator
-󲈦 Clone Commander Cody
-󲁙 Afterburners
-ARC-170
-Starfighter
-SWZ33
-•“Jag”
-󲁋 Predator
-󲁏 Ion Torpedoes
-󲁔 R2 Astromech
-󲈦 Seventh Fleet Gunner
-󲁙 Shield Upgrade
-ARC-170
-Starfighter
-SWZ33
-Squad Seven Veteran
-󲁋 Expert Handling
-󲁏 Proton Torpedoes
-󲁔 R4-P Astromech
-󲁒 Novice Technician
-󲈦 Seventh Fleet Gunner
-ARC-170
-Starfighter
-SWZ33
-•“Wolffe”
-󲁋 Outmaneuver
-󲁔 R4-P44
-󲈦 Veteran Tail Gunner
+Vulture-class
+Droid Fighter
+SWZ31
+•DFS-311 󲈡 Grappling Struts
+Vulture-class
+Droid Fighter
+SWZ31
+••Haor Chall
+Prototype
+󲁐 Discord Missiles
+󲁐 Energy-Shell Charges
+󲁙 Stealth Device
+Sith Infiltrator
+SWZ30 •Darth Maul
+󲈢 Hate
+󲁍 Heavy Laser Cannon
 󲁒 Perceptive Copilot
-ARC-170
-Starfighter
-SWZ33
-•“Sinker” 󲁋 Expert Handling
-ARC-170
-Starfighter
-SWZ33
-104th Battalion Pilot
-󲁋 Dedicated
-󲁔 R4-P Astromech
-
+󲁖 DRK-1 Probe Droids
+󲁙 Shield Upgrade
+󲁚 Scimitar
+Sith Infiltrator
+SWZ30 •Count Dooku
+󲈢 Brilliant Evasion
+󲈢 Predictive Shot
+󲁏 Ion Torpedoes
+󲁒 General Grievous
+󲁙 Hull Upgrade
+󲁚 Scimitar
+Sith Infiltrator
+SWZ30 •0-66
+󲁒 Chancellor Palpatine /
+Darth Sidious
+󲈡 Shield Upgrade
+󲁚 Scimitar
+Sith Infiltrator
+SWZ30
+Dark Courier
+󲁒 Count Dooku
+󲁒 General Grievous
+󲐂 K2-B4
+󲁚 Scimitar
+© & ™ Lucasfilm Ltd. The FFG logo is a ® of Fantasy Flight Games. Permission granted to print and photocopy for personal use.

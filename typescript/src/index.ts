@@ -320,7 +320,8 @@ const loadData = async () => {
 		await fetch("data/quick-build-scum.json").then(r => r.json()),
 		await fetch("data/quick-build-resistance.json").then(r => r.json()),
 		await fetch("data/quick-build-first-order.json").then(r => r.json()),
-		await fetch("data/quick-build-republic.json").then(r => r.json())
+		await fetch("data/quick-build-republic.json").then(r => r.json()),
+		await fetch("data/quick-build-separatists.json").then(r => r.json())
 	]
 	var variablePointCosts = await fetch("data/variable-point-cost.json").then(r => r.json())
 	xwing = new XWing.Data(pilots.cards, upgrades.cards, quickBuilds, metadata, extensions, variablePointCosts)
