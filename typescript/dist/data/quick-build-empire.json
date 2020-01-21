@@ -52,7 +52,7 @@
             "ships": [
                 {
                     "ship": "TIE/ln Fighter",
-                    "wave": "SWZ01",
+                    "wave": "SWZ01, SWZ14",
                     "pilot": "Academy Pilot"
                 }
             ]
@@ -109,7 +109,7 @@
             "ships": [
                 {
                     "ship": "TIE/ln Fighter",
-                    "wave": "SWZ01",
+                    "wave": "SWZ01, SWZ14",
                     "pilot": "Obsidian Squadron Pilot"
                 }
             ]
@@ -224,17 +224,6 @@
                             "name": "Stealth Device"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "threat_level": 1,
-            "faction_id": 2,
-            "ships": [
-                {
-                    "ship": "TIE/ln Fighter",
-                    "wave": "SWZ14",
-                    "pilot": "Obsidian Squadron Pilot"
                 }
             ]
         },
@@ -361,17 +350,6 @@
                     "wave": "SWZ14",
                     "pilot": "Academy Pilot"
                 },
-                {
-                    "ship": "TIE/ln Fighter",
-                    "wave": "SWZ14",
-                    "pilot": "Academy Pilot"
-                }
-            ]
-        },
-        {
-            "threat_level": 1,
-            "faction_id": 2,
-            "ships": [
                 {
                     "ship": "TIE/ln Fighter",
                     "wave": "SWZ14",
@@ -956,31 +934,6 @@
                         {
                             "upgrade_type": 14,
                             "name": "Stealth Device"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "threat_level": 2,
-            "faction_id": 2,
-            "ships": [
-                {
-                    "ship": "TIE/sk Striker",
-                    "wave": "SWZ07",
-                    "pilot": "Black Squadron Scout",
-                    "upgrades": [
-                        {
-                            "upgrade_type": 1,
-                            "name": "Skilled Bombardier"
-                        },
-                        {
-                            "upgrade_type": 12,
-                            "name": "Proximity Mines"
-                        },
-                        {
-                            "upgrade_type": 14,
-                            "name": "Hull Upgrade"
                         }
                     ]
                 }
