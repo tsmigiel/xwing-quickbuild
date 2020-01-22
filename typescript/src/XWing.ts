@@ -160,14 +160,12 @@ namespace XWing {
 		readonly json: Json.UpgradeCard
 		readonly name: string
 		readonly cost: number
-		readonly upgradeType: UpgradeType
 		readonly restrictions: any
 
 		constructor(upgrade: Json.UpgradeCard) {
 			this.json = upgrade
 			this.name = upgrade.name
 			this.cost = this.name.endsWith(" (Closed)") ? 0 : this.json.cost == "*" ? -1 : parseInt(this.json.cost)
-			this.upgradeType = upgrade.upgrade_types[0]
 			this.restrictions = upgrade.restrictions
 		}
 
@@ -176,11 +174,14 @@ namespace XWing {
 		}
 
 		isConfiguration(): boolean {
-			return this.upgradeType == UpgradeType.Configuration
+			return this.isUpgradeType(UpgradeType.Configuration)
 		}
 
 		isUpgradeType(upgradeType: UpgradeType): boolean {
-			return this.upgradeType == upgradeType
+			if (this.json.upgrade_types.find((ut: UpgradeType) => ut == upgradeType)) {
+				return true
+			}
+			return false
 		}
 
 		isRestrictionOk(restrictionType: string, callback: (r: any) => boolean): boolean {
