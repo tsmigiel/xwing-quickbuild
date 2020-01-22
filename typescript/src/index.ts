@@ -12,10 +12,12 @@ interface LayoutSize {
 class FilterItem {
 	id: number
 	name: string
+	factionId: number
 
-	constructor(id: number, name: string) {
+	constructor(id: number, name: string, factionId: number) {
 		this.id = id
 		this.name = name
+	    this.factionId = factionId
 	}
 }
 
@@ -30,27 +32,29 @@ class MainViewModel {
 	pageLayout: PageLayout = PageLayout.Landscape85x11
 
 	shouldDisplayQuickBuild(build: XWing.QuickBuild) {
-	    var shouldDisplayFaction: boolean = this.isChecked("faction", build.factionId, false)
+	    var shouldDisplayFaction: boolean = this.isChecked("faction", build.factionId, build.factionId)
 	    var shouldDisplayShipTypes: boolean = build.ships.reduce((acc: boolean, ship: XWing.Ship) => acc || this.shouldDisplayShipByShipType(ship), false)
 	    var shouldDisplayExtensions: boolean = build.ships.reduce((acc: boolean, ship: XWing.Ship) => acc || this.shouldDisplayShipByExtension(ship), false)
 		return shouldDisplayFaction || shouldDisplayShipTypes || shouldDisplayExtensions
 	}
 
 	shouldDisplayShipByShipType(ship: XWing.Ship){
-		return this.isChecked("ship_type", ship.pilot.shipType, true)
+		return this.isChecked("ship_type", ship.pilot.shipType, ship.pilot.json.faction_id)
 	}
 
 	shouldDisplayShipByExtension(ship: XWing.Ship) {
-		return ship.pilot.json.card_set_ids.reduce((acc: boolean, id: number) => acc || this.isChecked("extension", id, true), false)
+		let factionId: XWing.FactionId = ship.pilot.json.faction_id
+		return ship.pilot.json.card_set_ids.reduce(
+			(acc: boolean, id: number) => acc || this.isChecked("extension", id, factionId), false)
 	}
 
-	isChecked(name: string, value: number, resultForEmpty: boolean) {
+	isChecked(name: string, value: number, factionId: XWing.FactionId) {
 		if (!this.checkedCheckboxes.has(name) || this.checkedCheckboxes.get(name).size == 0) {
-			return resultForEmpty
+			return false
 		}
 		var hasItem: boolean = false
 		for (let item of this.checkedCheckboxes.get(name).values()) {
-			hasItem = hasItem || item.id == value
+			hasItem = hasItem || (item.id == value && item.factionId == factionId)
 		}
 		return hasItem
 	}
@@ -186,7 +190,11 @@ function displayShips() {
 function handleCheckboxChange(checkboxNode: any) {
 	// TODO: There is a bug in this function because a section is divided by
 	// factions which might have duplicate checkboxes values.
-	var item: FilterItem = new FilterItem(parseInt(checkboxNode.value), checkboxNode.name)
+	var item: FilterItem =
+		new FilterItem(
+			parseInt(checkboxNode.value),
+			checkboxNode.name,
+			parseInt(checkboxNode.getAttribute("factionId")))
 	if (checkboxNode.checked) {
 		mainViewModel.select(checkboxNode.name, item)
 	} else {
@@ -194,12 +202,13 @@ function handleCheckboxChange(checkboxNode: any) {
 	}
 }
 
-function createCheckbox(key: string, value: string, label: string): Node {
+function createCheckbox(key: string, value: string, label: string, factionId: XWing.FactionId): Node {
 	var labelNode = document.createElement('label')
 	let inputNode = document.createElement('input')
 	inputNode.type = "checkbox"
 	inputNode.name = key
 	inputNode.value = value
+	inputNode.setAttribute("factionId", factionId.toString())
 	inputNode.onchange = () => handleCheckboxChange(inputNode)
 	labelNode.appendChild(inputNode)
 	let spanNode = document.createElement('span')
@@ -219,7 +228,7 @@ function createFilterCheckboxes(section: string, items: FilterItem[]): Node {
 	var checkboxesNode = document.createElement('div')
 	checkboxesNode.classList.add("filter_checkboxes")
 	for (var i = 0; i < items.length; i++) {
-		checkboxesNode.appendChild(createCheckbox(section, items[i].id.toString(), items[i].name))
+		checkboxesNode.appendChild(createCheckbox(section, items[i].id.toString(), items[i].name, items[i].factionId))
 	}
 	return checkboxesNode
 }
@@ -227,15 +236,15 @@ function createFilterCheckboxes(section: string, items: FilterItem[]): Node {
 function getFilterItemsByShipType(factionId: XWing.FactionId): FilterItem[] {
 	return xwing.availableShipTypes(factionId)
 		.map((item: number) => xwing.lookupShipTypeMetadata(item))
-		.map((ship: XWing.Json.ShipType) => new FilterItem(ship.id, ship.name))
-		.sort((a: XWing.Json.ShipType, b: XWing.Json.ShipType) => a.name.replace(/<italic>/g, "").localeCompare(b.name.replace(/<italic>/g, "")))
+		.map((ship: XWing.Json.ShipType) => new FilterItem(ship.id, ship.name, factionId))
+		.sort((a: FilterItem, b: FilterItem) => a.name.replace(/<italic>/g, "").localeCompare(b.name.replace(/<italic>/g, "")))
 }
 
 function getFilterItemsByExtension(factionId: XWing.FactionId): FilterItem[] {
 	return xwing.availableExtensions(factionId)
 		.sort()
 		.map((extensionId: number) => xwing.lookupExtension(extensionId))
-		.map((extension: XWing.Json.Extension) => new FilterItem(extension.id, extension.name))
+		.map((extension: XWing.Json.Extension) => new FilterItem(extension.id, extension.name, factionId))
 }
 
 function toggleVisibility(title: string, titleNode: any, element: any) {
@@ -259,9 +268,10 @@ function createFiltersByFaction(factions: XWing.Json.Faction[], section: string,
 
 function createFactionFilter(factions: XWing.Json.Faction[]): Node {
 	var filterNode = document.createElement('div')
+	var items: FilterItem[] = factions.map((faction: XWing.Json.Faction) => new FilterItem(faction.id, faction.name, faction.id))
 	filterNode.classList.add("input_section")
 	filterNode.appendChild(createFilterTitle("Factions"))
-	filterNode.appendChild(createFilterCheckboxes("faction", factions))
+	filterNode.appendChild(createFilterCheckboxes("faction", items))
 	return filterNode
 }
 
