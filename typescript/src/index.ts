@@ -21,15 +21,9 @@ class FilterItem {
 	}
 }
 
-enum PageLayout {
-	Landscape85x11 = 1,
-	Landscape11x17 = 2,
-	Portrait11x17 = 3,
-}
-
 class MainViewModel {
 	checkedCheckboxes: Map<string,Set<FilterItem>> = new Map()
-	pageLayout: PageLayout = PageLayout.Landscape85x11
+	options: Map<string, string> = new Map([[ "page_layout", "landscape_85x11" ]])
 
 	shouldDisplayQuickBuild(build: XWing.QuickBuild) {
 	    var shouldDisplayFaction: boolean = this.isChecked("faction", build.factionId, build.factionId)
@@ -59,6 +53,10 @@ class MainViewModel {
 		return hasItem
 	}
 
+	pageLayout(): string {
+		return this.options.get("page_layout")
+	}
+
 	select(name: string, item: FilterItem) {
 		if (!this.checkedCheckboxes.has(name)) {
 			this.checkedCheckboxes.set(name, new Set())
@@ -70,6 +68,10 @@ class MainViewModel {
 		if (this.checkedCheckboxes.has(name)) {
 			this.checkedCheckboxes.get(name).delete(item)
 		}
+	}
+
+	setOption(key: string, value: string) {
+		this.options.set(key, value)
 	}
 }
 
@@ -159,7 +161,7 @@ function sortQuickBuildsForLayout(a: XWing.QuickBuild, b:XWing.QuickBuild) {
 	var aColumns = 0
 	var bColumns = 0
 	for (var s = 0; s < a.ships.length; s++) {
-		var numRows = mainViewModel.pageLayout == PageLayout.Landscape85x11 ? 1 : 2
+		var numRows = mainViewModel.pageLayout() == "landscape_85x11" ? 1 : 2
 		aColumns += numUpgradeColumns(a.ships[s], numRows)
 		bColumns += numUpgradeColumns(b.ships[s], numRows)
 	}
@@ -177,6 +179,7 @@ function displayShips() {
 	}
 	builds.sort(sortQuickBuildsForLayout)
 	let buildsNode = document.getElementById("builds")
+	buildsNode.setAttribute("pageLayout", mainViewModel.pageLayout())
 	buildsNode.innerHTML = ''
 	for (var b = 0; b < builds.length; b++) {
 		for (var s = 0; s < builds[b].ships.length; s++) {
@@ -188,8 +191,6 @@ function displayShips() {
 }
 
 function handleCheckboxChange(checkboxNode: any) {
-	// TODO: There is a bug in this function because a section is divided by
-	// factions which might have duplicate checkboxes values.
 	var item: FilterItem =
 		new FilterItem(
 			parseInt(checkboxNode.value),
@@ -289,6 +290,39 @@ function createCollapsibleInputSection(title: string, contentNode: any) {
 	return sectionNode
 }
 
+function handleRadioButtonChange(radioButton: any) {
+	if (radioButton.checked) {
+		mainViewModel.setOption(radioButton.name, radioButton.value)
+	}
+}
+
+function createRadioButton(key: string, value: string, label: string): Node {
+	var labelNode = document.createElement('label')
+	let inputNode = document.createElement('input')
+	inputNode.type = "radio"
+	inputNode.name = key
+	inputNode.value = value
+	inputNode.onchange = () => handleRadioButtonChange(inputNode)
+	labelNode.appendChild(inputNode)
+	labelNode.append(label)
+	return labelNode
+}
+
+function createPageLayoutOptions(): Node {
+	var radioButtons = document.createElement('div')
+	radioButtons.appendChild(createRadioButton("page_layout", "landscape_85x11", '8.5"x11" Landscape'))
+	radioButtons.appendChild(createRadioButton("page_layout", "landscape_11x17", '11"x17" Landscape'))
+	return radioButtons
+}
+
+function createPrintOptions(): Node {
+	var filterNode = document.createElement('div')
+	filterNode.classList.add("input_section")
+	filterNode.appendChild(createSubsectionTitle("Page Layout"))
+	filterNode.appendChild(createPageLayoutOptions())
+	return filterNode
+}
+
 function createUpdateButton() {
 	var inputNode = document.createElement('input')
 	inputNode.classList.add("filter_update")
@@ -309,6 +343,8 @@ function addFiltersToDom() {
 	filtersNode.appendChild(
 		createCollapsibleInputSection("Extensions (2nd ed. only)",
 			createFiltersByFaction(factions, "extension", getFilterItemsByExtension)))
+	filtersNode.appendChild(
+		createCollapsibleInputSection("Print Options", createPrintOptions()))
 	filtersNode.appendChild(createUpdateButton())
 }
 
