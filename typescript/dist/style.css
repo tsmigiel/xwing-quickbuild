@@ -44,21 +44,21 @@
 	font-weight: bold;
 }
 
-#builds[pageLayout="portrait_11x17"] {
-  display: grid;
-  grid-template-columns: 139.7mm 139.7mm;
+#builds[printLayout="landscape_85x11"] {
   width: 279.4mm;
 }
 
-#builds[pageLayout="landscape_11x17"] {
-  display: grid;
-  grid-template-columns: 215.9mm 215.9mm;
+#builds[printLayout="portrait_11x17"] {
+  width: 279.4mm;
+}
+
+#builds[printLayout="landscape_11x17"] {
   width: 431.8mm;
 }
 
 /*
  * All Ships have this <div> structure:
- * <div class="ship (shipIndex="[01x]")? upgradeColumns="c*u*"">
+ * <div class="ship (shipIndex="[01x]")? upgradeColumns[123]="c*u*"">
  *   <div class="title">
  *   <div class="configuration">
  *   <div class="pilot">
@@ -72,6 +72,25 @@
   display: inline-grid;
   grid-template-columns: auto auto auto auto 100% ;
   page-break-inside: avoid;
+}
+
+[printLayout="landscape_85x11"] .ship {
+  /* Ships with 6 or fewer upgrades print on third of a 17" page.
+   * 11" == 279.4mm
+   * 17" == 431.8mm -- third == 143.93
+   * (min-height + top/bottom padding + margin) fills 1 third of 17"
+   * Ships with 7 or more upgrades print on half a 17" page.
+   *
+   * Hand-tuned spacing so most builds are equally spaced on an 11"x17" page
+   * such that the page can be cut in thirds. Use padding instead of margin to
+   * ensure correct spacing at start of each page.
+   */
+  min-width: 118mm;
+  padding-top: 8mm;
+  padding-bottom: 8mm;
+  padding-left: 8mm;
+  padding-right: 8mm;
+  margin: 1mm 1mm 1mm 1mm;
 }
 
 [printLayout="portrait_11x17"] .ship {
@@ -110,11 +129,20 @@
 
 [printLayout="landscape_11x17"] .ship[shipIndex="0"],
 [printLayout="landscape_11x17"] .ship[shipIndex="1"] {
+  /* Provide a min-width so at most 2 pilots are printed per row. */
   min-width: 118.5mm;
 }
 
-[printLayout="landscape_11x17"] .ship[shipIndex="1"] + *:not([upgradeColumns^="www"]):not([shipIndex="0"]),
-[printLayout="landscape_11x17"] .ship[upgradeColumns^="www"][shipIndex="x"] + *:not([upgradeColumns^="www"]) {
+[printLayout="landscape_11x17"] .ship[shipIndex="1"] + *:not([upgradeColumns2^="www"]):not([shipIndex="0"]),
+[printLayout="landscape_11x17"] .ship[upgradeColumns2^="www"][shipIndex="x"] + *:not([upgradeColumns2^="www"]) {
+  page-break-before: always;
+}
+
+[printLayout="landscape_85x11"] .ship[shipIndex="1"] {
+  page-break-after: always;
+}
+
+[printLayout="landscape_85x11"] .ship[upgradeColumns2^="w"][shipIndex="x"] + *:not([upgradeColumns1^="w"]) {
   page-break-before: always;
 }
 
@@ -153,10 +181,24 @@
 }
 
 /* A ship with enough upgrades that would take more than 3 columns. */
-[printLayout="portrait_11x17"] .ship[upgradeColumns^="wwww"] .upgrade {
+[printLayout="portrait_11x17"] .ship[upgradeColumns2^="wwww"] .upgrade {
   grid-template-rows: auto auto auto;
 }
 
+[printLayout="landscape_85x11"] .ship .configuration,
+[printLayout="landscape_85x11"] .ship .upgrade {
+  grid-template-rows: auto;
+}
+
+[printLayout="landscape_85x11"] .ship[upgradeColumns1^="wwww"] .configuration,
+[printLayout="landscape_85x11"] .ship[upgradeColumns1^="wwww"] .upgrade {
+  grid-template-rows: auto auto;
+}
+
+[printLayout="landscape_85x11"] .ship[upgradeColumns2^="wwww"] .configuration,
+[printLayout="landscape_85x11"] .ship[upgradeColumns2^="wwww"] .upgrade {
+  grid-template-rows: auto auto auto;
+}
 
 .card_pilot {
 	width: 63.5mm;

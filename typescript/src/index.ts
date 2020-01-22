@@ -14,8 +14,15 @@ interface FilterItem {
 	name: string
 }
 
+enum PageLayout {
+	Landscape85x11 = 1,
+	Landscape11x17 = 2,
+	Portrait11x17 = 3,
+}
+
 class MainViewModel {
 	checkedCheckboxes: Map<string,Set<string>> = new Map()
+	pageLayout: PageLayout = PageLayout.Landscape85x11
 
 	shouldDisplayQuickBuild(build: XWing.QuickBuild) {
 	    var shouldDisplayFaction: boolean = this.isChecked("faction", build.factionId.toString(), false)
@@ -107,11 +114,17 @@ function createShipNode(ship : XWing.Ship) {
 	shipNode.classList.add("ship")
 	var configs = ship.getConfigurationUpgrades()
 	var upgrades = ship.getNonConfigurationUpgrades()
-	if (ship.upgrades.length == 0) {
-		shipNode.setAttribute("upgradeColumns", "p")
-	} else {
-		/* How many columns used by upgrades assuming 2 rows. */
-		shipNode.setAttribute("upgradeColumns", "w".repeat(Math.ceil(configs.length / 2)) + "w".repeat(Math.ceil(upgrades.length / 2)))
+	// The upgradeColumns attribute is used by css. Set the number of columns
+	// for 1, 2, and 3 rows so each page layout can choose what it likes.
+	for (var rows = 1; rows < 4; rows++) {
+		if (ship.upgrades.length == 0) {
+			shipNode.setAttribute("upgradeColumns" + rows.toString(), "p")
+		} else {
+			var configCols = Math.ceil(configs.length / rows)
+			var upgradeCols = Math.ceil(upgrades.length / rows)
+			shipNode.setAttribute(
+				"upgradeColumns" + rows.toString(), "w".repeat(configCols + upgradeCols))
+		}
 	}
 	addTitle(shipNode, ship.buildTitle)
 	addUpgrades(shipNode, "configuration", configs)
@@ -133,8 +146,9 @@ function sortQuickBuildsForLayout(a: XWing.QuickBuild, b:XWing.QuickBuild) {
 	var aColumns = 0
 	var bColumns = 0
 	for (var s = 0; s < a.ships.length; s++) {
-		aColumns += numUpgradeColumns(a.ships[s], 2)
-		bColumns += numUpgradeColumns(b.ships[s], 2)
+		var numRows = mainViewModel.pageLayout == PageLayout.Landscape85x11 ? 1 : 2
+		aColumns += numUpgradeColumns(a.ships[s], numRows)
+		bColumns += numUpgradeColumns(b.ships[s], numRows)
 	}
 	return bColumns - aColumns
 }
