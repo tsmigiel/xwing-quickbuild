@@ -3,7 +3,6 @@
 	/* Use padding in ship_layout to get page margins. */
     margin: 0;
     padding: 0;
-    width: 279.4;
 }
 
 @media print
@@ -45,8 +44,16 @@
 	font-weight: bold;
 }
 
-#builds {
-	/* Setting display here breaks printing. */
+#builds[pageLayout="portrait_11x17"] {
+  display: grid;
+  grid-template-columns: 139.7mm 139.7mm;
+  width: 279.4mm;
+}
+
+#builds[pageLayout="landscape_11x17"] {
+  display: grid;
+  grid-template-columns: 215.9mm 215.9mm;
+  width: 431.8mm;
 }
 
 /*
@@ -62,8 +69,8 @@
 .ship {
   /* A grid with 4 columns, 1 each for title, configs, pilot, upgrades.  Use
    * grid because mixing flow and grid doesn't print well. */
-  display: grid;
-  grid-template-columns: auto auto auto auto 100%;
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto 100% ;
   page-break-inside: avoid;
 }
 
@@ -84,6 +91,26 @@
   padding-left: 10mm;
   padding-right: 10mm;
   margin: 1mm 1mm 1mm 1mm;
+}
+
+[printLayout="landscape_11x17"] .ship {
+  /* All ships print with 2 rows of upgrades on half of an 11" page.
+   * 11" == 279.4mm -- half == 139.7mm
+   * 17" == 431.8mm -- half == 215.9
+   * (min-height + top/bottom padding + margin) fills 1 third of 17"
+   */
+  min-width: 190.9mm;
+  min-height: 105.7mm;
+  padding-top: 15mm;
+  padding-bottom: 15mm;
+  padding-left: 10mm;
+  padding-right: 10mm;
+  margin: 1mm 1mm 1mm 1mm;
+}
+
+[printLayout="landscape_11x17"] .ship[shipIndex="0"],
+[printLayout="landscape_11x17"] .ship[shipIndex="1"] {
+  min-width: 118.5mm;
 }
 
 .title {

@@ -125,7 +125,7 @@ function sortQuickBuildsForLayout(a: XWing.QuickBuild, b:XWing.QuickBuild) {
 		aLength += a.ships[s].upgrades.length
 		bLength += b.ships[s].upgrades.length
 	}
-	return aLength - bLength
+	return bLength - aLength
 }
 
 function displayShips() {
@@ -143,7 +143,7 @@ function displayShips() {
 	for (var b = 0; b < builds.length; b++) {
 		for (var s = 0; s < builds[b].ships.length; s++) {
 			var shipNode = createShipNode(builds[b].ships[s])
-			if (builds.length > 1) {
+			if (builds[b].ships.length > 1) {
 				shipNode.setAttribute("shipIndex", s.toString())
 			}
 			buildsNode.appendChild(shipNode)
