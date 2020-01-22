@@ -13,11 +13,12 @@
     }
 }
 
-.filter_layout {
+.input_section {
 	margin: 3mm;
+	max-width: 800px;
 }
 
-.filter_section_title {
+.section_title {
 	font-size: large;
 	font-weight: bold;
 }
@@ -27,11 +28,12 @@
 	font-weight: bold;
 }
 
-.filter_subsection {
+.input_subsection {
 	display: grid;
 	grid-template-columns: auto 100%;
 	grid-row-gap: 3mm;
 	grid-column-gap: 3mm;
+	margin: 3mm;
 }
 
 .filter_checkboxes {

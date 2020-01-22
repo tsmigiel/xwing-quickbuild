@@ -234,31 +234,35 @@ function toggleVisibility(title: string, titleNode: any, element: any) {
 	}
 }
 
-function addFiltersByFaction(filtersNode: Element, factions: XWing.Json.Faction[], title: string, section: string, getFilterItems: any) {
-	var filterNode = document.createElement('div')
-	var titleNode = document.createElement('div')
-	filterNode.classList.add("filter_layout")
-	titleNode.classList.add("filter_section_title")
-	titleNode.innerHTML = "[+] "+ title
-	filtersNode.appendChild(titleNode)
-	let sectionNode = document.createElement('div')
-	sectionNode.classList.add("filter_subsection")
-	sectionNode.style.display = "none"
-	titleNode.onclick = () => toggleVisibility(title, titleNode, sectionNode)
+function createFiltersByFaction(factions: XWing.Json.Faction[], section: string, getFilterItems: any) {
+	let filtersNode = document.createElement('div')
 	for (var f = 0; f < factions.length; f++) {
-		sectionNode.appendChild(createFilterTitle(factions[f].name))
-		sectionNode.appendChild(createFilterCheckboxes(section, getFilterItems(factions[f].id)))
+		filtersNode.appendChild(createFilterTitle(factions[f].name))
+		filtersNode.appendChild(createFilterCheckboxes(section, getFilterItems(factions[f].id)))
 	}
-	filterNode.appendChild(sectionNode)
-	filtersNode.appendChild(filterNode)
+	return filtersNode
 }
 
 function createFactionFilter(factions: XWing.Json.Faction[]): Node {
 	var filterNode = document.createElement('div')
-	filterNode.classList.add("filter_layout")
+	filterNode.classList.add("input_section")
 	filterNode.appendChild(createFilterTitle("Factions"))
 	filterNode.appendChild(createFilterCheckboxes("faction", factions))
 	return filterNode
+}
+
+function createCollapsibleInputSection(title: string, contentNode: any) {
+	var sectionNode = document.createElement('div')
+	var titleNode = document.createElement('div')
+	sectionNode.classList.add("input_section")
+	titleNode.classList.add("section_title")
+	titleNode.innerHTML = "[+] "+ title
+	titleNode.onclick = () => toggleVisibility(title, titleNode, contentNode)
+	sectionNode.appendChild(titleNode)
+	contentNode.classList.add("input_subsection")
+	contentNode.style.display = "none"
+	sectionNode.appendChild(contentNode)
+	return sectionNode
 }
 
 function createUpdateButton() {
@@ -274,8 +278,12 @@ function addFiltersToDom() {
 	var filtersNode = document.getElementById("filters")
 	var factions: XWing.Json.Faction[] = xwing.availableFactions().sort().map((id: XWing.FactionId) => xwing.lookupFactionMetadata(id))
 	filtersNode.appendChild(createFactionFilter(factions))
-	addFiltersByFaction(filtersNode, factions, "Ship Types", "ship_type", getFilterItemsByShipType)
-	addFiltersByFaction(filtersNode, factions, "Extensions (2nd ed. only)", "extension", getFilterItemsByExtension)
+	filtersNode.appendChild(
+		createCollapsibleInputSection("Ship Types",
+			createFiltersByFaction(factions, "ship_type", getFilterItemsByShipType)))
+	filtersNode.appendChild(
+		createCollapsibleInputSection("Extensions (2nd ed. only)",
+			createFiltersByFaction(factions, "extension", getFilterItemsByExtension)))
 	filtersNode.appendChild(createUpdateButton())
 }
 
