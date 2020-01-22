@@ -107,7 +107,12 @@ function createShipNode(ship : XWing.Ship) {
 	shipNode.classList.add("ship")
 	var configs = ship.getConfigurationUpgrades()
 	var upgrades = ship.getNonConfigurationUpgrades()
-	shipNode.setAttribute("upgrades", "c".repeat(configs.length) + "u".repeat(upgrades.length))
+	if (ship.upgrades.length == 0) {
+		shipNode.setAttribute("upgradeColumns", "p")
+	} else {
+		/* How many columns used by upgrades assuming 2 rows. */
+		shipNode.setAttribute("upgradeColumns", "w".repeat(Math.ceil(configs.length / 2)) + "w".repeat(Math.ceil(upgrades.length / 2)))
+	}
 	addTitle(shipNode, ship.buildTitle)
 	addUpgrades(shipNode, "configuration", configs)
 	addPilot(shipNode, ship.pilot)
@@ -115,17 +120,23 @@ function createShipNode(ship : XWing.Ship) {
 	return shipNode
 }
 
+function numUpgradeColumns(ship: XWing.Ship, numRows: number): number {
+	var numConfig = ship.getConfigurationUpgrades().length
+	var numUpgrade = ship.upgrades.length - numConfig
+	return Math.ceil(numConfig / numRows) + Math.ceil(numUpgrade / numRows)
+}
+
 function sortQuickBuildsForLayout(a: XWing.QuickBuild, b:XWing.QuickBuild) {
 	if (a.ships.length != b.ships.length) {
 		return b.ships.length - a.ships.length
 	}
-	var aLength = 0
-	var bLength = 0
+	var aColumns = 0
+	var bColumns = 0
 	for (var s = 0; s < a.ships.length; s++) {
-		aLength += a.ships[s].upgrades.length
-		bLength += b.ships[s].upgrades.length
+		aColumns += numUpgradeColumns(a.ships[s], 2)
+		bColumns += numUpgradeColumns(b.ships[s], 2)
 	}
-	return bLength - aLength
+	return bColumns - aColumns
 }
 
 function displayShips() {
@@ -143,9 +154,7 @@ function displayShips() {
 	for (var b = 0; b < builds.length; b++) {
 		for (var s = 0; s < builds[b].ships.length; s++) {
 			var shipNode = createShipNode(builds[b].ships[s])
-			if (builds[b].ships.length > 1) {
-				shipNode.setAttribute("shipIndex", s.toString())
-			}
+			shipNode.setAttribute("shipIndex", builds[b].ships.length > 1 ? s.toString() : "x")
 			buildsNode.appendChild(shipNode)
 		}
 	}

@@ -58,7 +58,7 @@
 
 /*
  * All Ships have this <div> structure:
- * <div class="ship (shipIndex="[01]")? upgrades="c*u*"">
+ * <div class="ship (shipIndex="[01x]")? upgradeColumns="c*u*"">
  *   <div class="title">
  *   <div class="configuration">
  *   <div class="pilot">
@@ -113,6 +113,11 @@
   min-width: 118.5mm;
 }
 
+[printLayout="landscape_11x17"] .ship[shipIndex="1"] + *:not([upgradeColumns^="www"]):not([shipIndex="0"]),
+[printLayout="landscape_11x17"] .ship[upgradeColumns^="www"][shipIndex="x"] + *:not([upgradeColumns^="www"]) {
+  page-break-before: always;
+}
+
 .title {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
@@ -147,9 +152,8 @@
   margin-top: 25.5mm;
 }
 
-/* A ship with at least 7 total upgrades. Upgrades use 3 rows. */
-[printLayout="portrait_11x17"] .ship[upgrades^="uuuuuuu"] .upgrade,
-[printLayout="portrait_11x17"] .ship[upgrades^="c"][upgrades$="uuuuu"] .upgrade {
+/* A ship with enough upgrades that would take more than 3 columns. */
+[printLayout="portrait_11x17"] .ship[upgradeColumns^="wwww"] .upgrade {
   grid-template-rows: auto auto auto;
 }
 
