@@ -217,9 +217,9 @@ function createCheckbox(key: string, value: string, label: string, factionId: XW
 	return labelNode
 }
 
-function createFilterTitle(title: string): Node {
+function createSubsectionTitle(title: string): Node {
 	var titleNode = document.createElement('div')
-	titleNode.classList.add("filter_title")
+	titleNode.classList.add("subsection_title")
 	titleNode.innerHTML = title
 	return titleNode
 }
@@ -260,7 +260,7 @@ function toggleVisibility(title: string, titleNode: any, element: any) {
 function createFiltersByFaction(factions: XWing.Json.Faction[], section: string, getFilterItems: any) {
 	let filtersNode = document.createElement('div')
 	for (var f = 0; f < factions.length; f++) {
-		filtersNode.appendChild(createFilterTitle(factions[f].name))
+		filtersNode.appendChild(createSubsectionTitle(factions[f].name))
 		filtersNode.appendChild(createFilterCheckboxes(section, getFilterItems(factions[f].id)))
 	}
 	return filtersNode
@@ -270,7 +270,7 @@ function createFactionFilter(factions: XWing.Json.Faction[]): Node {
 	var filterNode = document.createElement('div')
 	var items: FilterItem[] = factions.map((faction: XWing.Json.Faction) => new FilterItem(faction.id, faction.name, faction.id))
 	filterNode.classList.add("input_section")
-	filterNode.appendChild(createFilterTitle("Factions"))
+	filterNode.appendChild(createSubsectionTitle("Factions"))
 	filterNode.appendChild(createFilterCheckboxes("faction", items))
 	return filterNode
 }
