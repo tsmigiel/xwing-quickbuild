@@ -277,7 +277,8 @@ function createUpdateButton() {
 function addFiltersToDom() {
 	var filtersNode = document.getElementById("filters")
 	var factions: XWing.Json.Faction[] = xwing.availableFactions().sort().map((id: XWing.FactionId) => xwing.lookupFactionMetadata(id))
-	filtersNode.appendChild(createFactionFilter(factions))
+	filtersNode.appendChild(
+		createCollapsibleInputSection("Entire Factions", createFactionFilter(factions)))
 	filtersNode.appendChild(
 		createCollapsibleInputSection("Ship Types",
 			createFiltersByFaction(factions, "ship_type", getFilterItemsByShipType)))
