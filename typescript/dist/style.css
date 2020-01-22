@@ -46,15 +46,15 @@
 	font-weight: bold;
 }
 
-#builds[printLayout="landscape_85x11"] {
+#builds[pageLayout="landscape_85x11"] {
   width: 279.4mm;
 }
 
-#builds[printLayout="portrait_11x17"] {
+#builds[pageLayout="portrait_11x17"] {
   width: 279.4mm;
 }
 
-#builds[printLayout="landscape_11x17"] {
+#builds[pageLayout="landscape_11x17"] {
   width: 431.8mm;
 }
 
@@ -76,7 +76,7 @@
   page-break-inside: avoid;
 }
 
-[printLayout="landscape_85x11"] .ship {
+[pageLayout="landscape_85x11"] .ship {
   /* Ships with 6 or fewer upgrades print on third of a 17" page.
    * 11" == 279.4mm
    * 17" == 431.8mm -- third == 143.93
@@ -95,7 +95,7 @@
   margin: 1mm 1mm 1mm 1mm;
 }
 
-[printLayout="portrait_11x17"] .ship {
+[pageLayout="portrait_11x17"] .ship {
   /* Ships with 6 or fewer upgrades print on third of a 17" page.
    * 11" == 279.4mm
    * 17" == 431.8mm -- third == 143.93
@@ -114,7 +114,7 @@
   margin: 1mm 1mm 1mm 1mm;
 }
 
-[printLayout="landscape_11x17"] .ship {
+[pageLayout="landscape_11x17"] .ship {
   /* All ships print with 2 rows of upgrades on half of an 11" page.
    * 11" == 279.4mm -- half == 139.7mm
    * 17" == 431.8mm -- half == 215.9
@@ -129,22 +129,22 @@
   margin: 1mm 1mm 1mm 1mm;
 }
 
-[printLayout="landscape_11x17"] .ship[shipIndex="0"],
-[printLayout="landscape_11x17"] .ship[shipIndex="1"] {
+[pageLayout="landscape_11x17"] .ship[shipIndex="0"],
+[pageLayout="landscape_11x17"] .ship[shipIndex="1"] {
   /* Provide a min-width so at most 2 pilots are printed per row. */
   min-width: 118.5mm;
 }
 
-[printLayout="landscape_11x17"] .ship[shipIndex="1"] + *:not([upgradeColumns2^="www"]):not([shipIndex="0"]),
-[printLayout="landscape_11x17"] .ship[upgradeColumns2^="www"][shipIndex="x"] + *:not([upgradeColumns2^="www"]) {
+[pageLayout="landscape_11x17"] .ship[shipIndex="1"] + *:not([upgradeColumns2^="www"]):not([shipIndex="0"]),
+[pageLayout="landscape_11x17"] .ship[upgradeColumns2^="www"][shipIndex="x"] + *:not([upgradeColumns2^="www"]) {
   page-break-before: always;
 }
 
-[printLayout="landscape_85x11"] .ship[shipIndex="1"] {
+[pageLayout="landscape_85x11"] .ship[shipIndex="1"] {
   page-break-after: always;
 }
 
-[printLayout="landscape_85x11"] .ship[upgradeColumns2^="w"][shipIndex="x"] + *:not([upgradeColumns1^="w"]) {
+[pageLayout="landscape_85x11"] .ship[upgradeColumns2^="w"][shipIndex="x"] + *:not([upgradeColumns1^="w"]) {
   page-break-before: always;
 }
 
@@ -183,22 +183,22 @@
 }
 
 /* A ship with enough upgrades that would take more than 3 columns. */
-[printLayout="portrait_11x17"] .ship[upgradeColumns2^="wwww"] .upgrade {
+[pageLayout="portrait_11x17"] .ship[upgradeColumns2^="wwww"] .upgrade {
   grid-template-rows: auto auto auto;
 }
 
-[printLayout="landscape_85x11"] .ship .configuration,
-[printLayout="landscape_85x11"] .ship .upgrade {
+[pageLayout="landscape_85x11"] .ship .configuration,
+[pageLayout="landscape_85x11"] .ship .upgrade {
   grid-template-rows: auto;
 }
 
-[printLayout="landscape_85x11"] .ship[upgradeColumns1^="wwww"] .configuration,
-[printLayout="landscape_85x11"] .ship[upgradeColumns1^="wwww"] .upgrade {
+[pageLayout="landscape_85x11"] .ship[upgradeColumns1^="wwww"] .configuration,
+[pageLayout="landscape_85x11"] .ship[upgradeColumns1^="wwww"] .upgrade {
   grid-template-rows: auto auto;
 }
 
-[printLayout="landscape_85x11"] .ship[upgradeColumns2^="wwww"] .configuration,
-[printLayout="landscape_85x11"] .ship[upgradeColumns2^="wwww"] .upgrade {
+[pageLayout="landscape_85x11"] .ship[upgradeColumns2^="wwww"] .configuration,
+[pageLayout="landscape_85x11"] .ship[upgradeColumns2^="wwww"] .upgrade {
   grid-template-rows: auto auto auto;
 }
 
