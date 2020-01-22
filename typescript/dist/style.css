@@ -37,8 +37,14 @@
 }
 
 .filter_checkboxes {
-	display: grid;
-	grid-template-columns: auto auto auto;
+	display: flex;
+	flex-flow: row wrap;
+    align-items: space-around;
+}
+
+.filter_checkboxes > label {
+	align-self: flex-start;
+	margin: 2mm;
 }
 
 .filter_update {
