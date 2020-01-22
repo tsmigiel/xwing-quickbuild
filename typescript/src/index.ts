@@ -77,7 +77,7 @@ function createUpgradeNode(upgrade: XWing.Upgrade, boxClass: string, zIndex: num
 function addUpgrades(shipNode: Node, baseClass: string, upgrades: XWing.Upgrade[], numColumns: number) {
 	if (upgrades.length > 0) {
 		var upgradeNode = document.createElement('div')
-		upgradeNode.classList.add("layout_" + baseClass)
+		upgradeNode.classList.add(baseClass)
 		upgradeNode.style.gridTemplateColumns = " auto".repeat(numColumns)
 		for (var i = 0; i < upgrades.length; i++) {
 			upgradeNode.appendChild(createUpgradeNode(upgrades[i], "card_" + baseClass + "_box", -(i+1)))
@@ -88,7 +88,7 @@ function addUpgrades(shipNode: Node, baseClass: string, upgrades: XWing.Upgrade[
 
 function addPilot(shipNode: Node, pilot: XWing.Pilot) {
 	var pilotNode = document.createElement('div')
-	pilotNode.classList.add("layout_pilot")
+	pilotNode.classList.add("pilot")
 	pilotNode.appendChild(createPilotNode(pilot))
 	shipNode.appendChild(pilotNode)
 }
@@ -98,7 +98,7 @@ function addTitle(shipNode: Node, title: string) {
 	var titleContent  = document.createElement('p')
 	titleContent.classList.add("build_title")
 	titleContent.innerHTML = title
-	titleNode.classList.add("layout_title")
+	titleNode.classList.add("title")
 	titleNode.appendChild(titleContent)
 	shipNode.appendChild(titleNode)
 }
@@ -106,7 +106,7 @@ function addTitle(shipNode: Node, title: string) {
 function createShipNode(ships : XWing.Ship[], repeatTitle: boolean) {
 	var gridTemplateColumns: string = ""
 	var shipNode = document.createElement('div')
-	shipNode.classList.add("layout_ship")
+	shipNode.classList.add("ship")
 	for (var s = 0; s < ships.length; s++) {
 		var configs = ships[s].getConfigurationUpgrades()
 		var upgrades = ships[s].getNonConfigurationUpgrades()

@@ -7,7 +7,7 @@
 }
 
 @media print
-{    
+{
     .no-print, .no-print *
     {
         display: none !important;
@@ -49,7 +49,7 @@
 	/* Setting display here breaks printing. */
 }
 
-.layout_ship {
+.ship {
   display: grid;
   grid-auto-columns: min-content;
   margin: 1mm 1mm 1mm 1mm;
@@ -64,22 +64,22 @@
   page-break-inside: avoid;
 }
 
-.layout_title {
+.title {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
 }
 
-.layout_title > p {
+.title > p {
 	text-align: right;
 	margin: 0 0 0 0;
 	height: 86mm;
 }
 
-.layout_pilot {
+.pilot {
   z-index: 1;
 }
 
-.layout_configuration {
+.configuration {
   display: inline-grid;
   grid-auto-flow: row;
   direction: rtl;
@@ -87,7 +87,7 @@
   margin-top: 25.5mm;
 }
 
-.layout_upgrade {
+.upgrade {
   display: inline-grid;
   grid-auto-flow: row;
   margin-bottom: auto;
