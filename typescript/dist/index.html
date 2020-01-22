@@ -14,14 +14,17 @@
 		<script src="index.js"></script>
 
 		<div id="filters" class="no-print" style="max-width: 800px">
-			<p>Choose a faction (required) and any ship types (optional) or any
-			extension (optional) then press the <i>update</i> button. Save or
-			print using the browser's print command, choosing landscape and a
-			11"x17" page.
-			<p>Quick builds are layed out for an 11"x17" page in landscape
-			mode. The first group of pages should be cut in half horizontally,
-			and the remaining should be cut in half horizontally and
-			vertically. Inspect the PDF to determine how many pages of each.
+			<p>Choose a faction, ship type, or extension then press the
+			<i>update</i> button. Save or print using the browser's print
+			command, choosing page size and layout matching the <i>Print
+			Options</i>.
+			<p>The approach for page layout is to generate a single pdf where
+			each page is the same size and multiple builds are put on the same
+			page if a simple cut will work. This is useful when using a
+			printing service (e.g., Staples, FedEx) that supports simple cuts
+			like "cut in half vertically, horizontally, or both". Examine the
+			pdf to determine what page ranges should use what type of cuts.
+			11"x17" has a more efficient layout.
 		</div>
 		<div id="builds" pageLayout="landscape_85x11"> </div>
     </body>
