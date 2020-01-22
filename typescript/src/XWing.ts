@@ -325,7 +325,7 @@ namespace XWing {
 					}
 				}
 				if (newShips.length > 0) {
-					var buildTitle: string = build.threat_level.toString() + ": " + newShips[0].title()
+					var buildTitle: string = "TL" + build.threat_level.toString() + ": " + newShips[0].title()
 					if (newShips.length == 2 && newShips[0].title() == newShips[1].title()) {
 							buildTitle += " (x2)"
 					} else {
