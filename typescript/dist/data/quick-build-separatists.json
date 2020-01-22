@@ -1,7 +1,7 @@
 {
     "builds": [
         {
-            "threat_level": 1,
+            "threat_level": 3,
             "faction_id": 7,
             "ships": [
                 {
@@ -30,7 +30,7 @@
             ]
         },
         {
-            "threat_level": 1,
+            "threat_level": 3,
             "faction_id": 7,
             "ships": [
                 {
@@ -55,7 +55,7 @@
             ]
         },
         {
-            "threat_level": 1,
+            "threat_level": 2,
             "faction_id": 7,
             "ships": [
                 {
@@ -76,7 +76,7 @@
             ]
         },
         {
-            "threat_level": 1,
+            "threat_level": 3,
             "faction_id": 7,
             "ships": [
                 {
@@ -105,7 +105,7 @@
             ]
         },
         {
-            "threat_level": 1,
+            "threat_level": 2,
             "faction_id": 7,
             "ships": [
                 {
@@ -126,7 +126,7 @@
             ]
         },
         {
-            "threat_level": 1,
+            "threat_level": 2,
             "faction_id": 7,
             "ships": [
                 {
@@ -168,7 +168,7 @@
             ]
         },
         {
-            "threat_level": 1,
+            "threat_level": 2,
             "faction_id": 7,
             "ships": [
                 {
@@ -193,7 +193,7 @@
             ]
         },
         {
-            "threat_level": 1,
+            "threat_level": 2,
             "faction_id": 7,
             "ships": [
                 {
@@ -218,7 +218,7 @@
             ]
         },
         {
-            "threat_level": 1,
+            "threat_level": 2,
             "faction_id": 7,
             "ships": [
                 {
@@ -260,7 +260,7 @@
             ]
         },
         {
-            "threat_level": 1,
+            "threat_level": 2,
             "faction_id": 7,
             "ships": [
                 {
@@ -285,7 +285,7 @@
             ]
         },
         {
-            "threat_level": 1,
+            "threat_level": 4,
             "faction_id": 7,
             "ships": [
                 {
@@ -322,7 +322,7 @@
             ]
         },
         {
-            "threat_level": 1,
+            "threat_level": 4,
             "faction_id": 7,
             "ships": [
                 {
@@ -359,7 +359,7 @@
             ]
         },
         {
-            "threat_level": 1,
+            "threat_level": 3,
             "faction_id": 7,
             "ships": [
                 {
@@ -384,7 +384,7 @@
             ]
         },
         {
-            "threat_level": 1,
+            "threat_level": 3,
             "faction_id": 7,
             "ships": [
                 {
@@ -409,7 +409,7 @@
             ]
         },
         {
-            "threat_level": 1,
+            "threat_level": 3,
             "faction_id": 7,
             "ships": [
                 {
