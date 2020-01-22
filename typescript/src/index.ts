@@ -74,11 +74,10 @@ function createUpgradeNode(upgrade: XWing.Upgrade, boxClass: string, zIndex: num
 	return div
 }
 
-function addUpgrades(shipNode: Node, baseClass: string, upgrades: XWing.Upgrade[], numColumns: number) {
+function addUpgrades(shipNode: Node, baseClass: string, upgrades: XWing.Upgrade[]) {
 	if (upgrades.length > 0) {
 		var upgradeNode = document.createElement('div')
 		upgradeNode.classList.add(baseClass)
-		upgradeNode.style.gridTemplateColumns = " auto".repeat(numColumns)
 		for (var i = 0; i < upgrades.length; i++) {
 			upgradeNode.appendChild(createUpgradeNode(upgrades[i], "card_" + baseClass + "_box", -(i+1)))
 		}
@@ -103,104 +102,52 @@ function addTitle(shipNode: Node, title: string) {
 	shipNode.appendChild(titleNode)
 }
 
-function createShipNode(ships : XWing.Ship[], repeatTitle: boolean) {
-	var gridTemplateColumns: string = ""
+function createShipNode(ship : XWing.Ship) {
 	var shipNode = document.createElement('div')
 	shipNode.classList.add("ship")
-	for (var s = 0; s < ships.length; s++) {
-		var configs = ships[s].getConfigurationUpgrades()
-		var upgrades = ships[s].getNonConfigurationUpgrades()
-		var size: LayoutSize = layoutSize(ships[s])
-		if (s == 0 || repeatTitle) {
-			addTitle(shipNode, ships[s].buildTitle)
-			gridTemplateColumns += " auto"
-		}
-		if (configs.length > 0) {
-			addUpgrades(shipNode, "configuration", configs, size.configWidth)
-			gridTemplateColumns += " auto"
-		}
-		addPilot(shipNode, ships[s].pilot)
-		gridTemplateColumns += " auto"
-		if (upgrades.length > 0) {
-			addUpgrades(shipNode, "upgrade", upgrades, size.nonConfigWidth)
-			gridTemplateColumns += " auto"
-		}
-		shipNode.appendChild(document.createElement('div'))
-		if (s == 0 || s < ships.length - 1) {
-			gridTemplateColumns += " 1fr"
-		}
-	}
-	shipNode.style.gridTemplateColumns = gridTemplateColumns
+	var configs = ship.getConfigurationUpgrades()
+	var upgrades = ship.getNonConfigurationUpgrades()
+	shipNode.setAttribute("upgrades", "c".repeat(configs.length) + "u".repeat(upgrades.length))
+	addTitle(shipNode, ship.buildTitle)
+	addUpgrades(shipNode, "configuration", configs)
+	addPilot(shipNode, ship.pilot)
+	addUpgrades(shipNode, "upgrade", upgrades)
 	return shipNode
 }
 
-function layoutSize(ship: XWing.Ship): LayoutSize {
-	var numConfig = ship.getConfigurationUpgrades().length
-	var numNonConfig = ship.getNonConfigurationUpgrades().length
-	var configHeight = numConfig
-	var configWidth = numConfig > 0 ? 1 : 0
-	var nonConfigWidth = Math.min(3 - configWidth, Math.floor((numNonConfig + 1) / 2))
-	var nonConfigHeight = Math.ceil(numNonConfig / nonConfigWidth)
-	return {
-		"width": configWidth + nonConfigWidth, "height": Math.max(configHeight, nonConfigHeight),
-		"configWidth": configWidth, "configHeight": configHeight,
-		"nonConfigWidth": nonConfigWidth, "nonConfigHeight": nonConfigHeight,
+function sortQuickBuildsForLayout(a: XWing.QuickBuild, b:XWing.QuickBuild) {
+	if (a.ships.length != b.ships.length) {
+		return b.ships.length - a.ships.length
 	}
+	var aLength = 0
+	var bLength = 0
+	for (var s = 0; s < a.ships.length; s++) {
+		aLength += a.ships[s].upgrades.length
+		bLength += b.ships[s].upgrades.length
+	}
+	return aLength - bLength
 }
 
 function displayShips() {
 	var builds: XWing.QuickBuild[] = []
+	/* Find all builds the user selected. */
 	for (var b = 0; b < xwing.quickBuilds.length; b++) {
 		var build: XWing.QuickBuild = xwing.quickBuilds[b]
 		if (mainViewModel.shouldDisplayQuickBuild(build)) {
 			builds.push(build)
 		}
 	}
-	builds.sort((a: XWing.QuickBuild, b:XWing.QuickBuild) => layoutSize(b.ships[0]).height - layoutSize(a.ships[0]).height)
-	var prevHeight = 0
+	builds.sort(sortQuickBuildsForLayout)
 	let buildsNode = document.getElementById("builds")
 	buildsNode.innerHTML = ''
 	for (var b = 0; b < builds.length; b++) {
-		var size: LayoutSize = layoutSize(builds[b].ships[0])
-		var height: number = size.height
-		if (builds[b].ships.length == 1) {
-			var ship: XWing.Ship = builds[b].ships[0]
-			var shipNode: any
-			if (ship.pilot.uniqueCount() > 0) {
-				shipNode = createShipNode([ship], true)
-			} else if (size.width == 0) {
-				shipNode = createShipNode([ship, ship, ship], true)
-			} else if (size.width == 1) {
-				shipNode = createShipNode([ship, ship], true)
-			} else {
-				shipNode = createShipNode([ship], true)
-			}
-			if (prevHeight >= 3 && height < 3) {
-				shipNode.style.pageBreakBefore = "always"
+		for (var s = 0; s < builds[b].ships.length; s++) {
+			var shipNode = createShipNode(builds[b].ships[s])
+			if (builds.length > 1) {
+				shipNode.setAttribute("shipIndex", s.toString())
 			}
 			buildsNode.appendChild(shipNode)
-		} else {
-			var size1: LayoutSize = layoutSize(builds[b].ships[0])
-			if (builds[b].ships.length == 2 && size.width + size1.width < 3) {
-				height = Math.max(height, size1.height)
-				shipNode = createShipNode([builds[b].ships[0], builds[b].ships[1]], false)
-				if (prevHeight >= 3 && height < 3) {
-					shipNode.style.pageBreakBefore = "always"
-				}
-				buildsNode.appendChild(shipNode)
-			} else {
-				for (var s = 0; s < builds[b].ships.length; s++) {
-					shipNode = createShipNode([builds[b].ships[s]], true)
-					height = layoutSize(builds[b].ships[s]).height
-					if (prevHeight >= 3 && height < 3) {
-						shipNode.style.pageBreakBefore = "always"
-					}
-					buildsNode.appendChild(shipNode)
-					prevHeight = height
-				}
-			}
 		}
-		prevHeight = height
 	}
 }
 

@@ -49,19 +49,41 @@
 	/* Setting display here breaks printing. */
 }
 
+/*
+ * All Ships have this <div> structure:
+ * <div class="ship (shipIndex="[01]")? upgrades="c*u*"">
+ *   <div class="title">
+ *   <div class="configuration">
+ *   <div class="pilot">
+ *   <div class="upgrade">
+ * </div>
+ */
+
 .ship {
+  /* A grid with 4 columns, 1 each for title, configs, pilot, upgrades.  Use
+   * grid because mixing flow and grid doesn't print well. */
   display: grid;
-  grid-auto-columns: min-content;
-  margin: 1mm 1mm 1mm 1mm;
-  /* Hand-tuned spacing so most builds are equally spaced on an 11"x17" page
-   * such that the page can be cut in thirds. Use padding instead of margin
-   * to ensure correct spacing at start of each page. */
-  min-height: 97mm;
+  grid-template-columns: auto auto auto auto 100%;
+  page-break-inside: avoid;
+}
+
+[printLayout="portrait_11x17"] .ship {
+  /* Ships with 6 or fewer upgrades print on third of a 17" page.
+   * 11" == 279.4mm
+   * 17" == 431.8mm -- third == 143.93
+   * (min-height + top/bottom padding + margin) fills 1 third of 17"
+   * Ships with 7 or more upgrades print on half a 17" page.
+   *
+   * Hand-tuned spacing so most builds are equally spaced on an 11"x17" page
+   * such that the page can be cut in thirds. Use padding instead of margin to
+   * ensure correct spacing at start of each page.
+   */
+  min-height: 101.5mm; /* formerly 97mm */
   padding-top: 20mm;
   padding-bottom: 20mm;
   padding-left: 10mm;
   padding-right: 10mm;
-  page-break-inside: avoid;
+  margin: 1mm 1mm 1mm 1mm;
 }
 
 .title {
@@ -79,20 +101,31 @@
   z-index: 1;
 }
 
+/* Default for configurations is 2 rows, fill each column before the next. */
 .configuration {
   display: inline-grid;
-  grid-auto-flow: row;
+  grid-auto-flow: column;
+  grid-template-rows: auto auto;
   direction: rtl;
   margin-bottom: auto;
   margin-top: 25.5mm;
 }
 
+/* Default for upgrades is 2 rows, fill each column before the next. */
 .upgrade {
   display: inline-grid;
-  grid-auto-flow: row;
+  grid-auto-flow: column;
+  grid-template-rows: auto auto;
   margin-bottom: auto;
   margin-top: 25.5mm;
 }
+
+/* A ship with at least 7 total upgrades. Upgrades use 3 rows. */
+[printLayout="portrait_11x17"] .ship[upgrades^="uuuuuuu"] .upgrade,
+[printLayout="portrait_11x17"] .ship[upgrades^="c"][upgrades$="uuuuu"] .upgrade {
+  grid-template-rows: auto auto auto;
+}
+
 
 .card_pilot {
 	width: 63.5mm;
