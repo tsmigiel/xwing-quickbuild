@@ -9,9 +9,14 @@ interface LayoutSize {
 	nonConfigHeight: number
 }
 
-interface FilterItem {
+class FilterItem {
 	id: number
 	name: string
+
+	constructor(id: number, name: string) {
+		this.id = id
+		this.name = name
+	}
 }
 
 enum PageLayout {
@@ -21,41 +26,45 @@ enum PageLayout {
 }
 
 class MainViewModel {
-	checkedCheckboxes: Map<string,Set<string>> = new Map()
+	checkedCheckboxes: Map<string,Set<FilterItem>> = new Map()
 	pageLayout: PageLayout = PageLayout.Landscape85x11
 
 	shouldDisplayQuickBuild(build: XWing.QuickBuild) {
-	    var shouldDisplayFaction: boolean = this.isChecked("faction", build.factionId.toString(), false)
+	    var shouldDisplayFaction: boolean = this.isChecked("faction", build.factionId, false)
 	    var shouldDisplayShipTypes: boolean = build.ships.reduce((acc: boolean, ship: XWing.Ship) => acc || this.shouldDisplayShipByShipType(ship), false)
 	    var shouldDisplayExtensions: boolean = build.ships.reduce((acc: boolean, ship: XWing.Ship) => acc || this.shouldDisplayShipByExtension(ship), false)
-		return shouldDisplayFaction && shouldDisplayShipTypes && shouldDisplayExtensions
+		return shouldDisplayFaction || shouldDisplayShipTypes || shouldDisplayExtensions
 	}
 
 	shouldDisplayShipByShipType(ship: XWing.Ship){
-		return this.isChecked("ship_type", ship.pilot.shipType.toString(), true)
+		return this.isChecked("ship_type", ship.pilot.shipType, true)
 	}
 
-	shouldDisplayShipByExtension(ship: XWing.Ship){
-		return ship.pilot.json.card_set_ids.reduce((acc: boolean, id: number) => acc || this.isChecked("extension", id.toString(), true), false)
+	shouldDisplayShipByExtension(ship: XWing.Ship) {
+		return ship.pilot.json.card_set_ids.reduce((acc: boolean, id: number) => acc || this.isChecked("extension", id, true), false)
 	}
 
-	isChecked(name: string, value: string, resultForEmpty: boolean) {
+	isChecked(name: string, value: number, resultForEmpty: boolean) {
 		if (!this.checkedCheckboxes.has(name) || this.checkedCheckboxes.get(name).size == 0) {
 			return resultForEmpty
 		}
-		return this.checkedCheckboxes.has(name) && this.checkedCheckboxes.get(name).has(value)
+		var hasItem: boolean = false
+		for (let item of this.checkedCheckboxes.get(name).values()) {
+			hasItem = hasItem || item.id == value
+		}
+		return hasItem
 	}
 
-	select(name: string, value: string) {
+	select(name: string, item: FilterItem) {
 		if (!this.checkedCheckboxes.has(name)) {
 			this.checkedCheckboxes.set(name, new Set())
 		}
-		this.checkedCheckboxes.get(name).add(value)
+		this.checkedCheckboxes.get(name).add(item)
 	}
 
-	deselect(name: string, value: string) {
+	deselect(name: string, item: FilterItem) {
 		if (this.checkedCheckboxes.has(name)) {
-			this.checkedCheckboxes.get(name).delete(value)
+			this.checkedCheckboxes.get(name).delete(item)
 		}
 	}
 }
@@ -175,10 +184,13 @@ function displayShips() {
 }
 
 function handleCheckboxChange(checkboxNode: any) {
+	// TODO: There is a bug in this function because a section is divided by
+	// factions which might have duplicate checkboxes values.
+	var item: FilterItem = new FilterItem(parseInt(checkboxNode.value), checkboxNode.name)
 	if (checkboxNode.checked) {
-		mainViewModel.select(checkboxNode.name, checkboxNode.value)
+		mainViewModel.select(checkboxNode.name, item)
 	} else {
-		mainViewModel.deselect(checkboxNode.name, checkboxNode.value)
+		mainViewModel.deselect(checkboxNode.name, item)
 	}
 }
 
@@ -215,6 +227,7 @@ function createFilterCheckboxes(section: string, items: FilterItem[]): Node {
 function getFilterItemsByShipType(factionId: XWing.FactionId): FilterItem[] {
 	return xwing.availableShipTypes(factionId)
 		.map((item: number) => xwing.lookupShipTypeMetadata(item))
+		.map((ship: XWing.Json.ShipType) => new FilterItem(ship.id, ship.name))
 		.sort((a: XWing.Json.ShipType, b: XWing.Json.ShipType) => a.name.replace(/<italic>/g, "").localeCompare(b.name.replace(/<italic>/g, "")))
 }
 
@@ -222,6 +235,7 @@ function getFilterItemsByExtension(factionId: XWing.FactionId): FilterItem[] {
 	return xwing.availableExtensions(factionId)
 		.sort()
 		.map((extensionId: number) => xwing.lookupExtension(extensionId))
+		.map((extension: XWing.Json.Extension) => new FilterItem(extension.id, extension.name))
 }
 
 function toggleVisibility(title: string, titleNode: any, element: any) {
