@@ -168,11 +168,11 @@ div#filters {
 
 [pageLayout="landscape_11x17"] .ship[shipIndex="0"],
 [pageLayout="landscape_11x17"] .ship[shipIndex="1"] {
-  /* Provide a min-width so at most 2 pilots are printed per row. */
-  min-width: 118.5mm;
+	/* For multi-ship builds, let them be close together on the same row. */
+	min-width: 63.5mm;
 }
 
-[pageLayout="landscape_11x17"] .ship[shipIndex="1"] + *:not([upgradeColumns2^="www"]):not([shipIndex="0"]):not(.eol),
+[pageLayout="landscape_11x17"] .eol + *:not([upgradeColumns2^="www"]):not([shipIndex="0"]),
 [pageLayout="landscape_11x17"] .ship[upgradeColumns2^="www"][shipIndex="x"] + *:not([upgradeColumns2^="www"]):not(.eol) {
   page-break-before: always;
 }
