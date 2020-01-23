@@ -1,8 +1,10 @@
 /* Uncomment this to get more builds per landscape page. */
 @page {
 	/* Use padding in ship_layout to get page margins. */
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
+	max-width: none;
+	line-height: normal;
 }
 
 @media print
@@ -50,6 +52,28 @@
 .filter_update {
 	font-size: large;
 	font-weight: bold;
+}
+
+body {
+	/* 0 out padding and margin so printing works. */
+	padding: 0;
+	margin: 0;
+}
+
+/* Reset styling set in water.css. */
+div#filters {
+	padding: 0 10px;
+	margin: 20px auto;
+}
+
+#builds {
+	line-height: normal;
+	padding: 0;
+	margin: 0;
+}
+
+#builds img {
+	max-width: none;
 }
 
 #builds[pageLayout="landscape_85x11"] {
@@ -156,13 +180,15 @@
 
 .title {
   writing-mode: vertical-rl;
+  transform-origin: center center;
   transform: rotate(180deg);
 }
 
 .title > p {
+	font-size: 10pt;
 	text-align: right;
+	vertical-align: top;
 	margin: 0 0 0 0;
-	height: 86mm;
 }
 
 .pilot {
