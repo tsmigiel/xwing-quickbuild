@@ -19,6 +19,10 @@ class FilterItem {
 		this.name = name
 	    this.factionId = factionId
 	}
+
+	isEqual(item: FilterItem): boolean {
+		return this.id == item.id && this.name == item.name && this.factionId == item.factionId
+	}
 }
 
 class MainViewModel {
@@ -66,7 +70,8 @@ class MainViewModel {
 
 	deselect(name: string, item: FilterItem) {
 		if (this.checkedCheckboxes.has(name)) {
-			this.checkedCheckboxes.get(name).delete(item)
+			let itemSet: Set<FilterItem> = this.checkedCheckboxes.get(name)
+			itemSet.forEach((i: FilterItem) => { if (i.isEqual(item)) itemSet.delete(i) })
 		}
 	}
 
