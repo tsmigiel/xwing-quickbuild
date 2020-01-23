@@ -187,6 +187,11 @@ function displayShips() {
 			shipNode.setAttribute("shipIndex", builds[b].ships.length > 1 ? s.toString() : "x")
 			buildsNode.appendChild(shipNode)
 		}
+		if (builds[b].ships.length > 1) {
+			var eolNode = document.createElement('div')
+			eolNode.classList.add("eol")
+			buildsNode.appendChild(eolNode)
+		}
 	}
 }
 

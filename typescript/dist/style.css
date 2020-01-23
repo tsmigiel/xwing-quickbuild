@@ -159,14 +159,21 @@ div#filters {
   margin: 1mm 1mm 1mm 1mm;
 }
 
+.eol {
+	width: 0;
+	height: 0;
+	padding: 0;
+	margin-right: 100%;
+}
+
 [pageLayout="landscape_11x17"] .ship[shipIndex="0"],
 [pageLayout="landscape_11x17"] .ship[shipIndex="1"] {
   /* Provide a min-width so at most 2 pilots are printed per row. */
   min-width: 118.5mm;
 }
 
-[pageLayout="landscape_11x17"] .ship[shipIndex="1"] + *:not([upgradeColumns2^="www"]):not([shipIndex="0"]),
-[pageLayout="landscape_11x17"] .ship[upgradeColumns2^="www"][shipIndex="x"] + *:not([upgradeColumns2^="www"]) {
+[pageLayout="landscape_11x17"] .ship[shipIndex="1"] + *:not([upgradeColumns2^="www"]):not([shipIndex="0"]):not(.eol),
+[pageLayout="landscape_11x17"] .ship[upgradeColumns2^="www"][shipIndex="x"] + *:not([upgradeColumns2^="www"]):not(.eol) {
   page-break-before: always;
 }
 
