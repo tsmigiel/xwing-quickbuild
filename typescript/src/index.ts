@@ -183,6 +183,15 @@ function displayShips() {
 		}
 	}
 	builds.sort(sortQuickBuildsForLayout)
+	var xwsImportNode = document.getElementById("xws_import") as HTMLTextAreaElement
+	if (xwsImportNode && xwsImportNode.value) {
+		var xwsJson: XWing.XWS.Squadron = JSON.parse(xwsImportNode.value)
+		var xwsBuilds: XWing.QuickBuild[] = xwing.createQuickBuildFromXwsJson(xwsJson)
+		for (let i = 0; i < xwsBuilds.length; i++) {
+			builds.push(xwsBuilds[i])
+		}
+	}
+
 	let buildsNode = document.getElementById("builds")
 	buildsNode.setAttribute("pageLayout", mainViewModel.pageLayout())
 	buildsNode.innerHTML = ''
@@ -318,6 +327,21 @@ function createRadioButton(key: string, value: string, label: string): Node {
 	return labelNode
 }
 
+function createTextArea(id: string): Node {
+	var textAreaNode = document.createElement('textarea')
+	textAreaNode.id = id
+	textAreaNode.name = id
+	return textAreaNode
+}
+
+function createXwsImport(): Node {
+	var filterNode = document.createElement('div')
+	filterNode.classList.add("input_section")
+	filterNode.appendChild(createSubsectionTitle("Squadron"))
+	filterNode.appendChild(createTextArea("xws_import"))
+	return filterNode
+}
+
 function createPageLayoutOptions(): Node {
 	var radioButtons = document.createElement('div')
 	radioButtons.appendChild(createRadioButton("page_layout", "landscape_85x11", '8.5"x11" Landscape'))
@@ -353,6 +377,8 @@ function addFiltersToDom() {
 	filtersNode.appendChild(
 		createCollapsibleInputSection("Extensions (2nd ed. only)",
 			createFiltersByFaction(factions, "extension", getFilterItemsByExtension)))
+	filtersNode.appendChild(
+		createCollapsibleInputSection("XWS Import", createXwsImport()))
 	filtersNode.appendChild(
 		createCollapsibleInputSection("Print Options", createPrintOptions()))
 	filtersNode.appendChild(createUpdateButton())

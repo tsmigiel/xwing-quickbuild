@@ -3,6 +3,7 @@
 /// <referenc path="xwing/metadata.js"></script>
 /// <referenc path="xwing/quick-build.js"></script>
 /// <referenc path="xwing/variable-point-cost.js"></script>
+/// <referenc path="xwing/xws.js"></script>
 namespace XWing {
 
 	enum CardType {
@@ -231,6 +232,26 @@ namespace XWing {
 		isShipTypeOk(shipType: ShipType): boolean {
 			return this.isRestrictionOk("SHIP_TYPE", (restriction: any) => restriction.kwargs.pk == shipType)
 		}
+
+		computeCost(pilot: Pilot, variablePointCost: Json.VariablePointCost): number {
+			if (this.isDoubleSided() && this.isLowerIdSide()) {
+				// For upgrades with 2 sides only include the cost of 1 side.
+				return 0
+			}
+			if (variablePointCost) {
+				switch (variablePointCost.type) {
+					case "SHIP_SIZE":
+						return variablePointCost.costs[pilot.shipSize - 1]
+					case "AGILITY":
+						return variablePointCost.costs[pilot.agility]
+					case "INITIATIVE":
+						return variablePointCost.costs[pilot.initiative]
+				}
+			} else if (this.cost < 0) {
+				console.log("No point cost for " + this.name)
+			}
+			return this.cost
+		}
 	}
 
 	export class Pilot {
@@ -274,16 +295,10 @@ namespace XWing {
 		readonly totalCost: number
 		buildTitle: string
 
-		constructor(data: Data, factionId: FactionId, ship: ShipJson) {
-			this.pilot = data.lookupPilot(ship.pilot, factionId, ship.ship)
-			var newUpgrades: Upgrade[] = new Array()
-			if (this.pilot && ship.upgrades) {
-				for (var i = 0; i < ship.upgrades.length; i++) {
-					newUpgrades.push(data.lookupUpgrade(ship.upgrades[i], factionId, this.pilot.shipType))
-				}
-			}
-			this.upgrades = newUpgrades
-			this.totalCost = this.pilot ? this.computeTotalCost(data) : 0
+		constructor(pilot: Pilot, upgrades: Upgrade[], totalCost: number) {
+			this.pilot = pilot
+			this.upgrades = upgrades
+			this.totalCost = totalCost
 			this.buildTitle = ""
 		}
 
@@ -293,37 +308,6 @@ namespace XWing {
 
 		title(): string {
 			return this.pilot.name + " (" + this.totalCost + ")"
-		}
-
-		computeTotalCost(data: Data): number {
-			return this.pilot.cost + this.upgrades.reduce((acc: number, upgrade: Upgrade) => acc + this.computeUpgradeCost(data, upgrade), 0)
-		}
-
-		computeUpgradeCost(data: Data, upgrade: Upgrade): number {
-			if (!upgrade) {
-				// This issue has already been logged, return a crazy number
-				return 1000
-			}
-			if (upgrade.isDoubleSided() && upgrade.isLowerIdSide()) {
-				// For upgrades with 2 sides only include the cost of 1 side.
-				return 0
-			}
-			if (upgrade.cost == -1) {
-				var variablePointCost: Json.VariablePointCost = data.lookupVariablePointCost(upgrade.name)
-				if (variablePointCost) {
-					switch (variablePointCost.type) {
-						case "SHIP_SIZE":
-							return variablePointCost.costs[this.pilot.shipSize - 1]
-						case "AGILITY":
-							return variablePointCost.costs[this.pilot.agility]
-						case "INITIATIVE":
-							return variablePointCost.costs[this.pilot.initiative]
-					}
-				}
-				console.log("No point cost for " + upgrade.name)
-				return 0
-			}
-			return upgrade.cost
 		}
 
 		getConfigurationUpgrades(): Upgrade[] {
@@ -343,33 +327,11 @@ namespace XWing {
 		readonly ships: Ship[]
 		readonly title: string
 
-		constructor(data: Data, build: QuickBuildJson) {
-			this.factionId = build.faction_id
-			this.threatLevel = build.threat_level
-			var newShips: Ship[] = new Array<Ship>()
-			if (build.ships) {
-				for (var i = 0; i < build.ships.length; i++) {
-					var newShip = new Ship(data, this.factionId, build.ships[i])
-					if (newShip.pilot) {
-						newShips.push(newShip)
-					}
-				}
-				if (newShips.length > 0) {
-					var buildTitle: string = "TL" + build.threat_level.toString() + ": " + newShips[0].title()
-					if (newShips.length == 2 && newShips[0].title() == newShips[1].title()) {
-							buildTitle += " (x2)"
-					} else {
-						for (var s = 1; s < newShips.length; s++) {
-							buildTitle += " + " + newShips[s].title()
-						}
-					}
-					this.title = buildTitle
-				}
-				for (var s = 0; s < newShips.length; s++) {
-					newShips[s].setBuildTitle(buildTitle)
-				}
-			}
-			this.ships = newShips
+		constructor(factionId: FactionId, threatLevel: number, ships: Ship[], title: string) {
+			this.factionId = factionId
+			this.threatLevel = threatLevel
+			this.ships = ships
+			this.title = title
 		}
 
 		isValid(): boolean {
@@ -400,8 +362,8 @@ namespace XWing {
 			var newQuickBuilds: QuickBuild[] = new Array()
 			for (var i = 0; i < quickbuilds.length; i++) {
 				for (var j = 0; j < quickbuilds[i].builds.length; j++) {
-					var newBuild = new QuickBuild(this, quickbuilds[i].builds[j])
-					if (newBuild.isValid()) {
+					var newBuild = this.createQuickBuildFromQuickBuildJson(quickbuilds[i].builds[j])
+					if (newBuild && newBuild.isValid()) {
 						newQuickBuilds.push(newBuild)
 					} else {
 						console.log("Failed to create QuickBuild.")
@@ -410,6 +372,86 @@ namespace XWing {
 				}
 			}
 			this.quickBuilds = newQuickBuilds
+		}
+
+		createQuickBuildFromQuickBuildJson(build: QuickBuildJson): QuickBuild {
+			var ships: Ship[] = new Array<Ship>()
+			var title: string = ""
+			if (build.ships) {
+				for (var i = 0; i < build.ships.length; i++) {
+					var ship = this.createShipFromShipJson(build.faction_id, build.ships[i])
+					if (ship) {
+						ships.push(ship)
+					}
+				}
+				if (ships.length > 0) {
+					var buildTitle: string = "TL" + build.threat_level.toString() + ": " + ships[0].title()
+					if (ships.length == 2 && ships[0].title() == ships[1].title()) {
+							buildTitle += " (x2)"
+					} else {
+						for (var s = 1; s < ships.length; s++) {
+							buildTitle += " + " + ships[s].title()
+						}
+					}
+					for (var s = 0; s < ships.length; s++) {
+						ships[s].setBuildTitle(buildTitle)
+					}
+				}
+				return new QuickBuild(build.faction_id, build.threat_level, ships, title)
+			}
+			return null
+		}
+
+		createShipFromShipJson(factionId: FactionId, ship: ShipJson): Ship {
+			var pilot: Pilot = this.lookupPilot(ship.pilot, factionId, ship.ship)
+			if (!pilot) {
+				return null
+			}
+			var upgrades: Upgrade[] = new Array()
+			if (ship.upgrades) {
+				for (var i = 0; i < ship.upgrades.length; i++) {
+					upgrades.push(this.lookupUpgrade(ship.upgrades[i], factionId, pilot.shipType))
+				}
+			}
+			return new Ship(pilot, upgrades, this.computeTotalCost(pilot, upgrades))
+		}
+
+		computeTotalCost(pilot: Pilot, upgrades: Upgrade[]): number {
+			console.log(upgrades)
+			return pilot.cost + upgrades.reduce((acc: number, upgrade: Upgrade) => acc + upgrade.computeCost(pilot, this.lookupVariablePointCost(upgrade.name)), 0)
+		}
+
+		createQuickBuildFromXwsJson(build: XWS.Squadron): QuickBuild[] {
+			if (build.pilots) {
+				var factionId: FactionId = XWS.factionsXWSToFFGMap[build.faction]
+				var builds: QuickBuild[] = new Array<QuickBuild>()
+				for (var i = 0; i < build.pilots.length; i++) {
+					var pilot: Pilot = this.lookupPilotById(XWS.pilotsXWSToFFGMap[build.pilots[i].id])
+					if (!pilot) {
+						console.log("Failed to find pilot for XWS: " + build.pilots[i].id)
+						return null
+					}
+					var upgrades: Upgrade[] = new Array()
+					if (build.pilots[i].upgrades) {
+						for (var upgradeType in build.pilots[i].upgrades) {
+							for (var j = 0; j < build.pilots[i].upgrades[upgradeType].length; j++) {
+								var id: string = build.pilots[i].upgrades[upgradeType][j]
+								var newUpgrades: Upgrade[] = this.lookupUpgradeById(XWS.upgradesXWSToFFGMap[id])
+								if (newUpgrades) {
+									upgrades = upgrades.concat(newUpgrades)
+								} else {
+									console.log("Failed to find upgrade for XWS: " + id)
+								}
+							}
+						}
+					}
+					var ship: Ship = new Ship(pilot, upgrades, this.computeTotalCost(pilot, upgrades))
+					ship.setBuildTitle(ship.title())
+					builds.push(new QuickBuild(factionId, 0, [ship], ship.title()))
+				}
+				return builds
+			}
+			return null
 		}
 
 		private lookup(name: string, filterCallback: (card: any) => boolean, cards: CardLookup[], cardType: string): any {
@@ -467,12 +509,27 @@ namespace XWing {
 			return this.lookup(name, (pilot: Pilot) => this.checkPilot(pilot, factionId, shipType), this.pilots, "pilot")
 		}
 
+		lookupPilotById(id: number): Pilot {
+			return this.pilots.find((pilot: Pilot) => pilot.json.id == id)
+		}
+
 		checkUpgrade(upgrade: Upgrade, upgradeType: UpgradeType, factionId: FactionId, shipType: ShipType): boolean {
 			return upgrade.isUpgradeType(upgradeType) && upgrade.isFactionOk(factionId) && upgrade.isShipTypeOk(shipType)
 		}
 
 		lookupUpgrade(query: UpgradeAndTypeJson, factionId: FactionId, shipType: ShipType): Upgrade {
 			return this.lookup(query.name, (upgrade: Upgrade) => this.checkUpgrade(upgrade, query.upgrade_type, factionId, shipType), this.upgrades, "upgrade")
+		}
+
+		lookupUpgradeById(ids: any): Upgrade[] {
+			if (Array.isArray(ids)) {
+				return ids.map((id: number) => this.upgrades.find((upgrade: Upgrade) => upgrade.json.id == id))
+			}
+			var upgrade = this.upgrades.find((upgrade: Upgrade) => upgrade.json.id == ids)
+			if (upgrade) {
+				return [upgrade]
+			}
+			return null
 		}
 
 		lookupShipTypeId(name: string): ShipType {
