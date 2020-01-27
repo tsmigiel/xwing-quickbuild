@@ -417,7 +417,6 @@ namespace XWing {
 		}
 
 		computeTotalCost(pilot: Pilot, upgrades: Upgrade[]): number {
-			console.log(upgrades)
 			return pilot.cost + upgrades.reduce((acc: number, upgrade: Upgrade) => acc + upgrade.computeCost(pilot, this.lookupVariablePointCost(upgrade.name)), 0)
 		}
 
