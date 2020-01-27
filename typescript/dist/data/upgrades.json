@@ -28,7 +28,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32105,
+                    "id": 33902,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -53,7 +53,9 @@
                 14,
                 15,
                 20,
-                28
+                28,
+                43,
+                45
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -64,7 +66,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_2.jpg",
             "name": "Daredevil",
             "ability_text": "While you perform a white <boost> action, you may treat it as red to use the [1<nonbreak><leftturn>] or [1<nonbreak><rightturn>] template instead.",
-            "cost": "3",
+            "cost": "2",
             "available_actions": [
 
             ],
@@ -118,7 +120,7 @@
             "cost": "4",
             "available_actions": [
                 {
-                    "id": 27849,
+                    "id": 29347,
                     "base_action_id": 3,
                     "related_action_id": null,
                     "base_action_side_effect": "stress",
@@ -167,7 +169,8 @@
                 6,
                 14,
                 15,
-                17
+                17,
+                44
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -184,7 +187,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32106,
+                    "id": 33903,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -235,7 +238,7 @@
             "cost": "*",
             "available_actions": [
                 {
-                    "id": 27850,
+                    "id": 29348,
                     "base_action_id": 5,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -362,7 +365,8 @@
                 20,
                 21,
                 33,
-                36
+                36,
+                45
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -431,7 +435,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32107,
+                    "id": 33904,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": true
@@ -492,7 +496,8 @@
                 5,
                 6,
                 14,
-                15
+                15,
+                43
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -527,7 +532,8 @@
                 5,
                 6,
                 14,
-                15
+                15,
+                43
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -610,7 +616,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_14.jpg",
             "name": "Saturation Salvo",
             "ability_text": "While you perform a <torpedo> or <missile> attack, you may spend 1<nonbreak><standardcharge> from that upgrade. If you do, choose two defense dice. The defender must reroll those dice.",
-            "cost": "6",
+            "cost": "5",
             "available_actions": [
 
             ],
@@ -692,7 +698,8 @@
                 14,
                 15,
                 19,
-                31
+                31,
+                42
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -706,7 +713,7 @@
             "cost": "*",
             "available_actions": [
                 {
-                    "id": 27851,
+                    "id": 29349,
                     "base_action_id": 8,
                     "related_action_id": null,
                     "base_action_side_effect": "stress",
@@ -950,7 +957,8 @@
                 5,
                 6,
                 14,
-                15
+                15,
+                44
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -1004,7 +1012,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32108,
+                    "id": 33900,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -1061,7 +1069,8 @@
                 5,
                 6,
                 15,
-                29
+                29,
+                49
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -1072,7 +1081,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_26.jpg",
             "name": "Trajectory Simulator",
             "ability_text": "During the System Phase, if you would drop or launch a bomb, you may launch it using the [5<nonbreak><straight>] template instead.",
-            "cost": "10",
+            "cost": "6",
             "available_actions": [
 
             ],
@@ -1109,13 +1118,13 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_27.jpg",
             "name": "Heavy Laser Cannon",
             "ability_text": "<smallcaps>Attack:</smallcaps> After the Modify Attack Dice step, change all <crit> results to <hit> results.",
-            "cost": "4",
+            "cost": "5",
             "available_actions": [
 
             ],
             "statistics": [
                 {
-                    "id": 32109,
+                    "id": 33808,
                     "statistic_id": 11,
                     "value": "4",
                     "recurring": false
@@ -1151,13 +1160,13 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_28.jpg",
             "name": "Ion Cannon",
             "ability_text": "<smallcaps>Attack:</smallcaps> If this attack hits, spend 1<nonbreak><hit> or <crit> result to cause the defender to suffer 1<nonbreak><hit> damage. All remaining <hit>/<crit> results inflict ion tokens instead of damage.",
-            "cost": "5",
+            "cost": "6",
             "available_actions": [
 
             ],
             "statistics": [
                 {
-                    "id": 32111,
+                    "id": 33810,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
@@ -1198,7 +1207,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32113,
+                    "id": 33812,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
@@ -1221,7 +1230,9 @@
                 6,
                 14,
                 15,
-                22
+                22,
+                42,
+                44
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -1232,13 +1243,13 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_30.jpg",
             "name": "Tractor Beam",
             "ability_text": "<smallcaps>Attack:</smallcaps> If this attack hits, all <hit>/<crit> results inflict tractor tokens instead of damage.",
-            "cost": "2",
+            "cost": "3",
             "available_actions": [
 
             ],
             "statistics": [
                 {
-                    "id": 32115,
+                    "id": 33814,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
@@ -1273,7 +1284,7 @@
             "cost": "3",
             "available_actions": [
                 {
-                    "id": 27852,
+                    "id": 29357,
                     "base_action_id": 14,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -1282,7 +1293,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32117,
+                    "id": 33925,
                     "statistic_id": 12,
                     "value": "2",
                     "recurring": false
@@ -1326,7 +1337,7 @@
             "cost": "5",
             "available_actions": [
                 {
-                    "id": 27853,
+                    "id": 29358,
                     "base_action_id": 14,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -1335,7 +1346,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32119,
+                    "id": 33927,
                     "statistic_id": 12,
                     "value": "3",
                     "recurring": false
@@ -1386,13 +1397,13 @@
             ],
             "statistics": [
                 {
-                    "id": 32121,
+                    "id": 33913,
                     "statistic_id": 10,
                     "value": "5",
                     "recurring": false
                 },
                 {
-                    "id": 32123,
+                    "id": 33915,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -1437,13 +1448,13 @@
             ],
             "statistics": [
                 {
-                    "id": 32124,
+                    "id": 33916,
                     "statistic_id": 10,
                     "value": "4",
                     "recurring": false
                 },
                 {
-                    "id": 32126,
+                    "id": 33918,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -1486,13 +1497,13 @@
             ],
             "statistics": [
                 {
-                    "id": 32127,
+                    "id": 33919,
                     "statistic_id": 10,
                     "value": "4",
                     "recurring": false
                 },
                 {
-                    "id": 32129,
+                    "id": 33921,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -1511,7 +1522,8 @@
             "id": 265,
             "card_set_ids": [
                 5,
-                29
+                29,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": true,
@@ -1529,13 +1541,13 @@
             ],
             "statistics": [
                 {
-                    "id": 32130,
+                    "id": 33864,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
                 },
                 {
-                    "id": 32132,
+                    "id": 33866,
                     "statistic_id": 7,
                     "value": "5",
                     "recurring": false
@@ -1578,13 +1590,13 @@
             ],
             "statistics": [
                 {
-                    "id": 32133,
+                    "id": 33867,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
                 },
                 {
-                    "id": 32135,
+                    "id": 33869,
                     "statistic_id": 7,
                     "value": "4",
                     "recurring": false
@@ -1611,7 +1623,8 @@
                 20,
                 21,
                 23,
-                27
+                27,
+                45
             ],
             "card_type_id": 2,
             "weapon_no_bonus": true,
@@ -1628,13 +1641,13 @@
             ],
             "statistics": [
                 {
-                    "id": 32136,
+                    "id": 33870,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
                 },
                 {
-                    "id": 32138,
+                    "id": 33872,
                     "statistic_id": 7,
                     "value": "3",
                     "recurring": false
@@ -1660,7 +1673,8 @@
                 16,
                 20,
                 21,
-                35
+                35,
+                42
             ],
             "card_type_id": 2,
             "weapon_no_bonus": true,
@@ -1677,13 +1691,13 @@
             ],
             "statistics": [
                 {
-                    "id": 32139,
+                    "id": 33873,
                     "statistic_id": 10,
                     "value": "4",
                     "recurring": false
                 },
                 {
-                    "id": 32141,
+                    "id": 33875,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -1707,7 +1721,8 @@
                 14,
                 15,
                 33,
-                41
+                41,
+                44
             ],
             "card_type_id": 2,
             "weapon_no_bonus": true,
@@ -1724,13 +1739,13 @@
             ],
             "statistics": [
                 {
-                    "id": 32142,
+                    "id": 33876,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
                 },
                 {
-                    "id": 32144,
+                    "id": 33878,
                     "statistic_id": 7,
                     "value": "3",
                     "recurring": false
@@ -1756,7 +1771,8 @@
                 16,
                 20,
                 21,
-                39
+                39,
+                45
             ],
             "card_type_id": 2,
             "weapon_no_bonus": true,
@@ -1773,13 +1789,13 @@
             ],
             "statistics": [
                 {
-                    "id": 32145,
+                    "id": 33879,
                     "statistic_id": 11,
                     "value": "5",
                     "recurring": false
                 },
                 {
-                    "id": 32147,
+                    "id": 33881,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -1801,7 +1817,8 @@
                 5,
                 6,
                 14,
-                15
+                15,
+                42
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -1853,7 +1870,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32148,
+                    "id": 33821,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -1877,7 +1894,8 @@
                 14,
                 15,
                 35,
-                40
+                40,
+                42
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -2022,7 +2040,8 @@
                 4,
                 5,
                 6,
-                15
+                15,
+                42
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -2036,7 +2055,7 @@
             "cost": "6",
             "available_actions": [
                 {
-                    "id": 27854,
+                    "id": 29328,
                     "base_action_id": 8,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -2201,7 +2220,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_52.jpg",
             "name": "Veteran Turret Gunner",
             "ability_text": "After you perform a primary attack, you may perform a bonus <turretarc> attack using a <turretarc> you did not already attack from this round.",
-            "cost": "8",
+            "cost": "10",
             "available_actions": [
 
             ],
@@ -2260,7 +2279,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32149,
+                    "id": 33796,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -2378,7 +2397,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32150,
+                    "id": 33797,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -2408,13 +2427,13 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_57.jpg",
             "name": "•Cloaking Device",
             "ability_text": "<smallcaps>Action:</smallcaps> Spend 1<nonbreak><standardcharge> to perform a <cloak> action.<return>At the start of the Planning Phase, roll 1 attack die. On a <focus> result, decloak or discard your cloak token.",
-            "cost": "5",
+            "cost": "4",
             "available_actions": [
 
             ],
             "statistics": [
                 {
-                    "id": 32151,
+                    "id": 33861,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -2459,13 +2478,13 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_58.jpg",
             "name": "Contraband Cybernetics",
             "ability_text": "Before you activate, you may spend 1<nonbreak><standardcharge>. If you do, until the end of the round, you can perform actions and execute red maneuvers, even while stressed.",
-            "cost": "3",
+            "cost": "2",
             "available_actions": [
 
             ],
             "statistics": [
                 {
-                    "id": 32152,
+                    "id": 33862,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -2519,7 +2538,8 @@
             "card_set_ids": [
                 4,
                 6,
-                15
+                15,
+                42
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -2530,7 +2550,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_60.jpg",
             "name": "Feedback Array",
             "ability_text": "Before you engage, you may gain 1 ion token and 1 disarm token. If you do, each ship at range 0 suffers 1<nonbreak><hit> damage.",
-            "cost": "4",
+            "cost": "3",
             "available_actions": [
 
             ],
@@ -2586,7 +2606,8 @@
                 6,
                 13,
                 15,
-                35
+                35,
+                48
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -2603,7 +2624,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32153,
+                    "id": 33863,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -2638,7 +2659,8 @@
                 5,
                 6,
                 14,
-                15
+                15,
+                42
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -2655,7 +2677,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32159,
+                    "id": 33892,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -2752,7 +2774,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32160,
+                    "id": 33893,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -2831,7 +2853,7 @@
             "cost": "*",
             "available_actions": [
                 {
-                    "id": 27855,
+                    "id": 29344,
                     "base_action_id": 1,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -2876,7 +2898,8 @@
                 6,
                 14,
                 15,
-                17
+                17,
+                43
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -2893,7 +2916,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32161,
+                    "id": 33894,
                     "statistic_id": 2,
                     "value": "+1",
                     "recurring": false
@@ -2954,7 +2977,8 @@
                 5,
                 6,
                 14,
-                15
+                15,
+                43
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -2971,7 +2995,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32162,
+                    "id": 33895,
                     "statistic_id": 3,
                     "value": "+1",
                     "recurring": false
@@ -3007,7 +3031,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_76.jpg",
             "name": "Static Discharge Vanes",
             "ability_text": "Before you would gain 1 ion or jam token, if you are not stressed, you may choose another ship at range 0–1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead.",
-            "cost": "8",
+            "cost": "6",
             "available_actions": [
 
             ],
@@ -3051,7 +3075,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32163,
+                    "id": 33896,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -3172,7 +3196,7 @@
             "cost": "8",
             "available_actions": [
                 {
-                    "id": 27856,
+                    "id": 29329,
                     "base_action_id": 9,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -3266,7 +3290,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32164,
+                    "id": 33822,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": true
@@ -3426,7 +3450,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32165,
+                    "id": 33823,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -3503,13 +3527,13 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_88.jpg",
             "name": "•Leia Organa",
             "ability_text": "At the start of the Activation Phase, you may spend 3 <standardcharge>. During this phase, each friendly ship reduces the difficulty of its red maneuvers.",
-            "cost": "6",
+            "cost": "7",
             "available_actions": [
 
             ],
             "statistics": [
                 {
-                    "id": 32166,
+                    "id": 33824,
                     "statistic_id": 7,
                     "value": "3",
                     "recurring": true
@@ -3821,7 +3845,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32167,
+                    "id": 33853,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -3904,7 +3928,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32168,
+                    "id": 33854,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -3986,7 +4010,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32169,
+                    "id": 33798,
                     "statistic_id": 7,
                     "value": "3",
                     "recurring": false
@@ -4029,7 +4053,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32170,
+                    "id": 33799,
                     "statistic_id": 7,
                     "value": "3",
                     "recurring": false
@@ -4115,10 +4139,10 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_103.jpg",
             "name": "•<italic>Millennium Falcon</italic>",
             "ability_text": "While you defend, if you are evading, you may reroll 1 defense die.",
-            "cost": "6",
+            "cost": "3",
             "available_actions": [
                 {
-                    "id": 27857,
+                    "id": 29351,
                     "base_action_id": 3,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -4165,7 +4189,8 @@
         {
             "id": 328,
             "card_set_ids": [
-                4
+                4,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -4278,7 +4303,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_106.jpg",
             "name": "•<italic>Phantom</italic>",
             "ability_text": "You can dock at range 0–1.",
-            "cost": "2",
+            "cost": "0",
             "available_actions": [
 
             ],
@@ -4453,14 +4478,14 @@
             "cost": "0",
             "available_actions": [
                 {
-                    "id": 27871,
+                    "id": 29321,
                     "base_action_id": 1,
                     "related_action_id": null,
                     "base_action_side_effect": null,
                     "related_action_side_effect": null
                 },
                 {
-                    "id": 27872,
+                    "id": 29322,
                     "base_action_id": 2,
                     "related_action_id": 1,
                     "base_action_side_effect": null,
@@ -4658,7 +4683,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32171,
+                    "id": 33825,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -4737,7 +4762,7 @@
             "cost": "4",
             "available_actions": [
                 {
-                    "id": 27858,
+                    "id": 29330,
                     "base_action_id": 4,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -4793,7 +4818,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32172,
+                    "id": 33826,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -4831,13 +4856,13 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_116.jpg",
             "name": "•Grand Inquisitor",
             "ability_text": "After an enemy ship at range 0–2 reveals its dial, you may spend 1<nonbreak><forcecharge> to perform 1 white action on your action bar, treating that action as red.",
-            "cost": "14",
+            "cost": "13",
             "available_actions": [
 
             ],
             "statistics": [
                 {
-                    "id": 32173,
+                    "id": 33827,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -4880,7 +4905,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32174,
+                    "id": 33828,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": true
@@ -5017,7 +5042,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32175,
+                    "id": 33829,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": true
@@ -5079,7 +5104,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32176,
+                    "id": 33830,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -5117,13 +5142,13 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_122.jpg",
             "name": "•Fifth Brother",
             "ability_text": "While you perform an attack, you may spend 1<nonbreak><forcecharge> to change 1 of your <focus> results to a <crit> result.",
-            "cost": "9",
+            "cost": "11",
             "available_actions": [
 
             ],
             "statistics": [
                 {
-                    "id": 32177,
+                    "id": 33855,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -5294,7 +5319,8 @@
             "card_set_ids": [
                 6,
                 32,
-                40
+                40,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -5461,7 +5487,8 @@
         {
             "id": 356,
             "card_set_ids": [
-                6
+                6,
+                42
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -5513,7 +5540,7 @@
             "cost": "3",
             "available_actions": [
                 {
-                    "id": 27859,
+                    "id": 29331,
                     "base_action_id": 9,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -5551,7 +5578,8 @@
         {
             "id": 358,
             "card_set_ids": [
-                6
+                6,
+                42
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -5569,7 +5597,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32178,
+                    "id": 33831,
                     "statistic_id": 7,
                     "value": "4",
                     "recurring": false
@@ -5673,7 +5701,8 @@
             "id": 361,
             "card_set_ids": [
                 6,
-                38
+                38,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -5690,7 +5719,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32179,
+                    "id": 33832,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -5820,7 +5849,8 @@
         {
             "id": 364,
             "card_set_ids": [
-                6
+                6,
+                42
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -5859,7 +5889,9 @@
             "id": 365,
             "card_set_ids": [
                 6,
-                32
+                32,
+                42,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -5929,7 +5961,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32180,
+                    "id": 33856,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": true
@@ -5955,7 +5987,8 @@
         {
             "id": 367,
             "card_set_ids": [
-                6
+                6,
+                42
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -5972,7 +6005,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32181,
+                    "id": 33857,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": true
@@ -6054,7 +6087,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32182,
+                    "id": 33800,
                     "statistic_id": 7,
                     "value": "3",
                     "recurring": false
@@ -6130,10 +6163,10 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_146.jpg",
             "name": "•<italic>Andrasta</italic>",
             "ability_text": "Add <bomb> slot.",
-            "cost": "4",
+            "cost": "3",
             "available_actions": [
                 {
-                    "id": 27860,
+                    "id": 29352,
                     "base_action_id": 12,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -6198,7 +6231,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_147.jpg",
             "name": "•<italic>Havoc</italic>",
             "ability_text": "Remove <crew> slot. Add <sensor> and <astro> slots.",
-            "cost": "4",
+            "cost": "2",
             "available_actions": [
 
             ],
@@ -6254,7 +6287,8 @@
         {
             "id": 373,
             "card_set_ids": [
-                6
+                6,
+                42
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -6412,10 +6446,10 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_151.jpg",
             "name": "•<italic>Mist Hunter</italic>",
             "ability_text": "Add <cannon> slot.",
-            "cost": "2",
+            "cost": "1",
             "available_actions": [
                 {
-                    "id": 27861,
+                    "id": 29353,
                     "base_action_id": 5,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -6481,7 +6515,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_152.jpg",
             "name": "•<italic>Punishing One</italic>",
             "ability_text": "While you perform a primary attack, if the defender is in your <frontarc>, roll 1 additional attack die.<return>Remove <crew> slot. Add <astro> slot.",
-            "cost": "8",
+            "cost": "5",
             "available_actions": [
 
             ],
@@ -6541,7 +6575,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_153.jpg",
             "name": "•<italic>Shadow Caster</italic>",
             "ability_text": "After you perform an attack that hits, if the defender is in your <turretarc> and your <frontarc>, the defender gains 1 tractor token.",
-            "cost": "3",
+            "cost": "1",
             "available_actions": [
 
             ],
@@ -6589,7 +6623,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_154.jpg",
             "name": "•<italic>Slave I</italic>",
             "ability_text": "After you reveal a turn (<leftturn> or <rightturn>) or bank (<leftbank> or <rightbank>) maneuver, you may set your dial to the maneuver of the same speed and bearing in the other direction.<return>Add <torpedo> slot.",
-            "cost": "2",
+            "cost": "1",
             "available_actions": [
 
             ],
@@ -6642,19 +6676,19 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_155.jpg",
             "name": "•<italic>Virago</italic>",
             "ability_text": "During the End Phase, you may spend 1<nonbreak><standardcharge> to perform a red <boost> action.<return>Add <mod> slot.",
-            "cost": "10",
+            "cost": "8",
             "available_actions": [
 
             ],
             "statistics": [
                 {
-                    "id": 32183,
+                    "id": 33909,
                     "statistic_id": 3,
                     "value": "+1",
                     "recurring": false
                 },
                 {
-                    "id": 32184,
+                    "id": 33910,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -6689,7 +6723,8 @@
                 13,
                 20,
                 21,
-                30
+                30,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -6965,7 +7000,8 @@
             "id": 388,
             "card_set_ids": [
                 13,
-                38
+                38,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -7006,7 +7042,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_163.jpg",
             "name": "•Han Solo",
             "ability_text": "Before you engage, you may perform a red <focus> action.",
-            "cost": "12",
+            "cost": "10",
             "available_actions": [
 
             ],
@@ -7044,7 +7080,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_164.jpg",
             "name": "•Lando’s <italic>Millennium Falcon</italic>",
             "ability_text": "1 Escape Craft may dock with you.<return>While you have an escape craft docked, you may spend its shields as if they were on your ship card.<return>While you perform a primary attack against a stressed ship, roll 1 additional attack die.",
-            "cost": "6",
+            "cost": "3",
             "available_actions": [
 
             ],
@@ -7131,7 +7167,8 @@
                 5,
                 6,
                 15,
-                29
+                29,
+                49
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -7149,7 +7186,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32154,
+                    "id": 33842,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -7171,7 +7208,8 @@
                 5,
                 6,
                 15,
-                26
+                26,
+                49
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -7188,7 +7226,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32155,
+                    "id": 33843,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -7212,7 +7250,8 @@
                 8,
                 15,
                 26,
-                37
+                37,
+                48
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -7229,7 +7268,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32156,
+                    "id": 33844,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -7252,7 +7291,8 @@
                 6,
                 11,
                 15,
-                32
+                32,
+                49
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -7269,7 +7309,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32157,
+                    "id": 33845,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -7292,7 +7332,8 @@
                 6,
                 8,
                 11,
-                15
+                15,
+                49
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -7309,7 +7350,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32158,
+                    "id": 33846,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -7368,7 +7409,8 @@
             "card_set_ids": [
                 14,
                 15,
-                19
+                19,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -7447,7 +7489,8 @@
             "card_set_ids": [
                 14,
                 15,
-                33
+                33,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -7480,7 +7523,8 @@
                 14,
                 15,
                 16,
-                34
+                34,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -7678,7 +7722,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32185,
+                    "id": 33833,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -7760,7 +7804,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32186,
+                    "id": 33834,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -7887,14 +7931,14 @@
             "cost": "6",
             "available_actions": [
                 {
-                    "id": 27862,
+                    "id": 29332,
                     "base_action_id": 9,
                     "related_action_id": null,
                     "base_action_side_effect": null,
                     "related_action_side_effect": null
                 },
                 {
-                    "id": 27863,
+                    "id": 29333,
                     "base_action_id": 8,
                     "related_action_id": null,
                     "base_action_side_effect": "stress",
@@ -7958,7 +8002,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32187,
+                    "id": 33835,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -7995,10 +8039,10 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/af2ce405b6c28568aa2d66b78296b351.jpg",
             "name": "•Han Solo",
             "ability_text": "After you perform an <evade> action, gain additional evade tokens equal to the number of enemy ships at range 0–1.",
-            "cost": "6",
+            "cost": "4",
             "available_actions": [
                 {
-                    "id": 27864,
+                    "id": 29334,
                     "base_action_id": 3,
                     "related_action_id": null,
                     "base_action_side_effect": "stress",
@@ -8167,7 +8211,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32188,
+                    "id": 33858,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -8211,7 +8255,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32189,
+                    "id": 33801,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -8255,7 +8299,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32190,
+                    "id": 33802,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -8377,7 +8421,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32191,
+                    "id": 33803,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -8418,7 +8462,7 @@
             "cost": "2",
             "available_actions": [
                 {
-                    "id": 27865,
+                    "id": 29354,
                     "base_action_id": 13,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -8427,7 +8471,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32192,
+                    "id": 33911,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -8481,7 +8525,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/905ee2a41b7d3b6d1f76294b4cd3e99e.jpg",
             "name": "•Rey’s <italic>Millennium Falcon</italic>",
             "ability_text": "If you have 2 or fewer stress tokens, you can execute red Segnor’s Loop [<leftsloop> or <rightsloop>] maneuvers and perform <boost> and<nonbreak><rotate> actions even while stressed.",
-            "cost": "5",
+            "cost": "2",
             "available_actions": [
 
             ],
@@ -8531,14 +8575,14 @@
             "cost": "0",
             "available_actions": [
                 {
-                    "id": 27873,
+                    "id": 29323,
                     "base_action_id": 5,
                     "related_action_id": null,
                     "base_action_side_effect": null,
                     "related_action_side_effect": null
                 },
                 {
-                    "id": 27874,
+                    "id": 29324,
                     "base_action_id": 2,
                     "related_action_id": 5,
                     "base_action_side_effect": null,
@@ -8665,7 +8709,8 @@
                 22,
                 34,
                 38,
-                39
+                39,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -8706,7 +8751,8 @@
                 22,
                 34,
                 38,
-                39
+                39,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -8809,7 +8855,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32193,
+                    "id": 33905,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -8896,7 +8942,7 @@
             "cost": "10",
             "available_actions": [
                 {
-                    "id": 27866,
+                    "id": 29350,
                     "base_action_id": 9,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -8961,13 +9007,13 @@
             ],
             "statistics": [
                 {
-                    "id": 32194,
+                    "id": 33882,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
                 },
                 {
-                    "id": 32196,
+                    "id": 33884,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -9028,7 +9074,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32197,
+                    "id": 33912,
                     "statistic_id": 2,
                     "value": "+2",
                     "recurring": false
@@ -9080,7 +9126,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32198,
+                    "id": 33897,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -9147,7 +9193,8 @@
             "card_set_ids": [
                 21,
                 22,
-                24
+                24,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -9239,7 +9286,7 @@
             "cost": "14",
             "available_actions": [
                 {
-                    "id": 27867,
+                    "id": 29335,
                     "base_action_id": 8,
                     "related_action_id": null,
                     "base_action_side_effect": "force_point",
@@ -9248,7 +9295,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32199,
+                    "id": 33836,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -9306,7 +9353,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32200,
+                    "id": 33837,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -9349,7 +9396,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32201,
+                    "id": 33838,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -9392,7 +9439,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32202,
+                    "id": 33847,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -9432,14 +9479,14 @@
             "cost": "4",
             "available_actions": [
                 {
-                    "id": 27868,
+                    "id": 29355,
                     "base_action_id": 7,
                     "related_action_id": null,
                     "base_action_side_effect": "stress",
                     "related_action_side_effect": null
                 },
                 {
-                    "id": 27869,
+                    "id": 29356,
                     "base_action_id": 10,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -9512,7 +9559,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32203,
+                    "id": 33885,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -9601,7 +9648,7 @@
             "cost": "*",
             "available_actions": [
                 {
-                    "id": 27870,
+                    "id": 29343,
                     "base_action_id": 8,
                     "related_action_id": null,
                     "base_action_side_effect": "force_point",
@@ -9657,7 +9704,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32204,
+                    "id": 33804,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -9700,7 +9747,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32205,
+                    "id": 33805,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -9744,19 +9791,19 @@
             ],
             "statistics": [
                 {
-                    "id": 32206,
+                    "id": 33818,
                     "statistic_id": 10,
                     "value": "+1",
                     "recurring": false
                 },
                 {
-                    "id": 32207,
+                    "id": 33819,
                     "statistic_id": 1,
                     "value": "-1",
                     "recurring": false
                 },
                 {
-                    "id": 32208,
+                    "id": 33820,
                     "statistic_id": 3,
                     "value": "+2",
                     "recurring": false
@@ -9823,7 +9870,8 @@
             "id": 550,
             "card_set_ids": [
                 21,
-                30
+                30,
+                48
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -9840,7 +9888,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32209,
+                    "id": 33898,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -9915,7 +9963,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/209d0df0333dc348c74c0e8a760ca741.jpg",
             "name": "•Clone Commander Cody",
             "ability_text": "After you perform an attack that missed, if 1<nonbreak>or more <hit>/<crit> results were neutralized, the defender gains 1<nonbreak>strain token.",
-            "cost": "3",
+            "cost": "4",
             "available_actions": [
 
             ],
@@ -9959,7 +10007,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32210,
+                    "id": 33859,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -9997,7 +10045,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/f105bb42b6d3500c300e48ab695c1647.jpg",
             "name": "Synchronized Console",
             "ability_text": "After you perform an attack, you may choose a friendly ship at range 1 or a friendly ship with the <smallcaps>Synchronized Console</smallcaps> upgrade at range 1–3 and spend a lock you have on the defender. If you do, the friendly ship you chose may acquire a lock on the defender.",
-            "cost": "2",
+            "cost": "1",
             "available_actions": [
 
             ],
@@ -10096,7 +10144,7 @@
             "cost": "14",
             "available_actions": [
                 {
-                    "id": 27875,
+                    "id": 29336,
                     "base_action_id": 8,
                     "related_action_id": null,
                     "base_action_side_effect": "force_point",
@@ -10105,7 +10153,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32211,
+                    "id": 33839,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -10147,7 +10195,8 @@
             "id": 577,
             "card_set_ids": [
                 28,
-                29
+                29,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -10164,7 +10213,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32212,
+                    "id": 33901,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": true
@@ -10182,7 +10231,8 @@
         {
             "id": 578,
             "card_set_ids": [
-                30
+                30,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -10193,13 +10243,13 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/dbdad938bd9f4ce64af1d7106dfd5b5e.jpg",
             "name": "Autoblasters",
             "ability_text": "<smallcaps>Attack:</smallcaps> If the defender is in your <bullseye>, roll 1 additional die. During the Neutralize Results step, if you are not in the defender’s<nonbreak><frontarc>, <evade><nonbreak>results do not cancel <crit><nonbreak>results.",
-            "cost": "2",
+            "cost": "3",
             "available_actions": [
 
             ],
             "statistics": [
                 {
-                    "id": 32213,
+                    "id": 33816,
                     "statistic_id": 10,
                     "value": "2",
                     "recurring": false
@@ -10219,7 +10269,8 @@
             "card_set_ids": [
                 28,
                 29,
-                30
+                30,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": true,
@@ -10236,13 +10287,13 @@
             ],
             "statistics": [
                 {
-                    "id": 32215,
+                    "id": 33922,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
                 },
                 {
-                    "id": 32217,
+                    "id": 33924,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -10260,7 +10311,8 @@
         {
             "id": 580,
             "card_set_ids": [
-                29
+                29,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": true,
@@ -10278,13 +10330,13 @@
             ],
             "statistics": [
                 {
-                    "id": 32218,
+                    "id": 33886,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
                 },
                 {
-                    "id": 32220,
+                    "id": 33888,
                     "statistic_id": 7,
                     "value": "3",
                     "recurring": false
@@ -10313,7 +10365,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/daa4aa8732efd994938dae56b6210ede.jpg",
             "name": "•Amilyn Holdo",
             "ability_text": "Before you engage, you may choose another friendly ship at range<nonbreak>1–2. You may transfer to that ship 1 token of a type that ship does not have. That ship may transfer 1 token to you of a type you do not have.",
-            "cost": "9",
+            "cost": "8",
             "available_actions": [
 
             ],
@@ -10351,10 +10403,10 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/22b0be31694840d7725790e352fa825d.jpg",
             "name": "•GA-97",
             "ability_text": "<smallcaps>Setup:</smallcaps> Before placing forces, you may spend 3–5<nonbreak><standardcharge>. If you do, choose another friendly ship and assign the <smallcaps>It’s the Resistance</smallcaps> condition to it.",
-            "cost": "8",
+            "cost": "6",
             "available_actions": [
                 {
-                    "id": 27876,
+                    "id": 29337,
                     "base_action_id": 9,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -10363,7 +10415,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32221,
+                    "id": 33840,
                     "statistic_id": 7,
                     "value": "5",
                     "recurring": true
@@ -10523,10 +10575,10 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/bd5f0c91b7fb256f91fcfbd006e56acc.jpg",
             "name": "•Leia Organa",
             "ability_text": "After a friendly ship reveals its dial, you may spend 1<nonbreak><forcecharge>. If you do, the chosen ship reduces the difficulty of that maneuver.",
-            "cost": "19",
+            "cost": "17",
             "available_actions": [
                 {
-                    "id": 27877,
+                    "id": 29338,
                     "base_action_id": 8,
                     "related_action_id": null,
                     "base_action_side_effect": "force_point",
@@ -10535,7 +10587,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32222,
+                    "id": 33841,
                     "statistic_id": 4,
                     "value": "1",
                     "recurring": true
@@ -10583,7 +10635,7 @@
             "cost": "6",
             "available_actions": [
                 {
-                    "id": 27878,
+                    "id": 29339,
                     "base_action_id": 9,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -10708,7 +10760,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/daa093356e5022b74d375979446e32ff.jpg",
             "name": "•TA-175",
             "ability_text": "After a friendly ship at range<nonbreak>0–3 with<nonbreak><calculate> on its action bar is destroyed, each friendly ship at range<nonbreak>0–3 with<nonbreak><calculate> in its action bar gains 1<nonbreak>calculate token.",
-            "cost": "5",
+            "cost": "9",
             "available_actions": [
 
             ],
@@ -10745,7 +10797,8 @@
             "id": 591,
             "card_set_ids": [
                 29,
-                37
+                37,
+                49
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -10757,13 +10810,13 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/215f5298b9917bd57db474a38139ba08.jpg",
             "name": "•Electro-Proton Bomb",
             "ability_text": "<bitalic>Bomb</bitalic><return><smallbody>During the System Phase, you may spend 1<nonbreak><standardcharge> to drop an Electro-Proton Bomb with the [1<nonbreak><straight>] template. Then place 1<nonbreak>fuse marker on that device.</smallbody><return><smallbody>This card’s <standardcharge> cannot be recovered.</smallbody>",
-            "cost": "14",
+            "cost": "12",
             "available_actions": [
 
             ],
             "statistics": [
                 {
-                    "id": 32223,
+                    "id": 33848,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -10799,7 +10852,8 @@
             "id": 592,
             "card_set_ids": [
                 29,
-                37
+                37,
+                49
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -10829,7 +10883,8 @@
         {
             "id": 593,
             "card_set_ids": [
-                30
+                30,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -10843,7 +10898,7 @@
             "cost": "*",
             "available_actions": [
                 {
-                    "id": 27879,
+                    "id": 29345,
                     "base_action_id": 6,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -10852,7 +10907,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32224,
+                    "id": 33899,
                     "statistic_id": 3,
                     "value": "-1",
                     "recurring": false
@@ -11053,7 +11108,9 @@
             "id": 612,
             "card_set_ids": [
                 36,
-                37
+                37,
+                46,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": true,
@@ -11070,7 +11127,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32225,
+                    "id": 33906,
                     "statistic_id": 10,
                     "value": "2",
                     "recurring": false
@@ -11088,7 +11145,8 @@
         {
             "id": 613,
             "card_set_ids": [
-                37
+                37,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": true,
@@ -11105,7 +11163,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32227,
+                    "id": 33851,
                     "statistic_id": 11,
                     "value": "2",
                     "recurring": false
@@ -11123,7 +11181,8 @@
         {
             "id": 614,
             "card_set_ids": [
-                37
+                37,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -11177,7 +11236,7 @@
             ],
             "statistics": [
                 {
-                    "id": 32229,
+                    "id": 33860,
                     "statistic_id": 4,
                     "value": "1",
                     "recurring": true
@@ -11217,7 +11276,7 @@
             "cost": "8",
             "available_actions": [
                 {
-                    "id": 27880,
+                    "id": 29340,
                     "base_action_id": 9,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -11302,15 +11361,15 @@
                 10
             ],
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/c480434cf330e99e269eaf0fe83e2444.jpg",
-            "name": "•C1-10P",
-            "ability_text": "<smallbody><smallcaps>Setup:</smallcaps> Equip this side faceup.</smallbody><return><smallbody>After you execute a maneuver, you may spend 1<nonbreak><standardcharge> to perform a red<nonbreak><evade><nonbreak>action, even while stressed.</smallbody><return><smallbody>During the End Phase, if this card has 0<nonbreak>active <standardcharge>, flip it.</smallbody>",
+            "name": "•C1-10P ",
+            "ability_text": "<smallbody><smallcaps>Setup:</smallcaps> Equip this side faceup.</smallbody><return><smallbody>After you execute a maneuver, you may spend 1<nonbreak><standardcharge> to perform a red<nonbreak><evade><nonbreak>action, even while stressed.</smallbody><return><smallbody>During the End Phase, if this card has 0<nonbreak> active <standardcharge>, flip it.</smallbody>",
             "cost": "7",
             "available_actions": [
 
             ],
             "statistics": [
                 {
-                    "id": 32230,
+                    "id": 33806,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -11336,7 +11395,8 @@
         {
             "id": 619,
             "card_set_ids": [
-                36
+                36,
+                50
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -11350,7 +11410,7 @@
             "cost": "3",
             "available_actions": [
                 {
-                    "id": 27881,
+                    "id": 29346,
                     "base_action_id": 4,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -11375,6 +11435,548 @@
                     },
                     "type": "action_profit"
                 }
+            ]
+        },
+        {
+            "id": 644,
+            "card_set_ids": [
+                47
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                10
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/2f64dab83e6e4c52702d5906a18dbae6.jpg",
+            "name": "•R1-J5",
+            "ability_text": "While you have 2<nonbreak>or fewer stress tokens, you can perform actions on damage cards even while stressed.<return>After you repair a damage card with the <bitalic>Ship</bitalic> trait, you may spend 1<nonbreak><standardcharge> to repair that card again.",
+            "cost": "6",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 33807,
+                    "statistic_id": 7,
+                    "value": "3",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "Resistance",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/07ef542a7250abbf79d27526f17ac879.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 645,
+            "card_set_ids": [
+                50
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                18
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/e6316661a866ec6d474363d135ae75d4.jpg",
+            "name": "Stabilized S-foils (Open)",
+            "ability_text": "<smallbody>After you perform an attack, you may spend your lock on the defender to perform a bonus <cannon><nonbreak>attack against that ship using a <cannon><nonbreak>upgrade you have not attacked with this turn.</smallbody><return><smallbody>Before you activate, if you are not critically damaged, you may flip this card.</smallbody>",
+            "cost": "2",
+            "available_actions": [
+                {
+                    "id": 29325,
+                    "base_action_id": 5,
+                    "related_action_id": 4,
+                    "base_action_side_effect": null,
+                    "related_action_side_effect": "stress"
+                }
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "A/SF-01 B-wing",
+            "restrictions": [
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 17,
+                            "raw_name": "a sf-01 b-wing"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f03c2baf5b0a095e28948f03468cc5d2.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 5,
+                        "related_action_id": 4,
+                        "base_action_side_effect": null,
+                        "related_action_side_effect": "stress"
+                    },
+                    "type": "action_profit"
+                }
+            ]
+        },
+        {
+            "id": 646,
+            "card_set_ids": [
+                50
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                18
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/80efc4163ceb2000a6981b9851c3d1a9.jpg",
+            "name": "Stabilized S-foils (Closed)",
+            "ability_text": "Before you activate, if you are not critically damaged, you may flip this card.",
+            "cost": "2",
+            "available_actions": [
+                {
+                    "id": 29326,
+                    "base_action_id": 5,
+                    "related_action_id": 3,
+                    "base_action_side_effect": null,
+                    "related_action_side_effect": "stress"
+                },
+                {
+                    "id": 29327,
+                    "base_action_id": 12,
+                    "related_action_id": null,
+                    "base_action_side_effect": "stress",
+                    "related_action_side_effect": null
+                }
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "A/SF-01 B-wing",
+            "restrictions": [
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 17,
+                            "raw_name": "a sf-01 b-wing"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/77f37d94be3977d6d573219dd6462c2b.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 5,
+                        "related_action_id": 3,
+                        "base_action_side_effect": null,
+                        "related_action_side_effect": "stress"
+                    },
+                    "type": "action_profit"
+                },
+                {
+                    "data": {
+                        "base_action_id": 12,
+                        "related_action_id": null,
+                        "base_action_side_effect": "stress",
+                        "related_action_side_effect": null
+                    },
+                    "type": "action_profit"
+                }
+            ]
+        },
+        {
+            "id": 647,
+            "card_set_ids": [
+                50
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/ced6485e9da6861b36fe3ab0c747fe76.jpg",
+            "name": "•K-2SO",
+            "ability_text": "During the System Phase, you may choose a friendly ship at range<nonbreak>0–3.  That ship gains 1<nonbreak>calculate and 1<nonbreak>stress token.",
+            "cost": "8",
+            "available_actions": [
+                {
+                    "id": 29341,
+                    "base_action_id": 9,
+                    "related_action_id": null,
+                    "base_action_side_effect": null,
+                    "related_action_side_effect": null
+                },
+                {
+                    "id": 29342,
+                    "base_action_id": 10,
+                    "related_action_id": null,
+                    "base_action_side_effect": null,
+                    "related_action_side_effect": null
+                }
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Rebel",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 1,
+                            "name": "Rebel Alliance"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/bd3d6c3227984bc0f5daacebdc7d92ad.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 9,
+                        "related_action_id": null,
+                        "base_action_side_effect": null,
+                        "related_action_side_effect": null
+                    },
+                    "type": "action_profit"
+                },
+                {
+                    "data": {
+                        "base_action_id": 10,
+                        "related_action_id": null,
+                        "base_action_side_effect": null,
+                        "related_action_side_effect": null
+                    },
+                    "type": "action_profit"
+                }
+            ]
+        },
+        {
+            "id": 648,
+            "card_set_ids": [
+                49
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                12
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/aea6bdafa5066a040a8929d6eb46499a.jpg",
+            "name": "Cluster Mines",
+            "ability_text": "<bitalic>Mine</bitalic><return>During the System Phase, you may spend 1<nonbreak><standardcharge> to drop a Cluster Mine set using the [1<nonbreak><straight>] template.<return>This card’s<nonbreak><standardcharge> cannot be recovered.",
+            "cost": "8",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 33849,
+                    "statistic_id": 7,
+                    "value": "1",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c27f0dcda78915239450bedf5b931d86.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 649,
+            "card_set_ids": [
+                49
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                12
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/f69c5ecaca9ab01380f6329e49970ddf.jpg",
+            "name": "Ion Bombs",
+            "ability_text": "<bitalic>Bomb</bitalic><return>During the System Phase, you may spend 1<nonbreak><standardcharge> to drop an Ion Bomb using the [1<nonbreak><straight>] template.",
+            "cost": "6",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 33850,
+                    "statistic_id": 7,
+                    "value": "2",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e4c43791c16aea639f2e811c16d1dbcf.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 650,
+            "card_set_ids": [
+                47,
+                50
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                13
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/791981d898356ad13e463b8699975155.jpg",
+            "name": "Coaxium Hyperfuel",
+            "ability_text": "You can perform the <slam> action even while stressed. If you do, you suffer 1<nonbreak><crit> damage unless you expose 1<nonbreak>of your damage cards.<return>After you partially execute a maneuver, you may expose 1<nonbreak>of your damage cards or suffer 1<nonbreak><crit> damage to perform a <SLAM> action.",
+            "cost": "2",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "<slam>",
+            "restrictions": [
+                [
+                    {
+                        "type": "ACTION",
+                        "kwargs": {
+                            "pk": 13,
+                            "name": "Slam",
+                            "side_effect_name": "NONE"
+                        }
+                    },
+                    {
+                        "type": "ACTION",
+                        "kwargs": {
+                            "pk": 13,
+                            "name": "Slam",
+                            "side_effect_name": "STRESS"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1622f5d9e279b54d4610820f5dd31a95.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 651,
+            "card_set_ids": [
+                46,
+                47,
+                50
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": true,
+            "weapon_range": "1 – 3",
+            "upgrade_types": [
+                6
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/71140b3339226017653867076e19310f.jpg",
+            "name": "Mag-Pulse Warheads",
+            "ability_text": "<smallcaps>Attack (<targetlock>):</smallcaps> Spend 1<nonbreak><standardcharge>. If this attack hits, the defender suffers 1<nonbreak><crit> damage and gains 1<nonbreak>deplete and 1<nonbreak>jam token. Then cancel all <hit>/<crit><nonbreak>results.",
+            "cost": "6",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 33889,
+                    "statistic_id": 10,
+                    "value": "3",
+                    "recurring": false
+                },
+                {
+                    "id": 33891,
+                    "statistic_id": 7,
+                    "value": "2",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/94cdc3be1cf133e123e30f25f181faf7.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 652,
+            "card_set_ids": [
+                46
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                1
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/30486dca1780008aea8c4c905f44ead3.jpg",
+            "name": "False Tradition",
+            "ability_text": "Treat your <focus><nonbreak>actions as red.",
+            "cost": "2",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 5,
+                            "name": "First Order"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/a060961e9ee792e605c75aaf6d65ad34.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 653,
+            "card_set_ids": [
+                46
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                1
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/8f9f85aa00fb260336b9938e2a3f7c33.jpg",
+            "name": "Proud Tradition",
+            "ability_text": "<smallbody><smallcaps>Setup:</smallcaps> Equip this side faceup.</smallbody><return><smallbody>While you have 2<nonbreak>or fewer stress tokens, you may perform <focus><nonbreak>actions even while stressed.</smallbody><return><smallbody>After you perform an attack, if you are stressed, the defender may spend 1<nonbreak>focus token or suffer 1<nonbreak><crit> damage to flip this card.</smallbody>",
+            "cost": "2",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "First Order",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 5,
+                            "name": "First Order"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/09ec8bb3b37800437bbff7963db6aec6.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 654,
+            "card_set_ids": [
+                46
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                14,
+                19
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/038636d357004cc01635a93c224d921d.jpg",
+            "name": "Deuterium Power Cells",
+            "ability_text": "<smallbody>During the System Phase, you may spend 1<nonbreak><standardcharge> and gain 1 disarm token to recover 1 shield.</smallbody><return><smallbody>Before you would gain 1<nonbreak>non-lock<nonbreak>token, if you are not stressed, you may spend 1<nonbreak><standardcharge> to gain 1<nonbreak>stress token instead.</smallbody>",
+            "cost": "9",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 33908,
+                    "statistic_id": 7,
+                    "value": "2",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "First Order",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 5,
+                            "name": "First Order"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c0e458b69076138e2408664be131f61e.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 655,
+            "card_set_ids": [
+                47
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                15
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/0affe4d794e05c485d6103e5414e816a.jpg",
+            "name": "•Kaz’s <italic>Fireball</italic>",
+            "ability_text": "<smallcaps>Setup:</smallcaps> When you resolve <smallcaps>Explosion with Wings</smallcaps>, you may search the damage deck and choose a damage card with the <bitalic>Ship</bitalic> trait; you are dealt that card instead. Then, shuffle the damage deck.<return>You can perform actions on damage cards even while ionized.",
+            "cost": "2",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Resistance, <untalic>Fireball</untalic>",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 4,
+                            "name": "Resistance"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/793a1b659936801101622a5fc0a71e73.png",
+            "behaviours": [
+
             ]
         }
     ]
