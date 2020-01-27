@@ -2632,46 +2632,6 @@
             ]
         },
         {
-            "id": 396,
-            "card_set_ids": [
-                4,
-                5,
-                6,
-                8,
-                11,
-                15
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                12
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_67.jpg",
-            "name": "Seismic Charges",
-            "ability_text": "<bitalic>Bomb</bitalic><return>During the System Phase, you may spend 1<nonbreak><standardcharge> to drop a Seismic Charge with the [1<nonbreak><straight>] template.",
-            "cost": "3",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32158,
-                    "statistic_id": 7,
-                    "value": "2",
-                    "recurring": false
-                }
-            ],
-            "restrictions_raw": "",
-            "restrictions": [
-
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_67.png",
-            "behaviours": [
-
-            ]
-        },
-        {
             "id": 292,
             "card_set_ids": [
                 4,
@@ -2761,6 +2721,267 @@
                 ]
             ],
             "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_69.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 294,
+            "card_set_ids": [
+                1,
+                12,
+                20,
+                21,
+                30,
+                31,
+                33,
+                39
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                14
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_70.jpg",
+            "name": "Afterburners",
+            "ability_text": "After you fully execute a speed 3–5 maneuver, you may spend 1<nonbreak><standardcharge> to perform a <boost> action, even while stressed.",
+            "cost": "6",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32160,
+                    "statistic_id": 7,
+                    "value": "2",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "Small ship",
+            "restrictions": [
+                [
+                    {
+                        "type": "SHIP_SIZE",
+                        "kwargs": {
+                            "ship_size_name": "SMALL"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_70.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 295,
+            "card_set_ids": [
+                4,
+                5,
+                6,
+                14,
+                15,
+                20,
+                21,
+                31
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                14
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_71.jpg",
+            "name": "Electronic Baffle",
+            "ability_text": "During the End Phase, you may suffer 1<nonbreak><hit> damage to remove 1 red token.",
+            "cost": "2",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_71.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 296,
+            "card_set_ids": [
+                4,
+                6,
+                15,
+                35
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                14
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_72.jpg",
+            "name": "Engine Upgrade",
+            "ability_text": "<flavor>Large military forces such as the Galactic Empire have standardized engines, but individual pilots and small organizations often replace the power couplings, add thrusters, or use high-performance fuel to get extra push out of their engines.</flavor>",
+            "cost": "*",
+            "available_actions": [
+                {
+                    "id": 27855,
+                    "base_action_id": 1,
+                    "related_action_id": null,
+                    "base_action_side_effect": null,
+                    "related_action_side_effect": null
+                }
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Red <boost>",
+            "restrictions": [
+                [
+                    {
+                        "type": "ACTION",
+                        "kwargs": {
+                            "pk": 1,
+                            "name": "Boost",
+                            "side_effect_name": "STRESS"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_72.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 1,
+                        "related_action_id": null,
+                        "base_action_side_effect": null,
+                        "related_action_side_effect": null
+                    },
+                    "type": "action_profit"
+                }
+            ]
+        },
+        {
+            "id": 297,
+            "card_set_ids": [
+                1,
+                4,
+                5,
+                6,
+                14,
+                15,
+                17
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                14
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_73.jpg",
+            "name": "Hull Upgrade",
+            "ability_text": "<flavor>For those who cannot afford an enhanced shield generator, bolting additional plates onto the hull of a ship can serve as an adequate substitute.</flavor>",
+            "cost": "*",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32161,
+                    "statistic_id": 2,
+                    "value": "+1",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_73.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 298,
+            "card_set_ids": [
+                4,
+                5,
+                6,
+                14,
+                15,
+                20,
+                21,
+                23,
+                27
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                14
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_74.jpg",
+            "name": "Munitions Failsafe",
+            "ability_text": "While you perform a <torpedo> or <missile> attack, after rolling attack dice, you may cancel all dice results to recover 1<nonbreak><standardcharge> you spent as a cost for the attack.",
+            "cost": "1",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_74.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 299,
+            "card_set_ids": [
+                1,
+                4,
+                5,
+                6,
+                14,
+                15
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                14
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_75.jpg",
+            "name": "Shield Upgrade",
+            "ability_text": "<flavor>Deflector shields are a substantial line of defense on most starships beyond the lightest fighters. While enhancing a ship’s shield capacity can be costly, all but the most confident or reckless pilots see the value in this sort of investment.</flavor>",
+            "cost": "*",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32162,
+                    "statistic_id": 3,
+                    "value": "+1",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_75.png",
             "behaviours": [
 
             ]
@@ -3581,6 +3802,132 @@
             ]
         },
         {
+            "id": 320,
+            "card_set_ids": [
+                4
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                16
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_96.jpg",
+            "name": "•Ezra Bridger",
+            "ability_text": "After you perform a primary attack, you may spend 1<nonbreak><forcecharge> to perform a bonus <turretarc> attack from a <turretarc> you have not attacked from this round. If you do and you are stressed, you may reroll 1 attack die.",
+            "cost": "14",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32167,
+                    "statistic_id": 4,
+                    "value": "+1",
+                    "recurring": true
+                }
+            ],
+            "restrictions_raw": "Rebel",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 1,
+                            "name": "Rebel Alliance"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_96.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 321,
+            "card_set_ids": [
+                4,
+                35
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                16
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_97.jpg",
+            "name": "•Han Solo",
+            "ability_text": "During the Engagement Phase, at initiative 7, you may perform a <turretarc> attack. You cannot attack from that <turretarc> again this round.",
+            "cost": "14",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Rebel",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 1,
+                            "name": "Rebel Alliance"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_97.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 322,
+            "card_set_ids": [
+                4,
+                35
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                16
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_98.jpg",
+            "name": "•Luke Skywalker",
+            "ability_text": "At the start of the Engagement Phase, you may spend 1<nonbreak><forcecharge> to rotate your <turretarc> indicator.",
+            "cost": "26",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32168,
+                    "statistic_id": 4,
+                    "value": "+1",
+                    "recurring": true
+                }
+            ],
+            "restrictions_raw": "Rebel",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 1,
+                            "name": "Rebel Alliance"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_98.png",
+            "behaviours": [
+
+            ]
+        },
+        {
             "id": 323,
             "card_set_ids": [
                 4,
@@ -3658,6 +4005,213 @@
                 ]
             ],
             "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_100.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 325,
+            "card_set_ids": [
+                1
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                10
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_101.jpg",
+            "name": "•R5-D8",
+            "ability_text": "<smallcaps>Action:</smallcaps> Spend 1<nonbreak><standardcharge> to repair 1 facedown damage card.<return><smallcaps>Action:</smallcaps> Repair 1 faceup <bitalic>Ship</bitalic> damage card.",
+            "cost": "6",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32170,
+                    "statistic_id": 7,
+                    "value": "3",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "Rebel",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 1,
+                            "name": "Rebel Alliance"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_101.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 326,
+            "card_set_ids": [
+                4,
+                38
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                15
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_102.jpg",
+            "name": "•<italic>Ghost</italic>",
+            "ability_text": "You can dock 1 attack shuttle or <italic>Sheathipede</italic>-class shuttle.<return>Your docked ships can deploy only from your rear guides.",
+            "cost": "0",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Rebel, VCX-100",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 1,
+                            "name": "Rebel Alliance"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 23,
+                            "raw_name": "vcx-100 light freighter"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_102.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 327,
+            "card_set_ids": [
+                4,
+                35
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                15
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_103.jpg",
+            "name": "•<italic>Millennium Falcon</italic>",
+            "ability_text": "While you defend, if you are evading, you may reroll 1 defense die.",
+            "cost": "6",
+            "available_actions": [
+                {
+                    "id": 27857,
+                    "base_action_id": 3,
+                    "related_action_id": null,
+                    "base_action_side_effect": null,
+                    "related_action_side_effect": null
+                }
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Rebel, Modified YT-1300",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 1,
+                            "name": "Rebel Alliance"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 1,
+                            "raw_name": "modified yt-1300 light freighter"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_103.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 3,
+                        "related_action_id": null,
+                        "base_action_side_effect": null,
+                        "related_action_side_effect": null
+                    },
+                    "type": "action_profit"
+                }
+            ]
+        },
+        {
+            "id": 328,
+            "card_set_ids": [
+                4
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                15
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_104.jpg",
+            "name": "•<italic>Moldy Crow</italic>",
+            "ability_text": "Gain a <frontarc> primary weapon with a value of “3.”<return>During the End Phase, do not remove up to 2 focus tokens.",
+            "cost": "18",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Rebel or Scum, HWK-290",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 1,
+                            "name": "Rebel Alliance"
+                        }
+                    },
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 3,
+                            "name": "Scum and Villainy"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 34,
+                            "raw_name": "hwk-290 light freighter"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_104.png",
             "behaviours": [
 
             ]
@@ -3804,6 +4358,44 @@
             ]
         },
         {
+            "id": 332,
+            "card_set_ids": [
+
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                18
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_107b.jpg",
+            "name": "Pivot Wing (Closed)",
+            "ability_text": "While you defend, roll 1 fewer defense die.<Return>After you execute a [0<nonbreak><stop>] maneuver, you may rotate your ship 90º or 180º.<return>Before you activate, you may flip this card.",
+            "cost": "0",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "UT-60D U-wing",
+            "restrictions": [
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 15,
+                            "raw_name": "ut-60d u-wing"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_107b.png",
+            "behaviours": [
+
+            ]
+        },
+        {
             "id": 333,
             "card_set_ids": [
                 1,
@@ -3842,6 +4434,74 @@
             "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_108.png",
             "behaviours": [
 
+            ]
+        },
+        {
+            "id": 334,
+            "card_set_ids": [
+
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                18
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_108b.jpg",
+            "name": "Servomotor S-foils (Closed)",
+            "ability_text": "While you perform a primary attack, roll 1 fewer attack die.<return>Before you activate, you may flip this card.",
+            "cost": "0",
+            "available_actions": [
+                {
+                    "id": 27871,
+                    "base_action_id": 1,
+                    "related_action_id": null,
+                    "base_action_side_effect": null,
+                    "related_action_side_effect": null
+                },
+                {
+                    "id": 27872,
+                    "base_action_id": 2,
+                    "related_action_id": 1,
+                    "base_action_side_effect": null,
+                    "related_action_side_effect": "stress"
+                }
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "T-65 X-wing",
+            "restrictions": [
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 33,
+                            "raw_name": "t-65 x-wing"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_108b.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 1,
+                        "related_action_id": null,
+                        "base_action_side_effect": null,
+                        "related_action_side_effect": null
+                    },
+                    "type": "action_profit"
+                },
+                {
+                    "data": {
+                        "base_action_id": 2,
+                        "related_action_id": 1,
+                        "base_action_side_effect": null,
+                        "related_action_side_effect": "stress"
+                    },
+                    "type": "action_profit"
+                }
             ]
         },
         {
@@ -4530,53 +5190,6 @@
                 ]
             ],
             "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_123.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 391,
-            "card_set_ids": [
-                5
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                15
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_124.jpg",
-            "name": "•<italic>ST-321</italic>",
-            "ability_text": "After you perform a <coordinate> action, you may choose an enemy ship at range 0–3 of the ship you coordinated. If you do, acquire a lock on that enemy ship, ignoring range restrictions.",
-            "cost": "4",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Imperial, <untalic>Lambda</untalic>-class T-4a Shuttle",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 2,
-                            "name": "Galactic Empire"
-                        }
-                    }
-                ],
-                [
-                    {
-                        "type": "SHIP_TYPE",
-                        "kwargs": {
-                            "pk": 26,
-                            "raw_name": "lambda-class t-4a shuttle"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_124.png",
             "behaviours": [
 
             ]
@@ -5572,6 +6185,73 @@
             ]
         },
         {
+            "id": 372,
+            "card_set_ids": [
+                6
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                15
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_147.jpg",
+            "name": "•<italic>Havoc</italic>",
+            "ability_text": "Remove <crew> slot. Add <sensor> and <astro> slots.",
+            "cost": "4",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Scum, Scurrg H-6 bomber",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 3,
+                            "name": "Scum and Villainy"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 4,
+                            "raw_name": "scurrg h-6 bomber"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_147.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "quantity": 1,
+                        "upgrade_type": 8
+                    },
+                    "type": "slot_loss"
+                },
+                {
+                    "data": {
+                        "quantity": 1,
+                        "upgrade_type": 2
+                    },
+                    "type": "slot_profit"
+                },
+                {
+                    "data": {
+                        "quantity": 1,
+                        "upgrade_type": 10
+                    },
+                    "type": "slot_profit"
+                }
+            ]
+        },
+        {
             "id": 373,
             "card_set_ids": [
                 6
@@ -5663,6 +6343,59 @@
             "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_149.png",
             "behaviours": [
 
+            ]
+        },
+        {
+            "id": 375,
+            "card_set_ids": [
+                11
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                15
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_150.jpg",
+            "name": "•<italic>Marauder</italic>",
+            "ability_text": "While you perform a primary <reararc> attack, you may reroll 1 attack die.<return>Add <gunner> slot.",
+            "cost": "6",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Scum, <untalic>Firespray</untalic>-class patrol craft",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 3,
+                            "name": "Scum and Villainy"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 10,
+                            "raw_name": "firespray-class patrol craft"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_150.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "quantity": 1,
+                        "upgrade_type": 16
+                    },
+                    "type": "slot_profit"
+                }
             ]
         },
         {
@@ -5795,6 +6528,53 @@
             ]
         },
         {
+            "id": 378,
+            "card_set_ids": [
+                6
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                15
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_153.jpg",
+            "name": "•<italic>Shadow Caster</italic>",
+            "ability_text": "After you perform an attack that hits, if the defender is in your <turretarc> and your <frontarc>, the defender gains 1 tractor token.",
+            "cost": "3",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Scum, <untalic>Lancer</untalic>-class pursuit craft",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 3,
+                            "name": "Scum and Villainy"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 42,
+                            "raw_name": "lancer-class pursuit craft"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_153.png",
+            "behaviours": [
+
+            ]
+        },
+        {
             "id": 379,
             "card_set_ids": [
                 6,
@@ -5904,6 +6684,56 @@
             ]
         },
         {
+            "id": 381,
+            "card_set_ids": [
+                13,
+                20,
+                21,
+                30
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                1
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_156.jpg",
+            "name": "Composure",
+            "ability_text": "After you fail an action, if you have no green tokens, you may perform a <focus> action.",
+            "cost": "1",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "<focus>",
+            "restrictions": [
+                [
+                    {
+                        "type": "ACTION",
+                        "kwargs": {
+                            "pk": 2,
+                            "name": "Focus",
+                            "side_effect_name": "STRESS"
+                        }
+                    },
+                    {
+                        "type": "ACTION",
+                        "kwargs": {
+                            "pk": 2,
+                            "name": "Focus",
+                            "side_effect_name": "NONE"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_156.png",
+            "behaviours": [
+
+            ]
+        },
+        {
             "id": 382,
             "card_set_ids": [
                 13
@@ -5937,6 +6767,82 @@
                 ]
             ],
             "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_157.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 383,
+            "card_set_ids": [
+
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                18
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_158b.jpg",
+            "name": "•L3–37’s Programming",
+            "ability_text": "If you are not shielded, decrease the difficulty of your bank (<leftbank> and <rightbank>) maneuvers.",
+            "cost": "4",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Scum",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 3,
+                            "name": "Scum and Villainy"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_158b.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 384,
+            "card_set_ids": [
+                13
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_158.jpg",
+            "name": "•L3–37",
+            "ability_text": "<smallcaps>Setup:</smallcaps> Equip this side faceup.<return>While you defend, you may flip this card. If you do, the attacker must reroll all attack dice.",
+            "cost": "4",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Scum",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 3,
+                            "name": "Scum and Villainy"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_158.png",
             "behaviours": [
 
             ]
@@ -6013,6 +6919,44 @@
                 ]
             ],
             "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_160.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 387,
+            "card_set_ids": [
+                13
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_161.jpg",
+            "name": "•Qi’ra",
+            "ability_text": "While you move and perform attacks, you ignore obstacles that you are locking.",
+            "cost": "2",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Scum",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 3,
+                            "name": "Scum and Villainy"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_161.png",
             "behaviours": [
 
             ]
@@ -6129,6 +7073,253 @@
                 ]
             ],
             "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_164.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 391,
+            "card_set_ids": [
+                5
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                15
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_124.jpg",
+            "name": "•<italic>ST-321</italic>",
+            "ability_text": "After you perform a <coordinate> action, you may choose an enemy ship at range 0–3 of the ship you coordinated. If you do, acquire a lock on that enemy ship, ignoring range restrictions.",
+            "cost": "4",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Imperial, <untalic>Lambda</untalic>-class T-4a Shuttle",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 2,
+                            "name": "Galactic Empire"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 26,
+                            "raw_name": "lambda-class t-4a shuttle"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_124.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 392,
+            "card_set_ids": [
+                4,
+                5,
+                6,
+                15,
+                29
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                12,
+                12
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_63.jpg",
+            "name": "Bomblet Generator",
+            "ability_text": "<smallbody><bitalic>Bomb</bitalic><return>During the System Phase, you may spend 1<nonbreak><standardcharge> to drop a Bomblet with the [1<nonbreak><straight>] template.<return>At the start of the Activation Phase, you may spend 1 shield to recover 2 <standardcharge>.</smallbody>",
+            "cost": "5",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32154,
+                    "statistic_id": 7,
+                    "value": "2",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_63.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 393,
+            "card_set_ids": [
+                4,
+                5,
+                6,
+                15,
+                26
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                12
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_64.jpg",
+            "name": "Conner Nets",
+            "ability_text": "<bitalic>Mine</bitalic><return>During the System Phase, you may spend 1<nonbreak><standardcharge> to drop a Conner Net using the [1<nonbreak><straight>] template.<return>This card’s <standardcharge> cannot be recovered.",
+            "cost": "6",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32155,
+                    "statistic_id": 7,
+                    "value": "1",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_64.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 394,
+            "card_set_ids": [
+                4,
+                5,
+                6,
+                8,
+                15,
+                26,
+                37
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                12
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_65.jpg",
+            "name": "Proton Bombs",
+            "ability_text": "<bitalic>Bomb</bitalic><return>During the System Phase, you may spend 1<nonbreak><standardcharge> to drop a Proton Bomb using the [1<nonbreak><straight>] template.",
+            "cost": "5",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32156,
+                    "statistic_id": 7,
+                    "value": "2",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_65.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 395,
+            "card_set_ids": [
+                4,
+                5,
+                6,
+                11,
+                15,
+                32
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                12
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_66.jpg",
+            "name": "Proximity Mines",
+            "ability_text": "<bitalic>Mine</bitalic><return>During the System Phase, you may spend 1<nonbreak><standardcharge> to drop a Proximity Mine using the [1<nonbreak><straight>] template.<return>This card’s <standardcharge> cannot be recovered.",
+            "cost": "6",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32157,
+                    "statistic_id": 7,
+                    "value": "2",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_66.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 396,
+            "card_set_ids": [
+                4,
+                5,
+                6,
+                8,
+                11,
+                15
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                12
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_67.jpg",
+            "name": "Seismic Charges",
+            "ability_text": "<bitalic>Bomb</bitalic><return>During the System Phase, you may spend 1<nonbreak><standardcharge> to drop a Seismic Charge with the [1<nonbreak><straight>] template.",
+            "cost": "3",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32158,
+                    "statistic_id": 7,
+                    "value": "2",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_67.png",
             "behaviours": [
 
             ]
@@ -6791,6 +7982,58 @@
             ]
         },
         {
+            "id": 474,
+            "card_set_ids": [
+                15
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/af2ce405b6c28568aa2d66b78296b351.jpg",
+            "name": "•Han Solo",
+            "ability_text": "After you perform an <evade> action, gain additional evade tokens equal to the number of enemy ships at range 0–1.",
+            "cost": "6",
+            "available_actions": [
+                {
+                    "id": 27864,
+                    "base_action_id": 3,
+                    "related_action_id": null,
+                    "base_action_side_effect": "stress",
+                    "related_action_side_effect": null
+                }
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Resistance",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 4,
+                            "name": "Resistance"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/622ea4b573afbb5c95b3e9f2989a8aef.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 3,
+                        "related_action_id": null,
+                        "base_action_side_effect": "stress",
+                        "related_action_side_effect": null
+                    },
+                    "type": "action_profit"
+                }
+            ]
+        },
+        {
             "id": 475,
             "card_set_ids": [
                 15
@@ -6862,6 +8105,253 @@
                 ]
             ],
             "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/79477be319935f42270f1712cd269dff.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 477,
+            "card_set_ids": [
+                15
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                16
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/a34ab7a76083f91577110d31d20b6e14.jpg",
+            "name": "•Paige Tico",
+            "ability_text": "After you perform a primary attack, you may drop 1 bomb or rotate your <turretarc>.<return>After you are destroyed, you may drop 1 bomb.",
+            "cost": "7",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Resistance",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 4,
+                            "name": "Resistance"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9dc15f634233b5daba107a07aa63d04c.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 478,
+            "card_set_ids": [
+                15
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                16
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/ab5eea679d5ca9369cd122bc65001119.jpg",
+            "name": "•Rey",
+            "ability_text": "While you defend or perform an attack, if the enemy ship is in your <turretarc>, you may spend 1<nonbreak><forcecharge> to change 1 of your blank results to a <evade> or <hit> result.",
+            "cost": "14",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32188,
+                    "statistic_id": 4,
+                    "value": "+1",
+                    "recurring": true
+                }
+            ],
+            "restrictions_raw": "Resistance",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 4,
+                            "name": "Resistance"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e11aec8ae6ec855694947bc2f9d1917e.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 479,
+            "card_set_ids": [
+                15,
+                18
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                10
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/e8a75e0e143a5857ac3931d56ccde86c.jpg",
+            "name": "•BB-8",
+            "ability_text": "Before you execute a blue maneuver, you may spend 1<nonbreak><standardcharge> to perform a<nonbreak><barrelroll> or<nonbreak><boost> action.",
+            "cost": "*",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32189,
+                    "statistic_id": 7,
+                    "value": "2",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "Resistance",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 4,
+                            "name": "Resistance"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/37297ef7839800afd543de5d1a363561.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 480,
+            "card_set_ids": [
+                15,
+                18
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                10
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/a2e3aaf77e8690a37e76ef4ae2087180.jpg",
+            "name": "BB Astromech",
+            "ability_text": "Before you execute a blue maneuver, you may spend 1<nonbreak><standardcharge> to perform a <barrelroll> action.",
+            "cost": "*",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32190,
+                    "statistic_id": 7,
+                    "value": "2",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "Resistance",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 4,
+                            "name": "Resistance"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/010399f4054469aed3b04acba08d41b0.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 481,
+            "card_set_ids": [
+                15,
+                18
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                10
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/f810d46699343a134003deea0f423131.jpg",
+            "name": "•M9-G8",
+            "ability_text": "While a ship you are locking performs an attack, you may choose 1 attack die. If you do, the attacker rerolls that die.",
+            "cost": "7",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Resistance",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 4,
+                            "name": "Resistance"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cd67f33e8aa52d2aeb07f432125a8c73.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 482,
+            "card_set_ids": [
+                15,
+                30
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                10
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/d72ab7fa7cd398d614466a98076a2e6b.jpg",
+            "name": "•R2-HA",
+            "ability_text": "While you defend, you may spend your lock on the attacker to reroll any number of your defense dice.",
+            "cost": "4",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Resistance",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 4,
+                            "name": "Resistance"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/b3e6d35ca6b6fd297312248ddf4e69a7.png",
             "behaviours": [
 
             ]
@@ -7025,6 +8515,74 @@
             ]
         },
         {
+            "id": 486,
+            "card_set_ids": [
+
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                18
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/a8233a67adce770e91e4b6b9025670ed.jpg",
+            "name": "Integrated S-foils (Closed)",
+            "ability_text": "While you perform a primary attack, if the defender is not in your <bullseye>, roll 1 fewer attack die.<return>Before you activate, you may flip this card.",
+            "cost": "0",
+            "available_actions": [
+                {
+                    "id": 27873,
+                    "base_action_id": 5,
+                    "related_action_id": null,
+                    "base_action_side_effect": null,
+                    "related_action_side_effect": null
+                },
+                {
+                    "id": 27874,
+                    "base_action_id": 2,
+                    "related_action_id": 5,
+                    "base_action_side_effect": null,
+                    "related_action_side_effect": "stress"
+                }
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "T-70 X-wing",
+            "restrictions": [
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 53,
+                            "raw_name": "t-70 x-wing"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e3b44142faf0f13e541bf674a6c06dbc.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 5,
+                        "related_action_id": null,
+                        "base_action_side_effect": null,
+                        "related_action_side_effect": null
+                    },
+                    "type": "action_profit"
+                },
+                {
+                    "data": {
+                        "base_action_id": 2,
+                        "related_action_id": 5,
+                        "base_action_side_effect": null,
+                        "related_action_side_effect": "stress"
+                    },
+                    "type": "action_profit"
+                }
+            ]
+        },
+        {
             "id": 487,
             "card_set_ids": [
                 15,
@@ -7176,55 +8734,6 @@
             ]
         },
         {
-            "id": 294,
-            "card_set_ids": [
-                1,
-                12,
-                20,
-                21,
-                30,
-                31,
-                33,
-                39
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                14
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_70.jpg",
-            "name": "Afterburners",
-            "ability_text": "After you fully execute a speed 3–5 maneuver, you may spend 1<nonbreak><standardcharge> to perform a <boost> action, even while stressed.",
-            "cost": "6",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32160,
-                    "statistic_id": 7,
-                    "value": "2",
-                    "recurring": false
-                }
-            ],
-            "restrictions_raw": "Small ship",
-            "restrictions": [
-                [
-                    {
-                        "type": "SHIP_SIZE",
-                        "kwargs": {
-                            "ship_size_name": "SMALL"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_70.png",
-            "behaviours": [
-
-            ]
-        },
-        {
             "id": 491,
             "card_set_ids": [
                 14
@@ -7319,43 +8828,6 @@
                 ]
             ],
             "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/a10d907fea50e32ab28d924c67486d37.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 295,
-            "card_set_ids": [
-                4,
-                5,
-                6,
-                14,
-                15,
-                20,
-                21,
-                31
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                14
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_71.jpg",
-            "name": "Electronic Baffle",
-            "ability_text": "During the End Phase, you may suffer 1<nonbreak><hit> damage to remove 1 red token.",
-            "cost": "2",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "",
-            "restrictions": [
-
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_71.png",
             "behaviours": [
 
             ]
@@ -7460,62 +8932,6 @@
                 {
                     "data": {
                         "base_action_id": 9,
-                        "related_action_id": null,
-                        "base_action_side_effect": null,
-                        "related_action_side_effect": null
-                    },
-                    "type": "action_profit"
-                }
-            ]
-        },
-        {
-            "id": 296,
-            "card_set_ids": [
-                4,
-                6,
-                15,
-                35
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                14
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_72.jpg",
-            "name": "Engine Upgrade",
-            "ability_text": "<flavor>Large military forces such as the Galactic Empire have standardized engines, but individual pilots and small organizations often replace the power couplings, add thrusters, or use high-performance fuel to get extra push out of their engines.</flavor>",
-            "cost": "*",
-            "available_actions": [
-                {
-                    "id": 27855,
-                    "base_action_id": 1,
-                    "related_action_id": null,
-                    "base_action_side_effect": null,
-                    "related_action_side_effect": null
-                }
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Red <boost>",
-            "restrictions": [
-                [
-                    {
-                        "type": "ACTION",
-                        "kwargs": {
-                            "pk": 1,
-                            "name": "Boost",
-                            "side_effect_name": "STRESS"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_72.png",
-            "behaviours": [
-                {
-                    "data": {
-                        "base_action_id": 1,
                         "related_action_id": null,
                         "base_action_side_effect": null,
                         "related_action_side_effect": null
@@ -7645,47 +9061,6 @@
             ]
         },
         {
-            "id": 297,
-            "card_set_ids": [
-                1,
-                4,
-                5,
-                6,
-                14,
-                15,
-                17
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                14
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_73.jpg",
-            "name": "Hull Upgrade",
-            "ability_text": "<flavor>For those who cannot afford an enhanced shield generator, bolting additional plates onto the hull of a ship can serve as an adequate substitute.</flavor>",
-            "cost": "*",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32161,
-                    "statistic_id": 2,
-                    "value": "+1",
-                    "recurring": false
-                }
-            ],
-            "restrictions_raw": "",
-            "restrictions": [
-
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_73.png",
-            "behaviours": [
-
-            ]
-        },
-        {
             "id": 534,
             "card_set_ids": [
                 20
@@ -7763,84 +9138,6 @@
                 ]
             ],
             "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/be82da17cfd39003fda380bead210eb9.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 298,
-            "card_set_ids": [
-                4,
-                5,
-                6,
-                14,
-                15,
-                20,
-                21,
-                23,
-                27
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                14
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_74.jpg",
-            "name": "Munitions Failsafe",
-            "ability_text": "While you perform a <torpedo> or <missile> attack, after rolling attack dice, you may cancel all dice results to recover 1<nonbreak><standardcharge> you spent as a cost for the attack.",
-            "cost": "1",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "",
-            "restrictions": [
-
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_74.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 299,
-            "card_set_ids": [
-                1,
-                4,
-                5,
-                6,
-                14,
-                15
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                14
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_75.jpg",
-            "name": "Shield Upgrade",
-            "ability_text": "<flavor>Deflector shields are a substantial line of defense on most starships beyond the lightest fighters. While enhancing a ship’s shield capacity can be costly, all but the most confident or reckless pilots see the value in this sort of investment.</flavor>",
-            "cost": "*",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32162,
-                    "statistic_id": 3,
-                    "value": "+1",
-                    "recurring": false
-                }
-            ],
-            "restrictions_raw": "",
-            "restrictions": [
-
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_75.png",
             "behaviours": [
 
             ]
@@ -8239,6 +9536,54 @@
             ]
         },
         {
+            "id": 544,
+            "card_set_ids": [
+                21,
+                25
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                1
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/21b00eaf0d2f447db8fc7b2dc69222ab.jpg",
+            "name": "Dedicated",
+            "ability_text": "While another friendly ship in your <leftarc><nonbreak>or <rightarc> at range<nonbreak>0–2 defends, if it is limited or has the <smallcaps>Dedicated</smallcaps> upgrade and you are not strained, you may gain 1 strain token. If you do, the defender rerolls 1<nonbreak>of their blank results.",
+            "cost": "1",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Republic, non-limited",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 6,
+                            "name": "Galactic Republic"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "LIMITED_QUANTITY",
+                        "kwargs": {
+                            "maximum_value": 32768,
+                            "minimum_value": 32766
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/31c6723d7e5670c257acfa8788160437.png",
+            "behaviours": [
+
+            ]
+        },
+        {
             "id": 545,
             "card_set_ids": [
                 21,
@@ -8336,6 +9681,49 @@
             ]
         },
         {
+            "id": 547,
+            "card_set_ids": [
+                21
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                10
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/7b3b50078bef620079c43a1689bb005a.jpg",
+            "name": "•R4-P17",
+            "ability_text": "After you fully execute a red maneuver, you may spend 1<nonbreak><standardcharge> to perform an action, even while stressed.",
+            "cost": "5",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32205,
+                    "statistic_id": 7,
+                    "value": "2",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "Republic",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 6,
+                            "name": "Galactic Republic"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/80c71951bb28b45b9ffdc84c9e7e69f8.png",
+            "behaviours": [
+
+            ]
+        },
+        {
             "id": 548,
             "card_set_ids": [
                 21,
@@ -8427,1465 +9815,6 @@
                 ]
             ],
             "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f3e06326ab525e07f9a85363b6d69580.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 320,
-            "card_set_ids": [
-                4
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                16
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_96.jpg",
-            "name": "•Ezra Bridger",
-            "ability_text": "After you perform a primary attack, you may spend 1<nonbreak><forcecharge> to perform a bonus <turretarc> attack from a <turretarc> you have not attacked from this round. If you do and you are stressed, you may reroll 1 attack die.",
-            "cost": "14",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32167,
-                    "statistic_id": 4,
-                    "value": "+1",
-                    "recurring": true
-                }
-            ],
-            "restrictions_raw": "Rebel",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 1,
-                            "name": "Rebel Alliance"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_96.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 332,
-            "card_set_ids": [
-
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                18
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_107b.jpg",
-            "name": "Pivot Wing (Closed)",
-            "ability_text": "While you defend, roll 1 fewer defense die.<Return>After you execute a [0<nonbreak><stop>] maneuver, you may rotate your ship 90º or 180º.<return>Before you activate, you may flip this card.",
-            "cost": "0",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "UT-60D U-wing",
-            "restrictions": [
-                [
-                    {
-                        "type": "SHIP_TYPE",
-                        "kwargs": {
-                            "pk": 15,
-                            "raw_name": "ut-60d u-wing"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_107b.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 334,
-            "card_set_ids": [
-
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                18
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_108b.jpg",
-            "name": "Servomotor S-foils (Closed)",
-            "ability_text": "While you perform a primary attack, roll 1 fewer attack die.<return>Before you activate, you may flip this card.",
-            "cost": "0",
-            "available_actions": [
-                {
-                    "id": 27871,
-                    "base_action_id": 1,
-                    "related_action_id": null,
-                    "base_action_side_effect": null,
-                    "related_action_side_effect": null
-                },
-                {
-                    "id": 27872,
-                    "base_action_id": 2,
-                    "related_action_id": 1,
-                    "base_action_side_effect": null,
-                    "related_action_side_effect": "stress"
-                }
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "T-65 X-wing",
-            "restrictions": [
-                [
-                    {
-                        "type": "SHIP_TYPE",
-                        "kwargs": {
-                            "pk": 33,
-                            "raw_name": "t-65 x-wing"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_108b.png",
-            "behaviours": [
-                {
-                    "data": {
-                        "base_action_id": 1,
-                        "related_action_id": null,
-                        "base_action_side_effect": null,
-                        "related_action_side_effect": null
-                    },
-                    "type": "action_profit"
-                },
-                {
-                    "data": {
-                        "base_action_id": 2,
-                        "related_action_id": 1,
-                        "base_action_side_effect": null,
-                        "related_action_side_effect": "stress"
-                    },
-                    "type": "action_profit"
-                }
-            ]
-        },
-        {
-            "id": 321,
-            "card_set_ids": [
-                4,
-                35
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                16
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_97.jpg",
-            "name": "•Han Solo",
-            "ability_text": "During the Engagement Phase, at initiative 7, you may perform a <turretarc> attack. You cannot attack from that <turretarc> again this round.",
-            "cost": "14",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Rebel",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 1,
-                            "name": "Rebel Alliance"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_97.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 383,
-            "card_set_ids": [
-
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                18
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_158b.jpg",
-            "name": "•L3–37’s Programming",
-            "ability_text": "If you are not shielded, decrease the difficulty of your bank (<leftbank> and <rightbank>) maneuvers.",
-            "cost": "4",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Scum",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 3,
-                            "name": "Scum and Villainy"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_158b.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 486,
-            "card_set_ids": [
-
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                18
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/a8233a67adce770e91e4b6b9025670ed.jpg",
-            "name": "Integrated S-foils (Closed)",
-            "ability_text": "While you perform a primary attack, if the defender is not in your <bullseye>, roll 1 fewer attack die.<return>Before you activate, you may flip this card.",
-            "cost": "0",
-            "available_actions": [
-                {
-                    "id": 27873,
-                    "base_action_id": 5,
-                    "related_action_id": null,
-                    "base_action_side_effect": null,
-                    "related_action_side_effect": null
-                },
-                {
-                    "id": 27874,
-                    "base_action_id": 2,
-                    "related_action_id": 5,
-                    "base_action_side_effect": null,
-                    "related_action_side_effect": "stress"
-                }
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "T-70 X-wing",
-            "restrictions": [
-                [
-                    {
-                        "type": "SHIP_TYPE",
-                        "kwargs": {
-                            "pk": 53,
-                            "raw_name": "t-70 x-wing"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e3b44142faf0f13e541bf674a6c06dbc.png",
-            "behaviours": [
-                {
-                    "data": {
-                        "base_action_id": 5,
-                        "related_action_id": null,
-                        "base_action_side_effect": null,
-                        "related_action_side_effect": null
-                    },
-                    "type": "action_profit"
-                },
-                {
-                    "data": {
-                        "base_action_id": 2,
-                        "related_action_id": 5,
-                        "base_action_side_effect": null,
-                        "related_action_side_effect": "stress"
-                    },
-                    "type": "action_profit"
-                }
-            ]
-        },
-        {
-            "id": 322,
-            "card_set_ids": [
-                4,
-                35
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                16
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_98.jpg",
-            "name": "•Luke Skywalker",
-            "ability_text": "At the start of the Engagement Phase, you may spend 1<nonbreak><forcecharge> to rotate your <turretarc> indicator.",
-            "cost": "26",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32168,
-                    "statistic_id": 4,
-                    "value": "+1",
-                    "recurring": true
-                }
-            ],
-            "restrictions_raw": "Rebel",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 1,
-                            "name": "Rebel Alliance"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_98.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 325,
-            "card_set_ids": [
-                1
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                10
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_101.jpg",
-            "name": "•R5-D8",
-            "ability_text": "<smallcaps>Action:</smallcaps> Spend 1<nonbreak><standardcharge> to repair 1 facedown damage card.<return><smallcaps>Action:</smallcaps> Repair 1 faceup <bitalic>Ship</bitalic> damage card.",
-            "cost": "6",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32170,
-                    "statistic_id": 7,
-                    "value": "3",
-                    "recurring": false
-                }
-            ],
-            "restrictions_raw": "Rebel",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 1,
-                            "name": "Rebel Alliance"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_101.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 326,
-            "card_set_ids": [
-                4,
-                38
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                15
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_102.jpg",
-            "name": "•<italic>Ghost</italic>",
-            "ability_text": "You can dock 1 attack shuttle or <italic>Sheathipede</italic>-class shuttle.<return>Your docked ships can deploy only from your rear guides.",
-            "cost": "0",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Rebel, VCX-100",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 1,
-                            "name": "Rebel Alliance"
-                        }
-                    }
-                ],
-                [
-                    {
-                        "type": "SHIP_TYPE",
-                        "kwargs": {
-                            "pk": 23,
-                            "raw_name": "vcx-100 light freighter"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_102.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 327,
-            "card_set_ids": [
-                4,
-                35
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                15
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_103.jpg",
-            "name": "•<italic>Millennium Falcon</italic>",
-            "ability_text": "While you defend, if you are evading, you may reroll 1 defense die.",
-            "cost": "6",
-            "available_actions": [
-                {
-                    "id": 27857,
-                    "base_action_id": 3,
-                    "related_action_id": null,
-                    "base_action_side_effect": null,
-                    "related_action_side_effect": null
-                }
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Rebel, Modified YT-1300",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 1,
-                            "name": "Rebel Alliance"
-                        }
-                    }
-                ],
-                [
-                    {
-                        "type": "SHIP_TYPE",
-                        "kwargs": {
-                            "pk": 1,
-                            "raw_name": "modified yt-1300 light freighter"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_103.png",
-            "behaviours": [
-                {
-                    "data": {
-                        "base_action_id": 3,
-                        "related_action_id": null,
-                        "base_action_side_effect": null,
-                        "related_action_side_effect": null
-                    },
-                    "type": "action_profit"
-                }
-            ]
-        },
-        {
-            "id": 328,
-            "card_set_ids": [
-                4
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                15
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_104.jpg",
-            "name": "•<italic>Moldy Crow</italic>",
-            "ability_text": "Gain a <frontarc> primary weapon with a value of “3.”<return>During the End Phase, do not remove up to 2 focus tokens.",
-            "cost": "18",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Rebel or Scum, HWK-290",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 1,
-                            "name": "Rebel Alliance"
-                        }
-                    },
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 3,
-                            "name": "Scum and Villainy"
-                        }
-                    }
-                ],
-                [
-                    {
-                        "type": "SHIP_TYPE",
-                        "kwargs": {
-                            "pk": 34,
-                            "raw_name": "hwk-290 light freighter"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_104.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 372,
-            "card_set_ids": [
-                6
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                15
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_147.jpg",
-            "name": "•<italic>Havoc</italic>",
-            "ability_text": "Remove <crew> slot. Add <sensor> and <astro> slots.",
-            "cost": "4",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Scum, Scurrg H-6 bomber",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 3,
-                            "name": "Scum and Villainy"
-                        }
-                    }
-                ],
-                [
-                    {
-                        "type": "SHIP_TYPE",
-                        "kwargs": {
-                            "pk": 4,
-                            "raw_name": "scurrg h-6 bomber"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_147.png",
-            "behaviours": [
-                {
-                    "data": {
-                        "quantity": 1,
-                        "upgrade_type": 8
-                    },
-                    "type": "slot_loss"
-                },
-                {
-                    "data": {
-                        "quantity": 1,
-                        "upgrade_type": 2
-                    },
-                    "type": "slot_profit"
-                },
-                {
-                    "data": {
-                        "quantity": 1,
-                        "upgrade_type": 10
-                    },
-                    "type": "slot_profit"
-                }
-            ]
-        },
-        {
-            "id": 375,
-            "card_set_ids": [
-                11
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                15
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_150.jpg",
-            "name": "•<italic>Marauder</italic>",
-            "ability_text": "While you perform a primary <reararc> attack, you may reroll 1 attack die.<return>Add <gunner> slot.",
-            "cost": "6",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Scum, <untalic>Firespray</untalic>-class patrol craft",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 3,
-                            "name": "Scum and Villainy"
-                        }
-                    }
-                ],
-                [
-                    {
-                        "type": "SHIP_TYPE",
-                        "kwargs": {
-                            "pk": 10,
-                            "raw_name": "firespray-class patrol craft"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_150.png",
-            "behaviours": [
-                {
-                    "data": {
-                        "quantity": 1,
-                        "upgrade_type": 16
-                    },
-                    "type": "slot_profit"
-                }
-            ]
-        },
-        {
-            "id": 378,
-            "card_set_ids": [
-                6
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                15
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_153.jpg",
-            "name": "•<italic>Shadow Caster</italic>",
-            "ability_text": "After you perform an attack that hits, if the defender is in your <turretarc> and your <frontarc>, the defender gains 1 tractor token.",
-            "cost": "3",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Scum, <untalic>Lancer</untalic>-class pursuit craft",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 3,
-                            "name": "Scum and Villainy"
-                        }
-                    }
-                ],
-                [
-                    {
-                        "type": "SHIP_TYPE",
-                        "kwargs": {
-                            "pk": 42,
-                            "raw_name": "lancer-class pursuit craft"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_153.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 381,
-            "card_set_ids": [
-                13,
-                20,
-                21,
-                30
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                1
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_156.jpg",
-            "name": "Composure",
-            "ability_text": "After you fail an action, if you have no green tokens, you may perform a <focus> action.",
-            "cost": "1",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "<focus>",
-            "restrictions": [
-                [
-                    {
-                        "type": "ACTION",
-                        "kwargs": {
-                            "pk": 2,
-                            "name": "Focus",
-                            "side_effect_name": "STRESS"
-                        }
-                    },
-                    {
-                        "type": "ACTION",
-                        "kwargs": {
-                            "pk": 2,
-                            "name": "Focus",
-                            "side_effect_name": "NONE"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_156.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 384,
-            "card_set_ids": [
-                13
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                8
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_158.jpg",
-            "name": "•L3–37",
-            "ability_text": "<smallcaps>Setup:</smallcaps> Equip this side faceup.<return>While you defend, you may flip this card. If you do, the attacker must reroll all attack dice.",
-            "cost": "4",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Scum",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 3,
-                            "name": "Scum and Villainy"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_158.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 387,
-            "card_set_ids": [
-                13
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                8
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_161.jpg",
-            "name": "•Qi’ra",
-            "ability_text": "While you move and perform attacks, you ignore obstacles that you are locking.",
-            "cost": "2",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Scum",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 3,
-                            "name": "Scum and Villainy"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_161.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 392,
-            "card_set_ids": [
-                4,
-                5,
-                6,
-                15,
-                29
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                12,
-                12
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_63.jpg",
-            "name": "Bomblet Generator",
-            "ability_text": "<smallbody><bitalic>Bomb</bitalic><return>During the System Phase, you may spend 1<nonbreak><standardcharge> to drop a Bomblet with the [1<nonbreak><straight>] template.<return>At the start of the Activation Phase, you may spend 1 shield to recover 2 <standardcharge>.</smallbody>",
-            "cost": "5",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32154,
-                    "statistic_id": 7,
-                    "value": "2",
-                    "recurring": false
-                }
-            ],
-            "restrictions_raw": "",
-            "restrictions": [
-
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_63.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 393,
-            "card_set_ids": [
-                4,
-                5,
-                6,
-                15,
-                26
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                12
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_64.jpg",
-            "name": "Conner Nets",
-            "ability_text": "<bitalic>Mine</bitalic><return>During the System Phase, you may spend 1<nonbreak><standardcharge> to drop a Conner Net using the [1<nonbreak><straight>] template.<return>This card’s <standardcharge> cannot be recovered.",
-            "cost": "6",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32155,
-                    "statistic_id": 7,
-                    "value": "1",
-                    "recurring": false
-                }
-            ],
-            "restrictions_raw": "",
-            "restrictions": [
-
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_64.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 394,
-            "card_set_ids": [
-                4,
-                5,
-                6,
-                8,
-                15,
-                26,
-                37
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                12
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_65.jpg",
-            "name": "Proton Bombs",
-            "ability_text": "<bitalic>Bomb</bitalic><return>During the System Phase, you may spend 1<nonbreak><standardcharge> to drop a Proton Bomb using the [1<nonbreak><straight>] template.",
-            "cost": "5",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32156,
-                    "statistic_id": 7,
-                    "value": "2",
-                    "recurring": false
-                }
-            ],
-            "restrictions_raw": "",
-            "restrictions": [
-
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_65.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 395,
-            "card_set_ids": [
-                4,
-                5,
-                6,
-                11,
-                15,
-                32
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                12
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_66.jpg",
-            "name": "Proximity Mines",
-            "ability_text": "<bitalic>Mine</bitalic><return>During the System Phase, you may spend 1<nonbreak><standardcharge> to drop a Proximity Mine using the [1<nonbreak><straight>] template.<return>This card’s <standardcharge> cannot be recovered.",
-            "cost": "6",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32157,
-                    "statistic_id": 7,
-                    "value": "2",
-                    "recurring": false
-                }
-            ],
-            "restrictions_raw": "",
-            "restrictions": [
-
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_66.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 474,
-            "card_set_ids": [
-                15
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                8
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/af2ce405b6c28568aa2d66b78296b351.jpg",
-            "name": "•Han Solo",
-            "ability_text": "After you perform an <evade> action, gain additional evade tokens equal to the number of enemy ships at range 0–1.",
-            "cost": "6",
-            "available_actions": [
-                {
-                    "id": 27864,
-                    "base_action_id": 3,
-                    "related_action_id": null,
-                    "base_action_side_effect": "stress",
-                    "related_action_side_effect": null
-                }
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Resistance",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 4,
-                            "name": "Resistance"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/622ea4b573afbb5c95b3e9f2989a8aef.png",
-            "behaviours": [
-                {
-                    "data": {
-                        "base_action_id": 3,
-                        "related_action_id": null,
-                        "base_action_side_effect": "stress",
-                        "related_action_side_effect": null
-                    },
-                    "type": "action_profit"
-                }
-            ]
-        },
-        {
-            "id": 477,
-            "card_set_ids": [
-                15
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                16
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/a34ab7a76083f91577110d31d20b6e14.jpg",
-            "name": "•Paige Tico",
-            "ability_text": "After you perform a primary attack, you may drop 1 bomb or rotate your <turretarc>.<return>After you are destroyed, you may drop 1 bomb.",
-            "cost": "7",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Resistance",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 4,
-                            "name": "Resistance"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9dc15f634233b5daba107a07aa63d04c.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 478,
-            "card_set_ids": [
-                15
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                16
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/ab5eea679d5ca9369cd122bc65001119.jpg",
-            "name": "•Rey",
-            "ability_text": "While you defend or perform an attack, if the enemy ship is in your <turretarc>, you may spend 1<nonbreak><forcecharge> to change 1 of your blank results to a <evade> or <hit> result.",
-            "cost": "14",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32188,
-                    "statistic_id": 4,
-                    "value": "+1",
-                    "recurring": true
-                }
-            ],
-            "restrictions_raw": "Resistance",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 4,
-                            "name": "Resistance"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e11aec8ae6ec855694947bc2f9d1917e.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 479,
-            "card_set_ids": [
-                15,
-                18
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                10
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/e8a75e0e143a5857ac3931d56ccde86c.jpg",
-            "name": "•BB-8",
-            "ability_text": "Before you execute a blue maneuver, you may spend 1<nonbreak><standardcharge> to perform a<nonbreak><barrelroll> or<nonbreak><boost> action.",
-            "cost": "*",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32189,
-                    "statistic_id": 7,
-                    "value": "2",
-                    "recurring": false
-                }
-            ],
-            "restrictions_raw": "Resistance",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 4,
-                            "name": "Resistance"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/37297ef7839800afd543de5d1a363561.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 480,
-            "card_set_ids": [
-                15,
-                18
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                10
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/a2e3aaf77e8690a37e76ef4ae2087180.jpg",
-            "name": "BB Astromech",
-            "ability_text": "Before you execute a blue maneuver, you may spend 1<nonbreak><standardcharge> to perform a <barrelroll> action.",
-            "cost": "*",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32190,
-                    "statistic_id": 7,
-                    "value": "2",
-                    "recurring": false
-                }
-            ],
-            "restrictions_raw": "Resistance",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 4,
-                            "name": "Resistance"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/010399f4054469aed3b04acba08d41b0.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 481,
-            "card_set_ids": [
-                15,
-                18
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                10
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/f810d46699343a134003deea0f423131.jpg",
-            "name": "•M9-G8",
-            "ability_text": "While a ship you are locking performs an attack, you may choose 1 attack die. If you do, the attacker rerolls that die.",
-            "cost": "7",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Resistance",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 4,
-                            "name": "Resistance"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cd67f33e8aa52d2aeb07f432125a8c73.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 482,
-            "card_set_ids": [
-                15,
-                30
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                10
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/d72ab7fa7cd398d614466a98076a2e6b.jpg",
-            "name": "•R2-HA",
-            "ability_text": "While you defend, you may spend your lock on the attacker to reroll any number of your defense dice.",
-            "cost": "4",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Resistance",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 4,
-                            "name": "Resistance"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/b3e6d35ca6b6fd297312248ddf4e69a7.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 544,
-            "card_set_ids": [
-                21,
-                25
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                1
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/21b00eaf0d2f447db8fc7b2dc69222ab.jpg",
-            "name": "Dedicated",
-            "ability_text": "While another friendly ship in your <leftarc><nonbreak>or <rightarc> at range<nonbreak>0–2 defends, if it is limited or has the <smallcaps>Dedicated</smallcaps> upgrade and you are not strained, you may gain 1 strain token. If you do, the defender rerolls 1<nonbreak>of their blank results.",
-            "cost": "1",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "Republic, non-limited",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 6,
-                            "name": "Galactic Republic"
-                        }
-                    }
-                ],
-                [
-                    {
-                        "type": "LIMITED_QUANTITY",
-                        "kwargs": {
-                            "maximum_value": 32768,
-                            "minimum_value": 32766
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/31c6723d7e5670c257acfa8788160437.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 547,
-            "card_set_ids": [
-                21
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                10
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/7b3b50078bef620079c43a1689bb005a.jpg",
-            "name": "•R4-P17",
-            "ability_text": "After you fully execute a red maneuver, you may spend 1<nonbreak><standardcharge> to perform an action, even while stressed.",
-            "cost": "5",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32205,
-                    "statistic_id": 7,
-                    "value": "2",
-                    "recurring": false
-                }
-            ],
-            "restrictions_raw": "Republic",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 6,
-                            "name": "Galactic Republic"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/80c71951bb28b45b9ffdc84c9e7e69f8.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 577,
-            "card_set_ids": [
-                28,
-                29
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                2
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/a9c69fd08df1a2ce84f240943fe05245.jpg",
-            "name": "Passive Sensors",
-            "ability_text": "<smallbody><smallcaps>Action:</smallcaps> Spend 1<nonbreak><standardcharge>. You can only perform this action in your Perform Action step.</smallbody><return><smallbody>While your<nonbreak><standardcharge> is inactive, you cannot be coordinated. Before you engage, if your <standardcharge> is inactive, you may perform a<nonbreak><calculate> or<nonbreak><targetlock> action.</smallbody>",
-            "cost": "3",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32212,
-                    "statistic_id": 7,
-                    "value": "1",
-                    "recurring": true
-                }
-            ],
-            "restrictions_raw": "",
-            "restrictions": [
-
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/08a980b359fb73dbcb9a315e94d505f0.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 578,
-            "card_set_ids": [
-                30
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": "1 – 2",
-            "upgrade_types": [
-                3
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/dbdad938bd9f4ce64af1d7106dfd5b5e.jpg",
-            "name": "Autoblasters",
-            "ability_text": "<smallcaps>Attack:</smallcaps> If the defender is in your <bullseye>, roll 1 additional die. During the Neutralize Results step, if you are not in the defender’s<nonbreak><frontarc>, <evade><nonbreak>results do not cancel <crit><nonbreak>results.",
-            "cost": "2",
-            "available_actions": [
-
-            ],
-            "statistics": [
-                {
-                    "id": 32213,
-                    "statistic_id": 10,
-                    "value": "2",
-                    "recurring": false
-                }
-            ],
-            "restrictions_raw": "",
-            "restrictions": [
-
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/59d4a52e3a534dd090259bd5546e7bab.png",
             "behaviours": [
 
             ]
@@ -10111,6 +10040,181 @@
             ]
         },
         {
+            "id": 555,
+            "card_set_ids": [
+                20,
+                23
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                18
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/24c35aeb94ef846dc498e4a59fb9bf73.jpg",
+            "name": "Grappling Struts (Closed)",
+            "ability_text": "<smallcaps>Setup:</smallcaps> Equip this side faceup.<return>While you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card.",
+            "cost": "1",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "<untalic>Vulture</untalic>-class droid<nonbreak>fighter",
+            "restrictions": [
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 59,
+                            "raw_name": "vulture-class droid fighter"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ca74271f47c42b390ca0ba0b389144a5.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 556,
+            "card_set_ids": [
+                22,
+                25
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/d07f69ceb063c382e60ce33377e9bef7.jpg",
+            "name": "•Chancellor Palpatine",
+            "ability_text": "<smallbody><smallcaps>Setup:</smallcaps> Equip this side faceup.<return>After you defend, if the attacker is at range 0–2, you may spend 1 <forcecharge>. If you do, the attacker gains 1 stress token.<return>During the End Phase, you may flip this card.</smallbody>",
+            "cost": "14",
+            "available_actions": [
+                {
+                    "id": 27875,
+                    "base_action_id": 8,
+                    "related_action_id": null,
+                    "base_action_side_effect": "force_point",
+                    "related_action_side_effect": null
+                }
+            ],
+            "statistics": [
+                {
+                    "id": 32211,
+                    "statistic_id": 4,
+                    "value": "+1",
+                    "recurring": true
+                }
+            ],
+            "restrictions_raw": "Republic or Separatist",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 7,
+                            "name": "Separatist Alliance"
+                        }
+                    },
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 6,
+                            "name": "Galactic Republic"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8218d7b903ea8c0c0f88375124a93a5f.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 8,
+                        "related_action_id": null,
+                        "base_action_side_effect": "force_point",
+                        "related_action_side_effect": null
+                    },
+                    "type": "action_profit"
+                }
+            ]
+        },
+        {
+            "id": 577,
+            "card_set_ids": [
+                28,
+                29
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                2
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/a9c69fd08df1a2ce84f240943fe05245.jpg",
+            "name": "Passive Sensors",
+            "ability_text": "<smallbody><smallcaps>Action:</smallcaps> Spend 1<nonbreak><standardcharge>. You can only perform this action in your Perform Action step.</smallbody><return><smallbody>While your<nonbreak><standardcharge> is inactive, you cannot be coordinated. Before you engage, if your <standardcharge> is inactive, you may perform a<nonbreak><calculate> or<nonbreak><targetlock> action.</smallbody>",
+            "cost": "3",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32212,
+                    "statistic_id": 7,
+                    "value": "1",
+                    "recurring": true
+                }
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/08a980b359fb73dbcb9a315e94d505f0.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 578,
+            "card_set_ids": [
+                30
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": "1 – 2",
+            "upgrade_types": [
+                3
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/dbdad938bd9f4ce64af1d7106dfd5b5e.jpg",
+            "name": "Autoblasters",
+            "ability_text": "<smallcaps>Attack:</smallcaps> If the defender is in your <bullseye>, roll 1 additional die. During the Neutralize Results step, if you are not in the defender’s<nonbreak><frontarc>, <evade><nonbreak>results do not cancel <crit><nonbreak>results.",
+            "cost": "2",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "id": 32213,
+                    "statistic_id": 10,
+                    "value": "2",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/59d4a52e3a534dd090259bd5546e7bab.png",
+            "behaviours": [
+
+            ]
+        },
+        {
             "id": 579,
             "card_set_ids": [
                 28,
@@ -10231,110 +10335,6 @@
             "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cbe5e849e9daa4f3f968b2ff6e2879b1.png",
             "behaviours": [
 
-            ]
-        },
-        {
-            "id": 555,
-            "card_set_ids": [
-                20,
-                23
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                18
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/24c35aeb94ef846dc498e4a59fb9bf73.jpg",
-            "name": "Grappling Struts (Closed)",
-            "ability_text": "<smallcaps>Setup:</smallcaps> Equip this side faceup.<return>While you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card.",
-            "cost": "1",
-            "available_actions": [
-
-            ],
-            "statistics": [
-
-            ],
-            "restrictions_raw": "<untalic>Vulture</untalic>-class droid<nonbreak>fighter",
-            "restrictions": [
-                [
-                    {
-                        "type": "SHIP_TYPE",
-                        "kwargs": {
-                            "pk": 59,
-                            "raw_name": "vulture-class droid fighter"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ca74271f47c42b390ca0ba0b389144a5.png",
-            "behaviours": [
-
-            ]
-        },
-        {
-            "id": 556,
-            "card_set_ids": [
-                22,
-                25
-            ],
-            "card_type_id": 2,
-            "weapon_no_bonus": false,
-            "weapon_range": null,
-            "upgrade_types": [
-                8
-            ],
-            "image": "https://sb-cdn.fantasyflightgames.com/card_art/d07f69ceb063c382e60ce33377e9bef7.jpg",
-            "name": "•Chancellor Palpatine",
-            "ability_text": "<smallbody><smallcaps>Setup:</smallcaps> Equip this side faceup.<return>After you defend, if the attacker is at range 0–2, you may spend 1 <forcecharge>. If you do, the attacker gains 1 stress token.<return>During the End Phase, you may flip this card.</smallbody>",
-            "cost": "14",
-            "available_actions": [
-                {
-                    "id": 27875,
-                    "base_action_id": 8,
-                    "related_action_id": null,
-                    "base_action_side_effect": "force_point",
-                    "related_action_side_effect": null
-                }
-            ],
-            "statistics": [
-                {
-                    "id": 32211,
-                    "statistic_id": 4,
-                    "value": "+1",
-                    "recurring": true
-                }
-            ],
-            "restrictions_raw": "Republic or Separatist",
-            "restrictions": [
-                [
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 7,
-                            "name": "Separatist Alliance"
-                        }
-                    },
-                    {
-                        "type": "FACTION",
-                        "kwargs": {
-                            "pk": 6,
-                            "name": "Galactic Republic"
-                        }
-                    }
-                ]
-            ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8218d7b903ea8c0c0f88375124a93a5f.png",
-            "behaviours": [
-                {
-                    "data": {
-                        "base_action_id": 8,
-                        "related_action_id": null,
-                        "base_action_side_effect": "force_point",
-                        "related_action_side_effect": null
-                    },
-                    "type": "action_profit"
-                }
             ]
         },
         {
