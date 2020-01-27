@@ -161,12 +161,38 @@ namespace XWing {
 		readonly name: string
 		readonly cost: number
 		readonly restrictions: any
+		readonly doubleSidedCardIds: Map<number, number> = new Map([
+			[ 331, 332 ], // Pivot Wing
+			[ 332, 331 ], // Pivot Wing
+			[ 333, 334 ], // Servomotor S-foils
+			[ 334, 333 ], // Servomotor S-foils
+			[ 383, 384 ], // •L3–37 / •L3–37’s Programming
+			[ 384, 383 ], // •L3–37 / •L3–37’s Programming
+			[ 486, 487 ], // Integrated S-foils
+			[ 487, 486 ], // Integrated S-foils
+			[ 535, 555 ], // Grappling Struts
+			[ 555, 535 ], // Grappling Struts
+			[ 538, 556 ], // •Chancellor Palpatine / •Darth Sidious
+			[ 556, 538 ], // •Chancellor Palpatine / •Darth Sidious
+			[ 594, 595 ], // Landing Struts
+			[ 593, 596 ], // Landing Struts
+			[ 617, 618 ], // •C1-10P / •C1-10P (Erratic)
+			[ 618, 617 ], // •C1-10P / •C1-10P (Erratic)
+		])
 
 		constructor(upgrade: Json.UpgradeCard) {
 			this.json = upgrade
 			this.name = upgrade.name
-			this.cost = this.name.endsWith(" (Closed)") ? 0 : this.json.cost == "*" ? -1 : parseInt(this.json.cost)
+			this.cost = this.json.cost == "*" ? -1 : parseInt(this.json.cost)
 			this.restrictions = upgrade.restrictions
+		}
+
+		isDoubleSided(): boolean {
+			return this.doubleSidedCardIds.has(this.json.id)
+		}
+
+		isLowerIdSide(): boolean {
+			return this.isDoubleSided() && this.doubleSidedCardIds.get(this.json.id) < this.json.id
 		}
 
 		localImageUrl(): string {
@@ -277,6 +303,10 @@ namespace XWing {
 			if (!upgrade) {
 				// This issue has already been logged, return a crazy number
 				return 1000
+			}
+			if (upgrade.isDoubleSided() && upgrade.isLowerIdSide()) {
+				// For upgrades with 2 sides only include the cost of 1 side.
+				return 0
 			}
 			if (upgrade.cost == -1) {
 				var variablePointCost: Json.VariablePointCost = data.lookupVariablePointCost(upgrade.name)

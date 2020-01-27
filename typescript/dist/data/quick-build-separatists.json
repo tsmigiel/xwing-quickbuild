@@ -177,12 +177,16 @@
                     "pilot": "•DFS-081",
                     "upgrades": [
                         {
-                            "upgrade_type": 6,
-                            "name": "Proton Rockets"
+                            "upgrade_type": 18,
+                            "name": "Grappling Struts (Open)"
                         },
                         {
                             "upgrade_type": 18,
                             "name": "Grappling Struts (Closed)"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Proton Rockets"
                         },
                         {
                             "upgrade_type": 14,
@@ -227,12 +231,16 @@
                     "pilot": "Separatist Drone",
                     "upgrades": [
                         {
-                            "upgrade_type": 6,
-                            "name": "Energy-Shell Charges"
+                            "upgrade_type": 18,
+                            "name": "Grappling Struts (Open)"
                         },
                         {
                             "upgrade_type": 18,
                             "name": "Grappling Struts (Closed)"
+                        },
+                        {
+                            "upgrade_type": 6,
+                            "name": "Energy-Shell Charges"
                         },
                         {
                             "upgrade_type": 14,
@@ -251,6 +259,10 @@
                     "wave": "SWZ31",
                     "pilot": "•DFS-311",
                     "upgrades": [
+                        {
+                            "upgrade_type": 18,
+                            "name": "Grappling Struts (Open)"
+                        },
                         {
                             "upgrade_type": 18,
                             "name": "Grappling Struts (Closed)"
@@ -371,27 +383,6 @@
                             "upgrade_type": 8,
                             "name": "•Chancellor Palpatine"
                         },
-                        {
-                            "upgrade_type": 18,
-                            "name": "Shield Upgrade"
-                        },
-                        {
-                            "upgrade_type": 15,
-                            "name": "•<italic>Scimitar</italic>"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "threat_level": 3,
-            "faction_id": 7,
-            "ships": [
-                {
-                    "ship": "Sith Infiltrator",
-                    "wave": "SWZ30",
-                    "pilot": "•0-66",
-                    "upgrades": [
                         {
                             "upgrade_type": 8,
                             "name": "•Darth Sidious"
