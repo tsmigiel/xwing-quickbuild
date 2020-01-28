@@ -48,9 +48,9 @@
         "type": "AGILITY",
         "costs": [
             3,
-            3,
-            4,
-            6
+            5,
+            7,
+            9
         ],
         "upgradeType": "Astromech"
     },
@@ -80,8 +80,8 @@
         "type": "SHIP_SIZE",
         "costs": [
             2,
-            4,
-            6
+            3,
+            4
         ],
         "upgradeType": "Talent"
     },
@@ -109,13 +109,13 @@
         "name": "Inertial Dampeners",
         "type": "INITIATIVE",
         "costs": [
+            0,
+            1,
             2,
             3,
             4,
             5,
-            6,
-            7,
-            8
+            6
         ],
         "upgradeType": "Illicit"
     },
@@ -272,5 +272,19 @@
             5
         ],
         "upgradeType": "Configuration"
+    },
+    {
+        "name": "Ensnare",
+        "type": "INITIATIVE",
+        "costs": [
+            12,
+            12,
+            12,
+            12,
+            14,
+            21,
+            28
+        ],
+        "upgradeType": "Talent"
     }
 ]
