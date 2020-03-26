@@ -2985,7 +2985,7 @@
             ],
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_76.jpg",
             "name": "Static Discharge Vanes",
-            "ability_text": "Before you would gain 1 ion or jam token, if you are not stressed, you may choose another ship at range 0–1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead.",
+            "ability_text": "Before you would gain 1 ion or jam token, if you are not stressed, you may choose another ship at range 0–1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead, then you suffer 1<nonbreak><hit> damage.",
             "cost": "6",
             "available_actions": [
 
@@ -2997,7 +2997,7 @@
             "restrictions": [
 
             ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_76.png",
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9c42b09b923d60ac8504e52bd0cbaf25.png",
             "behaviours": [
 
             ]
@@ -4199,7 +4199,7 @@
             ],
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_105.jpg",
             "name": "•<italic>Outrider</italic>",
-            "ability_text": "While you perform an obstructed attack, the defender rolls 1 fewer defense die.<return>After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.",
+            "ability_text": "While you perform an attack that is obstructed by an obstacle, the defender rolls 1 fewer defense die.<return>After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.",
             "cost": "14",
             "available_actions": [
 
@@ -4524,7 +4524,7 @@
             ],
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_110.jpg",
             "name": "•Agent Kallus",
-            "ability_text": "<smallcaps>Setup:</smallcaps> Assign the <smallcaps>Hunted</smallcaps> condition to 1 enemy ship.<return>While you perform an attack against the ship with the <smallcaps>Hunted</smallcaps> condition, you may change 1 of your <focus> results to a <hit> result.",
+            "ability_text": "<smallcaps>Setup:</smallcaps> After placing forces, assign the <smallcaps>Hunted</smallcaps> condition to 1 enemy ship.<return>While you perform an attack against the ship with the <smallcaps>Hunted</smallcaps> condition, you may change 1 of your <focus> results to a <hit> result.",
             "cost": "5",
             "available_actions": [
 
@@ -4544,7 +4544,7 @@
                     }
                 ]
             ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_110.png",
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/5e9b30fb5a437355afd9d17d8700bd9c.png",
             "behaviours": [
 
             ]
@@ -6659,7 +6659,7 @@
             ],
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_156.jpg",
             "name": "Composure",
-            "ability_text": "After you fail an action, if you have no green tokens, you may perform a <focus> action.",
+            "ability_text": "After you fail an action, if you have no green tokens, you may perform a <focus> action. If you do, you cannot perform additional actions this round.",
             "cost": "1",
             "available_actions": [
 
@@ -6688,7 +6688,7 @@
                     }
                 ]
             ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_156.png",
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/73927eb0dc7bc2bb0de194f1af1dead2.png",
             "behaviours": [
 
             ]
@@ -7004,7 +7004,7 @@
             ],
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_164.jpg",
             "name": "•Lando’s <italic>Millennium Falcon</italic>",
-            "ability_text": "1 Escape Craft may dock with you.<return>While you have an escape craft docked, you may spend its shields as if they were on your ship card.<return>While you perform a primary attack against a stressed ship, roll 1 additional attack die.",
+            "ability_text": "1 Escape Craft may dock with you.<return>While you have an escape craft docked, you may treat its shields as if they were on your ship card.<return>While you perform a primary attack against a stressed ship, roll 1 additional attack die.",
             "cost": "3",
             "available_actions": [
 
@@ -7033,7 +7033,7 @@
                     }
                 ]
             ],
-            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_164.png",
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/96b50606e65bfe308b9e75a03d9a1884.png",
             "behaviours": [
 
             ]
