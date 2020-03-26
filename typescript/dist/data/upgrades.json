@@ -28,7 +28,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43761,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -120,7 +119,6 @@
             "cost": "4",
             "available_actions": [
                 {
-                    "id": 38059,
                     "base_action_id": 3,
                     "related_action_id": null,
                     "base_action_side_effect": "stress",
@@ -187,7 +185,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43762,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -238,7 +235,6 @@
             "cost": "*",
             "available_actions": [
                 {
-                    "id": 38060,
                     "base_action_id": 5,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -435,7 +431,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43763,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": true
@@ -713,7 +708,6 @@
             "cost": "*",
             "available_actions": [
                 {
-                    "id": 38061,
                     "base_action_id": 8,
                     "related_action_id": null,
                     "base_action_side_effect": "stress",
@@ -1012,7 +1006,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43764,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -1124,7 +1117,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43765,
                     "statistic_id": 11,
                     "value": "4",
                     "recurring": false
@@ -1166,7 +1158,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43767,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
@@ -1207,7 +1198,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43769,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
@@ -1249,7 +1239,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43771,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
@@ -1284,7 +1273,6 @@
             "cost": "3",
             "available_actions": [
                 {
-                    "id": 38062,
                     "base_action_id": 14,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -1293,7 +1281,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43773,
                     "statistic_id": 12,
                     "value": "2",
                     "recurring": false
@@ -1337,7 +1324,6 @@
             "cost": "5",
             "available_actions": [
                 {
-                    "id": 38063,
                     "base_action_id": 14,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -1346,7 +1332,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43775,
                     "statistic_id": 12,
                     "value": "3",
                     "recurring": false
@@ -1397,13 +1382,11 @@
             ],
             "statistics": [
                 {
-                    "id": 43777,
                     "statistic_id": 10,
                     "value": "5",
                     "recurring": false
                 },
                 {
-                    "id": 43779,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -1448,13 +1431,11 @@
             ],
             "statistics": [
                 {
-                    "id": 43780,
                     "statistic_id": 10,
                     "value": "4",
                     "recurring": false
                 },
                 {
-                    "id": 43782,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -1497,13 +1478,11 @@
             ],
             "statistics": [
                 {
-                    "id": 43783,
                     "statistic_id": 10,
                     "value": "4",
                     "recurring": false
                 },
                 {
-                    "id": 43785,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -1541,13 +1520,11 @@
             ],
             "statistics": [
                 {
-                    "id": 43786,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
                 },
                 {
-                    "id": 43788,
                     "statistic_id": 7,
                     "value": "5",
                     "recurring": false
@@ -1590,13 +1567,11 @@
             ],
             "statistics": [
                 {
-                    "id": 43789,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
                 },
                 {
-                    "id": 43791,
                     "statistic_id": 7,
                     "value": "4",
                     "recurring": false
@@ -1641,13 +1616,11 @@
             ],
             "statistics": [
                 {
-                    "id": 43792,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
                 },
                 {
-                    "id": 43794,
                     "statistic_id": 7,
                     "value": "3",
                     "recurring": false
@@ -1691,13 +1664,11 @@
             ],
             "statistics": [
                 {
-                    "id": 43795,
                     "statistic_id": 10,
                     "value": "4",
                     "recurring": false
                 },
                 {
-                    "id": 43797,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -1739,13 +1710,11 @@
             ],
             "statistics": [
                 {
-                    "id": 43798,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
                 },
                 {
-                    "id": 43800,
                     "statistic_id": 7,
                     "value": "3",
                     "recurring": false
@@ -1789,13 +1758,11 @@
             ],
             "statistics": [
                 {
-                    "id": 43801,
                     "statistic_id": 11,
                     "value": "5",
                     "recurring": false
                 },
                 {
-                    "id": 43803,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -1870,7 +1837,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43804,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -2055,7 +2021,6 @@
             "cost": "6",
             "available_actions": [
                 {
-                    "id": 38064,
                     "base_action_id": 8,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -2279,7 +2244,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43805,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -2397,7 +2361,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43806,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -2433,7 +2396,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43807,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -2484,7 +2446,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43808,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -2624,7 +2585,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43809,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -2677,7 +2637,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43815,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -2774,7 +2733,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43816,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -2853,7 +2811,6 @@
             "cost": "*",
             "available_actions": [
                 {
-                    "id": 38065,
                     "base_action_id": 1,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -2916,7 +2873,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43817,
                     "statistic_id": 2,
                     "value": "+1",
                     "recurring": false
@@ -2995,7 +2951,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43818,
                     "statistic_id": 3,
                     "value": "+1",
                     "recurring": false
@@ -3075,7 +3030,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43819,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -3196,7 +3150,6 @@
             "cost": "8",
             "available_actions": [
                 {
-                    "id": 38066,
                     "base_action_id": 9,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -3290,7 +3243,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43820,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": true
@@ -3450,7 +3402,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43821,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -3533,7 +3484,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43822,
                     "statistic_id": 7,
                     "value": "3",
                     "recurring": true
@@ -3845,7 +3795,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43823,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -3928,7 +3877,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43824,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -4010,7 +3958,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43825,
                     "statistic_id": 7,
                     "value": "3",
                     "recurring": false
@@ -4053,7 +4000,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43826,
                     "statistic_id": 7,
                     "value": "3",
                     "recurring": false
@@ -4142,7 +4088,6 @@
             "cost": "3",
             "available_actions": [
                 {
-                    "id": 38067,
                     "base_action_id": 3,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -4478,14 +4423,12 @@
             "cost": "0",
             "available_actions": [
                 {
-                    "id": 38090,
                     "base_action_id": 1,
                     "related_action_id": null,
                     "base_action_side_effect": null,
                     "related_action_side_effect": null
                 },
                 {
-                    "id": 38091,
                     "base_action_id": 2,
                     "related_action_id": 1,
                     "base_action_side_effect": null,
@@ -4683,7 +4626,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43827,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -4762,7 +4704,6 @@
             "cost": "4",
             "available_actions": [
                 {
-                    "id": 38068,
                     "base_action_id": 4,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -4818,7 +4759,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43828,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -4862,7 +4802,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43829,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -4905,7 +4844,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43830,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": true
@@ -5042,7 +4980,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43831,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": true
@@ -5104,7 +5041,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43832,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -5148,7 +5084,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43833,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -5540,7 +5475,6 @@
             "cost": "3",
             "available_actions": [
                 {
-                    "id": 38069,
                     "base_action_id": 9,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -5597,7 +5531,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43834,
                     "statistic_id": 7,
                     "value": "4",
                     "recurring": false
@@ -5719,7 +5652,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43835,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -5961,7 +5893,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43836,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": true
@@ -6005,7 +5936,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43837,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": true
@@ -6087,7 +6017,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43838,
                     "statistic_id": 7,
                     "value": "3",
                     "recurring": false
@@ -6166,7 +6095,6 @@
             "cost": "3",
             "available_actions": [
                 {
-                    "id": 38070,
                     "base_action_id": 12,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -6449,7 +6377,6 @@
             "cost": "1",
             "available_actions": [
                 {
-                    "id": 38071,
                     "base_action_id": 5,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -6682,13 +6609,11 @@
             ],
             "statistics": [
                 {
-                    "id": 43839,
                     "statistic_id": 3,
                     "value": "+1",
                     "recurring": false
                 },
                 {
-                    "id": 43840,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -7186,7 +7111,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43810,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -7226,7 +7150,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43811,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -7268,7 +7191,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43812,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -7309,7 +7231,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43813,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -7350,7 +7271,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43814,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -7722,7 +7642,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43841,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -7804,7 +7723,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43842,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -7931,14 +7849,12 @@
             "cost": "6",
             "available_actions": [
                 {
-                    "id": 38072,
                     "base_action_id": 9,
                     "related_action_id": null,
                     "base_action_side_effect": null,
                     "related_action_side_effect": null
                 },
                 {
-                    "id": 38073,
                     "base_action_id": 8,
                     "related_action_id": null,
                     "base_action_side_effect": "stress",
@@ -8002,7 +7918,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43843,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -8042,7 +7957,6 @@
             "cost": "4",
             "available_actions": [
                 {
-                    "id": 38074,
                     "base_action_id": 3,
                     "related_action_id": null,
                     "base_action_side_effect": "stress",
@@ -8211,7 +8125,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43844,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -8255,7 +8168,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43845,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -8299,7 +8211,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43846,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -8421,7 +8332,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43847,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -8462,7 +8372,6 @@
             "cost": "2",
             "available_actions": [
                 {
-                    "id": 38075,
                     "base_action_id": 13,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -8471,7 +8380,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43848,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -8575,14 +8483,12 @@
             "cost": "0",
             "available_actions": [
                 {
-                    "id": 38092,
                     "base_action_id": 5,
                     "related_action_id": null,
                     "base_action_side_effect": null,
                     "related_action_side_effect": null
                 },
                 {
-                    "id": 38093,
                     "base_action_id": 2,
                     "related_action_id": 5,
                     "base_action_side_effect": null,
@@ -8855,7 +8761,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43849,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -8942,7 +8847,6 @@
             "cost": "10",
             "available_actions": [
                 {
-                    "id": 38076,
                     "base_action_id": 9,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -9007,13 +8911,11 @@
             ],
             "statistics": [
                 {
-                    "id": 43850,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
                 },
                 {
-                    "id": 43852,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -9074,7 +8976,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43853,
                     "statistic_id": 2,
                     "value": "+2",
                     "recurring": false
@@ -9126,7 +9027,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43854,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -9286,7 +9186,6 @@
             "cost": "14",
             "available_actions": [
                 {
-                    "id": 38077,
                     "base_action_id": 8,
                     "related_action_id": null,
                     "base_action_side_effect": "force_point",
@@ -9295,7 +9194,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43855,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -9353,7 +9251,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43856,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -9396,7 +9293,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43857,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -9439,7 +9335,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43858,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -9479,14 +9374,12 @@
             "cost": "4",
             "available_actions": [
                 {
-                    "id": 38078,
                     "base_action_id": 7,
                     "related_action_id": null,
                     "base_action_side_effect": "stress",
                     "related_action_side_effect": null
                 },
                 {
-                    "id": 38079,
                     "base_action_id": 10,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -9559,7 +9452,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43859,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -9648,7 +9540,6 @@
             "cost": "*",
             "available_actions": [
                 {
-                    "id": 38080,
                     "base_action_id": 8,
                     "related_action_id": null,
                     "base_action_side_effect": "force_point",
@@ -9704,7 +9595,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43860,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -9747,7 +9637,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43861,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -9791,19 +9680,16 @@
             ],
             "statistics": [
                 {
-                    "id": 43862,
                     "statistic_id": 10,
                     "value": "+1",
                     "recurring": false
                 },
                 {
-                    "id": 43863,
                     "statistic_id": 1,
                     "value": "-1",
                     "recurring": false
                 },
                 {
-                    "id": 43864,
                     "statistic_id": 3,
                     "value": "+2",
                     "recurring": false
@@ -9888,7 +9774,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43865,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -10007,7 +9892,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43866,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -10144,7 +10028,6 @@
             "cost": "14",
             "available_actions": [
                 {
-                    "id": 38094,
                     "base_action_id": 8,
                     "related_action_id": null,
                     "base_action_side_effect": "force_point",
@@ -10153,7 +10036,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43893,
                     "statistic_id": 4,
                     "value": "+1",
                     "recurring": true
@@ -10213,7 +10095,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43867,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": true
@@ -10249,7 +10130,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43868,
                     "statistic_id": 10,
                     "value": "2",
                     "recurring": false
@@ -10287,13 +10167,11 @@
             ],
             "statistics": [
                 {
-                    "id": 43870,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
                 },
                 {
-                    "id": 43872,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -10330,13 +10208,11 @@
             ],
             "statistics": [
                 {
-                    "id": 43873,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
                 },
                 {
-                    "id": 43875,
                     "statistic_id": 7,
                     "value": "3",
                     "recurring": false
@@ -10406,7 +10282,6 @@
             "cost": "6",
             "available_actions": [
                 {
-                    "id": 38081,
                     "base_action_id": 9,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -10415,7 +10290,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43876,
                     "statistic_id": 7,
                     "value": "5",
                     "recurring": true
@@ -10578,7 +10452,6 @@
             "cost": "17",
             "available_actions": [
                 {
-                    "id": 38082,
                     "base_action_id": 8,
                     "related_action_id": null,
                     "base_action_side_effect": "force_point",
@@ -10587,7 +10460,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43877,
                     "statistic_id": 4,
                     "value": "1",
                     "recurring": true
@@ -10635,7 +10507,6 @@
             "cost": "6",
             "available_actions": [
                 {
-                    "id": 38083,
                     "base_action_id": 9,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -10816,7 +10687,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43878,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -10898,7 +10768,6 @@
             "cost": "*",
             "available_actions": [
                 {
-                    "id": 38084,
                     "base_action_id": 6,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -10907,7 +10776,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43879,
                     "statistic_id": 3,
                     "value": "-1",
                     "recurring": false
@@ -11127,7 +10995,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43880,
                     "statistic_id": 10,
                     "value": "2",
                     "recurring": false
@@ -11163,7 +11030,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43882,
                     "statistic_id": 11,
                     "value": "2",
                     "recurring": false
@@ -11236,7 +11102,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43884,
                     "statistic_id": 4,
                     "value": "1",
                     "recurring": true
@@ -11276,7 +11141,6 @@
             "cost": "8",
             "available_actions": [
                 {
-                    "id": 38085,
                     "base_action_id": 9,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -11369,7 +11233,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43885,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -11410,7 +11273,6 @@
             "cost": "3",
             "available_actions": [
                 {
-                    "id": 38086,
                     "base_action_id": 4,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -11457,7 +11319,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43886,
                     "statistic_id": 7,
                     "value": "3",
                     "recurring": false
@@ -11497,7 +11358,6 @@
             "cost": "2",
             "available_actions": [
                 {
-                    "id": 38089,
                     "base_action_id": 5,
                     "related_action_id": 4,
                     "base_action_side_effect": null,
@@ -11549,14 +11409,12 @@
             "cost": "2",
             "available_actions": [
                 {
-                    "id": 38095,
                     "base_action_id": 5,
                     "related_action_id": 3,
                     "base_action_side_effect": null,
                     "related_action_side_effect": "stress"
                 },
                 {
-                    "id": 38096,
                     "base_action_id": 12,
                     "related_action_id": null,
                     "base_action_side_effect": "stress",
@@ -11617,14 +11475,12 @@
             "cost": "8",
             "available_actions": [
                 {
-                    "id": 38087,
                     "base_action_id": 9,
                     "related_action_id": null,
                     "base_action_side_effect": null,
                     "related_action_side_effect": null
                 },
                 {
-                    "id": 38088,
                     "base_action_id": 10,
                     "related_action_id": null,
                     "base_action_side_effect": null,
@@ -11688,7 +11544,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43891,
                     "statistic_id": 7,
                     "value": "1",
                     "recurring": false
@@ -11723,7 +11578,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43892,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -11808,13 +11662,11 @@
             ],
             "statistics": [
                 {
-                    "id": 43888,
                     "statistic_id": 10,
                     "value": "3",
                     "recurring": false
                 },
                 {
-                    "id": 43890,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
@@ -11926,7 +11778,6 @@
             ],
             "statistics": [
                 {
-                    "id": 43887,
                     "statistic_id": 7,
                     "value": "2",
                     "recurring": false
