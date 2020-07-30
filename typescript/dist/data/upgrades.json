@@ -22,7 +22,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_1.jpg",
             "name": "Crack Shot",
             "ability_text": "While you perform a primary attack, if the defender is in your <bullseye>, before the Neutralize Results step, you may spend 1<nonbreak><standardcharge> to cancel 1<nonbreak><evade> result.",
-            "cost": "1",
+            "cost": "2",
             "available_actions": [
 
             ],
@@ -611,7 +611,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_14.jpg",
             "name": "Saturation Salvo",
             "ability_text": "While you perform a <torpedo> or <missile> attack, you may spend 1<nonbreak><standardcharge> from that upgrade. If you do, choose two defense dice. The defender must reroll those dice.",
-            "cost": "5",
+            "cost": "4",
             "available_actions": [
 
             ],
@@ -1270,7 +1270,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_31.jpg",
             "name": "Dorsal Turret",
             "ability_text": "<smallcaps>Attack</smallcaps>",
-            "cost": "3",
+            "cost": "2",
             "available_actions": [
                 {
                     "base_action_id": 14,
@@ -1376,7 +1376,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_33.jpg",
             "name": "Adv. Proton Torpedoes",
             "ability_text": "<smallcaps>Attack (<targetlock>):</smallcaps> Spend 1<nonbreak><standardcharge>. Change 1<nonbreak><hit> result to a <crit> result.",
-            "cost": "6",
+            "cost": "5",
             "available_actions": [
 
             ],
@@ -1425,7 +1425,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_34.jpg",
             "name": "Ion Torpedoes",
             "ability_text": "<smallcaps>Attack (<targetlock>):</smallcaps> Spend 1<nonbreak><standardcharge>. If this attack hits, spend 1<nonbreak><hit> or <crit> result to cause the defender to suffer 1<nonbreak><hit> damage. All remaining <hit>/<crit> results inflict ion tokens instead of damage.",
-            "cost": "6",
+            "cost": "5",
             "available_actions": [
 
             ],
@@ -1561,7 +1561,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_37.jpg",
             "name": "Cluster Missiles",
             "ability_text": "<smallcaps>Attack (<targetlock>):</smallcaps> Spend 1<nonbreak><standardcharge>. After this attack, you may perform this attack as a bonus attack against a different target at range 0–1 of the defender, ignoring the <targetlock> requirement.",
-            "cost": "5",
+            "cost": "4",
             "available_actions": [
 
             ],
@@ -1704,7 +1704,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_40.jpg",
             "name": "Ion Missiles",
             "ability_text": "<smallcaps>Attack (<targetlock>):</smallcaps> Spend 1<nonbreak><standardcharge>. If this attack hits, spend 1<nonbreak><hit> or <crit> result to cause the defender to suffer 1<nonbreak><hit> damage. All remaining <hit>/<crit> results inflict ion tokens instead of damage.",
-            "cost": "4",
+            "cost": "3",
             "available_actions": [
 
             ],
@@ -1752,7 +1752,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_41.jpg",
             "name": "Proton Rockets",
             "ability_text": "<smallcaps>Attack (<focus>):</smallcaps> Spend 1<nonbreak><standardcharge>.",
-            "cost": "7",
+            "cost": "6",
             "available_actions": [
 
             ],
@@ -2185,7 +2185,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_52.jpg",
             "name": "Veteran Turret Gunner",
             "ability_text": "After you perform a primary attack, you may perform a bonus <turretarc> attack using a <turretarc> you did not already attack from this round.",
-            "cost": "10",
+            "cost": "*",
             "available_actions": [
 
             ],
@@ -3751,7 +3751,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_95.jpg",
             "name": "•Bistan",
             "ability_text": "After you perform a primary attack, if you are focused, you may perform a bonus <turretarc> attack against a ship you have not already attacked this round.",
-            "cost": "14",
+            "cost": "10",
             "available_actions": [
 
             ],
@@ -3789,7 +3789,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_96.jpg",
             "name": "•Ezra Bridger",
             "ability_text": "After you perform a primary attack, you may spend 1<nonbreak><forcecharge> to perform a bonus <turretarc> attack from a <turretarc> you have not attacked from this round. If you do and you are stressed, you may reroll 1 attack die.",
-            "cost": "14",
+            "cost": "12",
             "available_actions": [
 
             ],
@@ -3832,7 +3832,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_97.jpg",
             "name": "•Han Solo",
             "ability_text": "During the Engagement Phase, at initiative 7, you may perform a <turretarc> attack. You cannot attack from that <turretarc> again this round.",
-            "cost": "14",
+            "cost": "12",
             "available_actions": [
 
             ],
@@ -5078,7 +5078,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_122.jpg",
             "name": "•Fifth Brother",
             "ability_text": "While you perform an attack, you may spend 1<nonbreak><forcecharge> to change 1 of your <focus> results to a <crit> result.",
-            "cost": "11",
+            "cost": "12",
             "available_actions": [
 
             ],
@@ -5793,7 +5793,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_139.jpg",
             "name": "•Bossk",
             "ability_text": "After you perform a primary attack that misses, if you are not stressed, you <bold>must</bold> receive 1 stress token to perform a bonus primary attack against the same target.",
-            "cost": "10",
+            "cost": "9",
             "available_actions": [
 
             ],
@@ -6550,7 +6550,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_154.jpg",
             "name": "•<italic>Slave I</italic>",
             "ability_text": "After you reveal a turn (<leftturn> or <rightturn>) or bank (<leftbank> or <rightbank>) maneuver, you may set your dial to the maneuver of the same speed and bearing in the other direction.<return>Add <torpedo> slot.",
-            "cost": "1",
+            "cost": "5",
             "available_actions": [
 
             ],
@@ -6937,7 +6937,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_162.jpg",
             "name": "Agile Gunner",
             "ability_text": "During the End Phase, you may rotate your <turretarc> indicator.",
-            "cost": "8",
+            "cost": "*",
             "available_actions": [
 
             ],
@@ -7144,7 +7144,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_64.jpg",
             "name": "Conner Nets",
             "ability_text": "<bitalic>Mine</bitalic><return>During the System Phase, you may spend 1<nonbreak><standardcharge> to drop a Conner Net using the [1<nonbreak><straight>] template.<return>This card’s <standardcharge> cannot be recovered.",
-            "cost": "6",
+            "cost": "5",
             "available_actions": [
 
             ],
@@ -7495,7 +7495,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/1597042d794000fb34d1eee30cc10f35.jpg",
             "name": "Targeting Synchronizer",
             "ability_text": "While a friendly ship at range 1–2 performs an attack against a target you have locked, that ship ignores the<nonbreak><targetlock> attack requirement.",
-            "cost": "6",
+            "cost": "4",
             "available_actions": [
 
             ],
@@ -7760,7 +7760,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/b87bf63d7db6195febd879edc4880f13.jpg",
             "name": "Special Forces Gunner",
             "ability_text": "While you perform a primary <frontarc> attack, if your <turretarc> is in your <frontarc>, you may roll 1<nonbreak>additional attack die.<return>After you perform a primary <frontarc> attack, if your <turretarc> is in your <reararc>, you may perform a bonus primary <turretarc> attack.",
-            "cost": "10",
+            "cost": "9",
             "available_actions": [
 
             ],
@@ -8585,7 +8585,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/55ff3d199702695f23631d85a25bbae6.jpg",
             "name": "Ferrosphere Paint",
             "ability_text": "After an enemy ship locks you, if you are not in that ship’s <bullseye>, that ship gains 1 stress token.",
-            "cost": "6",
+            "cost": "5",
             "available_actions": [
 
             ],
@@ -8844,7 +8844,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/0e1c2510e830ff6d9e7e6226ef2792b4.jpg",
             "name": "•Kraken",
             "ability_text": "During the End Phase, you may choose up to 3<nonbreak>friendly ships at range<nonbreak>0–3. If you do, each of these ships does not remove 1<nonbreak>calculate token.",
-            "cost": "10",
+            "cost": "11",
             "available_actions": [
                 {
                     "base_action_id": 9,
@@ -9589,7 +9589,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/081dbeb7591c8dfd1f752729b27bdf2a.jpg",
             "name": "R4-P Astromech",
             "ability_text": "Before you execute a basic maneuver, you may spend 1<nonbreak><standardcharge>. If you do, while you execute that maneuver, reduce its difficulty.",
-            "cost": "4",
+            "cost": "2",
             "available_actions": [
 
             ],
@@ -9810,7 +9810,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/313d08463a9c2e7c5d9377a39277ef03.jpg",
             "name": "•R4-P44",
             "ability_text": "After you fully execute a red maneuver, if there is an enemy ship in your <bullseye>, gain 1<nonbreak>calculate token.",
-            "cost": "5",
+            "cost": "3",
             "available_actions": [
 
             ],
@@ -10089,7 +10089,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/a9c69fd08df1a2ce84f240943fe05245.jpg",
             "name": "Passive Sensors",
             "ability_text": "<smallbody><smallcaps>Action:</smallcaps> Spend 1<nonbreak><standardcharge>. You can only perform this action in your Perform Action step.</smallbody><return><smallbody>While your<nonbreak><standardcharge> is inactive, you cannot be coordinated. Before you engage, if your <standardcharge> is inactive, you may perform a<nonbreak><calculate> or<nonbreak><targetlock> action.</smallbody>",
-            "cost": "3",
+            "cost": "*",
             "available_actions": [
 
             ],
@@ -10161,7 +10161,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/4123de29aa73a40eca130e1e75d9353b.jpg",
             "name": "Plasma Torpedoes",
             "ability_text": "<smallcaps>Attack (<targetlock>):</smallcaps> Spend 1<nonbreak><standardcharge>. During the Neutralize Results step, <crit><nonbreak>results are canceled before <hit><nonbreak>results. After this attack hits, the defender loses 1<nonbreak>shield.",
-            "cost": "9",
+            "cost": "8",
             "available_actions": [
 
             ],
@@ -10631,7 +10631,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/daa093356e5022b74d375979446e32ff.jpg",
             "name": "•TA-175",
             "ability_text": "After a friendly ship at range<nonbreak>0–3 with<nonbreak><calculate> on its action bar is destroyed, each friendly ship at range<nonbreak>0–3 with<nonbreak><calculate> in its action bar gains 1<nonbreak>calculate token.",
-            "cost": "9",
+            "cost": "11",
             "available_actions": [
 
             ],
@@ -10681,7 +10681,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/215f5298b9917bd57db474a38139ba08.jpg",
             "name": "•Electro-Proton Bomb",
             "ability_text": "<bitalic>Bomb</bitalic><return><smallbody>During the System Phase, you may spend 1<nonbreak><standardcharge> to drop an Electro-Proton Bomb with the [1<nonbreak><straight>] template. Then place 1<nonbreak>fuse marker on that device.</smallbody><return><smallbody>This card’s <standardcharge> cannot be recovered.</smallbody>",
-            "cost": "12",
+            "cost": "11",
             "available_actions": [
 
             ],
@@ -11572,7 +11572,7 @@
             "image": "https://sb-cdn.fantasyflightgames.com/card_art/f69c5ecaca9ab01380f6329e49970ddf.jpg",
             "name": "Ion Bombs",
             "ability_text": "<bitalic>Bomb</bitalic><return>During the System Phase, you may spend 1<nonbreak><standardcharge> to drop an Ion Bomb using the [1<nonbreak><straight>] template.",
-            "cost": "6",
+            "cost": "5",
             "available_actions": [
 
             ],
