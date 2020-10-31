@@ -76,6 +76,10 @@ div#filters {
 	max-width: none;
 }
 
+#builds[pageLayout="portrait_85x11"] {
+  width: 215.9mm;
+}
+
 #builds[pageLayout="landscape_85x11"] {
   width: 279.4mm;
 }
@@ -106,16 +110,28 @@ div#filters {
   page-break-inside: avoid;
 }
 
+[pageLayout="portrait_85x11"] .ship {
+  /* Ships with 6 or fewer upgrades print on half the page.
+   * Upgrade card images are cropped to just the description section.
+   * 8.5" == 125.9mm 
+   * 11"  == 279.4mm -- half == 139.7mm
+   * (min-height + top/bottom padding + margin) fills 1 half of 11"
+   * Ships with 7 or more upgrades print on the whole page
+   */
+  min-width: 118mm;
+  padding-top: 8mm;
+  padding-bottom: 8mm;
+  padding-left: 8mm;
+  padding-right: 8mm;
+  margin: 1mm 1mm 1mm 1mm;
+}
+
 [pageLayout="landscape_85x11"] .ship {
-  /* Ships with 6 or fewer upgrades print on third of a 17" page.
-   * 11" == 279.4mm
-   * 17" == 431.8mm -- third == 143.93
-   * (min-height + top/bottom padding + margin) fills 1 third of 17"
-   * Ships with 7 or more upgrades print on half a 17" page.
-   *
-   * Hand-tuned spacing so most builds are equally spaced on an 11"x17" page
-   * such that the page can be cut in thirds. Use padding instead of margin to
-   * ensure correct spacing at start of each page.
+  /* Ships with 3 or fewer upgrades print on half the page
+   * 8.5" == 125.9mm -- half == 62.95mm
+   * 11"  == 279.4mm
+   * (min-height + top/bottom padding + margin) fills 1 half of 8.5"
+   * Ships with 4 or more upgrades print on the whole page
    */
   min-width: 118mm;
   padding-top: 8mm;
@@ -269,4 +285,8 @@ div#filters {
 	position: relative;
 	left: 33mm;
 	top: -25.5mm;
+}
+
+[pageLayout="portrait_85x11"] .card_upgrade_box {
+	overflow: hidden;
 }

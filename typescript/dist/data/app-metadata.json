@@ -463,6 +463,24 @@
             "name": "<italic>Fireball</italic>",
             "description": "",
             "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Fireball.png"
+        },
+        {
+            "id": 71,
+            "name": "<italic>Xi</italic>-class Light Shuttle",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Xi-class_Shuttle.png"
+        },
+        {
+            "id": 72,
+            "name": "HMP Droid Gunship",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_HMP_Droid_Gunship.png"
+        },
+        {
+            "id": 73,
+            "name": "Laat/i Gunship",
+            "description": "",
+            "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_LAAT_Republic_Gunship.png"
         }
     ],
     "card_stats": [

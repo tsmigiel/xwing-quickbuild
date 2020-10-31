@@ -346,6 +346,7 @@ function createPageLayoutOptions(): Node {
 	var radioButtons = document.createElement('div')
 	radioButtons.appendChild(createRadioButton("page_layout", "landscape_85x11", '8.5"x11" Landscape'))
 	radioButtons.appendChild(createRadioButton("page_layout", "landscape_11x17", '11"x17" Landscape'))
+	radioButtons.appendChild(createRadioButton("page_layout", "portrait_85x11", '8.5"x11" Portrait'))
 	return radioButtons
 }
 

@@ -11846,6 +11846,1337 @@
             "behaviours": [
 
             ]
+        },
+        {
+            "id": 670,
+            "card_set_ids": [
+                51,
+                52
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                1
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/9f2bb1378eecd7358ebb4fd42b3f2f65.jpg",
+            "name": "Deadeye Shot",
+            "ability_text": "While you perform a primary attack, if the defender is in your <bullseye>, you may spend 1 <hit> result or change 1<nonbreak><crit><nonbreak>result to a <hit><nonbreak>result. If you do, the defender exposes 1 of its damage cards.",
+            "cost": "1",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Small or medium ship",
+            "restrictions": [
+                [
+                    {
+                        "type": "SHIP_SIZE",
+                        "kwargs": {
+                            "ship_size_name": "SMALL"
+                        }
+                    },
+                    {
+                        "type": "SHIP_SIZE",
+                        "kwargs": {
+                            "ship_size_name": "MEDIUM"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/99f10f4dd059aae2529ec0863a6cc47e.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 671,
+            "card_set_ids": [
+                51
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                19
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/d0f9614d25d622b900f5ceafc8028fbd.jpg",
+            "name": "Automated Target Priority",
+            "ability_text": "<smallbody>While you perform an attack, you <bold>must</bold> choose a defender at the closest valid attack range.</smallbody><return><smallbody> After you perform an attack that missed, place 1 calculate token on this card. <return></smallbody><smallbody> Before you engage, you may remove 1<nonbreak>calculate token from this card to gain a<nonbreak>matching token.</smallbody>",
+            "cost": "1",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Initiative 3 or lower",
+            "restrictions": [
+                [
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 162,
+                            "name": "•Sarco Plank"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 163,
+                            "name": "•Unkar Plutt"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 164,
+                            "name": "Jakku Gunrunner"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 400,
+                            "name": "•“Longshot”"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 401,
+                            "name": "•“Muse”"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 402,
+                            "name": "•“Null”"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 403,
+                            "name": "Omega Squadron Ace"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 404,
+                            "name": "Zeta Squadron Pilot"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 405,
+                            "name": "Epsilon Squadron Cadet"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 408,
+                            "name": "Omega Squadron Expert"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 409,
+                            "name": "Zeta Squadron Survivor"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 411,
+                            "name": "•Lieutenant Tavson"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 412,
+                            "name": "•Lieutenant Dormitz"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 413,
+                            "name": "Starkiller Base Pilot"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 417,
+                            "name": "Sienar-Jaemus Engineer"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 423,
+                            "name": "•Jessika Pava"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 424,
+                            "name": "•Joph Seastriker"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 425,
+                            "name": "Red Squadron Expert"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 426,
+                            "name": "Blue Squadron Rookie"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 447,
+                            "name": "•Edon Kappehl"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 448,
+                            "name": "•Vennie"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 449,
+                            "name": "•Lieutenant Bastian"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 450,
+                            "name": "•Jaycris Tubbs"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 432,
+                            "name": "•Ben Teene"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 433,
+                            "name": "•Cat"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 434,
+                            "name": "Cobalt Squadron Bomber"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 438,
+                            "name": "•Zari Bangel"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 439,
+                            "name": "Green Squadron Expert"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 440,
+                            "name": "Blue Squadron Recruit"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 449,
+                            "name": "•Lieutenant Bastian"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 450,
+                            "name": "•Jaycris Tubbs"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 453,
+                            "name": "•TN-3465"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 454,
+                            "name": "•Lieutenant Rivas"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 456,
+                            "name": "•“Avenger”"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 458,
+                            "name": "•Petty Officer Thanisson"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 570,
+                            "name": "•Pammich Nerro Goode"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 571,
+                            "name": "•Nodin Chavdri"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 572,
+                            "name": "Logistics Division Pilot"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 573,
+                            "name": "•BB-8"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 574,
+                            "name": "•Rose Tico"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 575,
+                            "name": "•Finn"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 576,
+                            "name": "•Vi Moradi"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 627,
+                            "name": "First Order Provocateur"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 639,
+                            "name": "•Ronith Blario"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 643,
+                            "name": "•“Rush”"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 658,
+                            "name": "•Agent Terex"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 659,
+                            "name": "First Order Courier"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/49d9da05371e92cafec65512526b85c3.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 672,
+            "card_set_ids": [
+                51
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                19
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/8962c76fb021f876c97b6044b7da827b.jpg",
+            "name": "•Sensor Buoy Suite",
+            "ability_text": "<smallbody><smallcaps>Setup:</smallcaps> Before placing forces, place 2<nonbreak>sensor buoy remotes beyond range<nonbreak>2 of<nonbreak>any edge.</smallbody><return><smallbody>Before you engage, you may acquire a lock on a ship at range 0–1 of a friendly sensor buoy, ignoring range restrictions.</smallbody>",
+            "cost": "4",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "First Order, Medium or Large Ship",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 5,
+                            "name": "First Order"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "SHIP_SIZE",
+                        "kwargs": {
+                            "ship_size_name": "MEDIUM"
+                        }
+                    },
+                    {
+                        "type": "SHIP_SIZE",
+                        "kwargs": {
+                            "ship_size_name": "LARGE"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f8fd5c5d87f0512c774b6ac4d0c83f2e.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 673,
+            "card_set_ids": [
+                52,
+                53
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": true,
+            "weapon_range": "1 – 2",
+            "upgrade_types": [
+                6,
+                6
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/af81354b305251139da023c343c9f70f.jpg",
+            "name": "Multi-Missile Pods",
+            "ability_text": "<smallcaps>Attack (<calculate> or <targetlock>):</smallcaps> Spend 1<nonbreak><standardcharge>. If the defender is in your <frontarc>, you may spend 1 <standardcharge> to roll 1<nonbreak>additional attack die. If the defender is in your <bullseye>, you may spend up to 2 <standardcharge> to roll that many additional attack dice instead.",
+            "cost": "8",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "statistic_id": 9,
+                    "value": "2",
+                    "recurring": false
+                },
+                {
+                    "statistic_id": 7,
+                    "value": "5",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/5abef5ee3d6e4acf94cd77280375aa72.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 674,
+            "card_set_ids": [
+                53
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": "2 – 3",
+            "upgrade_types": [
+                3,
+                3
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/70d44704aaa8bb8d1f1e2bc904b18c77.jpg",
+            "name": "Synced Laser Cannons",
+            "ability_text": "<smallcaps>Attack:</smallcaps> If you are calculating, the defender does not apply the range bonus.",
+            "cost": "6",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "statistic_id": 10,
+                    "value": "3",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/6927e82e460670044786cd46327cb891.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 675,
+            "card_set_ids": [
+                52
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/c1d9f86978058e101f6cf112c3946655.jpg",
+            "name": "•Aayla Secura",
+            "ability_text": "While an enemy ship in your <bullseye> performs an attack, if the defender is friendly and at range 0–2, the defender may change 1<nonbreak>blank result to a<nonbreak><focus><nonbreak>result.",
+            "cost": "16",
+            "available_actions": [
+                {
+                    "base_action_id": 2,
+                    "related_action_id": 8,
+                    "base_action_side_effect": null,
+                    "related_action_side_effect": "force_point"
+                }
+            ],
+            "statistics": [
+                {
+                    "statistic_id": 4,
+                    "value": "1",
+                    "recurring": true
+                }
+            ],
+            "restrictions_raw": "Republic",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 6,
+                            "name": "Galactic Republic"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c75b7f3eaadb889b7b94d020c0d81d29.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 2,
+                        "related_action_id": 8,
+                        "base_action_side_effect": null,
+                        "related_action_side_effect": "force_point"
+                    },
+                    "type": "action_profit"
+                }
+            ]
+        },
+        {
+            "id": 676,
+            "card_set_ids": [
+                52
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/2b1f84f53e0a2fe6f49dbdef202b6adb.jpg",
+            "name": "•Kit Fisto",
+            "ability_text": "At the start of the Engagement Phase, you may choose 1<nonbreak>friendly ship at range<nonbreak>0–1 and spend 1<nonbreak><forcecharge>. If you do, it may perform a red <evade> action. ",
+            "cost": "9",
+            "available_actions": [
+                {
+                    "base_action_id": 3,
+                    "related_action_id": null,
+                    "base_action_side_effect": "force_point",
+                    "related_action_side_effect": null
+                }
+            ],
+            "statistics": [
+                {
+                    "statistic_id": 4,
+                    "value": "1",
+                    "recurring": true
+                }
+            ],
+            "restrictions_raw": "Republic",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 6,
+                            "name": "Galactic Republic"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d531840147286ab5b43eb5989d6eb8ec.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 3,
+                        "related_action_id": null,
+                        "base_action_side_effect": "force_point",
+                        "related_action_side_effect": null
+                    },
+                    "type": "action_profit"
+                }
+            ]
+        },
+        {
+            "id": 677,
+            "card_set_ids": [
+                52
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/7551a4c70f701c81e3e79ea9bb5a4237.jpg",
+            "name": "•Plo Koon",
+            "ability_text": "At the start of the End Phase, if you are reinforced, you may choose 1<nonbreak>friendly ship at range<nonbreak>0 or in your <leftarc> or <rightarc> at range<nonbreak>1. That ship removes 1<nonbreak>deplete or strain token, or repairs 1 faceup damage card.",
+            "cost": "10",
+            "available_actions": [
+                {
+                    "base_action_id": 6,
+                    "related_action_id": null,
+                    "base_action_side_effect": "force_point",
+                    "related_action_side_effect": null
+                }
+            ],
+            "statistics": [
+                {
+                    "statistic_id": 4,
+                    "value": "1",
+                    "recurring": true
+                }
+            ],
+            "restrictions_raw": "Republic",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 6,
+                            "name": "Galactic Republic"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1f07b416e509fa27d4005c8d25452e06.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 6,
+                        "related_action_id": null,
+                        "base_action_side_effect": "force_point",
+                        "related_action_side_effect": null
+                    },
+                    "type": "action_profit"
+                }
+            ]
+        },
+        {
+            "id": 678,
+            "card_set_ids": [
+                52
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/0f0e3e5576ed1df0e5e2b8ccee638dec.jpg",
+            "name": "•Yoda",
+            "ability_text": "After another friendly ship at range<nonbreak>0–2 fully executes a purple maneuver or performs a purple action, you may spend 1<nonbreak><forcecharge>. If you do, that ship recovers<nonbreak>1<nonbreak><forcecharge>.",
+            "cost": "15",
+            "available_actions": [
+                {
+                    "base_action_id": 8,
+                    "related_action_id": null,
+                    "base_action_side_effect": "force_point",
+                    "related_action_side_effect": null
+                }
+            ],
+            "statistics": [
+                {
+                    "statistic_id": 4,
+                    "value": "2",
+                    "recurring": true
+                }
+            ],
+            "restrictions_raw": "Republic",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 6,
+                            "name": "Galactic Republic"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/7b0fd38f53c20d4a8d1e0ffd97c949ab.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 8,
+                        "related_action_id": null,
+                        "base_action_side_effect": "force_point",
+                        "related_action_side_effect": null
+                    },
+                    "type": "action_profit"
+                }
+            ]
+        },
+        {
+            "id": 679,
+            "card_set_ids": [
+                52
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/706062dbbf35d8d46c1e1f4b7dad8661.jpg",
+            "name": "•“Fives”",
+            "ability_text": "After you perform an attack that missed, if the defender’s initiative is equal to or greater than your initiative, place 1 evade or focus token on this card.<return>Before you engage, you may remove 1 token from this card to gain 1<nonbreak>matching token.",
+            "cost": "3",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Republic",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 6,
+                            "name": "Galactic Republic"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e15010d96446e208166336cffb78f94d.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 680,
+            "card_set_ids": [
+                52
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8,
+                16
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/d5a7c585a6f5f06e76c7b927392b61c1.jpg",
+            "name": "•Wolfpack",
+            "ability_text": "After a friendly ship at range 0–3 defends, if the attacker is in your firing arc, the defender may gain 1<nonbreak>strain token to acquire a lock on the attacker.",
+            "cost": "4",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Republic",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 6,
+                            "name": "Galactic Republic"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/63ef9ffc007432e395b3bfa406a879ec.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 681,
+            "card_set_ids": [
+                52
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8,
+                16
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/673fb3c6f002702406456c1b135eda01.jpg",
+            "name": "•Ghost Company",
+            "ability_text": "After you perform a primary attack, if you are focused, you may perform a <turretarc> attack against a ship you have not attacked this round as a bonus attack.",
+            "cost": "5",
+            "available_actions": [
+                {
+                    "base_action_id": 14,
+                    "related_action_id": 2,
+                    "base_action_side_effect": null,
+                    "related_action_side_effect": "stress"
+                }
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Republic, <rotate>",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 6,
+                            "name": "Galactic Republic"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "ACTION",
+                        "kwargs": {
+                            "pk": 14,
+                            "name": "Rotate",
+                            "side_effect_name": "NONE"
+                        }
+                    },
+                    {
+                        "type": "ACTION",
+                        "kwargs": {
+                            "pk": 14,
+                            "name": "Rotate",
+                            "side_effect_name": "STRESS"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/333dab28d3d96dd2d7a48339d470aae4.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 14,
+                        "related_action_id": 2,
+                        "base_action_side_effect": null,
+                        "related_action_side_effect": "stress"
+                    },
+                    "type": "action_profit"
+                }
+            ]
+        },
+        {
+            "id": 682,
+            "card_set_ids": [
+                53
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                1000
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/903cb81e543eb48cd7ae6872f214cb24.jpg",
+            "name": "•Kalani",
+            "ability_text": "After an enemy ship executes a maneuver, if it is in the <bullseye> of a friendly ship at range 0–3, you may spend 1 <standardcharge>. If you do, that friendly ship acquires a lock on that enemy ship, then gains 1 stress token.",
+            "cost": "5",
+            "available_actions": [
+                {
+                    "base_action_id": 9,
+                    "related_action_id": null,
+                    "base_action_side_effect": null,
+                    "related_action_side_effect": null
+                }
+            ],
+            "statistics": [
+                {
+                    "statistic_id": 7,
+                    "value": "3",
+                    "recurring": true
+                }
+            ],
+            "restrictions_raw": "Separatist, Solitary",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 7,
+                            "name": "Separatist Alliance"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "SOLITARY_UPGRADE_TYPE",
+                        "kwargs": {
+                            "pk": 1000,
+                            "name": "Tactical Relay"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f7d014b30966a8e308aad5d1336d50dd.png",
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 9,
+                        "related_action_id": null,
+                        "base_action_side_effect": null,
+                        "related_action_side_effect": null
+                    },
+                    "type": "action_profit"
+                }
+            ]
+        },
+        {
+            "id": 683,
+            "card_set_ids": [
+
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/c304667782eb50cd85af9fb996a924c9.jpg",
+            "name": "•Commander Malarus (Perfected)",
+            "ability_text": "While you perform an attack, if the defender is in your <bullseye>, you <bold>must</bold> convert all<nonbreak><focus> results to <hit><nonbreak>results and gain 1<nonbreak>stress token. Then, if you have 2<nonbreak>or more stress tokens, suffer 1<nonbreak><hit><nonbreak>damage.",
+            "cost": "7",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 5,
+                            "name": "First Order"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d8dabcfeadffbe5ef9eeb1ba4973f714.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 684,
+            "card_set_ids": [
+                51
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/70fb233cb4aee8f02716292268d0b9c1.jpg",
+            "name": "•Commander Malarus",
+            "ability_text": "<smallcaps>Setup:</smallcaps> Equip this side faceup.<return>While a friendly non-limited ship at range 0–1 performs a primary attack, that ship may reroll 1 blank result. If it does and the attack does not hit, you <bold>must</bold> flip this card.",
+            "cost": "7",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "First Order",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 5,
+                            "name": "First Order"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/842e172f79c8af94b3dde0cfc769b74a.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 685,
+            "card_set_ids": [
+
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/87f139d19477b1ab35c2dc2ab578eedc.jpg",
+            "name": "•Agent Terex (Cyborg)",
+            "ability_text": "<smallbody>During the System Phase, roll 1<nonbreak>attack die. On a <hit> or <crit> result, gain 1<nonbreak>calculate token. Otherwise gain 1<nonbreak>jam token.</smallbody><return><smallbody><smallcaps>Action:</smallcaps> Transfer 1<nonbreak>calculate token or 1<nonbreak>jam token to a ship at range<nonbreak>0–3.</smallbody>",
+            "cost": "6",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 5,
+                            "name": "First Order"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8d74e6cb42cd9717409451bafda8467b.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 686,
+            "card_set_ids": [
+                51
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/6e7153cd20c808370bbd80d871cf85c3.jpg",
+            "name": "•Agent Terex",
+            "ability_text": "<smallcaps>Setup:</smallcaps> Equip this side faceup and place 3<nonbreak>calculate tokens on this card.<return>At the start of the Engagement Phase, you may choose a friendly ship at range<nonbreak>0–3 and remove 1<nonbreak>calculate token from this card to have that ship gain a matching token. Then, if there are no calculate tokens on this card, flip it.",
+            "cost": "6",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "First Order",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 5,
+                            "name": "First Order"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/46f1700aa15a7a4e25b3d19b4ad97818.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 687,
+            "card_set_ids": [
+                51
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/7d1c00624b8253b9157856764d2c1004.jpg",
+            "name": "•Commander Pyre",
+            "ability_text": "<smallcaps>Setup:</smallcaps> After placing forces, choose an enemy ship. It gains 2<nonbreak>stress tokens.<return>While you defend, if the attacker is stressed, you may reroll 1<nonbreak>defense die.",
+            "cost": "5",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "First Order",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 5,
+                            "name": "First Order"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/95166cc0044f721aec2933ae972b2898.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 688,
+            "card_set_ids": [
+                52
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                16
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/245421ccca34a8495ab2b1176215763d.jpg",
+            "name": "•Clone Captain Rex",
+            "ability_text": "While you perform an attack, you may spend 1<nonbreak><focus> result. If you do, each friendly ship that has the defender in its <bullseye> may gain 1 strain to perform a<nonbreak><focus><nonbreak>action.",
+            "cost": "4",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Republic",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 6,
+                            "name": "Galactic Republic"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d5557710e25d5770248736e4743d08ad.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 689,
+            "card_set_ids": [
+                52
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                16
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/4902fa74cccbaadfa2108ef7670bcbfe.jpg",
+            "name": "Suppressive Gunner",
+            "ability_text": "While you perform an attack, you may spend 1<nonbreak><focus> result. If you do, the defender gains 1 deplete token unless it chooses to suffer 1 <hit> damage.",
+            "cost": "*",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ded967f8af64da8948746e6351238484.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 690,
+            "card_set_ids": [
+                53
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                12
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/960df489d295d30765d019cf42a1f450.jpg",
+            "name": "Concussion Bombs",
+            "ability_text": "During the System Phase, if any of this card’s <standardcharge> are inactive, you <bold>must</bold> spend 1<nonbreak><standardcharge> to drop 1 concussion bomb, if able. Otherwise, you may spend 1 <standardcharge> to drop 1 concussion bomb.",
+            "cost": "3",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "statistic_id": 7,
+                    "value": "3",
+                    "recurring": false
+                }
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3b836493f5b17c47e44807c283bc4b04.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 691,
+            "card_set_ids": [
+
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                18
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/37c67b48073cea976e4b6a6949976aee.jpg",
+            "name": "Repulsorlift Stabilizers (Active)",
+            "ability_text": "After you reveal a bank (<leftbank> or <rightbank>) or turn (<leftturn> or <rightturn>) maneuver, you <bold>must</bold> perform that maneuver as a <bold>sideslip<bold>, then flip this card.<return>After you fully execute a non-sideslip maneuver, you may flip this card.",
+            "cost": "3",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 72,
+                            "raw_name": "hmp droid gunship"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/57074bd7f510c9c4fd3717894e0239a0.png",
+            "behaviours": [
+
+            ]
+        },
+        {
+            "id": 692,
+            "card_set_ids": [
+                53
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                18
+            ],
+            "image": "https://sb-cdn.fantasyflightgames.com/card_art/b16d22d90b1b5048a15cf1734334d8fa.jpg",
+            "name": "Repulsorlift Stabilizers (Inactive)",
+            "ability_text": "<bold>Setup:</bold> Equip this side faceup.<return>Reduce the difficulty of your straight (<straight>) maneuvers.<return>After you fully execute a maneuver, you may flip this card.",
+            "cost": "3",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "HMP Droid Gunship",
+            "restrictions": [
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 72,
+                            "raw_name": "hmp droid gunship"
+                        }
+                    }
+                ]
+            ],
+            "card_image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d159e1d6ffc15eda188f858292dc9c2b.png",
+            "behaviours": [
+
+            ]
         }
     ]
 }
