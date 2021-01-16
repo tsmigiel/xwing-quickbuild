@@ -3,26 +3,37 @@
         {
             "id": 1,
             "name": "Extended",
-            "description": "Explore all the starfighter battles <italic>X-Wing</italic> has to offer.\r\n \r\nThe Extended game mode encompasses every component for <italic>X-Wing Second Edition</italic>, including the ships only found in the Conversion Kits. Choose a faction, then select up to 200 points of pilots and upgrade to create your squad.",
-            "art": "https://squadbuilder.fantasyflightgames.com/game_modes/ART%20UNLIMITED.png"
+            "description": "Explore all the starfighter battles X-Wing has to offer!\r\n\r\nThe Extended game mode encompasses every component for X-Wing Second Edition, including the ships only found in the Conversion Kits. Choose a faction, then select up to 200 points of pilots and upgrades to create your squad.",
+            "art": "https://squadbuilder.fantasyflightgames.com/game_modes/ART%20UNLIMITED.png",
+            "order": 1
         },
         {
             "id": 2,
             "name": "Hyperspace",
-            "description": "The Second Edition game mode is an ideal introduction to players new to <italic>X-Wing</italic>.\r\n \r\nThis game mode includes only those components found in the second edition <italic>Core Set</italic> and ship expansions. Choose a faction, then select up to 200 points of pilots and upgrades to create your squad.",
-            "art": "https://squadbuilder.fantasyflightgames.com/game_modes/ART%20Standard.png"
+            "description": "The Second Edition game mode is an ideal introduction for players new to X-Wing.\r\n\r\nThis game mode includes only those components found in the second edition Core Set and ship expansions. Choose a faction, then select up to 200 points of pilots and upgrades to create your squad.",
+            "art": "https://squadbuilder.fantasyflightgames.com/game_modes/ART%20Standard.png",
+            "order": 2
+        },
+        {
+            "id": 5,
+            "name": "Epic",
+            "description": "Expand the scope of your X-Wing games! The epic mode broadens the possibilities with entire wings of starfighters working as one while fighting alongside-and against-huge ships like the iconic CR90 Corvette.",
+            "art": null,
+            "order": 3
         },
         {
             "id": 3,
             "name": "Variants",
-            "description": "Enjoy new ways to play in the <italic>Star Wars</italic> galaxy with a series of tailored and unique experiences. Each one introduces a specific pool of pilots and upgrades to build your squad from.",
-            "art": "https://squadbuilder.fantasyflightgames.com/game_modes/ART%20OP%20EVENT.png"
+            "description": "Enjoy new ways to play in the Star Wars galaxy with a series of tailored and unique experiences. Each one introduces a specific pool of pilots and upgrades to build your squad from.",
+            "art": "https://squadbuilder.fantasyflightgames.com/game_modes/ART%20OP%20EVENT.png",
+            "order": 4
         },
         {
             "id": 4,
             "name": "Custom",
-            "description": "Introduce new and unique experiences to the games of <italic>X-Wing Second Edition</italic> you play with your friends!\r\n\r\nThe Custom Game Mode allows the creation of your own variants. You can adjust the pool of factions, ships, pilots, and upgrades. You can also assign special instructions and objectives.",
-            "art": "https://squadbuilder.fantasyflightgames.com/game_modes/ART_Custom_Format.png"
+            "description": "Create new and unique ways to play X-Wing Second Edition with your friends!\r\n\r\nThe Custom game mode allows the creation of your own variants. You can adjust the pool of factions, ships, pilots, and upgrades. You can also include special instructions for setup and objectives.",
+            "art": "https://squadbuilder.fantasyflightgames.com/game_modes/ART_Custom_Format.png",
+            "order": 5
         }
     ]
 }
