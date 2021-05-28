@@ -447,6 +447,27 @@
             "description": "This expansion pack lets you put your personal touch on your own <italic>Firespray</italic>-class patrol craft painted in the colors of Jango Fett's <italic>Slave I</italic>. In addition to the miniature, you'll also find four ship cards in this expansion, including the infamous Jango Fett himself, along with 13 upgrade cards that let you customize your ship to fit your strategy.",
             "cover": "https://squadbuilder.fantasyflightgames.com/covers/JangoSlave1.png",
             "url": "https://www.fantasyflightgames.com/en/products/x-wing-second-edition/products/jango-fetts-slave-i-expansion-pack/"
+        },
+        {
+            "id": 65,
+            "name": "Phoenix Cell Squadron Pack",
+            "description": "Band together to restore the Republic with the Phoenix Cell Squadron Pack for <italic>Star Wars</italic>: X-Wing! As an alliance of rebel cells and resistance groups unite in the pledge to overthrow the Emperor, new heroes emerge to take up the fight. This Squadron Pack includes early heroes of the Rebellion such as Hera Syndulla and Ahsoka Tano, featuring new abilities and upgrades based on their appearances in <italic>Star Wars: Rebels</italic>. Stoke the fires of rebellion and add new options to your Rebel squadrons!",
+            "cover": "https://squadbuilder.fantasyflightgames.com/covers/SWZ83_PhoenixCell.png",
+            "url": "https://www.fantasyflightgames.com/en/products/x-wing-second-edition/products/phoenix-cell-squadron-pack/"
+        },
+        {
+            "id": 66,
+            "name": "Skystrike Academy Squadron Pack",
+            "description": "Add the staff and graduates of the Empire’s most prestigious academy to your Imperial squadrons with the <italic>Skystrike Academy Squadron Pack</italic> for <italic>Star Wars</italic>: X-Wing! Academies throughout the Empire train the next generation of TIE pilots and Skystrike Academy’s graduates are instilled with the skills and dedication necessary to maintain order in the galaxy. This Squadron Pack includes talented and loyal pilots such as Vult Skerris and Ciena Ree as well as a special appearance of Darth Vader piloting the formidable TIE/D Defender!",
+            "cover": "https://squadbuilder.fantasyflightgames.com/covers/SWZ84_SkystrikeAcademy.png",
+            "url": "https://www.fantasyflightgames.com/en/products/x-wing-second-edition/products/skystrike-academy-squadron-pack/"
+        },
+        {
+            "id": 67,
+            "name": "Fugitives and Collaborators Squadron Pack",
+            "description": "Grasp at power with the <italic>Fugitives and Collaborators Squadron Pack</italic> for <italic>Star Wars</italic>: X-Wing! Featuring refugees, traitors, and conspirators from across all eras of the Star Wars saga, this pack invites you to take your Scum squadrons in bold new directions.\r\n\r\nThis Squadron Pack includes wanted criminals such as Kanan Jarrus and Arliz Hadrassian, featuring new abilities and upgrades based on their appearances in <italic>The Last Padawan</italic> and <italic>Bloodline</italic>.",
+            "cover": "https://squadbuilder.fantasyflightgames.com/covers/SWZ85_Fugitives.png",
+            "url": "https://www.fantasyflightgames.com/en/products/x-wing-second-edition/products/fugitives-and-collaborators-squadron-pack/"
         }
     ]
 }

@@ -58,7 +58,8 @@
                 28,
                 43,
                 45,
-                60
+                60,
+                66
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -112,7 +113,8 @@
                 6,
                 14,
                 15,
-                64
+                64,
+                65
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -631,7 +633,9 @@
                 4,
                 5,
                 6,
-                21
+                21,
+                65,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -891,7 +895,9 @@
         {
             "id": 249,
             "card_set_ids": [
-                1
+                1,
+                65,
+                66
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -923,7 +929,9 @@
         {
             "id": 250,
             "card_set_ids": [
-                1
+                1,
+                65,
+                66
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -1297,7 +1305,8 @@
                 15,
                 22,
                 42,
-                44
+                44,
+                66
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -1339,7 +1348,8 @@
                 6,
                 38,
                 51,
-                55
+                55,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -1393,7 +1403,8 @@
                 5,
                 6,
                 8,
-                37
+                37,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -3025,7 +3036,8 @@
                 4,
                 6,
                 15,
-                35
+                35,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -3086,7 +3098,8 @@
                 14,
                 15,
                 17,
-                43
+                43,
+                66
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -3169,7 +3182,8 @@
                 6,
                 14,
                 15,
-                43
+                43,
+                66
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -3213,7 +3227,8 @@
                 15,
                 17,
                 20,
-                21
+                21,
+                66
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -4729,14 +4744,14 @@
                 "cost": "0",
                 "available_actions": [
                     {
-                        "id": 102610,
+                        "id": 114527,
                         "base_action_id": 1,
                         "related_action_id": null,
                         "base_action_side_effect": null,
                         "related_action_side_effect": null
                     },
                     {
-                        "id": 102611,
+                        "id": 114528,
                         "base_action_id": 2,
                         "related_action_id": 1,
                         "base_action_side_effect": null,
@@ -5684,6 +5699,20 @@
                             "pk": 93,
                             "name": "•Darth Vader"
                         }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 219,
+                            "name": "•Asajj Ventress"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 897,
+                            "name": "•Kanan Jarrus"
+                        }
                     }
                 ]
             ],
@@ -6102,6 +6131,20 @@
                             "pk": 46,
                             "name": "•Ezra Bridger"
                         }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 219,
+                            "name": "•Asajj Ventress"
+                        }
+                    },
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 897,
+                            "name": "•Kanan Jarrus"
+                        }
                     }
                 ],
                 [
@@ -6394,7 +6437,8 @@
         {
             "id": 368,
             "card_set_ids": [
-                6
+                6,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -6480,7 +6524,8 @@
         {
             "id": 370,
             "card_set_ids": [
-                6
+                6,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -7111,7 +7156,8 @@
                 20,
                 21,
                 30,
-                50
+                50,
+                66
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -7997,7 +8043,8 @@
                 14,
                 15,
                 18,
-                19
+                19,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -9087,14 +9134,14 @@
                 "cost": "0",
                 "available_actions": [
                     {
-                        "id": 102612,
+                        "id": 114529,
                         "base_action_id": 5,
                         "related_action_id": null,
                         "base_action_side_effect": null,
                         "related_action_side_effect": null
                     },
                     {
-                        "id": 102613,
+                        "id": 114530,
                         "base_action_id": 2,
                         "related_action_id": 5,
                         "base_action_side_effect": null,
@@ -9213,9 +9260,18 @@
                         "kwargs": {
                             "force_side_name": "DARK"
                         }
+                    }
+                ],
+                [
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 781,
+                            "name": "•Anakin Skywalker"
+                        }
                     },
                     {
-                        "type": "UPGRADE_CARD_EQUIPPED",
+                        "type": "CARD_INCLUDED",
                         "kwargs": {
                             "pk": 361,
                             "name": "•Maul"
@@ -9892,7 +9948,7 @@
                 "cost": "14",
                 "available_actions": [
                     {
-                        "id": 102614,
+                        "id": 114531,
                         "base_action_id": 8,
                         "related_action_id": null,
                         "base_action_side_effect": "force_point",
@@ -9901,7 +9957,7 @@
                 ],
                 "statistics": [
                     {
-                        "id": 117224,
+                        "id": 130672,
                         "statistic_id": 4,
                         "value": "+1",
                         "recurring": 1,
@@ -10716,14 +10772,6 @@
                             "name": "Lock",
                             "side_effect_name": "STRESS"
                         }
-                    },
-                    {
-                        "type": "ACTION",
-                        "kwargs": {
-                            "pk": 4,
-                            "name": "Lock",
-                            "side_effect_name": "FORCE_POINT"
-                        }
                     }
                 ]
             ],
@@ -10739,7 +10787,9 @@
             "card_set_ids": [
                 28,
                 29,
-                50
+                50,
+                65,
+                66
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -10777,7 +10827,9 @@
             "id": 578,
             "card_set_ids": [
                 30,
-                50
+                50,
+                65,
+                66
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -10817,7 +10869,9 @@
                 28,
                 29,
                 30,
-                50
+                50,
+                65,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": true,
@@ -11987,7 +12041,8 @@
             "id": 619,
             "card_set_ids": [
                 36,
-                50
+                50,
+                66
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -12077,7 +12132,7 @@
         {
             "id": 645,
             "card_set_ids": [
-                50
+                65
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -12140,14 +12195,14 @@
                 "cost": "2",
                 "available_actions": [
                     {
-                        "id": 102615,
+                        "id": 114532,
                         "base_action_id": 5,
                         "related_action_id": 3,
                         "base_action_side_effect": null,
                         "related_action_side_effect": "stress"
                     },
                     {
-                        "id": 102616,
+                        "id": 114533,
                         "base_action_id": 12,
                         "related_action_id": null,
                         "base_action_side_effect": "stress",
@@ -12390,7 +12445,9 @@
             "card_set_ids": [
                 46,
                 47,
-                50
+                50,
+                65,
+                66
             ],
             "card_type_id": 2,
             "weapon_no_bonus": true,
@@ -12608,7 +12665,9 @@
                 57,
                 59,
                 60,
-                64
+                64,
+                65,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -12654,7 +12713,8 @@
             "id": 671,
             "card_set_ids": [
                 56,
-                60
+                60,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -12794,7 +12854,8 @@
             "id": 674,
             "card_set_ids": [
                 58,
-                59
+                59,
+                65
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -13567,7 +13628,9 @@
             "id": 689,
             "card_set_ids": [
                 57,
-                64
+                64,
+                65,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -13599,7 +13662,8 @@
         {
             "id": 690,
             "card_set_ids": [
-                58
+                58,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -13768,7 +13832,8 @@
         {
             "id": 716,
             "card_set_ids": [
-                60
+                60,
+                65
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -14956,7 +15021,7 @@
                 "cost": "5",
                 "available_actions": [
                     {
-                        "id": 102630,
+                        "id": 114549,
                         "base_action_id": 14,
                         "related_action_id": null,
                         "base_action_side_effect": null,
@@ -14965,7 +15030,7 @@
                 ],
                 "statistics": [
                     {
-                        "id": 117252,
+                        "id": 130703,
                         "statistic_id": 12,
                         "value": "4",
                         "recurring": 0,
@@ -15039,7 +15104,7 @@
                 "cost": "6",
                 "available_actions": [
                     {
-                        "id": 102631,
+                        "id": 114550,
                         "base_action_id": 14,
                         "related_action_id": null,
                         "base_action_side_effect": null,
@@ -15048,7 +15113,7 @@
                 ],
                 "statistics": [
                     {
-                        "id": 117254,
+                        "id": 130705,
                         "statistic_id": 12,
                         "value": "3",
                         "recurring": 0,
@@ -15184,7 +15249,7 @@
                 "cost": "9",
                 "available_actions": [
                     {
-                        "id": 102632,
+                        "id": 114551,
                         "base_action_id": 14,
                         "related_action_id": null,
                         "base_action_side_effect": null,
@@ -15193,7 +15258,7 @@
                 ],
                 "statistics": [
                     {
-                        "id": 117256,
+                        "id": 130707,
                         "statistic_id": 8,
                         "value": "2",
                         "recurring": 0,
@@ -15276,7 +15341,7 @@
                 "cost": "13",
                 "available_actions": [
                     {
-                        "id": 102633,
+                        "id": 114552,
                         "base_action_id": 14,
                         "related_action_id": null,
                         "base_action_side_effect": null,
@@ -15285,7 +15350,7 @@
                 ],
                 "statistics": [
                     {
-                        "id": 117258,
+                        "id": 130709,
                         "statistic_id": 12,
                         "value": "3",
                         "recurring": 0,
@@ -17354,7 +17419,7 @@
             "image": "https://squadbuilder.fantasyflightgames.com/card_art/04b5550c3226ede7611fcf46a0c6253f.jpg",
             "name": "Jedi Commander",
             "ability_text": "While your wingmates execute purple maneuvers, they treat those maneuvers as red, instead.<return>While you defend, up to 2 of your wingmates in the attack arc may each suffer 1<nonbreak><hit>/<crit><nonbreak>damage to cancel 1<nonbreak>matching result.",
-            "cost": "5",
+            "cost": "3",
             "available_actions": [
 
             ],
@@ -17395,7 +17460,7 @@
             "back_side": {
                 "id": 835,
                 "card_set_ids": [
-
+                    61
                 ],
                 "card_type_id": 2,
                 "weapon_no_bonus": false,
@@ -17452,7 +17517,10 @@
             "id": 846,
             "card_set_ids": [
                 61,
-                63
+                63,
+                65,
+                66,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -17497,7 +17565,10 @@
         {
             "id": 848,
             "card_set_ids": [
-                61
+                61,
+                65,
+                66,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -17554,7 +17625,9 @@
         {
             "id": 849,
             "card_set_ids": [
-                61
+                61,
+                65,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -17579,6 +17652,15 @@
                         "type": "FORCE_SIDE",
                         "kwargs": {
                             "force_side_name": "LIGHT"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "CARD_INCLUDED",
+                        "kwargs": {
+                            "pk": 781,
+                            "name": "•Anakin Skywalker"
                         }
                     }
                 ]
@@ -17633,7 +17715,9 @@
         {
             "id": 851,
             "card_set_ids": [
-                63
+                63,
+                65,
+                66
             ],
             "card_type_id": 2,
             "weapon_no_bonus": true,
@@ -17676,7 +17760,8 @@
         {
             "id": 853,
             "card_set_ids": [
-                64
+                64,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -17708,7 +17793,8 @@
         {
             "id": 854,
             "card_set_ids": [
-                64
+                64,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -17755,7 +17841,8 @@
         {
             "id": 856,
             "card_set_ids": [
-                64
+                64,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -17807,7 +17894,8 @@
         {
             "id": 857,
             "card_set_ids": [
-                64
+                64,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -17854,7 +17942,9 @@
         {
             "id": 859,
             "card_set_ids": [
-                64
+                64,
+                65,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -18017,7 +18107,8 @@
             "id": 864,
             "card_set_ids": [
                 62,
-                64
+                64,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -18430,7 +18521,7 @@
             "back_side": {
                 "id": 873,
                 "card_set_ids": [
-
+                    63
                 ],
                 "card_type_id": 2,
                 "weapon_no_bonus": false,
@@ -18444,7 +18535,7 @@
                 "cost": "1",
                 "available_actions": [
                     {
-                        "id": 102628,
+                        "id": 114546,
                         "base_action_id": 13,
                         "related_action_id": 4,
                         "base_action_side_effect": null,
@@ -18453,7 +18544,7 @@
                 ],
                 "statistics": [
                     {
-                        "id": 117249,
+                        "id": 130700,
                         "statistic_id": 7,
                         "value": "3",
                         "recurring": -1,
@@ -18490,7 +18581,8 @@
         {
             "id": 877,
             "card_set_ids": [
-                64
+                64,
+                67
             ],
             "card_type_id": 2,
             "weapon_no_bonus": false,
@@ -18519,6 +18611,1358 @@
             ],
             "behaviours": [
 
+            ],
+            "back_side": null,
+            "limited_quantity": 32767,
+            "force_side": null
+        },
+        {
+            "id": 903,
+            "card_set_ids": [
+                65
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": "2 – 4",
+            "upgrade_types": [
+                15,
+                1001
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/71fe49e6d10dc74321a0a96f0b2f64e6.jpg",
+            "name": "•B6 Blade Wing Prototype",
+            "ability_text": "<smallbody>Add<nonbreak><gunner> slot.</smallbody><return><smallbody><smallcaps>Attack (<targetlock>):</smallcaps> Gain 1<nonbreak>ion token to perform this attack. If this attack hits, the defender suffers 1<nonbreak>additional <hit>/<crit><nonbreak>damage for each matching uncanceled result after the first.</smallbody>",
+            "cost": "12",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "statistic_id": 10,
+                    "value": "3",
+                    "recurring": 0,
+                    "ffg_id": "frontarc"
+                }
+            ],
+            "restrictions_raw": "Rebel, A/SF-01 B-wing",
+            "restrictions": [
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 17,
+                            "raw_name": "a sf-01 b-wing"
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+                {
+                    "data": {
+                        "quantity": 1,
+                        "upgrade_type": 16
+                    },
+                    "type": "slot_profit"
+                }
+            ],
+            "back_side": null,
+            "limited_quantity": 1,
+            "force_side": null
+        },
+        {
+            "id": 904,
+            "card_set_ids": [
+                67
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                1001
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/4502e115fb501138e161b28b0d3f0474.jpg",
+            "name": "Bounty (Paid)",
+            "ability_text": "<flavor>Bounty hunting is a complicated profession. Any assassin can kill, but the best hunters are renowned for their ability to bring a mark in alive, as doing so is more difficult but invariably commands a much greater reward.</flavor>",
+            "cost": "5",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 3,
+                            "name": "Scum and Villainy"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "LIMITED_QUANTITY",
+                        "kwargs": {
+                            "maximum_value": 32766,
+                            "minimum_value": 0
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "SHIP_SIZE",
+                        "kwargs": {
+                            "ship_size_name": "SMALL"
+                        }
+                    },
+                    {
+                        "type": "SHIP_SIZE",
+                        "kwargs": {
+                            "ship_size_name": "MEDIUM"
+                        }
+                    },
+                    {
+                        "type": "SHIP_SIZE",
+                        "kwargs": {
+                            "ship_size_name": "LARGE"
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+                {
+                    "data": {
+                        "pk": 2,
+                        "name": "Galactic Empire"
+                    },
+                    "type": "allowed_in_faction"
+                },
+                {
+                    "data": {
+                        "pk": 7,
+                        "name": "Separatist Alliance"
+                    },
+                    "type": "allowed_in_faction"
+                },
+                {
+                    "data": {
+                        "pk": 5,
+                        "name": "First Order"
+                    },
+                    "type": "allowed_in_faction"
+                }
+            ],
+            "back_side": {
+                "id": 905,
+                "card_set_ids": [
+                    67
+                ],
+                "card_type_id": 2,
+                "weapon_no_bonus": false,
+                "weapon_range": null,
+                "upgrade_types": [
+                    1001
+                ],
+                "image": "https://squadbuilder.fantasyflightgames.com/card_art/6877dc90b8296a93c3fc9129d5087020.jpg",
+                "name": "Bounty (Hired)",
+                "ability_text": "<smallbody><smallcaps>Setup:</smallcaps> Equip this side faceup.</smallbody><return><smallbody>You can be included in Separatist, Imperial, and First Order squads.</smallbody><return><smallbody>After you perform an attack, if the defender was a limited ship and was destroyed, you may recover 1<nonbreak><standardcharge> on your ship card and each of your upgrade cards. Then flip this card.</smallbody>",
+                "cost": "5",
+                "available_actions": [
+
+                ],
+                "statistics": [
+
+                ],
+                "restrictions_raw": "Scum, Standard Ship, Limited",
+                "restrictions": [
+                    [
+                        {
+                            "type": "FACTION",
+                            "kwargs": {
+                                "pk": 3,
+                                "name": "Scum and Villainy"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "LIMITED_QUANTITY",
+                            "kwargs": {
+                                "maximum_value": 32766,
+                                "minimum_value": 0
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "SHIP_SIZE",
+                            "kwargs": {
+                                "ship_size_name": "SMALL"
+                            }
+                        },
+                        {
+                            "type": "SHIP_SIZE",
+                            "kwargs": {
+                                "ship_size_name": "MEDIUM"
+                            }
+                        },
+                        {
+                            "type": "SHIP_SIZE",
+                            "kwargs": {
+                                "ship_size_name": "LARGE"
+                            }
+                        }
+                    ]
+                ],
+                "behaviours": [
+                    {
+                        "data": {
+                            "pk": 2,
+                            "name": "Galactic Empire"
+                        },
+                        "type": "allowed_in_faction"
+                    },
+                    {
+                        "data": {
+                            "pk": 7,
+                            "name": "Separatist Alliance"
+                        },
+                        "type": "allowed_in_faction"
+                    },
+                    {
+                        "data": {
+                            "pk": 5,
+                            "name": "First Order"
+                        },
+                        "type": "allowed_in_faction"
+                    }
+                ]
+            },
+            "limited_quantity": 32767,
+            "force_side": null
+        },
+        {
+            "id": 906,
+            "card_set_ids": [
+                67
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                1001
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/977af5c5c1604a9e45cd040408f5e482.jpg",
+            "name": "In It For Your Rebellion",
+            "ability_text": "Non-Scum ships in your squad are treated as friendly instead of allied.",
+            "cost": "5",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 3,
+                            "name": "Scum and Villainy"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "LIMITED_QUANTITY",
+                        "kwargs": {
+                            "maximum_value": 32766,
+                            "minimum_value": 0
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "SHIP_SIZE",
+                        "kwargs": {
+                            "ship_size_name": "SMALL"
+                        }
+                    },
+                    {
+                        "type": "SHIP_SIZE",
+                        "kwargs": {
+                            "ship_size_name": "MEDIUM"
+                        }
+                    },
+                    {
+                        "type": "SHIP_SIZE",
+                        "kwargs": {
+                            "ship_size_name": "LARGE"
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+                {
+                    "data": {
+                        "pk": 6,
+                        "name": "Galactic Republic"
+                    },
+                    "type": "allowed_in_faction"
+                },
+                {
+                    "data": {
+                        "pk": 1,
+                        "name": "Rebel Alliance"
+                    },
+                    "type": "allowed_in_faction"
+                },
+                {
+                    "data": {
+                        "pk": 4,
+                        "name": "Resistance"
+                    },
+                    "type": "allowed_in_faction"
+                }
+            ],
+            "back_side": {
+                "id": 907,
+                "card_set_ids": [
+                    67
+                ],
+                "card_type_id": 2,
+                "weapon_no_bonus": false,
+                "weapon_range": null,
+                "upgrade_types": [
+                    1001
+                ],
+                "image": "https://squadbuilder.fantasyflightgames.com/card_art/26e935cc224ffd02de5e797faa5685c6.jpg",
+                "name": "In It For The Money",
+                "ability_text": "<smallcaps>Setup:</smallcaps> Equip this side faceup.<return>You can be included in Republic, Rebel, and Resistance squads.<return>After an allied limited ship in your squad is destroyed, gain 1<nonbreak>focus token and flip this card.",
+                "cost": "5",
+                "available_actions": [
+
+                ],
+                "statistics": [
+
+                ],
+                "restrictions_raw": "Scum, Standard Ship, Limited",
+                "restrictions": [
+                    [
+                        {
+                            "type": "FACTION",
+                            "kwargs": {
+                                "pk": 3,
+                                "name": "Scum and Villainy"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "LIMITED_QUANTITY",
+                            "kwargs": {
+                                "maximum_value": 32766,
+                                "minimum_value": 0
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "SHIP_SIZE",
+                            "kwargs": {
+                                "ship_size_name": "SMALL"
+                            }
+                        },
+                        {
+                            "type": "SHIP_SIZE",
+                            "kwargs": {
+                                "ship_size_name": "MEDIUM"
+                            }
+                        },
+                        {
+                            "type": "SHIP_SIZE",
+                            "kwargs": {
+                                "ship_size_name": "LARGE"
+                            }
+                        }
+                    ]
+                ],
+                "behaviours": [
+                    {
+                        "data": {
+                            "pk": 6,
+                            "name": "Galactic Republic"
+                        },
+                        "type": "allowed_in_faction"
+                    },
+                    {
+                        "data": {
+                            "pk": 1,
+                            "name": "Rebel Alliance"
+                        },
+                        "type": "allowed_in_faction"
+                    },
+                    {
+                        "data": {
+                            "pk": 4,
+                            "name": "Resistance"
+                        },
+                        "type": "allowed_in_faction"
+                    }
+                ]
+            },
+            "limited_quantity": 32767,
+            "force_side": null
+        },
+        {
+            "id": 908,
+            "card_set_ids": [
+                65
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                1001
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/554a0d6690a6a3c4a175b1f363084670.jpg",
+            "name": "•Phoenix Squadron",
+            "ability_text": "<smallbody>At the start of the Planning Phase, 1<nonbreak>of your wingmates that is docked with you may join your wing without gaining a stress token.<return>While you or your Attack Shuttle wingmate or <italic>Sheathipede</italic>-class wingmate defends, up to 2 of your RZ-1 A-wing wingmates in the attack arc may each suffer 1<nonbreak><hit>/<crit><nonbreak>damage to cancel 1<nonbreak>matching result.</smallbody>",
+            "cost": "5",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 1,
+                            "name": "Rebel Alliance"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 23,
+                            "raw_name": "vcx-100 light freighter"
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+
+            ],
+            "back_side": {
+                "id": 909,
+                "card_set_ids": [
+                    65
+                ],
+                "card_type_id": 2,
+                "weapon_no_bonus": false,
+                "weapon_range": null,
+                "upgrade_types": [
+                    1001
+                ],
+                "image": "https://squadbuilder.fantasyflightgames.com/card_art/554a0d6690a6a3c4a175b1f363084670.jpg",
+                "name": "•Phoenix Squadron",
+                "ability_text": "<smallbody><smallcaps>Setup:</smallcaps> Equip this side faceup.<return>You are a <bold>wing leader</bold>. Your wingmates must be 2–5 of the following: 0–1 Attack Shuttle<return>0–1 <italic>Sheathipede</italic>-class Shuttle<return>0–5 RZ-1 A-wings<return>After you are placed, flip this card.</smallbody>",
+                "cost": "5",
+                "available_actions": [
+
+                ],
+                "statistics": [
+
+                ],
+                "restrictions_raw": "Rebel, VCX-100",
+                "restrictions": [
+                    [
+                        {
+                            "type": "FACTION",
+                            "kwargs": {
+                                "pk": 1,
+                                "name": "Rebel Alliance"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "SHIP_TYPE",
+                            "kwargs": {
+                                "pk": 23,
+                                "raw_name": "vcx-100 light freighter"
+                            }
+                        }
+                    ]
+                ],
+                "behaviours": [
+
+                ]
+            },
+            "limited_quantity": 1,
+            "force_side": null
+        },
+        {
+            "id": 910,
+            "card_set_ids": [
+                66
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                1001
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/8842d1539a912e7ae3b011bfdb4bbe0a.jpg",
+            "name": "•Shadow Wing",
+            "ability_text": "<smallbody>Your wingmates can perform <barrelroll> or<nonbreak><boost><nonbreak>actions. If they do, they voluntarily split from the wing.<return>While you defend, up to 2<nonbreak>of your wingmates in the attack arc may each suffer 1<nonbreak><hit>/<crit><nonbreak>damage to cancel 1<nonbreak>matching result.</smallbody>",
+            "cost": "6",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 2,
+                            "name": "Galactic Empire"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 11,
+                            "raw_name": "tie ln fighter"
+                        }
+                    },
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 41,
+                            "raw_name": "tie in interceptor"
+                        }
+                    },
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 19,
+                            "raw_name": "tie sa bomber"
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+
+            ],
+            "back_side": {
+                "id": 911,
+                "card_set_ids": [
+                    66
+                ],
+                "card_type_id": 2,
+                "weapon_no_bonus": false,
+                "weapon_range": null,
+                "upgrade_types": [
+                    1001
+                ],
+                "image": "https://squadbuilder.fantasyflightgames.com/card_art/8842d1539a912e7ae3b011bfdb4bbe0a.jpg",
+                "name": "•Shadow Wing",
+                "ability_text": "<smallbody><smallcaps>Setup:</smallcaps> Equip this side faceup.<return>You are a <bold>wing leader</bold>. Your wingmates must be 2–5<nonbreak>other ships of your type.<return>After you are placed, flip this card.</smallbody>",
+                "cost": "6",
+                "available_actions": [
+
+                ],
+                "statistics": [
+
+                ],
+                "restrictions_raw": "Imperial, TIE/ln Fighter or TIE/in Interceptor or TIE/sa Bomber",
+                "restrictions": [
+                    [
+                        {
+                            "type": "FACTION",
+                            "kwargs": {
+                                "pk": 2,
+                                "name": "Galactic Empire"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "SHIP_TYPE",
+                            "kwargs": {
+                                "pk": 11,
+                                "raw_name": "tie ln fighter"
+                            }
+                        },
+                        {
+                            "type": "SHIP_TYPE",
+                            "kwargs": {
+                                "pk": 41,
+                                "raw_name": "tie in interceptor"
+                            }
+                        },
+                        {
+                            "type": "SHIP_TYPE",
+                            "kwargs": {
+                                "pk": 19,
+                                "raw_name": "tie sa bomber"
+                            }
+                        }
+                    ]
+                ],
+                "behaviours": [
+
+                ]
+            },
+            "limited_quantity": 1,
+            "force_side": null
+        },
+        {
+            "id": 912,
+            "card_set_ids": [
+                66
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                1001
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/8b24e79586085204391faa4d4b3d1f4c.jpg",
+            "name": "••Skystrike Academy Class",
+            "ability_text": "After you barrel roll or boost, each of your wingmates is forced to split from the wing.<return>While you defend, up to 5<nonbreak>of your wingmates in the attack arc may each suffer 1<nonbreak><hit>/<crit><nonbreak>damage to cancel 1<nonbreak>matching result.",
+            "cost": "3",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 2,
+                            "name": "Galactic Empire"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 11,
+                            "raw_name": "tie ln fighter"
+                        }
+                    },
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 41,
+                            "raw_name": "tie in interceptor"
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+
+            ],
+            "back_side": {
+                "id": 913,
+                "card_set_ids": [
+                    66
+                ],
+                "card_type_id": 2,
+                "weapon_no_bonus": false,
+                "weapon_range": null,
+                "upgrade_types": [
+                    1001
+                ],
+                "image": "https://squadbuilder.fantasyflightgames.com/card_art/8b24e79586085204391faa4d4b3d1f4c.jpg",
+                "name": "••Skystrike Academy Class",
+                "ability_text": "<smallbody><smallcaps>Setup:</smallcaps> Equip this side faceup.<return>You are a <bold>wing leader</bold>. Your wingmates must be 2–5<nonbreak>TIE/ln Fighters with initiative lower than yours.<return>After you are placed, flip this card.</smallbody>",
+                "cost": "3",
+                "available_actions": [
+
+                ],
+                "statistics": [
+
+                ],
+                "restrictions_raw": "Imperial, TIE/ln Fighter or TIE/in Interceptor",
+                "restrictions": [
+                    [
+                        {
+                            "type": "FACTION",
+                            "kwargs": {
+                                "pk": 2,
+                                "name": "Galactic Empire"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "SHIP_TYPE",
+                            "kwargs": {
+                                "pk": 11,
+                                "raw_name": "tie ln fighter"
+                            }
+                        },
+                        {
+                            "type": "SHIP_TYPE",
+                            "kwargs": {
+                                "pk": 41,
+                                "raw_name": "tie in interceptor"
+                            }
+                        }
+                    ]
+                ],
+                "behaviours": [
+
+                ]
+            },
+            "limited_quantity": 2,
+            "force_side": null
+        },
+        {
+            "id": 914,
+            "card_set_ids": [
+                67
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                1
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/ae15ec14df97ac215567f78fe6c92343.jpg",
+            "name": "Cutthroat",
+            "ability_text": "After another friendly ship at range<nonbreak>0–3 is destroyed, if that ship is limited or has the <smallcaps>Cutthroat</smallcaps> upgrade, you may remove 1<nonbreak>of your orange or red<nonbreak>tokens, or recover 1 non-recurring<nonbreak><standardcharge> on your ship card or one of your equipped upgrade cards.",
+            "cost": "1",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Scum",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 3,
+                            "name": "Scum and Villainy"
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+
+            ],
+            "back_side": null,
+            "limited_quantity": 32767,
+            "force_side": null
+        },
+        {
+            "id": 915,
+            "card_set_ids": [
+                66
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                1
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/bddffdbe4ada9aa8b6f43b883cfb7acb.jpg",
+            "name": "Disciplined",
+            "ability_text": "After another friendly ship at range<nonbreak>0–3 is destroyed, if that ship is limited or has the <smallcaps>Disciplined</smallcaps> upgrade, you may perform a<nonbreak><targetlock> or<nonbreak><barrelroll><nonbreak>action.",
+            "cost": "1",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Imperial",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 2,
+                            "name": "Galactic Empire"
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+
+            ],
+            "back_side": null,
+            "limited_quantity": 32767,
+            "force_side": null
+        },
+        {
+            "id": 916,
+            "card_set_ids": [
+                65
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                1
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/3c50ea7c72423be60ac00017cbaed807.jpg",
+            "name": "Hopeful",
+            "ability_text": "After another friendly ship at range<nonbreak>0–3 is destroyed, if that ship is limited or has the <smallcaps>Hopeful</smallcaps> upgrade, you may perform a<nonbreak><focus> or<nonbreak><boost><nonbreak>action.",
+            "cost": "1",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Rebel",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 1,
+                            "name": "Rebel Alliance"
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+
+            ],
+            "back_side": null,
+            "limited_quantity": 32767,
+            "force_side": null
+        },
+        {
+            "id": 917,
+            "card_set_ids": [
+                66
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                1
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/1ae514eedd2e4129b311b69c4174e5f6.jpg",
+            "name": "Interloper Turn",
+            "ability_text": "Before you execute a speed<nonbreak>1–2 turn (<leftturn><nonbreak>or<nonbreak><rightturn>) or speed<nonbreak>1–2 Koiogran Turn (<kturn>) maneuver, if you are at range<nonbreak>0–1 of an asteroid, structure, or huge ship, you may gain 1<nonbreak>tractor token.",
+            "cost": "1",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "TIE/d Defender",
+            "restrictions": [
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 18,
+                            "raw_name": "tie d defender"
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+
+            ],
+            "back_side": null,
+            "limited_quantity": 32767,
+            "force_side": null
+        },
+        {
+            "id": 918,
+            "card_set_ids": [
+                65,
+                67
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                1
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/a1b35914e278f332b59e04749c90452c.jpg",
+            "name": "Tierfon Belly Run",
+            "ability_text": "You can perform special attacks even while at range 0 of asteroids.<return>While you defend, if you are at range<nonbreak>0 of an obstacle, attack dice cannot be rerolled.",
+            "cost": "2",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Y-wing",
+            "restrictions": [
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 12,
+                            "raw_name": "btl-a4 y-wing"
+                        }
+                    },
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 68,
+                            "raw_name": "btl-b y-wing"
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+
+            ],
+            "back_side": null,
+            "limited_quantity": 32767,
+            "force_side": null
+        },
+        {
+            "id": 919,
+            "card_set_ids": [
+                67
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/d6faf9522ae2569b7a125b6a84d5df9a.jpg",
+            "name": "•Gamut Key",
+            "ability_text": "At the start of the End Phase, you may spend 2<nonbreak><standardcharge> to choose a ship at range<nonbreak>0–1 with 1<nonbreak>or more circular tokens. During the End Phase, circular tokens are not removed from that ship.",
+            "cost": "6",
+            "available_actions": [
+
+            ],
+            "statistics": [
+                {
+                    "statistic_id": 7,
+                    "value": "2",
+                    "recurring": 1,
+                    "ffg_id": "charge"
+                }
+            ],
+            "restrictions_raw": "Scum",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 3,
+                            "name": "Scum and Villainy"
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+
+            ],
+            "back_side": null,
+            "limited_quantity": 1,
+            "force_side": null
+        },
+        {
+            "id": 920,
+            "card_set_ids": [
+                67
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                8
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg",
+            "name": "•Protectorate Gleb",
+            "ability_text": "After you coordinate a friendly ship, you may transfer 1<nonbreak>orange or red token to the ship you coordinated.",
+            "cost": "2",
+            "available_actions": [
+                {
+                    "base_action_id": 8,
+                    "related_action_id": null,
+                    "base_action_side_effect": "stress",
+                    "related_action_side_effect": null
+                }
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Imperial or First Order or Scum",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 3,
+                            "name": "Scum and Villainy"
+                        }
+                    },
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 2,
+                            "name": "Galactic Empire"
+                        }
+                    },
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 5,
+                            "name": "First Order"
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 8,
+                        "related_action_id": null,
+                        "base_action_side_effect": "stress",
+                        "related_action_side_effect": null
+                    },
+                    "type": "action_profit"
+                }
+            ],
+            "back_side": null,
+            "limited_quantity": 1,
+            "force_side": null
+        },
+        {
+            "id": 921,
+            "card_set_ids": [
+                65
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                16
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/239d3285c1e55ae021c63a3f0f19985f.jpg",
+            "name": "•Sabine Wren",
+            "ability_text": "After you perform a special attack, you may choose a number of friendly ships at range<nonbreak>0–3 of the defender up to the number of damage cards dealt to the defender during that attack.  Each chosen ship may remove 1<nonbreak>strain or<nonbreak>stress token.",
+            "cost": "2",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Rebel",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 1,
+                            "name": "Rebel Alliance"
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+
+            ],
+            "back_side": null,
+            "limited_quantity": 1,
+            "force_side": null
+        },
+        {
+            "id": 922,
+            "card_set_ids": [
+                67
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                10
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/5f2c2265fbbcf55a749acc6e224f8946.jpg",
+            "name": "•R4-B11",
+            "ability_text": "While you perform an attack, you may remove 1<nonbreak>orange or red token from the defender to reroll any number of defense dice.",
+            "cost": "3",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Scum",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 3,
+                            "name": "Scum and Villainy"
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+
+            ],
+            "back_side": null,
+            "limited_quantity": 1,
+            "force_side": null
+        },
+        {
+            "id": 923,
+            "card_set_ids": [
+                65
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                15
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/69e848f2da9a8f6f18d2f89096a94513.jpg",
+            "name": "•B6 Blade Wing Prototype",
+            "ability_text": "Add<nonbreak><gunner> slot.",
+            "cost": "2",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Rebel, A/SF-01 B-wing",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 1,
+                            "name": "Rebel Alliance"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 17,
+                            "raw_name": "a sf-01 b-wing"
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+                {
+                    "data": {
+                        "quantity": 1,
+                        "upgrade_type": 16
+                    },
+                    "type": "slot_profit"
+                }
+            ],
+            "back_side": null,
+            "limited_quantity": 1,
+            "force_side": null
+        },
+        {
+            "id": 924,
+            "card_set_ids": [
+                66
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                18
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/d6fbd4fb3e406c87af923912d0ff866c.jpg",
+            "name": "Sensitive Controls",
+            "ability_text": "Replace your <smallcaps>Autothrusters</smallcaps> ship ability with the following:<return><shipability><sabold>Sensitive Controls:</sabold> During the System Phase, you may perform a red<nonbreak><barrelroll> or red<nonbreak><boost><nonbreak>action.</shipability>",
+            "cost": "2",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "<sabold>Autothrusters</sabold>, Standardized",
+            "restrictions": [
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 41,
+                            "raw_name": "tie in interceptor"
+                        }
+                    },
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 52,
+                            "raw_name": "tie vn silencer"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "STANDARDIZED",
+                        "kwargs": {
+
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+
+            ],
+            "back_side": null,
+            "limited_quantity": 32767,
+            "force_side": null
+        },
+        {
+            "id": 925,
+            "card_set_ids": [
+                66
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                18
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/a70e6ac15fdc103d5ee2dd50aa315f9c.jpg",
+            "name": "TIE Defender Elite",
+            "ability_text": "<smallbody>Decrease the difficulty of your turn [<leftturn><nonbreak>or<nonbreak><rightturn>] maneuvers. Increase the difficulty of your Koiogran Turn [<kturn>] maneuvers. Replace your <sabold>Full Throttle</sabold> ship ability with the following:</smallbody><return><sasmall><sabold>Advanced Fire Control:</sabold> After you perform a<nonbreak><cannon> or<nonbreak><missile> attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender.</sasmall>",
+            "cost": "2",
+            "available_actions": [
+
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "Imperial, TIE/D Defender, Standardized",
+            "restrictions": [
+                [
+                    {
+                        "type": "FACTION",
+                        "kwargs": {
+                            "pk": 2,
+                            "name": "Galactic Empire"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 18,
+                            "raw_name": "tie d defender"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "STANDARDIZED",
+                        "kwargs": {
+
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+
+            ],
+            "back_side": null,
+            "limited_quantity": 32767,
+            "force_side": null
+        },
+        {
+            "id": 926,
+            "card_set_ids": [
+                65
+            ],
+            "card_type_id": 2,
+            "weapon_no_bonus": false,
+            "weapon_range": null,
+            "upgrade_types": [
+                18
+            ],
+            "image": "https://squadbuilder.fantasyflightgames.com/card_art/fb4cf1a8b51ab44fddee4c9dfbc280a8.jpg",
+            "name": "Vectored Cannons (RZ-1)",
+            "ability_text": "<smallbody>Gain a <turretarc> indicator. Treat the arc requirement of your <frontarc> primary attack as <turretarc>.<return>Replace your <sabold>Vectored Thrusters</sabold> ship ability with the following:</smallbody><return><sasmall><sabold>Vectored Cannons:</sabold> During the System Phase, you may perform a red<nonbreak><boost> or red<nonbreak><rotate><nonbreak>action. You can rotate your <turretarc> indicator only to your <frontarc> or <reararc>.</sasmall>",
+            "cost": "1",
+            "available_actions": [
+                {
+                    "base_action_id": 14,
+                    "related_action_id": null,
+                    "base_action_side_effect": "stress",
+                    "related_action_side_effect": null
+                }
+            ],
+            "statistics": [
+
+            ],
+            "restrictions_raw": "<sabold>Vectored Thrusters</sabold>, Standardized",
+            "restrictions": [
+                [
+                    {
+                        "type": "SHIP_TYPE",
+                        "kwargs": {
+                            "pk": 35,
+                            "raw_name": "rz-1 a-wing"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "type": "STANDARDIZED",
+                        "kwargs": {
+
+                        }
+                    }
+                ]
+            ],
+            "behaviours": [
+                {
+                    "data": {
+                        "base_action_id": 14,
+                        "related_action_id": null,
+                        "base_action_side_effect": "stress",
+                        "related_action_side_effect": null
+                    },
+                    "type": "action_profit"
+                }
             ],
             "back_side": null,
             "limited_quantity": 32767,
